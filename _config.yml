@@ -1,0 +1,35 @@
+title: Thermal Management Knowledge Base
+tagline: Engineering Knowledge for Thermal Interface Materials
+description: Independent engineering guidance for selecting, applying, and testing thermal interface materials.
+url: "https://ouyangthermal.github.io"
+baseurl: ""
+lang: en
+author:
+  name: Editorial Team
+timezone: Asia/Shanghai
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+collections:
+  articles:
+    output: true
+    permalink: /:path/
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+  - scope:
+      path: ""
+    values:
+      layout: page
+exclude:
+  - README.md
+  - scripts
+  - vendor

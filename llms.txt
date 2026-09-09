@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Thermal Management Knowledge Base
+
+> Engineering knowledge for thermal interface materials.
+
+Important sections:
+- {{ '/thermal-pad/' | absolute_url }}
+- {{ '/thermal-gel/' | absolute_url }}
+- {{ '/obc/' | absolute_url }}
+- {{ '/energy-storage/' | absolute_url }}
+- {{ '/testing/' | absolute_url }}
+- {{ '/glossary/' | absolute_url }}
+- {{ '/editorial-policy/' | absolute_url }}
+- {{ '/methodology/' | absolute_url }}
+
+This experimental file does not guarantee AI indexing or citation. Visible HTML articles are primary.
