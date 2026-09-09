@@ -8,20 +8,24 @@ permalink: /benchmark-your-current-tim/
 <p class="form-intro">A useful benchmark fixes the test method, bond-line thickness, pressure, aging condition, and acceptance criteria. No receiving service is connected; the form is not transmitted or stored.</p>
 <form class="engineering-form" data-conversion-stage="benchmark-review" novalidate>
   <fieldset><legend>Current material</legend>
+    <label>Current supplier<select name="current_supplier"><option value="">Select if known</option><option>Bergquist / Henkel</option><option>Parker Chomerics</option><option>Laird</option><option>Dow</option><option>3M</option><option>Other</option></select></label><label>Current part number<input name="current_part_number" placeholder="Optional if confidential"></label>
     <label>Application<input name="application" required data-application-field placeholder="e.g. OBC power module"></label>
-    <label>Project stage<select name="project_stage" required><option value="">Select</option><option>Design</option><option>Prototype</option><option>Validation</option><option>Production support</option><option>Cost / supply review</option></select></label>
-    <label>Current TIM type and reference<input name="current_tim" required placeholder="Generic type; avoid confidential part numbers"></label>
+    <label>Project stage<select name="project_stage" required><option value="">Select</option><option>Concept</option><option>Prototype</option><option>DV</option><option>PV</option><option>SOP</option><option>Mass Production</option><option>Second Source</option><option>Localization</option></select></label>
+    <label>Material type<input name="material_type" required placeholder="Pad, gel, grease, insulator, or potting"></label>
     <label>Nominal thickness or bond line<input name="gap" required></label>
     <label>Known properties<textarea name="properties" rows="3" placeholder="Conductivity, hardness, density, dielectric data, test method"></textarea></label>
+    <label>Thermal conductivity<input name="thermal_conductivity"></label><label>Thermal resistance<input name="thermal_resistance"></label><label>Hardness<input name="hardness" placeholder="Scale and method"></label><label>Compression<input name="compression" placeholder="Percentage or pressure"></label><label>Electrical requirement<input name="electrical_requirement"></label><label>Operating temperature<input name="operating_temperature"></label>
   </fieldset>
   <fieldset><legend>Benchmark definition</legend>
     <label>Reason for benchmarking<select name="benchmark_reason" required><option value="">Select</option><option>Thermal performance</option><option>Pump-out / reliability</option><option>Assembly process</option><option>Electrical isolation</option><option>Cost</option><option>Supply continuity</option><option>Other</option></select></label>
-    <label>Observed issue or target<textarea name="target" required rows="3"></textarea></label>
+    <label>Current problem<textarea name="current_problem" required rows="3"></textarea></label><label>Target improvement<textarea name="target_improvement" rows="3"></textarea></label>
     <label>Existing test method and conditions<textarea name="test_conditions" rows="3" placeholder="ASTM/ISO/internal method, pressure, temperature, aging"></textarea></label>
     <label>Acceptance criteria<textarea name="criteria" rows="3"></textarea></label>
+    <label>Target test date<input type="date" name="target_test_date"></label>
   </fieldset>
   <fieldset><legend>Contact for a future response</legend><label>Name<input name="name" autocomplete="name" required></label><label>Company<input name="company" autocomplete="organization" required></label><label>Work email<input type="email" name="email" autocomplete="email" required></label></fieldset>
   <input type="hidden" name="entry_article"><input type="hidden" name="cta_type"><input type="hidden" name="source"><input type="hidden" name="conversion_stage">
   <p class="privacy-note">Do not upload or paste confidential specifications. See the <a href="{{ '/privacy/' | relative_url }}">Privacy Notice</a>.</p>
+  <p class="privacy-note">Any suggested material is an <strong>alternative evaluation</strong> or <strong>benchmark candidate</strong>: a potential alternative subject to validation, not a guaranteed or drop-in replacement.</p>
   <button type="submit">Review benchmark readiness</button><p class="form-status" role="status" aria-live="polite"></p>
 </form>

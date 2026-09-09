@@ -8,22 +8,26 @@ permalink: /discuss-your-application/
 <p class="form-intro">Use this engineering intake to define the application before material selection. No receiving service is connected; the form is not transmitted or stored.</p>
 <form class="engineering-form" data-conversion-stage="engineering-discussion" novalidate>
   <fieldset><legend>Application context</legend>
-    <label>Application<select name="application" required data-application-field><option value="">Select</option><option>OBC</option><option>Battery pack</option><option>PCS / inverter</option><option>Energy storage</option><option>Optical module</option><option>AI server</option><option>Other</option></select></label>
-    <label>Project stage<select name="project_stage" required><option value="">Select</option><option>Concept</option><option>Design</option><option>Prototype</option><option>Validation</option><option>Production support</option></select></label>
+    <label>Application<select name="application" required data-application-field><option value="">Select</option><option>OBC</option><option>DC/DC</option><option>PCS</option><option>ESS</option><option>Battery PACK</option><option>BMS</option><option>400G Optical Transceiver</option><option>800G Optical Transceiver</option><option>1.6T Optical Module</option><option>AI Server</option><option>Industrial Power Electronics</option><option>Other</option></select></label>
+    <label>Project stage<select name="project_stage" required><option value="">Select</option><option>Concept</option><option>Prototype</option><option>DV</option><option>PV</option><option>SOP</option><option>Mass Production</option><option>Second Source</option><option>Localization</option></select></label>
     <label>Component and heat source<input name="component" required placeholder="e.g. power module to liquid-cooled housing"></label>
+    <label>Material type<input name="material_type" placeholder="Pad, gel, grease, insulator, potting, or undecided"></label>
   </fieldset>
   <fieldset><legend>Interface and targets</legend>
     <label>Nominal gap and tolerance<input name="gap" required placeholder="e.g. 1.5 mm, ±0.3 mm"></label>
     <label>Interface area / geometry<input name="interface_area" placeholder="Dimensions, flatness, keep-out areas"></label>
-    <label>Thermal target<input name="thermal_target" required placeholder="Temperature limit, heat load, or resistance target"></label>
+    <label>Thermal conductivity requirement<input name="thermal_conductivity" placeholder="Include units and test method if known"></label>
+    <label>Thermal resistance requirement<input name="thermal_resistance" placeholder="Include BLT, pressure, area, and method if known"></label>
     <label>Electrical isolation requirement<input name="isolation" placeholder="Voltage / dielectric requirement or not required"></label>
     <label>Operating temperature and environment<textarea name="environment" rows="3" placeholder="Temperature range, cycling, vibration, humidity, service life"></textarea></label>
     <label>Assembly and service constraints<textarea name="process" rows="3" placeholder="Compression, dispense process, rework, vertical flow, cure limits"></textarea></label>
+    <label>Current material<input name="current_material"></label><label>Current part number (optional)<input name="current_part_number"></label><label>Estimated volume (optional)<input name="estimated_volume" placeholder="Units and time basis"></label><label>Target test date<input type="date" name="target_test_date"></label><label>Technical challenge<textarea name="technical_challenge" rows="3"></textarea></label><label>Sample required?<select name="sample_required"><option>Not decided</option><option>Yes, for a defined evaluation</option><option>No</option></select></label>
   </fieldset>
   <fieldset><legend>Contact for a future response</legend>
     <label>Name<input name="name" autocomplete="name" required></label>
     <label>Company<input name="company" autocomplete="organization" required></label>
     <label>Work email<input type="email" name="email" autocomplete="email" required></label>
+    <label>Country / region<input name="country_region" autocomplete="country-name"></label>
     <label>Additional context<textarea name="message" rows="4"></textarea></label>
   </fieldset>
   <input type="hidden" name="entry_article"><input type="hidden" name="cta_type"><input type="hidden" name="source"><input type="hidden" name="conversion_stage">
