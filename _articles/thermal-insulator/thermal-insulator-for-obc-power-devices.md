@@ -4,7 +4,7 @@ description: "The insulator must provide required electrical isolation while kee
 category: "Thermal Insulator"
 category_slug: "thermal-insulator"
 category_url: "/thermal-insulator/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

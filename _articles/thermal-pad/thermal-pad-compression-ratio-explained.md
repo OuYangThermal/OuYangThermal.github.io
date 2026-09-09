@@ -4,7 +4,7 @@ description: "Compression ratio is thickness reduction divided by original thick
 category: "Thermal Pad"
 category_slug: "thermal-pad"
 category_url: "/thermal-pad/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

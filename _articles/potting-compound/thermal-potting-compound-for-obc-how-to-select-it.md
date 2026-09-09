@@ -4,7 +4,7 @@ description: "Select OBC potting by thermal path, dielectric design, cured modul
 category: "Potting Compound"
 category_slug: "potting-compound"
 category_url: "/potting-compound/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

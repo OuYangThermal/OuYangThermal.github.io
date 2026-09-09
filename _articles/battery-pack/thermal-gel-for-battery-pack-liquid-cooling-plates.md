@@ -4,7 +4,13 @@ description: "Gel can couple cells or modules to a liquid plate across variable 
 category: "Battery Pack"
 category_slug: "battery-pack"
 category_url: "/battery-pack/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: sample_request
+cta_application: Battery pack
+cta_title: "Planning a Battery-Pack Gel Evaluation?"
+cta_text: "Define the plate geometry, gap variation, dispense process, cycling conditions, and pass/fail criteria before sample coordination."
+cta_url: /request-sample/
+cta_label: Request a Sample for Evaluation
 date: 2026-09-10
 updated: 2026-09-10
 ---

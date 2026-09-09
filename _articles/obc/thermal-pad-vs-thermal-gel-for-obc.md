@@ -4,7 +4,7 @@ description: "Use a pad for clean repeatable placement and controlled compressio
 category: "OBC & EV"
 category_slug: "obc"
 category_url: "/obc/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

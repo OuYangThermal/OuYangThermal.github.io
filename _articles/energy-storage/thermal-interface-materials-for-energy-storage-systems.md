@@ -4,7 +4,13 @@ description: "ESS selection must integrate cooling, electrical isolation, fire s
 category: "Energy Storage"
 category_slug: "energy-storage"
 category_url: "/energy-storage/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: application_discussion
+cta_application: Energy storage
+cta_title: "Defining an Energy-Storage Thermal Interface?"
+cta_text: "Describe the cell or power-electronics interface, gap distribution, environment, service life, and validation plan."
+cta_url: /discuss-your-application/
+cta_label: Discuss Your Application
 date: 2026-09-10
 updated: 2026-09-10
 ---

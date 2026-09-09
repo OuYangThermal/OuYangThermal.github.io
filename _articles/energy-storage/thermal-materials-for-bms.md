@@ -4,7 +4,7 @@ description: "BMS materials should control hotspots without harmful PCB stress o
 category: "Energy Storage"
 category_slug: "energy-storage"
 category_url: "/energy-storage/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

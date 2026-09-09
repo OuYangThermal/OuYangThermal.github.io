@@ -4,7 +4,13 @@ description: "Optical-transceiver TIMs remove heat across small, tolerance-sensi
 category: "Optical Module"
 category_slug: "optical-module"
 category_url: "/optical-module/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: application_discussion
+cta_application: Optical module
+cta_title: "Working Through an Optical-Module Interface?"
+cta_text: "Frame the package geometry, contact pressure, case-temperature limit, rework need, and reliability conditions."
+cta_url: /discuss-your-application/
+cta_label: Discuss Your Application
 date: 2026-09-10
 updated: 2026-09-10
 ---

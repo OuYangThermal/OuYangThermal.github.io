@@ -5,7 +5,7 @@ url: "https://ouyangthermal.github.io"
 baseurl: ""
 lang: en
 author:
-  name: Editorial Team
+  name: Ouyang Xiaohui
 timezone: Asia/Shanghai
 permalink: pretty
 markdown: kramdown

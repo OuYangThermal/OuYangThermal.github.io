@@ -4,7 +4,7 @@ description: "Results vary with method, thickness, pressure, temperature, surfac
 category: "Testing"
 category_slug: "testing"
 category_url: "/testing/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

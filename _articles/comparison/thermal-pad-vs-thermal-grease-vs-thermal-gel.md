@@ -4,7 +4,7 @@ description: "Use grease for thin controlled interfaces, pads for defined gaps a
 category: "Comparison Hub"
 category_slug: "comparison"
 category_url: "/comparison/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

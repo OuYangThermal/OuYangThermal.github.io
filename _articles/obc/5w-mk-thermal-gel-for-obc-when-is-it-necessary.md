@@ -4,7 +4,13 @@ description: "A nominal 5 W/m·K gel is justified only when modeling or testing 
 category: "OBC & EV"
 category_slug: "obc"
 category_url: "/obc/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: sample_request
+cta_application: OBC
+cta_title: "Evaluating a 5 W/mK Thermal Gel for an OBC?"
+cta_text: "Define the gap, thermal target, insulation need, test date, and project stage before requesting an evaluation sample."
+cta_url: /request-sample/
+cta_label: Request a Sample for Evaluation
 date: 2026-09-10
 updated: 2026-09-10
 ---

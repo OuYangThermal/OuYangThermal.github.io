@@ -4,7 +4,13 @@ description: "Select AI-server materials within the full cooling architecture, i
 category: "Server"
 category_slug: "server"
 category_url: "/server/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: application_discussion
+cta_application: AI server
+cta_title: "Reviewing a High-Power Server Interface?"
+cta_text: "Define heat load, package geometry, bond line, clamping, serviceability, and thermal acceptance criteria before material selection."
+cta_url: /discuss-your-application/
+cta_label: Discuss Your Application
 date: 2026-09-10
 updated: 2026-09-10
 ---

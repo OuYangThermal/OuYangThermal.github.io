@@ -4,7 +4,7 @@ description: "One-part gel avoids mix-ratio control; two-part gel cures after mi
 category: "Thermal Gel"
 category_slug: "thermal-gel"
 category_url: "/thermal-gel/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

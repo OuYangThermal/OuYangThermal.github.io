@@ -4,7 +4,7 @@ description: "Select by package-to-sink heat path, isolation need, flatness, mou
 category: "Power Electronics"
 category_slug: "power-electronics"
 category_url: "/power-electronics/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

@@ -4,7 +4,13 @@ description: "Map losses from semiconductors, magnetics, capacitors, and control
 category: "PCS"
 category_slug: "pcs"
 category_url: "/pcs/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: application_discussion
+cta_application: PCS / inverter
+cta_title: "Selecting a TIM for a PCS or Inverter?"
+cta_text: "Organize the power-device interface, isolation requirement, pressure distribution, temperature cycling, and project stage."
+cta_url: /discuss-your-application/
+cta_label: Discuss Your Application
 date: 2026-09-10
 updated: 2026-09-10
 ---

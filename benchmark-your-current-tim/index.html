@@ -1,0 +1,27 @@
+---
+layout: page
+title: Benchmark Your Current TIM
+description: Define a like-for-like benchmark of an incumbent thermal interface material.
+permalink: /benchmark-your-current-tim/
+---
+
+<p class="form-intro">A useful benchmark fixes the test method, bond-line thickness, pressure, aging condition, and acceptance criteria. No receiving service is connected; the form is not transmitted or stored.</p>
+<form class="engineering-form" data-conversion-stage="benchmark-review" novalidate>
+  <fieldset><legend>Current material</legend>
+    <label>Application<input name="application" required data-application-field placeholder="e.g. OBC power module"></label>
+    <label>Project stage<select name="project_stage" required><option value="">Select</option><option>Design</option><option>Prototype</option><option>Validation</option><option>Production support</option><option>Cost / supply review</option></select></label>
+    <label>Current TIM type and reference<input name="current_tim" required placeholder="Generic type; avoid confidential part numbers"></label>
+    <label>Nominal thickness or bond line<input name="gap" required></label>
+    <label>Known properties<textarea name="properties" rows="3" placeholder="Conductivity, hardness, density, dielectric data, test method"></textarea></label>
+  </fieldset>
+  <fieldset><legend>Benchmark definition</legend>
+    <label>Reason for benchmarking<select name="benchmark_reason" required><option value="">Select</option><option>Thermal performance</option><option>Pump-out / reliability</option><option>Assembly process</option><option>Electrical isolation</option><option>Cost</option><option>Supply continuity</option><option>Other</option></select></label>
+    <label>Observed issue or target<textarea name="target" required rows="3"></textarea></label>
+    <label>Existing test method and conditions<textarea name="test_conditions" rows="3" placeholder="ASTM/ISO/internal method, pressure, temperature, aging"></textarea></label>
+    <label>Acceptance criteria<textarea name="criteria" rows="3"></textarea></label>
+  </fieldset>
+  <fieldset><legend>Contact for a future response</legend><label>Name<input name="name" autocomplete="name" required></label><label>Company<input name="company" autocomplete="organization" required></label><label>Work email<input type="email" name="email" autocomplete="email" required></label></fieldset>
+  <input type="hidden" name="entry_article"><input type="hidden" name="cta_type"><input type="hidden" name="source"><input type="hidden" name="conversion_stage">
+  <p class="privacy-note">Do not upload or paste confidential specifications. See the <a href="{{ '/privacy/' | relative_url }}">Privacy Notice</a>.</p>
+  <button type="submit">Review benchmark readiness</button><p class="form-status" role="status" aria-live="polite"></p>
+</form>

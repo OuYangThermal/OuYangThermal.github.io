@@ -4,7 +4,7 @@ description: "Common failures include inconsistent mass, poor mixing, air, strin
 category: "Thermal Gel"
 category_slug: "thermal-gel"
 category_url: "/thermal-gel/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

@@ -4,7 +4,7 @@ description: "Choose pads by compressed gap, low-force conformity, impedance, cl
 category: "Optical Module"
 category_slug: "optical-module"
 category_url: "/optical-module/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

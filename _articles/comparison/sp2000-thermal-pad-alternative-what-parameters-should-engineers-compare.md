@@ -4,7 +4,13 @@ description: "Evaluate an SP2000 alternative as an application-specific replacem
 category: "Comparison Hub"
 category_slug: "comparison"
 category_url: "/comparison/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: benchmark
+cta_application: Thermal pad replacement
+cta_title: "Benchmarking an SP2000 Alternative?"
+cta_text: "Compare thickness, pressure, thermal resistance, electrical requirements, aging, and acceptance criteria under like-for-like conditions."
+cta_url: /benchmark-your-current-tim/
+cta_label: Benchmark Your Current TIM
 date: 2026-09-10
 updated: 2026-09-10
 ---

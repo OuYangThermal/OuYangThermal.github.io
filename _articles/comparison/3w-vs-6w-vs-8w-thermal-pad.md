@@ -4,7 +4,7 @@ description: "A 6 or 8 W/m·K pad is not automatically better than a 3 W/m·K pa
 category: "Comparison Hub"
 category_slug: "comparison"
 category_url: "/comparison/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
 date: 2026-09-10
 updated: 2026-09-10
 ---

@@ -4,7 +4,13 @@ description: "Select OBC TIMs by heat path, gap tolerance, electrical isolation,
 category: "OBC & EV"
 category_slug: "obc"
 category_url: "/obc/"
-author: "Editorial Team"
+author: "Ouyang Xiaohui"
+cta_type: application_discussion
+cta_application: OBC
+cta_title: "Defining an OBC Thermal Interface Stack?"
+cta_text: "Structure the heat sources, gaps, isolation requirements, assembly constraints, and validation stage before shortlisting materials."
+cta_url: /discuss-your-application/
+cta_label: Discuss Your Application
 date: 2026-09-10
 updated: 2026-09-10
 ---
