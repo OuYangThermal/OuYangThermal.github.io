@@ -81,3 +81,47 @@ Install Ruby and Bundler, then run bundle install and bundle exec jekyll serve. 
 ## Limitations
 
 These are engineering-first foundational drafts, not application approvals. They avoid invented properties, customer cases, certifications, and equivalence claims. Add real supplier TDS citations, measured values with complete conditions, real author identity, disclosures, and application validation before commercial reliance.
+
+## Daily GEO automation
+
+The workflow **OUYANG THERMAL Daily GEO Audit** runs from `.github/workflows/daily-geo-audit.yml` every day at **00:30 UTC**, approximately **08:30 Beijing time (UTC+8)**. GitHub may start scheduled jobs a few minutes late. It can also be run manually from **Actions → OUYANG THERMAL Daily GEO Audit → Run workflow**.
+
+The audit reads the live sitemap and checks every public URL for HTTP failures, redirects, internal links, title and description quality, H1 structure, canonical accuracy, author and dates, TechArticle and Breadcrumb JSON-LD, image alt text, response time, HTML size, thin content, GEO section coverage, entity consistency, and crawler access. It reports potential title/description duplication and content-structure gaps without rewriting articles.
+
+Each run uploads a 90-day **geo-audit** artifact containing the Markdown report, JSON report, sitemap inventory, and optional-module status. The workflow creates or updates one open issue named **OUYANG THERMAL — GEO Daily Monitor**; it does not create a new issue every day and does not commit daily reports to `main`.
+
+The workflow has read-only repository contents permission and issue-write permission. It fails the run only for critical GEO errors, including an unavailable sitemap/robots file, a broken home page, or OAI-SearchBot being blocked.
+
+### Dashboard and data
+
+- `/internal/geo-dashboard.html` is excluded from navigation and sitemap and carries `noindex`.
+- `/internal/chatgpt-geo-benchmark/` contains 100 fixed English prompts. Every citation and mention field starts as **NOT TESTED**.
+- `data/content-opportunities.json` is a curated review queue; it never auto-publishes articles.
+- `data/geo-history.json` is a lightweight seed. Daily authoritative history is retained in artifacts and the persistent issue so the main branch is not polluted.
+
+### Optional OpenAI API benchmark
+
+The benchmark is skipped unless both conditions are present:
+
+1. Repository secret `OPENAI_API_KEY` exists.
+2. Repository variable `RUN_OPENAI_BENCHMARK` equals `true`.
+
+Optionally set repository variable `OPENAI_MODEL`. If omitted, the script uses `gpt-5.4-nano`. The implementation uses the OpenAI Responses API with the built-in web search tool. It tests a small five-prompt sample per daily run to control cost. Results are always labeled **API TEST** and must never be presented as ordinary ChatGPT user-interface rankings or citations.
+
+Add secrets under **Settings → Secrets and variables → Actions**. Never put an API key in a file, commit, issue, report, workflow log, or dashboard.
+
+### Optional IndexNow
+
+Set repository secret `INDEXNOW_KEY` only after generating an IndexNow key and publishing its matching key file at `https://ouyangthermal.github.io/KEY.txt`. The optional script submits current sitemap URLs and records **Submitted** only when the IndexNow endpoint actually returns HTTP 200 or 202. Without the key it reports **NOT CONFIGURED** and succeeds without submission.
+
+### Optional Google Search Console
+
+The audit reports **NOT CONFIGURED** unless repository secret `GOOGLE_SEARCH_CONSOLE_CREDENTIALS` exists. Use a dedicated, least-privilege credential and follow Google's current Search Console API guidance. This framework does not pretend that the sitemap or URLs were submitted. Do not commit the JSON credential file.
+
+### Optional Bing Webmaster Tools
+
+The audit reports **NOT CONFIGURED** unless repository secret `BING_WEBMASTER_API_KEY` exists. The current framework records configuration status only; it does not claim Bing submission without a verified API response.
+
+### Security rules
+
+All credentials belong in GitHub Actions Secrets. Do not store passwords, OAuth secrets, GitHub tokens, OpenAI keys, Google credentials, Bing keys, or email passwords in the public repository. The built-in `GITHUB_TOKEN` is used only to update the persistent monitor issue.

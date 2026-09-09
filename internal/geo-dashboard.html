@@ -1,0 +1,11 @@
+---
+layout: default
+title: OUYANG THERMAL GEO Dashboard
+description: Internal operational dashboard for the OUYANG THERMAL daily GEO audit.
+permalink: /internal/geo-dashboard.html
+sitemap: false
+robots: noindex
+---
+<div class="container"><article class="article"><p class="eyebrow">OUYANG THERMAL</p><h1>GEO Operations Dashboard</h1><p class="notice">Operational page. It is intentionally excluded from the main navigation and sitemap. Daily authoritative results are stored in the GitHub Actions artifact and the single monitor issue.</p><div id="geo-dashboard" class="grid"><section class="card"><h2>Overall GEO Score</h2><p id="score">Initial audit pending</p></section><section class="card"><h2>ChatGPT Crawlability</h2><p>OAI-SearchBot and GPTBot are checked daily.</p></section><section class="card"><h2>Search Engine Status</h2><p>Search Console, Bing, and IndexNow remain optional until configured.</p></section></div><h2>Content opportunities</h2><div id="opportunities">Loading…</div><h2>Daily monitor</h2><p><a href="https://github.com/OuYangThermal/OuYangThermal.github.io/issues">Open the persistent GEO Monitor Issue</a> · <a href="https://github.com/OuYangThermal/OuYangThermal.github.io/actions">Download recent audit artifacts</a></p></article></div>
+<script>Promise.all([fetch('{{ '/data/geo-history.json' | relative_url }}').then(r=>r.json()),fetch('{{ '/data/content-opportunities.json' | relative_url }}').then(r=>r.json())]).then(([h,o])=>{const last=h[h.length-1];document.getElementById('score').textContent=last.score===null?last.status:last.score+' / 100';document.getElementById('opportunities').innerHTML='<ul>'+o.map(x=>'<li><strong>'+x.priority+' · '+x.type+':</strong> '+x.topic+' — '+x.reason+'</li>').join('')+'</ul>'}).catch(()=>{document.getElementById('opportunities').textContent='Use the GitHub Actions artifact for the latest report.'})</script>
+

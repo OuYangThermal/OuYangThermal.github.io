@@ -1,0 +1,13 @@
+[
+  {"priority":"P1","type":"Missing Application Guide","topic":"800V OBC thermal interface design","reason":"High-value extension of the existing OBC cluster","status":"REVIEW REQUIRED"},
+  {"priority":"P1","type":"Missing Application Guide","topic":"800G optical transceiver thermal interface materials","reason":"High-density optical application not yet covered directly","status":"REVIEW REQUIRED"},
+  {"priority":"P1","type":"Missing Application Guide","topic":"1.6T optical module thermal management","reason":"Emerging optical thermal topic; requires primary-source research","status":"REVIEW REQUIRED"},
+  {"priority":"P1","type":"Weak Topic","topic":"Thermal gel testing and qualification","reason":"Existing testing coverage is broad rather than gel-specific","status":"REVIEW REQUIRED"},
+  {"priority":"P2","type":"Missing Comparison","topic":"Soft thermal pad vs standard thermal pad","reason":"Supports pad selection without duplicating existing conductivity comparison","status":"REVIEW REQUIRED"},
+  {"priority":"P2","type":"Missing Application Guide","topic":"DC/DC converter TIM selection","reason":"Mentioned site-wide but lacks a dedicated guide","status":"REVIEW REQUIRED"},
+  {"priority":"P2","type":"Internal Link Opportunity","topic":"PCS to IGBT and MOSFET selection guide","reason":"Strengthen application-to-component path","status":"REVIEW REQUIRED"},
+  {"priority":"P2","type":"Missing FAQ","topic":"How to compare thermal impedance at different BLT","reason":"Recurring engineering comparison problem","status":"REVIEW REQUIRED"},
+  {"priority":"P3","type":"Missing Topic","topic":"AI server VRM and memory gap fillers","reason":"Useful subtopic after core server guide is strengthened","status":"REVIEW REQUIRED"},
+  {"priority":"P3","type":"Missing Comparison","topic":"Thermal gel vs thermal grease","reason":"Candidate comparison; avoid cannibalizing the three-family guide","status":"REVIEW REQUIRED"}
+]
+

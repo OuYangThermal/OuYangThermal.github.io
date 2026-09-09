@@ -1,0 +1,81 @@
+name: OUYANG THERMAL Daily GEO Audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 0 * * *"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: daily-geo-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SITE_URL: https://ouyangthermal.github.io
+      MONITOR_ISSUE_TITLE: OUYANG THERMAL — GEO Daily Monitor
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+      RUN_OPENAI_BENCHMARK: ${{ vars.RUN_OPENAI_BENCHMARK }}
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      GOOGLE_SEARCH_CONSOLE_CREDENTIALS: ${{ secrets.GOOGLE_SEARCH_CONSOLE_CREDENTIALS }}
+      BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Read previous GEO score
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          body="$(gh issue list --state open --search "$MONITOR_ISSUE_TITLE in:title" --json title,body --jq '.[] | select(.title == "OUYANG THERMAL — GEO Daily Monitor") | .body' | head -n 1)"
+          previous="$(printf '%s' "$body" | grep -oE 'Overall GEO Score:\*\* [0-9]+' | grep -oE '[0-9]+' | head -n 1 || true)"
+          echo "PREVIOUS_GEO_SCORE=${previous}" >> "$GITHUB_ENV"
+
+      - name: Run live GEO audit
+        run: python scripts/geo_audit.py --base-url "$SITE_URL" --output-dir audit-output
+
+      - name: Analyze content overlap and opportunity queue
+        run: python scripts/content_analysis.py --articles _articles --opportunities data/content-opportunities.json --output audit-output/content-analysis.json
+
+      - name: Run optional OpenAI API benchmark
+        continue-on-error: true
+        run: python scripts/openai_benchmark.py --benchmark internal/chatgpt-geo-benchmark.md --output audit-output/openai-api-benchmark.json
+
+      - name: Run optional IndexNow submission
+        continue-on-error: true
+        run: python scripts/indexnow_submit.py --base-url "$SITE_URL" --sitemap audit-output/sitemap-urls.json --output audit-output/indexnow-status.json
+
+      - name: Upload daily GEO report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: geo-audit-${{ github.run_id }}
+          path: audit-output/
+          retention-days: 90
+
+      - name: Create or update monitor issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          issue_number="$(gh issue list --state open --search "$MONITOR_ISSUE_TITLE in:title" --json number,title --jq '.[] | select(.title == "OUYANG THERMAL — GEO Daily Monitor") | .number' | head -n 1)"
+          if [ -z "$issue_number" ]; then
+            gh issue create --title "$MONITOR_ISSUE_TITLE" --body-file audit-output/issue-body.md
+          else
+            gh issue edit "$issue_number" --body-file audit-output/issue-body.md
+          fi
+
+      - name: Fail on critical GEO errors
+        run: python -c "import json,sys; d=json.load(open('audit-output/report.json',encoding='utf-8')); sys.exit(1 if d['summary']['critical'] else 0)"
