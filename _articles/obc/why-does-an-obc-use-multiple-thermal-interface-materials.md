@@ -21,6 +21,8 @@ updated: 2026-09-10
 
 </div>
 
+<figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/obc-multiple-thermal-interface-material-locations.webp' | relative_url }}" width="1440" height="810" loading="lazy" decoding="async" alt="Thermal pad, gel, grease, insulation and potting locations inside an onboard charger"><figcaption><strong>Representative Engineering Diagram.</strong> Multiple thermal-material zones that may be used inside an OBC; this does not imply that every OBC uses all five material types.</figcaption></figure>
+
 ## Technical explanation
 
 Semiconductors favor thin interfaces; magnetics often need thick gap filling; selected regions may require dielectric isolation or encapsulation.
