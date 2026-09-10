@@ -3,9 +3,7 @@ tagline: Engineering Knowledge for Thermal Interface Materials
 description: Independent engineering guidance for selecting, applying, and testing thermal interface materials.
 url: "https://ouyangthermal.github.io"
 baseurl: ""
-# Add the Formspree endpoint after account/email verification, for example:
-# formspree_endpoint: "https://formspree.io/f/abcdefgh"
-formspree_endpoint: ""
+formspree_endpoint: "https://formspree.io/f/mwlkaybq"
 lang: en
 author:
   name: Ouyang Xiaohui
