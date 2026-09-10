@@ -8,6 +8,10 @@ permalink: /about/
 
 Articles are authored by **Ouyang Xiaohui**. The editorial scope covers engineering knowledge, application analysis, TIM selection frameworks, and benchmark guidance. The site is educational and does not claim application suitability without design review and validation.
 
+Ouyang Xiaohui is based in **Shenzhen, China** and can be contacted for technical and commercial discussions by WhatsApp / mobile / telephone at **+86 133 6790 9790** or by business email at **5672306@gmail.com**.
+
 **Commercial entity disclosure:** Hongjing New Materials Technology (Shenzhen) Co., Ltd. handles commercial inquiries, sample coordination, RFQs, and supply-chain coordination that originate from this knowledge base. This separation does not imply undisclosed manufacturing ownership, certifications, customer relationships, test results, or completed projects.
 
 See our [Editorial Policy]({{ '/editorial-policy/' | relative_url }}) and [Methodology]({{ '/methodology/' | relative_url }}).
+
+{% include contact-card.html %}

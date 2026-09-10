@@ -11,6 +11,10 @@ cta_title: "Defining an Energy-Storage Thermal Interface?"
 cta_text: "Describe the cell or power-electronics interface, gap distribution, environment, service life, and validation plan."
 cta_url: /discuss-your-application/
 cta_label: Discuss Your Application
+contact_message: "Hi Ouyang, I found your PCS/ESS thermal management guide on Ouyang Thermal. We are evaluating thermal interface materials for a power electronics project."
+email_subject: "Energy Storage TIM Evaluation"
+commercial_url: /china-thermal-interface-material-supplier/
+commercial_label: "China TIM supplier evaluation"
 date: 2026-09-10
 updated: 2026-09-10
 ---

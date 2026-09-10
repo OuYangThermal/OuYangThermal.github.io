@@ -1,0 +1,34 @@
+{
+  "status": "NOT CONFIGURED",
+  "metrics": {
+    "Qualified Leads": "NOT CONFIGURED",
+    "WhatsApp Inquiries": "NOT CONFIGURED",
+    "Email Inquiries": "NOT CONFIGURED",
+    "Application Discussions": "NOT CONFIGURED",
+    "Benchmark Requests": "NOT CONFIGURED",
+    "Sample Requests": "NOT CONFIGURED",
+    "Testing Projects": "NOT CONFIGURED",
+    "RFQs": "NOT CONFIGURED",
+    "Supplier Qualification Opportunities": "NOT CONFIGURED",
+    "Orders": "NOT CONFIGURED"
+  },
+  "sources": {
+    "ChatGPT / AI": "NOT CONFIGURED",
+    "Google": "NOT CONFIGURED",
+    "Bing": "NOT CONFIGURED",
+    "Direct": "NOT CONFIGURED",
+    "Other": "NOT CONFIGURED"
+  },
+  "levels": {
+    "1": "DISCOVERED",
+    "2": "CITED",
+    "3": "BRAND MENTION",
+    "4": "SUPPLIER DISCOVERY",
+    "5": "CONTACT DISCOVERY",
+    "6": "INQUIRY",
+    "7": "SAMPLE",
+    "8": "TEST",
+    "9": "RFQ / QUALIFICATION",
+    "10": "ORDER"
+  }
+}

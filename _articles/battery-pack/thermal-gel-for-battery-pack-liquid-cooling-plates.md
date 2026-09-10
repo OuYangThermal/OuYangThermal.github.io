@@ -11,6 +11,10 @@ cta_title: "Planning a Battery-Pack Gel Evaluation?"
 cta_text: "Define the plate geometry, gap variation, dispense process, cycling conditions, and pass/fail criteria before sample coordination."
 cta_url: /request-sample/
 cta_label: Request a Sample for Evaluation
+contact_message: "Hi Ouyang, I found your battery PACK thermal management guide on Ouyang Thermal. We are evaluating thermal materials for a battery cooling application."
+email_subject: "Battery PACK Thermal Material Inquiry"
+commercial_url: /thermal-gel-supplier-china/
+commercial_label: "thermal gel supplier evaluation in China"
 date: 2026-09-10
 updated: 2026-09-10
 ---

@@ -11,6 +11,10 @@ cta_title: "Benchmarking an SP2000 Alternative?"
 cta_text: "Compare thickness, pressure, thermal resistance, electrical requirements, aging, and acceptance criteria under like-for-like conditions."
 cta_url: /benchmark-your-current-tim/
 cta_label: Benchmark Your Current TIM
+contact_message: "Hi Ouyang, I found your SP2000 alternative guide on Ouyang Thermal. We are evaluating an alternative TIM and would like to discuss benchmark testing."
+email_subject: "SP2000 Benchmark Evaluation"
+commercial_url: /sp2000-alternative-evaluation/
+commercial_label: "SP2000 alternative evaluation"
 date: 2026-09-10
 updated: 2026-09-10
 ---

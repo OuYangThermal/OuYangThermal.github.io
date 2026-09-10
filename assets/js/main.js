@@ -7,7 +7,9 @@ document.documentElement.classList.add('js');
     var utm = (params.get('utm_source') || '').toLowerCase();
     var referrer = (document.referrer || '').toLowerCase();
     if (utm.indexOf('chatgpt') !== -1 || referrer.indexOf('chatgpt.com') !== -1 || referrer.indexOf('openai.com') !== -1) return 'ChatGPT / AI Referral';
-    if (/google\.|bing\.|duckduckgo\.|yahoo\.|baidu\./.test(referrer)) return 'Organic';
+    if (/google\./.test(referrer)) return 'Google';
+    if (/bing\./.test(referrer)) return 'Bing';
+    if (/duckduckgo\.|yahoo\.|baidu\./.test(referrer)) return 'Organic Search';
     if (!referrer) return 'Direct';
     return 'Other';
   }
@@ -16,6 +18,13 @@ document.documentElement.classList.add('js');
       sessionStorage.setItem('ouyang_entry_article', window.location.pathname);
       sessionStorage.setItem('ouyang_cta_type', link.dataset.ctaType || 'contextual');
       sessionStorage.setItem('ouyang_application', link.dataset.application || '');
+    });
+  });
+  document.querySelectorAll('a[data-contact-channel]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      sessionStorage.setItem('ouyang_entry_article', window.location.pathname);
+      sessionStorage.setItem('ouyang_cta_type', (link.dataset.contactChannel || 'contact') + '_click');
+      sessionStorage.setItem('ouyang_source', sourceCategory());
     });
   });
   document.querySelectorAll('.engineering-form').forEach(function (form) {

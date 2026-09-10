@@ -50,9 +50,18 @@ jobs:
       - name: Analyze content overlap and opportunity queue
         run: python scripts/content_analysis.py --articles _articles --opportunities data/content-opportunities.json --output audit-output/content-analysis.json
 
+      - name: Validate commercial GEO benchmark inventory
+        run: |
+          python scripts/build_commercial_benchmark.py
+          git diff --exit-code -- data/commercial-geo-benchmark.json data/commercial-dashboard.json internal/commercial-geo-benchmark.md
+
       - name: Run optional OpenAI API benchmark
         continue-on-error: true
         run: python scripts/openai_benchmark.py --benchmark internal/chatgpt-geo-benchmark.md --output audit-output/openai-api-benchmark.json
+
+      - name: Run optional commercial OpenAI API benchmark
+        continue-on-error: true
+        run: python scripts/openai_benchmark.py --benchmark internal/commercial-geo-benchmark.md --output audit-output/commercial-openai-api-benchmark.json
 
       - name: Run optional IndexNow submission
         continue-on-error: true

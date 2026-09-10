@@ -11,6 +11,10 @@ cta_title: "Evaluating a 5 W/mK Thermal Gel for an OBC?"
 cta_text: "Define the gap, thermal target, insulation need, test date, and project stage before requesting an evaluation sample."
 cta_url: /request-sample/
 cta_label: Request a Sample for Evaluation
+contact_message: "Hi Ouyang, I found your OBC thermal interface material guide on Ouyang Thermal. We are evaluating TIMs for an OBC project and would like to discuss material selection."
+email_subject: "OBC TIM Evaluation Inquiry"
+commercial_url: /obc-thermal-material-supplier/
+commercial_label: "OBC thermal material supplier evaluation"
 date: 2026-09-10
 updated: 2026-09-10
 ---

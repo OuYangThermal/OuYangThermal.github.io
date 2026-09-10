@@ -11,6 +11,10 @@ cta_title: "Reviewing a High-Power Server Interface?"
 cta_text: "Define heat load, package geometry, bond line, clamping, serviceability, and thermal acceptance criteria before material selection."
 cta_url: /discuss-your-application/
 cta_label: Discuss Your Application
+contact_message: "Hi Ouyang, I found your AI server thermal management guide on Ouyang Thermal. We would like to discuss a TIM application."
+email_subject: "AI Server Thermal Management Inquiry"
+commercial_url: /china-thermal-interface-material-supplier/
+commercial_label: "China TIM supplier evaluation"
 date: 2026-09-10
 updated: 2026-09-10
 ---

@@ -11,6 +11,10 @@ cta_title: "Selecting a TIM for a PCS or Inverter?"
 cta_text: "Organize the power-device interface, isolation requirement, pressure distribution, temperature cycling, and project stage."
 cta_url: /discuss-your-application/
 cta_label: Discuss Your Application
+contact_message: "Hi Ouyang, I found your PCS/ESS thermal management guide on Ouyang Thermal. We are evaluating thermal interface materials for a power electronics project."
+email_subject: "PCS Thermal Material Evaluation"
+commercial_url: /china-thermal-interface-material-supplier/
+commercial_label: "China TIM supplier evaluation"
 date: 2026-09-10
 updated: 2026-09-10
 ---
