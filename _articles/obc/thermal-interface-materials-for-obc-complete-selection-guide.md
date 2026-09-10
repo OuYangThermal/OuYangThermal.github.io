@@ -11,8 +11,8 @@ cta_title: "Defining an OBC Thermal Interface Stack?"
 cta_text: "Structure the heat sources, gaps, isolation requirements, assembly constraints, and validation stage before shortlisting materials."
 cta_url: /discuss-your-application/
 cta_label: Discuss Your Application
-contact_message: "Hi Ouyang, I found your OBC thermal interface material guide on Ouyang Thermal. We are evaluating TIMs for an OBC project and would like to discuss material selection."
-email_subject: "OBC TIM Evaluation Inquiry"
+contact_message: "Hi Ouyang, I'm looking for a thermal interface material for an OBC application. Could you help me evaluate a suitable solution? Source: Thermal Interface Materials for OBC – Complete Selection Guide"
+email_subject: "Thermal Material Inquiry – OBC Application"
 commercial_url: /obc-thermal-material-supplier/
 commercial_label: "OBC thermal material supplier evaluation"
 date: 2026-09-10

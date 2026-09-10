@@ -2,6 +2,9 @@
 title: Thermal Gel Supplier Evaluation in China
 description: Evaluate thermal gel candidates in China using application requirements, dispensing constraints, reliability, and controlled testing.
 permalink: /thermal-gel-supplier-china/
+commercial_contact: true
+contact_message: "Hi Ouyang, I'm evaluating a thermal gel for my application. Could you help me review the material direction? Source: Thermal Gel Supplier China"
+email_subject: "Thermal Gel Inquiry – China Supplier"
 ---
 
 ## Direct answer
@@ -15,6 +18,8 @@ Relevant applications include OBC and DC/DC assemblies, PCS and ESS power electr
 ## Key engineering requirements
 
 Define gap range, interface area, heat load, target temperature, effective thermal resistance, electrical requirements, dispense path, cure condition for two-part materials, density, pump-out risk, vibration, thermal cycling, and rework expectations. Conductivity values are only comparable when methods and conditions are understood.
+
+{% include quick-contact.html %}
 
 ## Evaluation and qualification
 

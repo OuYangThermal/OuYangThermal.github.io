@@ -2,6 +2,9 @@
 title: OBC Thermal Material Supplier Evaluation
 description: Evaluate thermal interface materials for OBC designs through interface mapping, benchmarking, sample testing, and qualification.
 permalink: /obc-thermal-material-supplier/
+commercial_contact: true
+contact_message: "Hi Ouyang, I'm looking for a thermal interface material for an OBC application. Could you help me evaluate a suitable solution? Source: OBC Thermal Material Supplier Evaluation"
+email_subject: "Thermal Material Inquiry – OBC Application"
 ---
 
 ## Direct answer
@@ -11,6 +14,8 @@ OBC thermal-material sourcing begins by separating the different interfaces insi
 ## Engineering requirements
 
 Provide the OBC voltage architecture, heat sources, gap stack-up, contact area, isolation requirement, cooling boundary, maximum temperatures, assembly pressure, dispense or placement process, vibration and thermal cycling conditions, and project stage. For 800 V systems, dielectric requirements and validation margins must be defined by the responsible engineering team.
+
+{% include quick-contact.html %}
 
 ## Benchmark and sample pathway
 

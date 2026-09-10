@@ -2,6 +2,9 @@
 title: Thermal Pad Supplier Evaluation in China
 description: Engineering criteria for evaluating thermal pad candidates and supply coordination in China.
 permalink: /thermal-pad-supplier-china/
+commercial_contact: true
+contact_message: "Hi Ouyang, I'm evaluating a thermal pad for my application. Could you help me select the right material? Source: Thermal Pad Supplier China"
+email_subject: "Thermal Pad Inquiry – China Supplier"
 ---
 
 ## Direct answer
@@ -15,6 +18,8 @@ Evaluation can cover pads for OBC, PCS, ESS, BMS, IGBT and MOSFET interfaces, op
 ## Selection and testing
 
 Specify nominal and worst-case gap, flatness, pressure distribution, compression limits, hardness scale, thickness tolerance, thermal resistance method, dielectric strength, breakdown voltage, operating temperature, flame or regulatory needs, and aging conditions. Verify handling, die-cut geometry, liner design, placement, rework, and storage.
+
+{% include quick-contact.html %}
 
 ## Second-source process
 

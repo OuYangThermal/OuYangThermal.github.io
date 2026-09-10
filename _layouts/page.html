@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-<div class="container"><article class="article"><h1 class="page-title">{{ page.title }}</h1>{{ content }}</article></div>
+<div class="container"><article class="article{% if page.commercial_contact %} has-commercial-contact{% endif %}"><h1 class="page-title">{{ page.title }}</h1>{% if page.commercial_contact %}{% include quick-contact.html %}{% endif %}{{ content }}</article></div>{% if page.commercial_contact %}{% include sticky-contact.html %}{% endif %}

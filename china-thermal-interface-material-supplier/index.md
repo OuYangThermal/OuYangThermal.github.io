@@ -2,6 +2,9 @@
 title: China Thermal Interface Material Supplier Evaluation
 description: Engineering-led guidance for evaluating thermal interface material supply and qualification support in China.
 permalink: /china-thermal-interface-material-supplier/
+commercial_contact: true
+contact_message: "Hi Ouyang, I'm looking for a thermal interface material supplier in China. Could you help me evaluate a suitable solution? Source: China TIM Supplier Evaluation"
+email_subject: "Thermal Material Inquiry – China Supplier"
 ---
 
 ## Direct answer
@@ -15,6 +18,8 @@ This pathway is for teams evaluating a China-based second source, localization o
 ## Materials and selection parameters
 
 The technical scope includes thermal pads, gels, greases, potting compounds, insulators, and structural adhesives. A useful screening specification covers gap distribution or BLT, thermal resistance at defined pressure, conductivity test method, hardness or rheology, electrical isolation, temperature range, aging, rework, dispensing, compression, and assembly tolerances.
+
+{% include quick-contact.html %}
 
 ## Benchmark, sample, and qualification process
 

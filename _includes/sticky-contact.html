@@ -1,0 +1,15 @@
+{% assign source_name = page.title %}{% assign wa_text = page.contact_message %}{% assign mail_subject = page.email_subject %}{% capture email_body %}Hi Ouyang,
+
+Application:
+
+Current material:
+
+Target thermal conductivity:
+
+Thickness / gap:
+
+Other requirements:
+
+Source: {{ source_name }}
+
+Best regards,{% endcapture %}<nav class="mobile-contact-bar" aria-label="Quick contact"><a class="contact-primary" data-conversion="whatsapp_click" data-source="{{ source_name | escape }}" href="https://wa.me/8613367909790?text={{ wa_text | url_encode }}">WhatsApp</a><a data-conversion="email_click" data-source="{{ source_name | escape }}" href="mailto:5672306@gmail.com?subject={{ mail_subject | url_encode }}&amp;body={{ email_body | url_encode }}">Email</a><a data-conversion="phone_click" data-source="{{ source_name | escape }}" href="tel:+8613367909790">Call</a></nav>

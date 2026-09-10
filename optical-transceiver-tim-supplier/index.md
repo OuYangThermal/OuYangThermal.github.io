@@ -2,6 +2,9 @@
 title: Optical Transceiver TIM Supplier Evaluation
 description: Evaluate TIM candidates for 400G, 800G, and 1.6T optical modules using package-level thermal and mechanical constraints.
 permalink: /optical-transceiver-tim-supplier/
+commercial_contact: true
+contact_message: "Hi Ouyang, I'm looking for a thermal interface material for an optical transceiver / photonic module. Could you help me evaluate the application? Source: Optical Transceiver TIM Supplier"
+email_subject: "Optical Transceiver TIM Inquiry"
 ---
 
 ## Direct answer
@@ -11,6 +14,8 @@ TIM selection for 400G, 800G, and 1.6T optical modules must balance case tempera
 ## Key selection parameters
 
 Define module architecture, heat-source location, interface dimensions, nominal and worst-case gap, clamping scheme, package stress limits, conductivity and resistance targets, electrical requirements, allowable silicone or volatile content where relevant, temperature range, and service expectations.
+
+{% include quick-contact.html %}
 
 ## Benchmark and qualification
 

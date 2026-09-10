@@ -2,6 +2,9 @@
 title: SP2000 Alternative Evaluation and Benchmark Process
 description: A disciplined framework for comparing a potential SP2000 alternative subject to application validation.
 permalink: /sp2000-alternative-evaluation/
+commercial_contact: true
+contact_message: "Hi Ouyang, I'm evaluating an alternative to SP2000 for my application. Could you help me compare the key parameters and recommend a suitable direction? Source: SP2000 Alternative Evaluation"
+email_subject: "Thermal Material Inquiry – SP2000 Alternative"
 ---
 
 ## Direct answer
@@ -11,6 +14,8 @@ An SP2000 alternative cannot be established from a conductivity number or produc
 ## What engineers should compare
 
 Compare thermal conductivity method, thermal resistance, available thicknesses and tolerance, hardness scale, compression response, electrical insulation, dielectric strength, breakdown voltage, temperature range, mechanical stability, application pressure, bond-line thickness, compression set, and long-term aging. Also review handling, die cutting, liner, storage, documentation, lot traceability, and change control.
+
+{% include quick-contact.html %}
 
 ## Benchmark workflow
 

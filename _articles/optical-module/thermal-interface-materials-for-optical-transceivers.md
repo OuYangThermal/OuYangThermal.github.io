@@ -11,7 +11,7 @@ cta_title: "Working Through an Optical-Module Interface?"
 cta_text: "Frame the package geometry, contact pressure, case-temperature limit, rework need, and reliability conditions."
 cta_url: /discuss-your-application/
 cta_label: Discuss Your Application
-contact_message: "Hi Ouyang, I found your optical transceiver TIM guide on Ouyang Thermal. We are evaluating thermal interface materials for an optical module project."
+contact_message: "Hi Ouyang, I'm looking for a thermal interface material for an optical transceiver / photonic module. Could you help me evaluate the application? Source: TIMs for Optical Transceivers"
 email_subject: "Optical Transceiver TIM Inquiry"
 commercial_url: /optical-transceiver-tim-supplier/
 commercial_label: "optical transceiver TIM supplier evaluation"
