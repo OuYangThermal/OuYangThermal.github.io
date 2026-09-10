@@ -1,5 +1,6 @@
 ---
 layout: default
 ---
-<div class="container"><article class="article{% if page.commercial_contact %} has-commercial-contact{% endif %}"><h1 class="page-title">{{ page.display_title | default: page.title }}</h1>{% if page.commercial_contact %}{% include quick-contact.html %}{% endif %}{{ content }}</article></div>{% if page.commercial_contact %}{% include sticky-contact.html %}{% endif %}
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":{{ page.display_title | default: page.title | jsonify }},"description":{{ page.description | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"isPartOf":{"@type":"WebSite","name":"OUYANG THERMAL","url":{{ '/' | absolute_url | jsonify }}}</script>
+{% assign resolved_title = page.display_title | default: page.title %}{% assign resolved_description = page.description %}{% if page.url == '/thermal-pad/' %}{% assign resolved_title = 'Thermal Pad' %}{% assign resolved_description = 'Compressible sheet-form gap fillers: selection, thickness, hardness, compression, and reliability.' %}{% endif %}
+<div class="container"><article class="article{% if page.commercial_contact %} has-commercial-contact{% endif %}"><h1 class="page-title">{{ resolved_title }}</h1>{% if page.commercial_contact %}{% include quick-contact.html %}{% endif %}{{ content }}</article></div>{% if page.commercial_contact %}{% include sticky-contact.html %}{% endif %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":{{ resolved_title | jsonify }},"description":{{ resolved_description | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"isPartOf":{"@type":"WebSite","name":"OUYANG THERMAL","url":{{ '/' | absolute_url | jsonify }}}</script>
