@@ -1,0 +1,7 @@
+{
+  "name": "ouyang-thermal-knowledge-base",
+  "private": true,
+  "scripts": {
+    "audit:images": "node scripts/audit-image-library.js"
+  }
+}

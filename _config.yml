@@ -32,6 +32,10 @@ defaults:
       layout: page
 exclude:
   - README.md
+  - AGENTS.md
+  - package.json
   - docs
   - scripts
+  - visual-inbox
+  - assets/images/source
   - vendor
