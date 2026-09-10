@@ -1,27 +1,17 @@
 ---
 layout: page
 title: Request a Sample for Evaluation
-description: Define a controlled TIM sample evaluation with application and validation context.
+description: Contact Ouyang to discuss a controlled thermal interface material sample evaluation.
 permalink: /request-sample/
+commercial_contact: true
 ---
 
-<p class="form-intro">Samples should support a defined engineering evaluation, not replace application validation. No receiving service is connected; the form is not transmitted or stored.</p>
-<form class="engineering-form" data-conversion-stage="sample-evaluation" novalidate>
-  <fieldset><legend>Evaluation scope</legend>
-    <label>Application<select name="application" required data-application-field><option value="">Select</option><option>OBC</option><option>Battery pack</option><option>PCS / inverter</option><option>Energy storage</option><option>Optical module</option><option>AI server</option><option>Other</option></select></label>
-    <label>Project stage<select name="project_stage" required><option value="">Select</option><option>Prototype</option><option>DV</option><option>PV</option><option>SOP</option><option>Mass Production</option><option>Second Source</option><option>Localization</option></select></label>
-    <label>Material type<select name="material_type" required><option value="">Select</option><option>Thermal pad</option><option>Thermal gel</option><option>Gap filler</option><option>Thermal grease / paste</option><option>Thermal insulator</option><option>Potting compound</option><option>Not yet determined</option></select></label>
-    <label>Target thickness / gap and tolerance<input name="gap" required></label>
-    <label>Required properties<textarea name="requirements" rows="3" required placeholder="Thermal, mechanical, electrical, process, environmental"></textarea></label>
-    <label>Planned test and acceptance criteria<textarea name="test_plan" rows="3" required></textarea></label>
-    <label>Target evaluation date<input type="date" name="evaluation_date"></label>
-    <label>Sample quantity<input name="quantity" placeholder="Size, units, or dispense quantity"></label>
-    <label>Estimated volume (optional)<input name="estimated_volume" placeholder="Units and time basis"></label>
-    <label>Current material (optional)<input name="current_material"></label>
-    <label>Technical requirement<textarea name="technical_requirement" rows="3"></textarea></label>
-  </fieldset>
-  <fieldset><legend>Contact and coordination</legend><label>Name<input name="name" autocomplete="name" required></label><label>Company<input name="company" autocomplete="organization" required></label><label>Work email<input type="email" name="email" autocomplete="email" required></label><label>Country / region<input name="region" autocomplete="country-name" required></label></fieldset>
-  <input type="hidden" name="entry_article"><input type="hidden" name="cta_type"><input type="hidden" name="source"><input type="hidden" name="conversion_stage">
-  <p class="privacy-note">No file upload is enabled. Do not enter confidential or personally sensitive information. See the <a href="{{ '/privacy/' | relative_url }}">Privacy Notice</a>.</p>
-  <button type="submit">Review sample-request readiness</button><p class="form-status" role="status" aria-live="polite"></p>
-</form>
+<p>Samples should support a defined engineering evaluation, not replace application validation. You do not need to complete a technical questionnaire before contacting Ouyang.</p>
+
+<h2>Start with one short question</h2>
+
+<p>Tell me how to contact you and briefly describe the material or application you want to evaluate. Detailed parameters, drawings, test methods, and sample quantities can be discussed privately afterward.</p>
+
+<p><a class="button-link" data-conversion="private_inquiry_click" data-source="Request a Sample" href="{{ '/discuss-your-application/' | relative_url }}">Send a Private Question</a></p>
+
+<p class="privacy-note">Do not include confidential drawings or sensitive personal data in the first message.</p>

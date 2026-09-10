@@ -33,32 +33,25 @@ document.documentElement.classList.add('js');
       if (utm.some(Boolean) && (link.href.indexOf('wa.me/') !== -1 || link.href.indexOf('mailto:') === 0)) link.href += encodeURIComponent('\n\nUTM: ' + utm.join(' / '));
     });
   });
-  document.querySelectorAll('.engineering-form').forEach(function (form) {
-    var entry = form.querySelector('[name="entry_article"]');
-    var cta = form.querySelector('[name="cta_type"]');
-    var source = form.querySelector('[name="source"]');
-    var stage = form.querySelector('[name="conversion_stage"]');
-    var application = form.querySelector('[data-application-field]');
-    if (entry) entry.value = sessionStorage.getItem('ouyang_entry_article') || 'Direct landing page';
-    if (cta) cta.value = sessionStorage.getItem('ouyang_cta_type') || 'Direct navigation';
-    if (source) source.value = sourceCategory();
-    if (stage) stage.value = form.dataset.conversionStage || '';
-    if (application && !application.value) {
-      var savedApplication = sessionStorage.getItem('ouyang_application') || '';
-      if (application.tagName === 'SELECT' && Array.from(application.options).some(function (option) { return option.value === savedApplication; })) application.value = savedApplication;
-      if (application.tagName === 'INPUT') application.value = savedApplication;
-    }
+  document.querySelectorAll('.private-inquiry-form').forEach(function (form) {
     form.addEventListener('submit', function (event) {
-      event.preventDefault();
       var status = form.querySelector('.form-status');
       if (!form.checkValidity()) {
+        event.preventDefault();
         form.reportValidity();
-        status.textContent = 'Complete the required engineering and contact fields before review.';
+        status.textContent = 'Please add your email or WhatsApp and a short question.';
         status.className = 'form-status is-error';
         return;
       }
-      status.textContent = 'The form is complete, but no receiving service is connected. Nothing has been transmitted or stored.';
+      if (form.dataset.formConfigured !== 'true') {
+        event.preventDefault();
+        status.textContent = 'Private form delivery is being connected. Please use WhatsApp, email, or phone for now.';
+        status.className = 'form-status is-error';
+        return;
+      }
+      status.textContent = 'Sending your private inquiry…';
       status.className = 'form-status is-ready';
+      form.querySelector('button[type="submit"]').disabled = true;
     });
   });
 }());
