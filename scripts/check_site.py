@@ -1,7 +1,7 @@
 from pathlib import Path
 import re, json, sys
 root=Path(__file__).resolve().parents[1]
-files=[p for p in list(root.rglob("*.md"))+list(root.rglob("*.html")) if "_layouts" not in p.parts and "_includes" not in p.parts and "docs" not in p.parts]
+files=[p for p in list(root.rglob("*.md"))+list(root.rglob("*.html")) if "_layouts" not in p.parts and "_includes" not in p.parts and "docs" not in p.parts and not any(part.startswith("audit-output") for part in p.parts)]
 errors=[]
 titles={}
 permalinks={}
