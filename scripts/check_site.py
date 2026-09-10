@@ -18,7 +18,8 @@ for p in files:
         if m: permalinks.setdefault(m.group(1),[]).append(str(p))
     for link in re.findall(r"\]\((/[^)#?]+)",s):
         clean=link.strip("/")
-        if not ((root/clean).exists() or (root/clean/"index.md").exists() or (root/clean/"index.html").exists()):
+        collection_source = root / "_articles" / (clean + ".md")
+        if not ((root/clean).exists() or (root/clean/"index.md").exists() or (root/clean/"index.html").exists() or collection_source.exists()):
             errors.append(str(p)+": unresolved internal path "+link)
 for t,ps in titles.items():
     if len(ps)>1: errors.append("duplicate title "+t+": "+", ".join(ps))

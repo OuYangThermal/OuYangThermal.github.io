@@ -1,0 +1,129 @@
+name: Jekyll validation only
+
+on:
+  push:
+    branches:
+      - codex/jekyll-validation-20260910
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out validation branch
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby compatible with GitHub Pages
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Report resolved versions
+        run: |
+          ruby --version
+          bundle --version
+          bundle exec jekyll --version
+          bundle exec github-pages versions
+
+      - name: Build production-safe source
+        run: bundle exec jekyll build --strict_front_matter --trace --destination _site-production
+
+      - name: Confirm trial drafts are excluded from production output
+        shell: bash
+        run: |
+          test ! -e _site-production/drafts
+          test ! -e _site-production/reports
+
+      - name: Prepare isolated render copies of the three drafts
+        shell: bash
+        run: |
+          mkdir -p _articles/trial-validation
+          for source in drafts/daily-geo/2026-09-10/*.md; do
+            target="_articles/trial-validation/$(basename "$source")"
+            sed 's/^published: false$/published: true/' "$source" > "$target"
+          done
+
+      - name: Build validation render
+        run: bundle exec jekyll build --strict_front_matter --trace --destination _site-validation
+
+      - name: Validate rendered pages, metadata, links, CTA and sitemap
+        shell: bash
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlparse
+          import re
+
+          root = Path("_site-validation")
+          slugs = [
+              "thermal-interface-materials-for-dc-dc-converters",
+              "how-to-diagnose-voids-under-thermal-gel-after-assembly",
+              "how-to-qualify-a-second-source-thermal-interface-material",
+          ]
+          errors = []
+
+          class PageParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.h1 = 0
+                  self.canonicals = []
+                  self.links = []
+                  self.images = []
+                  self.viewport = False
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == "h1": self.h1 += 1
+                  if tag == "link" and attrs.get("rel") == "canonical": self.canonicals.append(attrs.get("href"))
+                  if tag == "a" and attrs.get("href"): self.links.append(attrs["href"])
+                  if tag == "img": self.images.append(attrs)
+                  if tag == "meta" and attrs.get("name") == "viewport": self.viewport = True
+
+          for slug in slugs:
+              path = root / "trial-validation" / slug / "index.html"
+              if not path.exists():
+                  errors.append(f"missing rendered page: {path}")
+                  continue
+              text = path.read_text(encoding="utf-8")
+              parser = PageParser(); parser.feed(text)
+              if parser.h1 != 1: errors.append(f"{slug}: expected one H1, found {parser.h1}")
+              if len(parser.canonicals) != 1: errors.append(f"{slug}: expected one canonical")
+              elif parser.canonicals[0] != f"https://ouyangthermal.github.io/trial-validation/{slug}/":
+                  errors.append(f"{slug}: unexpected canonical {parser.canonicals[0]}")
+              if not parser.viewport: errors.append(f"{slug}: missing mobile viewport")
+              for expected in ("Ask Ouyang", "WhatsApp", "Email", "Working on a similar thermal interface?"):
+                  if expected not in text: errors.append(f"{slug}: missing CTA text {expected}")
+              for image in parser.images:
+                  for attr in ("src", "alt", "width", "height"):
+                      if not image.get(attr): errors.append(f"{slug}: image missing {attr}")
+              for href in parser.links:
+                  parsed = urlparse(href)
+                  if parsed.scheme or href.startswith(("mailto:", "tel:", "#")): continue
+                  clean = parsed.path
+                  candidate = root / clean.lstrip("/")
+                  if clean.endswith("/"): candidate /= "index.html"
+                  if not candidate.exists(): errors.append(f"{slug}: broken internal link {href}")
+
+          sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
+          for slug in slugs:
+              expected = f"https://ouyangthermal.github.io/trial-validation/{slug}/"
+              if expected not in sitemap: errors.append(f"sitemap missing {expected}")
+
+          if errors:
+              raise SystemExit("\n".join(errors))
+          print("PASS: 3 drafts rendered with valid H1, canonical, mobile viewport, CTA, internal links, images and sitemap entries")
+          PY
+
+      - name: Upload isolated validation site and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-validation-site-${{ github.run_id }}
+          path: |
+            _site-production/
+            _site-validation/
+          retention-days: 7

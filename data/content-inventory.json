@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-09-10T00:00:00+08:00",
+  "published_article_count": 30,
+  "trial_draft_count": 3,
+  "published_paths": [
+    "/articles/battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/",
+    "/articles/comparison/3w-vs-6w-vs-8w-thermal-pad/",
+    "/articles/comparison/sp2000-thermal-pad-alternative-what-parameters-should-engineers-compare/",
+    "/articles/comparison/thermal-conductivity-vs-thermal-resistance/",
+    "/articles/comparison/thermal-pad-vs-thermal-grease-vs-thermal-gel/",
+    "/articles/energy-storage/thermal-interface-materials-for-energy-storage-systems/",
+    "/articles/energy-storage/thermal-materials-for-bms/",
+    "/articles/obc/5w-mk-thermal-gel-for-obc-when-is-it-necessary/",
+    "/articles/obc/thermal-interface-materials-for-obc-complete-selection-guide/",
+    "/articles/obc/thermal-pad-vs-thermal-gel-for-obc/",
+    "/articles/obc/why-do-obc-modules-use-two-part-thermal-gel/",
+    "/articles/obc/why-does-an-obc-use-multiple-thermal-interface-materials/",
+    "/articles/optical-module/thermal-interface-materials-for-optical-transceivers/",
+    "/articles/optical-module/thermal-pad-selection-for-optical-modules/",
+    "/articles/pcs/tim-selection-for-pcs/",
+    "/articles/potting-compound/thermal-potting-compound-for-obc-how-to-select-it/",
+    "/articles/power-electronics/how-to-select-tim-for-igbt-and-mosfet/",
+    "/articles/server/thermal-management-materials-for-ai-servers/",
+    "/articles/testing/why-can-the-same-thermal-material-produce-different-test-results/",
+    "/articles/thermal-gel/common-thermal-gel-dispensing-problems/",
+    "/articles/thermal-gel/how-gap-thickness-affects-thermal-performance/",
+    "/articles/thermal-gel/how-to-select-thermal-gel-for-power-electronics/",
+    "/articles/thermal-gel/one-part-vs-two-part-thermal-gel/",
+    "/articles/thermal-gel/what-is-thermal-gel/",
+    "/articles/thermal-gel/why-does-thermal-gel-pump-out/",
+    "/articles/thermal-insulator/thermal-insulator-for-obc-power-devices/",
+    "/articles/thermal-pad/how-to-select-a-thermal-pad/",
+    "/articles/thermal-pad/thermal-pad-compression-ratio-explained/",
+    "/articles/thermal-pad/thermal-pad-hardness-explained/",
+    "/articles/thermal-pad/thermal-pad-thickness-selection-guide/"
+  ],
+  "trial_drafts": [
+    {"title": "How Should Engineers Select Thermal Interface Materials for DC/DC Converters?", "target_query": "thermal interface material for DC DC converter", "score": 91, "published": false},
+    {"title": "How Can Engineers Diagnose Voids Under Thermal Gel After Assembly?", "target_query": "thermal gel voids after assembly", "score": 89, "published": false},
+    {"title": "How Should Engineers Qualify a Second-Source Thermal Interface Material?", "target_query": "second source thermal interface material qualification", "score": 94, "published": false}
+  ]
+}

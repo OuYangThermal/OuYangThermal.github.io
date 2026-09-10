@@ -35,6 +35,8 @@ exclude:
   - AGENTS.md
   - package.json
   - docs
+  - drafts
+  - reports
   - scripts
   - visual-inbox
   - assets/images/source

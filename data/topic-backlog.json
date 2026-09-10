@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-09-10T00:00:00+08:00",
+  "mode": "trial",
+  "publication_policy": "draft-only-until-owner-approval",
+  "candidates": [
+    {
+      "id": "GEO-2026-09-10-A",
+      "direction": "high-commercial-intent-application",
+      "title": "How Should Engineers Select Thermal Interface Materials for DC/DC Converters?",
+      "target_query": "thermal interface material for DC DC converter",
+      "score": 91,
+      "score_breakdown": {"commercial_intent": 24, "engineering_problem_clarity": 19, "differentiation": 19, "reliable_answerability": 14, "internal_link_value": 8, "inquiry_conversion_potential": 7},
+      "duplicate_check": "No existing article targets DC/DC converter TIM selection as its primary intent.",
+      "status": "trial-draft-awaiting-review",
+      "draft": "/drafts/daily-geo/2026-09-10/thermal-interface-materials-for-dc-dc-converters.md"
+    },
+    {
+      "id": "GEO-2026-09-10-B",
+      "direction": "engineering-problem",
+      "title": "How Can Engineers Diagnose Voids Under Thermal Gel After Assembly?",
+      "target_query": "thermal gel voids after assembly",
+      "score": 89,
+      "score_breakdown": {"commercial_intent": 22, "engineering_problem_clarity": 20, "differentiation": 18, "reliable_answerability": 14, "internal_link_value": 8, "inquiry_conversion_potential": 7},
+      "duplicate_check": "Existing dispensing-problem content is broader; none uses post-assembly void diagnosis as the primary intent.",
+      "status": "trial-draft-awaiting-review",
+      "draft": "/drafts/daily-geo/2026-09-10/how-to-diagnose-voids-under-thermal-gel-after-assembly.md"
+    },
+    {
+      "id": "GEO-2026-09-10-C",
+      "direction": "selection-comparison-alternative",
+      "title": "How Should Engineers Qualify a Second-Source Thermal Interface Material?",
+      "target_query": "second source thermal interface material qualification",
+      "score": 94,
+      "score_breakdown": {"commercial_intent": 25, "engineering_problem_clarity": 20, "differentiation": 20, "reliable_answerability": 14, "internal_link_value": 8, "inquiry_conversion_potential": 7},
+      "duplicate_check": "The SP2000 alternative article is product-specific; no existing page covers a general second-source qualification workflow.",
+      "status": "trial-draft-awaiting-review",
+      "draft": "/drafts/daily-geo/2026-09-10/how-to-qualify-a-second-source-thermal-interface-material.md"
+    }
+  ]
+}
