@@ -13,6 +13,37 @@ document.documentElement.classList.add('js');
     if (!referrer) return 'Direct';
     return 'Other';
   }
+  function recordEvent(name, parameters) {
+    var detail = Object.assign({ event: name, page_path: window.location.pathname }, parameters || {});
+    if (typeof window.gtag === 'function') window.gtag('event', name, detail);
+    else if (Array.isArray(window.dataLayer)) window.dataLayer.push(Object.assign({ event: name }, detail));
+    try { sessionStorage.setItem('ouyang_last_analytics_event', JSON.stringify(detail)); } catch (error) { /* Storage may be unavailable. */ }
+    document.dispatchEvent(new CustomEvent('ouyang:analytics', { detail: detail }));
+  }
+  var pageStartedAt = Date.now();
+  var dwellRecorded = false;
+  function recordDwellTime() {
+    if (dwellRecorded) return;
+    dwellRecorded = true;
+    recordEvent('page_engaged_time', { engaged_seconds: Math.max(0, Math.round((Date.now() - pageStartedAt) / 1000)) });
+  }
+  window.addEventListener('pagehide', recordDwellTime);
+  document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') recordDwellTime(); });
+  if ('IntersectionObserver' in window) {
+    var viewedVisuals = {};
+    var visualObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting || entry.intersectionRatio < 0.5) return;
+        var cta = entry.target.nextElementSibling;
+        var visualId = cta && cta.dataset ? cta.dataset.visualCta : '';
+        if (!visualId || viewedVisuals[visualId]) return;
+        viewedVisuals[visualId] = true;
+        recordEvent('engineering_visual_view', { visual_id: visualId });
+        visualObserver.unobserve(entry.target);
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.engineering-visual').forEach(function (visual) { visualObserver.observe(visual); });
+  }
   document.querySelectorAll('a[data-cta-type]').forEach(function (link) {
     link.addEventListener('click', function () {
       sessionStorage.setItem('ouyang_entry_article', window.location.pathname);
@@ -26,6 +57,7 @@ document.documentElement.classList.add('js');
       var utm = ['utm_source', 'utm_medium', 'utm_campaign'].map(function (key) { return params.get(key) || ''; });
       var eventName = link.dataset.conversion || ((link.dataset.contactChannel || 'contact') + '_click');
       var sourceName = link.dataset.source || document.title.split(' | ')[0];
+      recordEvent(eventName, { source: sourceName, visual_id: link.dataset.visualId || '', channel: link.dataset.contactChannel || '' });
       sessionStorage.setItem('ouyang_entry_article', window.location.pathname);
       sessionStorage.setItem('ouyang_cta_type', eventName);
       sessionStorage.setItem('ouyang_source', sourceCategory());

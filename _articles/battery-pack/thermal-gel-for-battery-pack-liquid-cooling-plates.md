@@ -37,6 +37,8 @@ The interface resistance depends on gap, coverage, voiding, material response, p
 
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/battery-pack-thermal-gel-liquid-cooling-plate.webp' | relative_url }}" width="1440" height="810" loading="lazy" decoding="async" alt="Thermal gel between battery modules and a liquid cooling plate"><figcaption><strong>Engineering Diagram.</strong> Engineering diagram showing gel dispensing, module assembly and heat transfer into a liquid cooling plate.</figcaption></figure>
 
+{% include visual-cta.html visual_id="V11" %}
+
 Thermal conductivity describes heat transport through material. The installed interface also includes geometry and contact resistance. For a simplified uniform layer, bulk resistance follows R = t/(kA), where t is thickness, k conductivity, and A area. Real assemblies require additional terms and measured validation.
 
 ## Selection parameters

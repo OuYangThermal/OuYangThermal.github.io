@@ -39,6 +39,8 @@ Heat flows from lasers, drivers, DSPs, and power parts through lids, cages, sink
 
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/optical-transceiver-thermal-interface-material-location.webp' | relative_url }}" width="1440" height="810" loading="lazy" decoding="async" alt="Thermal interface material between optical transceiver components and the metal housing"><figcaption><strong>Engineering Diagram.</strong> Engineering diagram showing localized, low-stress TIM contact inside an optical transceiver.</figcaption></figure>
 
+{% include visual-cta.html visual_id="V12" %}
+
 Thermal conductivity describes heat transport through material. The installed interface also includes geometry and contact resistance. For a simplified uniform layer, bulk resistance follows R = t/(kA), where t is thickness, k conductivity, and A area. Real assemblies require additional terms and measured validation.
 
 ## Selection parameters

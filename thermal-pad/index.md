@@ -9,6 +9,8 @@ Compressible sheet-form gap fillers: selection, thickness, hardness, compression
 
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/thermal-pad-compression-gap-tolerance-diagram.webp' | relative_url }}" width="1440" height="810" loading="lazy" decoding="async" alt="Thermal pad compression across component height and gap tolerances"><figcaption><strong>Engineering Diagram.</strong> Engineering diagram showing insufficient, controlled and excessive thermal pad compression.</figcaption></figure>
 
+{% include visual-cta.html visual_id="V03" %}
+
 <figure class="evidence-figure"><img src="{{ '/assets/images/real-evidence/02-obc-thermal-pad-layout.jpg' | relative_url }}" width="750" height="479" loading="lazy" decoding="async" alt="Pre-cut thermal pads positioned between OBC electronics and the mating housing"><figcaption><strong>Real Application Reference.</strong> Pre-cut thermal pads positioned at multiple OBC interface locations. No material grade or performance is inferred from the photograph.</figcaption></figure>
 
 <ul class="article-list">

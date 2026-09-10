@@ -1,0 +1,11 @@
+{% assign visual_source = include.visual_id | append: ' ' | append: page.title %}{% capture wa_text %}Hi Ouyang, I am working on a thermal interface application similar to the {{ include.visual_id }} engineering visual. Could we discuss the gap, material and application details?{% endcapture %}{% capture email_body %}Hi Ouyang,
+
+I am working on a similar thermal interface.
+
+Gap:
+Material:
+Application:
+
+Source: {{ visual_source }}
+
+Best regards,{% endcapture %}<aside class="visual-cta" aria-label="Discuss a similar thermal interface" data-visual-cta="{{ include.visual_id }}"><p><strong>Working on a similar thermal interface?</strong><br>Send your gap, material and application details for an engineering discussion.</p><div class="visual-cta-actions"><a class="visual-cta-primary" data-conversion="visual_inquiry_click" data-visual-id="{{ include.visual_id }}" data-source="{{ visual_source | escape }}" href="{{ '/discuss-your-application/' | relative_url }}">Ask Ouyang</a><a data-conversion="visual_whatsapp_click" data-visual-id="{{ include.visual_id }}" data-source="{{ visual_source | escape }}" href="https://wa.me/8613367909790?text={{ wa_text | url_encode }}">WhatsApp</a><a data-conversion="visual_email_click" data-visual-id="{{ include.visual_id }}" data-source="{{ visual_source | escape }}" href="mailto:5672306@gmail.com?subject={{ 'Thermal Interface Engineering Discussion' | url_encode }}&amp;body={{ email_body | url_encode }}">Email</a></div></aside>

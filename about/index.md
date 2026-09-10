@@ -21,6 +21,8 @@ Ouyang Xiaohui is based in **Shenzhen, China** and can be contacted for technica
 
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/thermal-material-real-production-support.webp' | relative_url }}" width="1200" height="900" loading="lazy" decoding="async" alt="Real thermal material samples, converting equipment, sheet production and supply preparation"><figcaption><strong>Real Production Reference.</strong> Material samples, converting, sheet production and supply preparation. No customer, capacity, model or performance claim is implied.</figcaption></figure>
 
+{% include visual-cta.html visual_id="V09" %}
+
 See our [Editorial Policy]({{ '/editorial-policy/' | relative_url }}) and [Methodology]({{ '/methodology/' | relative_url }}).
 
 {% include contact-card.html %}
