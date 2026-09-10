@@ -21,6 +21,8 @@ updated: 2026-09-10
 
 <div class="quick"><strong>Quick answer</strong><p>Thin, compliant, clean interfaces are commonly prioritized.</p></div>
 
+<figure class="evidence-figure evidence-portrait"><img src="{{ '/assets/images/real-evidence/06-optical-transceiver-tim-contact.jpg' | relative_url }}" width="990" height="1256" loading="lazy" decoding="async" alt="Close view of thermal interface contact areas between an optical transceiver PCB and metal housing"><figcaption><strong>Real Application Reference.</strong> Contact areas between an optical-module PCB and its metal housing. Material identity and performance are not inferred from the photograph.</figcaption></figure>
+
 ## Key takeaways
 
 <div class="takeaways">

@@ -11,6 +11,8 @@ updated: 2026-09-10
 
 <div class="quick"><strong>Quick answer</strong><p>Control the complete fluid path and verify the deposited result.</p></div>
 
+<figure class="evidence-figure"><img src="{{ '/assets/images/real-evidence/04-thermal-gel-dot-pattern.jpg' | relative_url }}" width="800" height="547" loading="lazy" decoding="async" alt="Controlled thermal gel dot pattern showing deposited shape retention"><figcaption><strong>Engineering Application Example.</strong> A controlled dot pattern used to observe deposit consistency and shape retention before assembly.</figcaption></figure>
+
 ## Key takeaways
 
 <div class="takeaways">

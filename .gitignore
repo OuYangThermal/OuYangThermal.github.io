@@ -4,5 +4,6 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 vendor/
+visual-inbox/
 audit-output*/
 __pycache__/
