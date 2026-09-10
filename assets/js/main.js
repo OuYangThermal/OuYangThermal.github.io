@@ -34,24 +34,37 @@ document.documentElement.classList.add('js');
     });
   });
   document.querySelectorAll('.private-inquiry-form').forEach(function (form) {
-    form.addEventListener('submit', function (event) {
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
       var status = form.querySelector('.form-status');
       if (!form.checkValidity()) {
-        event.preventDefault();
         form.reportValidity();
         status.textContent = 'Please add your email or WhatsApp and a short question.';
         status.className = 'form-status is-error';
         return;
       }
       if (form.dataset.formConfigured !== 'true') {
-        event.preventDefault();
         status.textContent = 'Private form delivery is being connected. Please use WhatsApp, email, or phone for now.';
         status.className = 'form-status is-error';
         return;
       }
       status.textContent = 'Sending your private inquiry…';
       status.className = 'form-status is-ready';
-      form.querySelector('button[type="submit"]').disabled = true;
+      var submitButton = form.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
+      try {
+        var response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' }
+        });
+        if (!response.ok) throw new Error('Form delivery failed');
+        window.location.assign('/inquiry-received/');
+      } catch (error) {
+        status.textContent = 'Your inquiry could not be sent. Please use WhatsApp or email and try again later.';
+        status.className = 'form-status is-error';
+        submitButton.disabled = false;
+      }
     });
   });
 }());
