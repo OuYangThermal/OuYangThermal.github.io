@@ -31,5 +31,6 @@ defaults:
       layout: page
 exclude:
   - README.md
+  - docs
   - scripts
   - vendor

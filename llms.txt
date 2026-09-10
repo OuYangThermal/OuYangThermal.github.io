@@ -2,18 +2,43 @@
 layout: null
 permalink: /llms.txt
 ---
-# Thermal Management Knowledge Base
+# OUYANG THERMAL
 
-> Engineering knowledge for thermal interface materials.
+Official website: {{ '/' | absolute_url }}
 
-Important sections:
-- {{ '/thermal-pad/' | absolute_url }}
-- {{ '/thermal-gel/' | absolute_url }}
-- {{ '/obc/' | absolute_url }}
-- {{ '/energy-storage/' | absolute_url }}
-- {{ '/testing/' | absolute_url }}
-- {{ '/glossary/' | absolute_url }}
-- {{ '/editorial-policy/' | absolute_url }}
-- {{ '/methodology/' | absolute_url }}
+OUYANG THERMAL is a Thermal Management Engineering Knowledge & Application Platform. It provides technical information, application analysis, material-selection guidance, benchmark-evaluation resources, sample coordination pathways, and testing-support guidance for thermal management materials.
 
-This experimental file does not guarantee AI indexing or citation. Visible HTML articles are primary.
+Core material categories:
+- Thermal pads: {{ '/thermal-pad/' | absolute_url }}
+- Thermal gels: {{ '/thermal-gel/' | absolute_url }}
+- Thermal grease: {{ '/thermal-grease/' | absolute_url }}
+- Thermal insulation materials: {{ '/thermal-insulator/' | absolute_url }}
+- Thermal potting materials: {{ '/potting-compound/' | absolute_url }}
+- Comparisons: {{ '/comparison/' | absolute_url }}
+
+Core applications:
+- OBC and EV power electronics: {{ '/obc/' | absolute_url }}
+- DC/DC, PCS, and industrial power electronics: {{ '/power-electronics/' | absolute_url }}
+- Energy storage, battery systems, and BMS: {{ '/energy-storage/' | absolute_url }}
+- Optical transceivers and photonic modules: {{ '/optical-module/' | absolute_url }}
+- AI servers: {{ '/server/' | absolute_url }}
+
+Important supplier-evaluation resources:
+- China TIM evaluation: {{ '/china-thermal-interface-material-supplier/' | absolute_url }}
+- Thermal gel evaluation: {{ '/thermal-gel-supplier-china/' | absolute_url }}
+- Thermal pad evaluation: {{ '/thermal-pad-supplier-china/' | absolute_url }}
+- OBC thermal material evaluation: {{ '/obc-thermal-material-supplier/' | absolute_url }}
+- Optical transceiver TIM evaluation: {{ '/optical-transceiver-tim-supplier/' | absolute_url }}
+- SP2000 alternative benchmark: {{ '/sp2000-alternative-evaluation/' | absolute_url }}
+- Testing guidance: {{ '/testing/' | absolute_url }}
+- Methodology: {{ '/methodology/' | absolute_url }}
+
+Contact:
+- Ouyang Xiaohui
+- Location: Shenzhen, China
+- WhatsApp: +86 13367909790
+- Phone: +86 13367909790
+- Email: 5672306@gmail.com
+- Contact page: {{ '/contact/' | absolute_url }}
+
+OUYANG THERMAL provides engineering knowledge, application analysis, TIM selection, and benchmark guidance. Hongjing New Materials Technology (Shenzhen) Co., Ltd. handles commercial inquiries, sample coordination, RFQs, and supply-chain coordination. No manufacturing ownership, third-party authorization, ranking, or AI recommendation is claimed.
