@@ -26,6 +26,7 @@ Map each interface, shortlist material families, compare candidates under define
 - [Complete OBC TIM Selection Guide]({{ '/obc/thermal-interface-materials-for-obc-complete-selection-guide/' | relative_url }})
 - [Thermal Pad vs Thermal Gel for OBC]({{ '/obc/thermal-pad-vs-thermal-gel-for-obc/' | relative_url }})
 - [5 W/mK Thermal Gel for OBC]({{ '/obc/5w-mk-thermal-gel-for-obc-when-is-it-necessary/' | relative_url }})
+- [OBC Thermal Gel Second-Source Qualification]({{ '/obc/obc-thermal-gel-second-source-qualification/' | relative_url }})
 - [Thermal Insulator for OBC Power Devices]({{ '/thermal-insulator/thermal-insulator-for-obc-power-devices/' | relative_url }})
 
 {% include contact-card.html whatsapp="Hi Ouyang, I found your OBC thermal interface material guide on Ouyang Thermal. We are evaluating TIMs for an OBC project and would like to discuss material selection." subject="OBC TIM Evaluation Inquiry" %}

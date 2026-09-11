@@ -6,7 +6,7 @@ category_slug: "thermal-pad"
 category_url: "/thermal-pad/"
 author: "Ouyang Xiaohui"
 date: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-11
 ---
 
 <div class="quick"><strong>Quick answer</strong><p>There is no universal best compression percentage.</p></div>
@@ -65,4 +65,8 @@ Ranking only by W/m·K; mixing data from different methods; ignoring tolerance a
 - [ISO 22007-2:2022](https://www.iso.org/standard/81836.html), Plastics — Determination of thermal conductivity and thermal diffusivity — Part 2: Transient plane heat source method.
 
 Confirm the current revision, scope, specimen suitability, and licensing with the issuing organization. Verify supplier values against the original TDS and its stated method.
+
+## Related engineering guide
+
+Compression ratio describes installed deflection. For residual deformation after unloading and a defined recovery period, see [Thermal Pad Compression Set: What It Means and How to Validate Recovery]({{ '/thermal-pad/thermal-pad-compression-set-explained/' | relative_url }}).
 
