@@ -36,7 +36,7 @@ jobs:
           bundle exec jekyll build --strict_front_matter --trace --destination _site-production 2>&1 | tee jekyll-build.log
           status=${PIPESTATUS[0]}
           if [ "$status" -ne 0 ]; then
-            tail -n 25 jekyll-build.log | while IFS= read -r line; do
+            grep -Ei 'error|fatal|exception|liquid|yaml|conflict|undefined|invalid|cannot|could not' jekyll-build.log | head -n 20 | while IFS= read -r line; do
               safe_line=${line//'%'/'%25'}
               safe_line=${safe_line//$'\r'/'%0D'}
               safe_line=${safe_line//$'\n'/'%0A'}
