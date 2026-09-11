@@ -1,7 +1,7 @@
 ---
 title: "Thermal Pad"
 display_title: Thermal Pad
-description: Compressible sheet-form gap fillers: selection, thickness, hardness, compression, and reliability.
+description: "Compressible sheet-form gap fillers: selection, thickness, hardness, compression, and reliability."
 permalink: /thermal-pad/
 ---
 
