@@ -33,8 +33,14 @@ defaults:
 exclude:
   - README.md
   - AGENTS.md
+  - PROJECT_HANDOFF.md
+  - NEXT_ACTIONS.md
+  - NEW_CODEX_START_PROMPT.md
+  - project-state.json
   - package.json
   - docs
+  - drafts
+  - reports
   - scripts
   - visual-inbox
   - assets/images/source
