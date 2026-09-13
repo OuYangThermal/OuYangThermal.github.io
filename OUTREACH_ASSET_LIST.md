@@ -1,0 +1,11 @@
+# OUYANG THERMAL Citation Asset List
+
+| Asset Name | URL | One-Sentence Value | Target Audience | Best Outreach Targets |
+| --- | --- | --- | --- | --- |
+| Thermal Pad Supplier Qualification — 12-Gate Checklist | https://ouyangthermal.github.io/engineering-resources/#thermal-pad-12-gate-checklist | Converts pad sourcing into twelve evidence gates from requirements through change control. | Thermal engineering; procurement; material testing | Electronics-cooling educators; supplier-quality teams; thermal engineering newsletters |
+| TIM Second-Source Qualification Workflow | https://ouyangthermal.github.io/engineering-resources/#tim-second-source-workflow | Shows the controlled path from incumbent benchmark and sample to pilot build, qualification and RFQ. | Procurement; thermal engineering; power electronics | Supply-chain engineering blogs; electronics manufacturing forums; qualification-method resources |
+| Thermal Pad Compression, BLT and Contact Resistance Decision Guide | https://ouyangthermal.github.io/engineering-resources/#thermal-pad-compression-blt-guide | Explains the tradeoff between contact, compressed thickness and mechanical stress without prescribing a universal ratio. | Optical communication; electronics cooling; thermal engineering | Optical communications publications; data-center thermal communities; mechanical-design educators |
+| Thermal Gel Failure Diagnosis | https://ouyangthermal.github.io/engineering-resources/#thermal-gel-failure-diagnosis | Organizes void, slump, pump-out, squeeze-out and cure troubleshooting by material, process, geometry and aging. | Dispensing engineering; automotive electronics; material testing | Dispensing-equipment educators; electronics assembly media; reliability engineering communities |
+| IGBT / SiC Thermal Insulator Selection Matrix | https://ouyangthermal.github.io/engineering-resources/#igbt-sic-insulator-matrix | Compares insulation architectures by thermal resistance, electrical role, conformity, mounting, rework and reliability. | Power electronics; SiC / IGBT; thermal engineering | Power-electronics publications; SiC technical communities; insulation and packaging educators |
+
+Reference only through relevant, non-spam technical outreach. Do not imply endorsement, customer use, certification or completed qualification.

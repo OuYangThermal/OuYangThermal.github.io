@@ -15,6 +15,14 @@ search_demand: "Unknown"
 
 <div class="quick"><strong>Answer first</strong><p>Qualify an IGBT thermal-insulator supplier against the installed electrical, thermal and mechanical interface—not a single conductivity or breakdown-voltage number. Start with the module, heat-sink, fastener and tolerance stack; then compare candidates at controlled thickness, pressure and aging conditions.</p></div>
 
+<figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/igbt-sic-thermal-insulator-selection-matrix.webp' | relative_url }}" width="1672" height="941" loading="lazy" decoding="async" alt="IGBT and SiC thermal insulator selection matrix comparing thin coated, ceramic-based and conformable insulating interfaces"><figcaption><strong>Engineering Diagram.</strong> Source: OUYANG THERMAL · Owen Ouyang. Selection depends on the complete insulation system and application validation.</figcaption></figure>
+
+## Low thermal resistance without losing the insulation function
+
+Start by locating electrical isolation in the complete module, fastener, busbar and cooling assembly. If the module already provides the required isolation, a thin non-insulating interface may be evaluated; if the interface itself is part of the insulation system, its thickness, edges, holes, contamination and aging require electrical verification.
+
+For any candidate, separate bulk resistance from contact resistance. A thin film can reduce the bulk term but may not conform to roughness or flatness variation. A compliant insulation pad can improve contact but may create a thicker heat path. Ceramic-based solutions can offer a different thermal/electrical balance but require appropriate flatness, mounting and handling. Compare these architectures at representative mounting pressure and installed thickness rather than ranking generic material families.
+
 ## Key takeaways
 
 <div class="takeaways">

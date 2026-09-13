@@ -1,0 +1,63 @@
+---
+title: "Thermal Resistance Calculator"
+description: "Calculate theoretical bulk thermal resistance from thermal conductivity, bond-line thickness and contact area, with practical TIM limitations explained."
+permalink: /engineering-resources/thermal-resistance-calculator/
+---
+
+<div class="quick"><strong>Answer first</strong><p>This calculator estimates only the theoretical bulk thermal resistance of a uniform TIM layer using <strong>R = t/(kA)</strong>. It does not include contact resistance, spreading resistance or cooling-system boundaries.</p></div>
+
+<form class="calculator" id="thermal-resistance-calculator" novalidate>
+  <label for="thermal-conductivity">Thermal conductivity, k (W/m·K)</label>
+  <input id="thermal-conductivity" name="thermal-conductivity" type="number" min="0" step="any" inputmode="decimal" required>
+
+  <label for="bond-line-thickness">Thickness / bond-line thickness</label>
+  <div class="calculator-row"><input id="bond-line-thickness" name="bond-line-thickness" type="number" min="0" step="any" inputmode="decimal" required><select id="thickness-unit" aria-label="Thickness unit"><option value="mm">mm</option><option value="um">µm</option></select></div>
+
+  <label for="contact-area">Contact area</label>
+  <div class="calculator-row"><input id="contact-area" name="contact-area" type="number" min="0" step="any" inputmode="decimal" required><select id="area-unit" aria-label="Area unit"><option value="mm2">mm²</option><option value="cm2">cm²</option></select></div>
+
+  <button type="submit">Calculate Bulk Thermal Resistance</button>
+  <p id="calculator-error" class="form-status is-error" role="alert" hidden></p>
+  <output id="calculator-result" class="calculator-result" aria-live="polite">Enter positive values to calculate R in K/W.</output>
+</form>
+
+## Formula and units
+
+`Rbulk = t / (k × A)`
+
+- Convert thickness `t` to metres.
+- Use conductivity `k` in W/m·K.
+- Convert contact area `A` to m².
+- The result is K/W for the defined uniform layer and area.
+
+## Engineering limitation
+
+Actual assembly performance is also affected by **contact resistance, compression, surface roughness and flatness, assembly pressure, voids, spreading resistance, material aging and cooling boundaries**. Datasheet conductivity may also depend on the test method and condition. Use this result for first-order screening, then compare candidates at representative BLT, pressure, surfaces and temperature.
+
+[Review thermal conductivity versus thermal resistance]({{ '/comparison/thermal-conductivity-vs-thermal-resistance/' | relative_url }}) · [Review TIM test conditions]({{ '/testing/' | relative_url }}) · [Benchmark your current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
+
+<script>
+(function () {
+  const form = document.getElementById('thermal-resistance-calculator');
+  const result = document.getElementById('calculator-result');
+  const error = document.getElementById('calculator-error');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const k = Number(document.getElementById('thermal-conductivity').value);
+    const thicknessValue = Number(document.getElementById('bond-line-thickness').value);
+    const areaValue = Number(document.getElementById('contact-area').value);
+    if (![k, thicknessValue, areaValue].every(Number.isFinite) || k <= 0 || thicknessValue <= 0 || areaValue <= 0) {
+      error.textContent = 'Enter a positive number for conductivity, thickness and contact area.';
+      error.hidden = false;
+      result.textContent = 'Calculation not available.';
+      return;
+    }
+    error.hidden = true;
+    const thicknessMetres = document.getElementById('thickness-unit').value === 'um' ? thicknessValue / 1000000 : thicknessValue / 1000;
+    const areaSquareMetres = document.getElementById('area-unit').value === 'cm2' ? areaValue / 10000 : areaValue / 1000000;
+    const resistance = thicknessMetres / (k * areaSquareMetres);
+    result.innerHTML = '<strong>Theoretical bulk thermal resistance: ' + resistance.toPrecision(5) + ' K/W</strong><br><span>This excludes contact and system-level thermal resistances.</span>';
+  });
+}());
+</script>
+

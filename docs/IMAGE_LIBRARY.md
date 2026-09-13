@@ -120,3 +120,4 @@ When page context changes, update the rendered ALT and the manifest `alt` togeth
 | V19 | thermal-pad-supplier-qualification-12-gate-checklist.webp | engineering-diagram | thermal pad | supplier qualification | /thermal-pad-supplier-china/ | published |
 | V20 | thermal-gel-supplier-dispensing-qualification-flow.webp | engineering-diagram | thermal gel | supplier qualification | /thermal-gel-supplier-china/ | published |
 | V21 | ai-server-800v-dc-power-supply-tim-map.webp | application-diagram | pad, gel, insulator | AI server / 800V DC | /server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/ | published |
+| V22 | igbt-sic-thermal-insulator-selection-matrix.webp | engineering-diagram | thermal insulator | IGBT / SiC power module | /thermal-insulator/thermal-insulator-supplier-for-igbt-modules/ | published |

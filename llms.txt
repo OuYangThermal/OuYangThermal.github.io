@@ -26,6 +26,8 @@ Core applications:
 - AI servers: {{ '/server/' | absolute_url }}
 
 Important supplier-evaluation resources:
+- Engineering resources, original diagrams and tools: {{ '/engineering-resources/' | absolute_url }}
+- Bulk thermal-resistance calculator: {{ '/engineering-resources/thermal-resistance-calculator/' | absolute_url }}
 - China TIM evaluation: {{ '/china-thermal-interface-material-supplier/' | absolute_url }}
 - Thermal gel evaluation: {{ '/thermal-gel-supplier-china/' | absolute_url }}
 - Thermal pad evaluation: {{ '/thermal-pad-supplier-china/' | absolute_url }}
