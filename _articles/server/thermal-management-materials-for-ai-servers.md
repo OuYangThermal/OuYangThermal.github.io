@@ -76,3 +76,8 @@ Ranking only by W/m·K; mixing data from different methods; ignoring tolerance a
 
 Confirm the current revision, scope, specimen suitability, and licensing with the issuing organization. Verify supplier values against the original TDS and its stated method.
 
+## Related power-interface guidance
+
+- [Thermal Interface Materials for AI Server Power Supplies and 800V DC Power Systems]({{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | relative_url }})
+- [Thermal Pad vs Thermal Gel for AI Servers]({{ '/server/thermal-pad-vs-thermal-gel-for-ai-servers/' | relative_url }})
+

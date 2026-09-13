@@ -140,6 +140,9 @@ No. Location, commercial coordination, manufacturing ownership, distribution aut
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 - [OBC thermal-gel second-source qualification]({{ '/obc/obc-thermal-gel-second-source-qualification/' | relative_url }})
 - [800G optical-module thermal-pad supplier qualification]({{ '/optical-module/thermal-pad-supplier-for-800g-optical-modules/' | relative_url }})
+- [China Thermal Pad Supplier Evaluation]({{ '/thermal-pad-supplier-china/' | relative_url }})
+- [China Thermal Gel Supplier Evaluation]({{ '/thermal-gel-supplier-china/' | relative_url }})
+- [AI Server Power Supply and 800V DC TIM]({{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | relative_url }})
 
 ## Next step
 

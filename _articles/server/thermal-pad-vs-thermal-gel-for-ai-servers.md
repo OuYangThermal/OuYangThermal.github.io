@@ -74,6 +74,6 @@ Benchmark candidates with the same surfaces, area, thickness or dispense target,
 - [Thermal pad versus gel versus grease]({{ '/comparison/thermal-pad-vs-thermal-grease-vs-thermal-gel/' | relative_url }})
 - [Thermal-gel dispensing problems]({{ '/thermal-gel/common-thermal-gel-dispensing-problems/' | relative_url }})
 - [Why thermal gel pumps out]({{ '/thermal-gel/why-does-thermal-gel-pump-out/' | relative_url }})
+- [AI Server Power Supply and 800V DC TIM]({{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | relative_url }})
 
 [Discuss Your Application]({{ '/discuss-your-application/' | relative_url }}), [benchmark the incumbent interface]({{ '/benchmark-your-current-tim/' | relative_url }}) or [request a sample evaluation]({{ '/request-sample/' | relative_url }}).
-
