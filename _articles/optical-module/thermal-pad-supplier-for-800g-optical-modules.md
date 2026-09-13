@@ -136,6 +136,8 @@ A lower unit price does not offset uncontrolled variation, rework or a forced th
 - [Thermal pad compression ratio]({{ '/thermal-pad/thermal-pad-compression-ratio-explained/' | relative_url }})
 - [Thermal pad thickness selection]({{ '/thermal-pad/thermal-pad-thickness-selection-guide/' | relative_url }})
 - [Thermal pad hardness]({{ '/thermal-pad/thermal-pad-hardness-explained/' | relative_url }})
+- [Thermal pad selection and supplier qualification for 1.6T optical modules]({{ '/optical-module/thermal-pad-for-1-6t-optical-modules/' | relative_url }})
+- [Thermal pad compression for 800G and 1.6T optical modules]({{ '/optical-module/thermal-pad-compression-for-800g-1-6t-modules/' | relative_url }})
 
 ## Discuss an 800G module interface
 

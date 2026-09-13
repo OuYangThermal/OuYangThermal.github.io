@@ -112,3 +112,8 @@ When page context changes, update the rendered ALT and the manifest `alt` togeth
 | V11 | battery-pack-thermal-gel-liquid-cooling-plate.webp | engineering-diagram | thermal gel | battery pack | /battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/ | published |
 | V12 | optical-transceiver-thermal-interface-material-location.webp | engineering-diagram | TIM | optical transceiver | /optical-module/thermal-interface-materials-for-optical-transceivers/ | published |
 | V13 | 800g-optical-module-thermal-pad-contact-compression.webp | engineering-diagram | thermal pad | 800G optical module | /optical-module/thermal-pad-supplier-for-800g-optical-modules/ | published |
+| V14 | 1-6t-optical-module-tim-thermal-path.webp | engineering-diagram | thermal pad | 1.6T optical module | /optical-module/thermal-pad-for-1-6t-optical-modules/ | published |
+| V15 | 800g-1-6t-optical-module-thermal-pad-compression.webp | engineering-diagram | thermal pad | 800G / 1.6T optical modules | /optical-module/thermal-pad-compression-for-800g-1-6t-modules/ | published |
+| V16 | ai-server-thermal-pad-gel-application-map.webp | application-diagram | thermal pad, gel | AI server | /server/thermal-pad-vs-thermal-gel-for-ai-servers/ | published |
+| V17 | tim-second-source-supplier-qualification-flow.webp | engineering-diagram | TIM | supplier qualification | /china-thermal-interface-material-supplier/ | published |
+| V18 | sic-power-module-pad-grease-phase-change-selection.webp | engineering-diagram | pad, grease, PCM | SiC power module | /power-electronics/thermal-interface-material-for-sic-power-modules/ | published |

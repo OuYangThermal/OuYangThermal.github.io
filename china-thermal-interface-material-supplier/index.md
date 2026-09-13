@@ -13,6 +13,8 @@ Evaluate thermal interface material suppliers by their ability to reproduce the 
 
 The useful question is not simply “Who sells a high-W/m·K material?” It is: “Which candidate can meet the thermal, mechanical, electrical, manufacturing and supply requirements of this assembly with evidence we can reproduce?”
 
+<figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/tim-second-source-supplier-qualification-flow.webp' | relative_url }}" width="1440" height="540" loading="lazy" decoding="async" alt="Thermal interface material second-source qualification flow from requirement definition and benchmark testing to pilot build and RFQ"><figcaption><strong>Engineering Diagram.</strong> A gated second-source TIM qualification flow. Progression depends on application-owner approval; the diagram does not claim customer qualification.</figcaption></figure>
+
 OUYANG THERMAL provides engineering knowledge, application analysis, TIM selection and benchmark guidance. Hongjing New Materials Technology (Shenzhen) Co., Ltd. handles commercial inquiries, sample coordination, RFQs and supply-chain coordination. No manufacturing ownership or third-party authorization is implied.
 
 ## What to define before contacting a supplier
@@ -69,6 +71,31 @@ Ask how lots are identified, what certificate data is supplied, which changes tr
 
 Separate screening, engineering validation, reliability testing, pilot production and final approval. Define who owns each decision and what evidence closes the gate. Keep the candidate marked “under evaluation” until the responsible organization approves it.
 
+## Second-source qualification: from benchmark to RFQ
+
+A second source is not qualified because its datasheet resembles the incumbent. Use controlled gates:
+
+| Gate | Minimum evidence | Decision |
+| --- | --- | --- |
+| Requirement definition | Frozen function, geometry, limits and failure risks | Is the comparison target clear? |
+| Incumbent benchmark | Reproducible baseline with method and uncertainty | Can candidate results be compared fairly? |
+| Sample screening | Identity, dimensions and same-condition test results | Is engineering validation justified? |
+| Thermal/mechanical/electrical validation | Installed performance across tolerance limits | Does the candidate meet functional requirements? |
+| Reliability | Application-relevant exposure and post-test inspection | Does performance remain acceptable? |
+| Multi-lot pilot build | Finished-part, process and traceability evidence | Is production repeatable? |
+| Supplier qualification | Quality controls, change notification and continuity review | Can the source enter the approved process? |
+| RFQ readiness | Approved specification, revision and commercial scope | Can pricing be compared without changing the requirement? |
+
+If a gate fails, return to the requirement or process step and document the cause. Do not lower an acceptance limit or bypass reliability merely to preserve a schedule.
+
+### What must be frozen before a second-source test
+
+Freeze the incumbent revision, interface drawing, gap or bond-line range, pressure or dispense process, surfaces, instrumentation, conditioning and acceptance criteria. If the incumbent has a known weakness, record it; “matching” an uncontrolled weakness is not a useful qualification goal.
+
+### When can a candidate enter mass-production validation?
+
+Only after the application owner accepts the engineering evidence and the organization has reviewed delivered-part controls. Sample approval is permission to continue testing, not supplier qualification. Pilot build is a production-risk gate, not proof that every future lot will pass.
+
 ## Common sourcing mistakes
 
 - Ranking suppliers only by a typical W/m·K value.
@@ -111,6 +138,8 @@ No. Location, commercial coordination, manufacturing ownership, distribution aut
 - [Why Test Results Differ]({{ '/testing/why-can-the-same-thermal-material-produce-different-test-results/' | relative_url }})
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
+- [OBC thermal-gel second-source qualification]({{ '/obc/obc-thermal-gel-second-source-qualification/' | relative_url }})
+- [800G optical-module thermal-pad supplier qualification]({{ '/optical-module/thermal-pad-supplier-for-800g-optical-modules/' | relative_url }})
 
 ## Next step
 
