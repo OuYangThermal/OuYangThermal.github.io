@@ -76,3 +76,4 @@ Sample → Same-condition benchmark → Reliability → Multi-lot review
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 
 {% include contact-card.html subject="Thermal Pad Supplier Evaluation" %}
+{% include commercial-authority-path.html %}

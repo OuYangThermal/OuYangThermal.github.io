@@ -70,3 +70,4 @@ Require notification for formulation, filler, package, raw-material source, manu
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 
 {% include contact-card.html subject="Thermal Gel Supplier Evaluation" %}
+{% include commercial-authority-path.html %}

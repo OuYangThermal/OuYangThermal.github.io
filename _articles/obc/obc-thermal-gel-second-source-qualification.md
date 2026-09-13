@@ -153,3 +153,4 @@ For an OBC second-source review, send the incumbent reference, gap range, dispen
 ## Technical reference
 
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), Standard Test Method for Thermal Transmission Properties of Thermally Conductive Electrical Insulation Materials.
+{% include commercial-authority-path.html %}

@@ -112,13 +112,9 @@ GitHub Pages deployment run `34550651609` completed successfully. The three targ
 
 ## Automation status
 
-`Ouyang Thermal Daily GEO Content` is **PAUSED**. Do not resume it automatically. The current pilot requires:
+`OUYANG THERMAL Daily Commercial GEO` is **ACTIVE** at 09:00 Asia/Shanghai. It is a lightweight incremental workflow with one action by default, at most two independent actions scoring at least 90, and a minimum execution score of 85. UPDATE is preferred to CREATE; failed safety gates require SKIP without commit or deployment. Monday's run includes a concise weekly review.
 
-```text
-Keyword Brief → 3 Topics → Drafts → Internal Link Plan → Human Review
-```
-
-Commit, push and deploy are prohibited by default during the pilot unless the user explicitly approves them. The separate repository workflow named **OUYANG THERMAL Daily GEO Audit** is a monitoring workflow scheduled by GitHub Actions; do not confuse it with the paused content-production automation.
+The separate repository workflow named **OUYANG THERMAL Daily GEO Audit** is a monitoring workflow scheduled by GitHub Actions; do not confuse it with the active Codex Daily Commercial GEO content task.
 
 ## Non-negotiable protections
 

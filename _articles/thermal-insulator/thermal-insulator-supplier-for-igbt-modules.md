@@ -137,3 +137,4 @@ Share the interface drawing, thickness tolerance, clamp condition and required e
 - [IEC 60243-1:2013](https://webstore.iec.ch/en/publication/1101), short-time electric-strength testing of solid insulating materials at power frequencies.
 
 Confirm the current revision and scope with the issuing organization. Verify every supplier value against the original TDS and stated test conditions.
+{% include commercial-authority-path.html %}

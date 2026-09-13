@@ -13,6 +13,19 @@ Evaluate thermal interface material suppliers by their ability to reproduce the 
 
 The useful question is not simply “Who sells a high-W/m·K material?” It is: “Which candidate can meet the thermal, mechanical, electrical, manufacturing and supply requirements of this assembly with evidence we can reproduce?”
 
+## Choose the correct material and application route
+
+| Procurement or engineering need | Start here | Qualification focus |
+| --- | --- | --- |
+| Compressible sheet gap filler | [China thermal pad supplier evaluation]({{ '/thermal-pad-supplier-china/' | relative_url }}) | Thickness, compression force, die cut, liner, electrical role and multi-lot consistency |
+| Dispensed gap filler | [China thermal gel supplier evaluation]({{ '/thermal-gel-supplier-china/' | relative_url }}) | Equipment compatibility, bead/shot control, void, slump, cure and pump-out |
+| Electrically isolating interface | [IGBT thermal insulator qualification]({{ '/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/' | relative_url }}) | Thermal resistance, dielectric method, edges, fasteners and aging |
+| 800G or 1.6T optical module | [800G supplier qualification]({{ '/optical-module/thermal-pad-supplier-for-800g-optical-modules/' | relative_url }}) and [1.6T selection]({{ '/optical-module/thermal-pad-for-1-6t-optical-modules/' | relative_url }}) | Contact area, compression window, component load, housing flatness and reliability |
+| AI-server power conversion | [AI server and 800V DC TIM map]({{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | relative_url }}) | Interface-by-interface pad, gel or insulator choice; BLT, isolation and production validation |
+| IGBT, SiC, OBC or PCS | [SiC TIM selection]({{ '/power-electronics/thermal-interface-material-for-sic-power-modules/' | relative_url }}), [OBC selection]({{ '/obc/thermal-interface-materials-for-obc-complete-selection-guide/' | relative_url }}) and [PCS selection]({{ '/pcs/tim-selection-for-pcs/' | relative_url }}) | Contact resistance, isolation, pressure, cycling and assembly process |
+
+“Supplier in China” describes sourcing context, not manufacturing ownership, authorization or qualification status. Verify the actual legal entity, production site, delivered-part controls and application evidence before approval.
+
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/tim-second-source-supplier-qualification-flow.webp' | relative_url }}" width="1440" height="540" loading="lazy" decoding="async" alt="Thermal interface material second-source qualification flow from requirement definition and benchmark testing to pilot build and RFQ"><figcaption><strong>Engineering Diagram.</strong> A gated second-source TIM qualification flow. Progression depends on application-owner approval; the diagram does not claim customer qualification.</figcaption></figure>
 
 OUYANG THERMAL provides engineering knowledge, application analysis, TIM selection and benchmark guidance. Hongjing New Materials Technology (Shenzhen) Co., Ltd. handles commercial inquiries, sample coordination, RFQs and supply-chain coordination. No manufacturing ownership or third-party authorization is implied.
@@ -153,3 +166,5 @@ If you are evaluating a TIM supplier or second source, [Discuss Your Application
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), Standard Test Method for Thermal Transmission Properties of Thermally Conductive Electrical Insulation Materials.
 
 {% include contact-card.html subject="Thermal Interface Material Supplier Evaluation" %}
+
+{% include commercial-authority-path.html %}

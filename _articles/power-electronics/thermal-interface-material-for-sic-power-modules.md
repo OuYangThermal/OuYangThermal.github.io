@@ -77,4 +77,4 @@ Grease requires reproducible dispense or print thickness and contamination contr
 
 - [Infineon power-module assembly guidance](https://documentation.infineon.com/atv-high-power/docs/upi1701333452334).
 - [Wolfspeed SiC power-module technical resources](https://www.wolfspeed.com/products/power/sic-power-modules/).
-
+{% include commercial-authority-path.html %}

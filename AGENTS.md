@@ -10,7 +10,7 @@
 6. Do not change WhatsApp `+86 133 6790 9790`, email `5672306@gmail.com`, telephone links, or the Formspree endpoint unless the user explicitly requests it.
 7. Never invent customer cases, customers, test data, material performance, certifications, authorizations, search volume, search-console results, rankings, citations, or supplier/manufacturer status.
 8. Before creating content, search all articles, pages, `data/keyword-map.csv`, and mapped `Existing URL` values. Prefer `UPDATE` over duplicate `CREATE`; do not create keyword cannibalization.
-9. New content remains a draft until it passes technical review and the user authorizes publication. Automated commit, push, and deploy are disabled during the current controlled pilot.
+9. New content must pass technical review before publication. The active Daily Commercial GEO task may commit, push, and deploy only when its score, cannibalization, source, build, canonical, and old-URL safety gates pass; otherwise it must SKIP without an empty commit.
 10. After edits, run the available source checks, image audit, Jekyll build in a compatible GitHub Pages environment, built-link checks, canonical and sitemap validation, 404 checks, and inquiry CTA checks proportional to the change.
 11. Before committing, show or summarize `git diff`, test results, and the exact files to stage. Push only with explicit user authorization unless the current request explicitly includes deployment.
 12. After an authorized deployment, verify the production homepage, changed URLs, sitemap, robots file, inquiry page, verification file, redirects, and HTTP status.

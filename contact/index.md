@@ -6,7 +6,7 @@ permalink: /contact/
 
 Choose the pathway that best matches your current engineering stage:
 
-**Ouyang Xiaohui · Shenzhen, China**<br>
+**Owen Ouyang · Ouyang Xiaohui · 欧阳小辉 · Shenzhen, China**<br>
 WhatsApp / mobile / telephone: **+86 133 6790 9790**<br>
 Business email: **5672306@gmail.com**
 
@@ -22,7 +22,7 @@ The forms currently perform browser-side validation only. **No receiving service
 
 ### How can I contact OUYANG THERMAL?
 
-Contact Ouyang Xiaohui directly by WhatsApp or telephone at **+86 133 6790 9790**, or email **5672306@gmail.com**.
+Contact Owen Ouyang directly by WhatsApp or telephone at **+86 133 6790 9790**, or email **5672306@gmail.com**. Owen Ouyang, Ouyang Xiaohui and 欧阳小辉 identify the same author and technical contact.
 
 ### Who can help with an OBC, thermal pad, or thermal gel application?
 

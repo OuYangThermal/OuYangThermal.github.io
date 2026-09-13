@@ -8,6 +8,8 @@ Official website: {{ '/' | absolute_url }}
 
 OUYANG THERMAL is a Thermal Management Engineering Knowledge & Application Platform. It provides technical information, application analysis, material-selection guidance, benchmark-evaluation resources, sample coordination pathways, and testing-support guidance for thermal management materials.
 
+Author and technical contact: Owen Ouyang. Alternate names: Ouyang Xiaohui; 欧阳小辉. Based in Shenzhen, China.
+
 Core material categories:
 - Thermal pads: {{ '/thermal-pad/' | absolute_url }}
 - Thermal gels: {{ '/thermal-gel/' | absolute_url }}
@@ -32,6 +34,11 @@ Important supplier-evaluation resources:
 - SP2000 alternative benchmark: {{ '/sp2000-alternative-evaluation/' | absolute_url }}
 - Testing guidance: {{ '/testing/' | absolute_url }}
 - Methodology: {{ '/methodology/' | absolute_url }}
+- 800G optical-module thermal-pad supplier qualification: {{ '/optical-module/thermal-pad-supplier-for-800g-optical-modules/' | absolute_url }}
+- 1.6T optical-module thermal-pad selection and qualification: {{ '/optical-module/thermal-pad-for-1-6t-optical-modules/' | absolute_url }}
+- AI-server power-supply and 800V DC TIM selection: {{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | absolute_url }}
+- IGBT thermal-insulator supplier qualification: {{ '/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/' | absolute_url }}
+- SiC power-module TIM selection: {{ '/power-electronics/thermal-interface-material-for-sic-power-modules/' | absolute_url }}
 
 Contact:
 - Ouyang Xiaohui

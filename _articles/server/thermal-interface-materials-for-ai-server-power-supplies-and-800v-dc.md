@@ -110,4 +110,4 @@ Share a sanitized interface drawing, gap range, contact area, electrical role, e
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), thermal transmission properties of thermally conductive electrical insulation materials.
 
 Confirm current document revisions and product-specific applicability before defining qualification limits.
-
+{% include commercial-authority-path.html %}

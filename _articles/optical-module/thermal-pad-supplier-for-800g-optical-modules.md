@@ -151,3 +151,4 @@ Share the sanitized gap range, contact area, force limit, form factor and therma
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), thermal transmission properties of thermally conductive electrical insulation materials.
 
 Confirm the current specification revision and applicability to the selected form factor. Validate material data against the original TDS and representative hardware.
+{% include commercial-authority-path.html %}

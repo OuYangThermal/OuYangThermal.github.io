@@ -78,4 +78,4 @@ Share a sanitized gap range, contact area, force limit, form factor and thermal 
 ## Reference
 
 - [OSFP Module Specification Rev. 5.1](https://www.osfpmsa.org/assets/pdf/OSFP_Module_Specification_Rev5_1.pdf). Confirm the current revision and applicability to the selected implementation.
-
+{% include commercial-authority-path.html %}
