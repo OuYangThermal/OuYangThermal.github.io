@@ -2,12 +2,15 @@
 title: Thermal Gel Supplier Evaluation in China
 description: Evaluate thermal gel candidates in China using application requirements, dispensing constraints, reliability, and controlled testing.
 permalink: /thermal-gel-supplier-china/
+alternate_zh: /zh/thermal-gel/
 commercial_contact: true
 contact_message: "Hi Ouyang, I'm evaluating a thermal gel for my application. Could you help me review the material direction? Source: Thermal Gel Supplier China"
 email_subject: "Thermal Gel Inquiry – China Supplier"
 ---
 
 ## Direct answer
+
+[中文：导热凝胶选型与失效诊断]({{ '/zh/thermal-gel/' | relative_url }})
 
 Choosing a thermal gel supply path in China requires more than comparing W/mK values. OUYANG THERMAL provides application analysis, selection frameworks, and benchmark guidance; Hongjing New Materials Technology (Shenzhen) Co., Ltd. coordinates commercial inquiries, samples, RFQs, and supply-chain discussions.
 

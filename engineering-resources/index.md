@@ -2,8 +2,11 @@
 title: "OUYANG THERMAL Engineering Resources"
 description: "Thermal interface material engineering tools, qualification checklists and original diagrams for selection, validation and supplier discussions."
 permalink: /engineering-resources/
+alternate_zh: /zh/engineering-resources/
 commercial_contact: true
 ---
+
+[中文工程资源 / Chinese Version]({{ '/zh/engineering-resources/' | relative_url }})
 
 <div class="quick"><strong>Answer first</strong><p>These original OUYANG THERMAL resources turn common TIM decisions into practical checklists, workflows and engineering diagrams. Use them to define requirements and plan validation—not as substitutes for application testing or supplier qualification.</p></div>
 
@@ -62,4 +65,3 @@ Use the decision sequence: `gap tolerance → selected thickness → compressed 
 ## Use an asset in a controlled evaluation
 
 Start with the relevant diagram, then [benchmark the current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}), [request a sample evaluation]({{ '/request-sample/' | relative_url }}) or [ask Owen a private engineering question]({{ '/discuss-your-application/' | relative_url }}).
-

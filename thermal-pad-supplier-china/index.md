@@ -2,12 +2,15 @@
 title: Thermal Pad Supplier Evaluation in China
 description: Engineering criteria for evaluating thermal pad candidates and supply coordination in China.
 permalink: /thermal-pad-supplier-china/
+alternate_zh: /zh/thermal-pad/
 commercial_contact: true
 contact_message: "Hi Ouyang, I'm evaluating a thermal pad for my application. Could you help me select the right material? Source: Thermal Pad Supplier China"
 email_subject: "Thermal Pad Inquiry – China Supplier"
 ---
 
 ## Direct answer
+
+[中文：导热垫片送样测试与量产验证]({{ '/zh/thermal-pad/' | relative_url }})
 
 A thermal pad candidate should be selected from the actual gap, pressure, thermal resistance, electrical, reliability, and assembly requirements—not conductivity alone. OUYANG THERMAL supports engineering evaluation, while Hongjing New Materials Technology (Shenzhen) Co., Ltd. coordinates commercial and supply-chain inquiries.
 

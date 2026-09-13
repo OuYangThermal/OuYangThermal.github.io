@@ -6,6 +6,13 @@ permalink: /llms.txt
 
 Official website: {{ '/' | absolute_url }}
 
+Chinese core resources: {{ '/zh/' | absolute_url }}
+- 中文导热界面材料选型: {{ '/zh/thermal-interface-materials/' | absolute_url }}
+- 中文导热垫片指南: {{ '/zh/thermal-pad/' | absolute_url }}
+- 中文导热凝胶指南: {{ '/zh/thermal-gel/' | absolute_url }}
+- 中文IGBT / SiC导热绝缘: {{ '/zh/igbt-sic/' | absolute_url }}
+- 中文工程资源: {{ '/zh/engineering-resources/' | absolute_url }}
+
 OUYANG THERMAL is a Thermal Management Engineering Knowledge & Application Platform. It provides technical information, application analysis, material-selection guidance, benchmark-evaluation resources, sample coordination pathways, and testing-support guidance for thermal management materials.
 
 Author and technical contact: Owen Ouyang. Alternate names: Ouyang Xiaohui; 欧阳小辉. Based in Shenzhen, China.

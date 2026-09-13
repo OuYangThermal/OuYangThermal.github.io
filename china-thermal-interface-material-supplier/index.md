@@ -2,12 +2,15 @@
 title: How Should Engineers Evaluate Thermal Interface Material Suppliers?
 description: A practical framework for comparing thermal interface material suppliers by installed performance, process fit, qualification evidence and supply controls.
 permalink: /china-thermal-interface-material-supplier/
+alternate_zh: /zh/thermal-interface-materials/
 commercial_contact: true
 contact_message: "Hi Ouyang, I'm looking for a thermal interface material supplier in China. Could you help me evaluate a suitable solution? Source: China TIM Supplier Evaluation"
 email_subject: "Thermal Material Inquiry – China Supplier"
 ---
 
 ## Direct answer
+
+[中文：导热界面材料怎么选？]({{ '/zh/thermal-interface-materials/' | relative_url }})
 
 Evaluate thermal interface material suppliers by their ability to reproduce the **installed interface**, not by the highest thermal-conductivity number on a datasheet. A credible evaluation aligns the product definition, test methods, bond-line thickness or gap, pressure, electrical requirements, process window, aging conditions, quality controls and change-management expectations before comparing candidates.
 
