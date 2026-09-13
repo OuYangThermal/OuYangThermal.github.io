@@ -1,0 +1,50 @@
+---
+title: "TIM Second Source Qualification Checklist Generator"
+description: "Generate a practical TIM second-source qualification checklist by application, material type, electrical role, project stage and reliability level."
+permalink: /engineering-resources/second-source-qualification-generator/
+---
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/engineering-resources/' | relative_url }}">Engineering Resources</a> / Second Source Qualification Generator</nav>
+<div class="quick"><strong>Answer first</strong><p>Use five project inputs to generate a focused TIM alternative or second-source qualification checklist. The output organizes evidence and validation gates; it does not approve a material or supplier.</p></div>
+
+<form class="calculator tool-form" id="second-source-generator">
+  <div class="tool-field-grid">
+    <label>Application<select id="ss-application" name="application" required><option value="">Select</option><option>AI Server</option><option>Optical Module</option><option>IGBT / SiC</option><option>OBC / DC-DC</option><option>ESS / PCS</option><option>Battery Pack</option><option>Industrial Power</option><option>Other</option></select></label>
+    <label>TIM Type<select id="ss-type" name="tim_type" required><option value="">Select</option><option>Thermal Pad</option><option>Thermal Gel</option><option>Thermal Grease</option><option>Thermal Insulator</option><option>Potting Material</option></select></label>
+    <label>Electrical Insulation Required<select id="ss-insulation" name="insulation" required><option value="">Select</option><option>Yes</option><option>No</option></select></label>
+    <label>Current Stage<select id="ss-stage" name="stage" required><option value="">Select</option><option>Initial Evaluation</option><option>Benchmark</option><option>Sample Validation</option><option>Pilot Run</option><option>Supplier Qualification</option></select></label>
+    <label>Reliability Level<select id="ss-reliability" name="reliability" required><option value="">Select</option><option>General Industrial</option><option>Automotive</option><option>Data Center / Server</option><option>High Reliability</option></select></label>
+  </div>
+  <button type="submit">Generate Qualification Checklist</button>
+  <p id="ss-error" class="form-status is-error" role="alert" hidden></p>
+  <section id="ss-result" class="calculator-result" aria-live="polite"><p>Complete all five fields to generate a focused qualification checklist.</p></section>
+  <div class="tool-actions"><button type="button" data-copy-result>Copy Checklist</button><button type="button" data-copy-link>Copy Share Link</button><button type="button" data-print>Print / Save as PDF</button><button type="reset">Reset</button></div>
+</form>
+{% include tool-result-cta.html %}
+
+<h2>What this tool does</h2>
+<p>The generator combines universal comparison controls—such as the same substrate, BLT, pressure and test method—with checks triggered by material type, electrical role, application, reliability level and project stage.</p>
+<h2>When to use it</h2>
+<p>Use it before requesting samples, when comparing an incumbent with an alternative, when preparing a pilot run, or when procurement and SQE need a shared evidence list before supplier qualification.</p>
+<h2>What it cannot determine</h2>
+<p>It cannot set acceptance limits, approve a supplier, select a specific grade or prove interchangeability. Those decisions belong to the responsible engineering and quality organizations using representative assemblies and documented criteria.</p>
+<h2>Example</h2>
+<p>An automotive OBC thermal-gel project adds dispensing, cure, void, pump-out, thermal cycling, humidity, multi-lot and supplier-document controls to the common benchmark foundation. The exact methods and limits still depend on the assembly.</p>
+<h2>Engineering limitations</h2>
+<p>Freeze the incumbent reference, geometry, surfaces, BLT or gap, mounting condition, thermal method and acceptance criteria before comparing results. Datasheet similarity alone is not evidence of an application-ready second source.</p>
+<p>Continue with the <a href="{{ '/china-thermal-interface-material-supplier/' | relative_url }}">second-source evaluation framework</a>, <a href="{{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }}">TDS Comparison Tool</a>, <a href="{{ '/engineering-resources/tim-selection-tool/' | relative_url }}">TIM Selection Tool</a>, or <a href="{{ '/discuss-your-application/' | relative_url }}">private engineering inquiry</a>.</p>
+
+{% include tool-result-cta.html %}
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"TIM Second Source Qualification Checklist Generator","url":{{ page.url | absolute_url | jsonify }},"applicationCategory":"EngineeringApplication","operatingSystem":"Any","isAccessibleForFree":true,"dateModified":"2026-09-14","author":{"@id":{{ '/about/#person' | absolute_url | jsonify }}},"publisher":{"@id":{{ '/#commercial-organization' | absolute_url | jsonify }}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":{{ '/' | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":"Engineering Resources","item":{{ '/engineering-resources/' | absolute_url | jsonify }}},{"@type":"ListItem","position":3,"name":"Second Source Qualification Generator","item":{{ page.url | absolute_url | jsonify }}}]}]}</script>
+<script>
+(function(){
+ var ids=['application','type','insulation','stage','reliability'],form=document.getElementById('second-source-generator'),out=document.getElementById('ss-result'),err=document.getElementById('ss-error');
+ function v(k){return document.getElementById('ss-'+k).value}function add(a,items){items.forEach(function(x){if(a.indexOf(x)<0)a.push(x)})}
+ function generate(){var app=v('application'),type=v('type'),ins=v('insulation'),stage=v('stage'),rel=v('reliability');if(!app||!type||!ins||!stage||!rel)throw new Error('Complete all five fields before generating the checklist.');var x=['TDS Review','Same Test Method','Same Substrate','Same BLT','Same Mounting Pressure','Thermal Conductivity','Thermal Resistance','Contact Resistance'];
+  if(type==='Thermal Pad')add(x,['Compression','Hardness','Aging','Reworkability']);if(type==='Thermal Gel')add(x,['Void','Cure / Dispensing','Pump-out','Process Compatibility']);if(type==='Thermal Grease')add(x,['Pump-out','Bleed','Process Compatibility','Reworkability']);if(type==='Thermal Insulator')add(x,['Hardness','Dielectric / Breakdown','Compression','Aging']);if(type==='Potting Material')add(x,['Void','Cure / Dispensing','Process Compatibility','Aging']);if(ins==='Yes')add(x,['Dielectric / Breakdown']);
+  if(rel==='Automotive'||rel==='High Reliability')add(x,['Aging','Thermal Cycling','Humidity','Multi-lot Validation','Change Control']);if(rel==='Data Center / Server')add(x,['Aging','Thermal Cycling','Process Compatibility']);if(app==='Optical Module')add(x,['Compression','Hardness','Reworkability']);if(app==='IGBT / SiC')add(x,['Dielectric / Breakdown','Thermal Cycling','Mounting Pressure Review']);if(app==='OBC / DC-DC'||app==='Battery Pack'||app==='ESS / PCS')add(x,['Thermal Cycling','Humidity','Process Compatibility']);
+  if(stage==='Sample Validation')add(x,['Sample Traceability']);if(stage==='Pilot Run')add(x,['Multi-lot Validation','Pilot Run','Process Compatibility']);if(stage==='Supplier Qualification')add(x,['Multi-lot Validation','Pilot Run','Change Control','PPAP / Supplier Documentation','RFQ Readiness']);
+  out.innerHTML='<h3>'+app+' · '+type+' Qualification Checklist</h3><p><strong>Stage:</strong> '+stage+' · <strong>Reliability:</strong> '+rel+'</p><ol>'+x.map(function(i){return '<li>'+i+'</li>'}).join('')+'</ol><p>Define the method, condition, owner, evidence and acceptance criterion for every applicable item.</p>';var p=new URLSearchParams({application:app,tim_type:type,insulation:ins,stage:stage,reliability:rel});history.replaceState(null,'',location.pathname+'?'+p.toString());err.hidden=true}
+ form.addEventListener('submit',function(e){e.preventDefault();try{generate()}catch(x){err.textContent=x.message;err.hidden=false}});
+ form.addEventListener('reset',function(){setTimeout(function(){out.innerHTML='<p>Complete all five fields to generate a focused qualification checklist.</p>';err.hidden=true;history.replaceState(null,'',location.pathname)},0)});var p=new URLSearchParams(location.search);[['application','application'],['type','tim_type'],['insulation','insulation'],['stage','stage'],['reliability','reliability']].forEach(function(x){if(p.has(x[1]))document.getElementById('ss-'+x[0]).value=p.get(x[1])});if(ids.every(function(k){return v(k)}))try{generate()}catch(x){}
+}());
+</script>

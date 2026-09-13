@@ -150,6 +150,8 @@ No. It can support screening and method alignment. The application owner must va
 
 For an OBC second-source review, send the incumbent reference, gap range, dispense format, application temperatures and the first validation gate. [Request a Sample]({{ '/request-sample/' | relative_url }}) for controlled evaluation, or [Discuss Your Application]({{ '/discuss-your-application/' | relative_url }}). Existing WhatsApp, email and phone options remain available.
 
+Build a project-specific starting list with the [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }}), then compare supplier documents using the [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }}).
+
 ## Technical reference
 
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), Standard Test Method for Thermal Transmission Properties of Thermally Conductive Electrical Insulation Materials.

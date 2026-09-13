@@ -23,6 +23,7 @@ permalink: /engineering-resources/thermal-resistance-calculator/
   <output id="calculator-result" class="calculator-result" aria-live="polite">Enter positive values to calculate R in K/W.</output>
   <div class="tool-actions"><button type="button" data-copy-result>Copy Result</button><button type="button" data-copy-link>Copy Share Link</button><button type="button" data-print>Print / Save as PDF</button><button type="reset">Reset</button></div>
 </form>
+{% include tool-result-cta.html %}
 
 <h2>Formula and units</h2>
 <p><code>Rbulk = t / (k × A)</code></p>
@@ -66,5 +67,6 @@ permalink: /engineering-resources/thermal-resistance-calculator/
   if (params.has('thickness_unit')) document.getElementById('thickness-unit').value = params.get('thickness_unit');
   if (params.has('area')) document.getElementById('contact-area').value = params.get('area');
   if (params.has('area_unit')) document.getElementById('area-unit').value = params.get('area_unit');
+  if (params.has('k') && params.has('thickness') && params.has('area')) form.dispatchEvent(new Event('submit', { cancelable: true }));
 }());
 </script>

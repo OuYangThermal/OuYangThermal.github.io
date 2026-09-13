@@ -17,13 +17,14 @@ Each asset identifies its underlying technical page and assumptions. **Free to r
 ## Engineering Tools
 
 <div class="grid tool-card-grid">
-<article class="card"><h3><a href="{{ '/engineering-resources/tim-selection-tool/' | relative_url }}">1. TIM Selection Tool</a></h3><p>Screen pad, gel, grease, insulator or encapsulation categories from five application inputs.</p></article>
-<article class="card"><h3><a href="{{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}">2. Thermal Pad Compression Calculator</a></h3><p>Calculate compression amount, ratio, compressed BLT and optional theoretical bulk resistance.</p></article>
-<article class="card"><h3><a href="{{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}">3. Thermal Resistance Calculator</a></h3><p>Estimate theoretical bulk thermal resistance from conductivity, BLT and contact area.</p></article>
-<article class="card"><h3><a href="{{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }}">4. TIM TDS Comparison &amp; Benchmark Tool</a></h3><p>Compare two datasheets, expose missing information and generate a controlled benchmark checklist.</p></article>
+<article class="card"><h3>1. TIM Selection Tool</h3><p>Screen a practical TIM category from five application inputs.</p><a class="button-link" href="{{ '/engineering-resources/tim-selection-tool/' | relative_url }}">Use Tool</a></article>
+<article class="card"><h3>2. Thermal Pad Compression Calculator</h3><p>Calculate compression ratio, compressed BLT and optional bulk resistance.</p><a class="button-link" href="{{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}">Use Tool</a></article>
+<article class="card"><h3>3. Thermal Resistance Calculator</h3><p>Estimate theoretical bulk resistance from conductivity, BLT and area.</p><a class="button-link" href="{{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}">Use Tool</a></article>
+<article class="card"><h3>4. TIM TDS Comparison &amp; Benchmark Tool</h3><p>Compare two datasheets and generate a controlled benchmark checklist.</p><a class="button-link" href="{{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }}">Use Tool</a></article>
+<article class="card"><h3>5. Second Source Qualification Generator</h3><p>Build an application-specific TIM qualification checklist.</p><a class="button-link" href="{{ '/engineering-resources/second-source-qualification-generator/' | relative_url }}">Use Tool</a></article>
 </div>
 
-## Citation Assets
+## Engineering Guides & Citation Assets
 
 ### 1. Thermal Pad Supplier Qualification — 12-Gate Checklist {#thermal-pad-12-gate-checklist}
 

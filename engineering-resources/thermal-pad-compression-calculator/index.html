@@ -20,6 +20,7 @@ commercial_contact: false
   <section id="pad-result" class="calculator-result" aria-live="polite"><p>Enter positive thickness and gap values. The actual gap must not exceed the original pad thickness.</p></section>
   <div class="tool-actions"><button type="button" data-copy-result>Copy Result</button><button type="button" data-copy-link>Copy Share Link</button><button type="button" data-print>Print / Save as PDF</button><button type="reset">Reset</button></div>
 </form>
+{% include tool-result-cta.html %}
 
 <h2>What this tool calculates</h2>
 <p>Compression amount is <code>original thickness − compressed BLT</code>. Compression ratio is that amount divided by original thickness. If both conductivity and area are supplied, the tool also calculates theoretical bulk resistance using <code>R = t/(k × A)</code> after converting millimetres and square millimetres to SI units.</p>

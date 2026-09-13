@@ -161,6 +161,7 @@ No. Location, commercial coordination, manufacturing ownership, distribution aut
 - [AI Server Power Supply and 800V DC TIM]({{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | relative_url }})
 - [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }})
 - [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
+- [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }})
 
 ## Next step
 

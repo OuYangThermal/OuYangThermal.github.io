@@ -1,9 +1,10 @@
 <aside class="tool-result-cta" aria-label="Engineering review contact">
   <h2>Need help validating this result?</h2>
-  <p>Send your application, gap, material TDS or benchmark target to Owen for an engineering review.</p>
+  <p>Send your application, gap, current material TDS or benchmark target to Owen. I can help you build a practical comparison and validation plan.</p>
   <div class="contact-actions">
-    <a class="contact-primary" data-conversion="tool_whatsapp_click" data-source="{{ page.title | escape }}" href="https://wa.me/8613367909790?text={{ 'I would like to discuss the result from ' | append: page.title | url_encode }}">Discuss This Result on WhatsApp</a>
+    <a class="contact-primary" data-conversion="tool_benchmark_email_click" data-source="{{ page.title | escape }}" href="mailto:5672306@gmail.com?subject={{ page.title | prepend: 'TDS benchmark review: ' | url_encode }}">Send Your TDS to Owen for a Benchmark Review</a>
+    <a data-conversion="tool_whatsapp_click" data-source="{{ page.title | escape }}" href="https://wa.me/8613367909790?text={{ 'I would like to discuss the result from ' | append: page.title | url_encode }}">Discuss This Result on WhatsApp</a>
     <a data-conversion="tool_email_click" data-source="{{ page.title | escape }}" href="mailto:5672306@gmail.com?subject={{ page.title | prepend: 'Engineering review: ' | url_encode }}">Email Your TDS / Application</a>
-    <a data-conversion="tool_inquiry_click" data-source="{{ page.title | escape }}" href="{{ '/discuss-your-application/' | relative_url }}">Ask Owen for a Benchmark Review</a>
+    <a data-conversion="tool_inquiry_click" data-source="{{ page.title | escape }}" href="{{ '/discuss-your-application/' | relative_url }}">Ask Owen for a Second-Source Review</a>
   </div>
 </aside>
