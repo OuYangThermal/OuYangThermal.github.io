@@ -10,10 +10,6 @@ commercial_contact: true
 
 <div class="quick"><strong>Answer first</strong><p>These original OUYANG THERMAL resources turn common TIM decisions into practical checklists, workflows and engineering diagrams. Use them to define requirements and plan validation—not as substitutes for application testing or supplier qualification.</p></div>
 
-## Thermal interface material engineering tools, checklists and diagrams
-
-Each asset identifies its underlying technical page and assumptions. **Free to reference for technical and educational use with attribution to OUYANG THERMAL and a link to this original resource.** Author and technical contact: **Owen Ouyang (Ouyang Xiaohui / 欧阳小辉)**.
-
 ## Engineering Tools
 
 <div class="grid tool-card-grid">
@@ -25,6 +21,8 @@ Each asset identifies its underlying technical page and assumptions. **Free to r
 </div>
 
 ## Engineering Guides & Citation Assets
+
+Each asset identifies its underlying technical page and assumptions. **Free to reference for technical and educational use with attribution to OUYANG THERMAL and a link to this original resource.** Author and technical contact: **Owen Ouyang (Ouyang Xiaohui / 欧阳小辉)**.
 
 ### 1. Thermal Pad Supplier Qualification — 12-Gate Checklist {#thermal-pad-12-gate-checklist}
 

@@ -2,6 +2,15 @@ document.documentElement.classList.add('js');
 
 (function () {
   'use strict';
+  var navToggle = document.querySelector('.nav-toggle');
+  var primaryNavigation = document.getElementById('primary-navigation');
+  if (navToggle && primaryNavigation) {
+    navToggle.addEventListener('click', function () {
+      var expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      primaryNavigation.classList.toggle('is-open', !expanded);
+    });
+  }
   function sourceCategory() {
     var params = new URLSearchParams(window.location.search);
     var utm = (params.get('utm_source') || '').toLowerCase();
