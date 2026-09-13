@@ -7,3 +7,16 @@ vendor/
 visual-inbox/
 audit-output*/
 __pycache__/
+
+# Local email/OAuth material — never commit credentials or mailbox exports.
+.env
+.env.*
+!.env.example
+credentials*.json
+client_secret*.json
+gmail-token*.json
+oauth-token*.json
+token*.json
+*.mbox
+*.eml
+docs/backlink-outreach/private/
