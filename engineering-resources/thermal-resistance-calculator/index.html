@@ -24,20 +24,12 @@ permalink: /engineering-resources/thermal-resistance-calculator/
   <div class="tool-actions"><button type="button" data-copy-result>Copy Result</button><button type="button" data-copy-link>Copy Share Link</button><button type="button" data-print>Print / Save as PDF</button><button type="reset">Reset</button></div>
 </form>
 
-## Formula and units
-
-`Rbulk = t / (k × A)`
-
-- Convert thickness `t` to metres.
-- Use conductivity `k` in W/m·K.
-- Convert contact area `A` to m².
-- The result is K/W for the defined uniform layer and area.
-
-## Engineering limitation
-
-Actual assembly performance is also affected by **contact resistance, compression, surface roughness and flatness, assembly pressure, voids, spreading resistance, material aging and cooling boundaries**. Datasheet conductivity may also depend on the test method and condition. Use this result for first-order screening, then compare candidates at representative BLT, pressure, surfaces and temperature.
-
-[Review thermal conductivity versus thermal resistance]({{ '/comparison/thermal-conductivity-vs-thermal-resistance/' | relative_url }}) · [Review TIM test conditions]({{ '/testing/' | relative_url }}) · [Benchmark your current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
+<h2>Formula and units</h2>
+<p><code>Rbulk = t / (k × A)</code></p>
+<ul><li>Convert thickness <code>t</code> to metres.</li><li>Use conductivity <code>k</code> in W/m·K.</li><li>Convert contact area <code>A</code> to m².</li><li>The result is K/W for the defined uniform layer and area.</li></ul>
+<h2>Engineering limitation</h2>
+<p>Actual assembly performance is also affected by <strong>contact resistance, compression, surface roughness and flatness, assembly pressure, voids, spreading resistance, material aging and cooling boundaries</strong>. Datasheet conductivity may also depend on the test method and condition. Use this result for first-order screening, then compare candidates at representative BLT, pressure, surfaces and temperature.</p>
+<p><a href="{{ '/comparison/thermal-conductivity-vs-thermal-resistance/' | relative_url }}">Review thermal conductivity versus thermal resistance</a> · <a href="{{ '/testing/' | relative_url }}">Review TIM test conditions</a> · <a href="{{ '/benchmark-your-current-tim/' | relative_url }}">Benchmark your current TIM</a></p>
 
 {% include tool-result-cta.html %}
 

@@ -21,19 +21,13 @@ commercial_contact: false
   <div class="tool-actions"><button type="button" data-copy-result>Copy Result</button><button type="button" data-copy-link>Copy Share Link</button><button type="button" data-print>Print / Save as PDF</button><button type="reset">Reset</button></div>
 </form>
 
-## What this tool calculates
-
-Compression amount is `original thickness − compressed BLT`. Compression ratio is that amount divided by original thickness. If both conductivity and area are supplied, the tool also calculates theoretical bulk resistance using `R = t/(k × A)` after converting millimetres and square millimetres to SI units.
-
-## Higher compression is not always better
-
-Compression can improve surface conformity and reduce interfacial air, but excessive compression can raise assembly force, bend a PCB, load optical or power components, amplify tolerance-stack risk and affect long-term recovery. **Compression suitability must be validated against the specific material’s compression-force curve, tolerance stack-up, component load limit and assembly conditions.**
-
-## Example and engineering limitations
-
-A 2.0 mm pad assembled into a 1.6 mm gap has 0.4 mm compression and a 20% compression ratio. That arithmetic does not establish suitability. Validate minimum and maximum gap, force-deflection behavior, compressed thermal resistance, contact quality, dimensional tolerance and post-aging condition.
-
-Related: [thermal-pad supplier qualification]({{ '/thermal-pad-supplier-china/' | relative_url }}), [compression / BLT decision guide]({{ '/engineering-resources/' | relative_url }}#thermal-pad-compression-blt-guide), [TIM second-source workflow]({{ '/engineering-resources/' | relative_url }}#tim-second-source-workflow), and [benchmark your current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}).
+<h2>What this tool calculates</h2>
+<p>Compression amount is <code>original thickness − compressed BLT</code>. Compression ratio is that amount divided by original thickness. If both conductivity and area are supplied, the tool also calculates theoretical bulk resistance using <code>R = t/(k × A)</code> after converting millimetres and square millimetres to SI units.</p>
+<h2>Higher compression is not always better</h2>
+<p>Compression can improve surface conformity and reduce interfacial air, but excessive compression can raise assembly force, bend a PCB, load optical or power components, amplify tolerance-stack risk and affect long-term recovery. <strong>Compression suitability must be validated against the specific material’s compression-force curve, tolerance stack-up, component load limit and assembly conditions.</strong></p>
+<h2>Example and engineering limitations</h2>
+<p>A 2.0 mm pad assembled into a 1.6 mm gap has 0.4 mm compression and a 20% compression ratio. That arithmetic does not establish suitability. Validate minimum and maximum gap, force-deflection behavior, compressed thermal resistance, contact quality, dimensional tolerance and post-aging condition.</p>
+<p>Related: <a href="{{ '/thermal-pad-supplier-china/' | relative_url }}">thermal-pad supplier qualification</a>, <a href="{{ '/engineering-resources/' | relative_url }}#thermal-pad-compression-blt-guide">compression / BLT decision guide</a>, <a href="{{ '/engineering-resources/' | relative_url }}#tim-second-source-workflow">TIM second-source workflow</a>, and <a href="{{ '/benchmark-your-current-tim/' | relative_url }}">benchmark your current TIM</a>.</p>
 
 {% include tool-result-cta.html %}
 
