@@ -14,6 +14,17 @@ commercial_contact: true
 
 Each asset identifies its underlying technical page and assumptions. **Free to reference for technical and educational use with attribution to OUYANG THERMAL and a link to this original resource.** Author and technical contact: **Owen Ouyang (Ouyang Xiaohui / 欧阳小辉)**.
 
+## Engineering Tools
+
+<div class="grid tool-card-grid">
+<article class="card"><h3><a href="{{ '/engineering-resources/tim-selection-tool/' | relative_url }}">1. TIM Selection Tool</a></h3><p>Screen pad, gel, grease, insulator or encapsulation categories from five application inputs.</p></article>
+<article class="card"><h3><a href="{{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}">2. Thermal Pad Compression Calculator</a></h3><p>Calculate compression amount, ratio, compressed BLT and optional theoretical bulk resistance.</p></article>
+<article class="card"><h3><a href="{{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}">3. Thermal Resistance Calculator</a></h3><p>Estimate theoretical bulk thermal resistance from conductivity, BLT and contact area.</p></article>
+<article class="card"><h3><a href="{{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }}">4. TIM TDS Comparison &amp; Benchmark Tool</a></h3><p>Compare two datasheets, expose missing information and generate a controlled benchmark checklist.</p></article>
+</div>
+
+## Citation Assets
+
 ### 1. Thermal Pad Supplier Qualification — 12-Gate Checklist {#thermal-pad-12-gate-checklist}
 
 **Answer first:** A pad is ready for supplier qualification only when material, converted-part, reliability, multi-lot and pilot-build evidence all close—not when one sample or conductivity value looks acceptable.

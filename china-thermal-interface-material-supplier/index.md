@@ -159,6 +159,8 @@ No. Location, commercial coordination, manufacturing ownership, distribution aut
 - [China Thermal Pad Supplier Evaluation]({{ '/thermal-pad-supplier-china/' | relative_url }})
 - [China Thermal Gel Supplier Evaluation]({{ '/thermal-gel-supplier-china/' | relative_url }})
 - [AI Server Power Supply and 800V DC TIM]({{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | relative_url }})
+- [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }})
+- [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
 
 ## Next step
 

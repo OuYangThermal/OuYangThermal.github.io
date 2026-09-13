@@ -76,6 +76,8 @@ Sample → Same-condition benchmark → Reliability → Multi-lot review
 - [IGBT Thermal Insulator Supplier Qualification]({{ '/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/' | relative_url }})
 - [China TIM Supplier Evaluation]({{ '/china-thermal-interface-material-supplier/' | relative_url }})
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
+- [Thermal Pad Compression Calculator]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }})
+- [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 
 {% include contact-card.html subject="Thermal Pad Supplier Evaluation" %}

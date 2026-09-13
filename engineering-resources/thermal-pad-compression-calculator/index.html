@@ -1,0 +1,59 @@
+---
+title: "Thermal Pad Compression Calculator"
+description: "Calculate thermal pad compression ratio, compressed bond-line thickness and optional theoretical bulk thermal resistance for engineering review."
+permalink: /engineering-resources/thermal-pad-compression-calculator/
+commercial_contact: false
+---
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/engineering-resources/' | relative_url }}">Engineering Resources</a> / Thermal Pad Compression Calculator</nav>
+
+<div class="quick"><strong>Answer first</strong><p>Enter the pad's original thickness and actual assembled gap to calculate compression amount, compression ratio and compressed bond-line thickness (BLT). Optional conductivity and area inputs add a theoretical bulk-resistance estimate—not a pass/fail decision.</p></div>
+
+<form class="calculator tool-form" id="pad-compression-calculator" novalidate>
+  <div class="tool-field-grid">
+    <label>Original Pad Thickness (mm)<input id="pad-thickness" name="thickness" type="number" min="0.001" step="any" inputmode="decimal" required></label>
+    <label>Actual Gap / Compressed Thickness (mm)<input id="actual-gap" name="gap" type="number" min="0.001" step="any" inputmode="decimal" required></label>
+    <label>Thermal Conductivity (W/m·K) <small>Optional</small><input id="pad-k" name="k" type="number" min="0.001" step="any" inputmode="decimal"></label>
+    <label>Contact Area (mm²) <small>Optional</small><input id="pad-area" name="area" type="number" min="0.001" step="any" inputmode="decimal"></label>
+  </div>
+  <button type="submit">Calculate Compression</button>
+  <p id="pad-error" class="form-status is-error" role="alert" hidden></p>
+  <section id="pad-result" class="calculator-result" aria-live="polite"><p>Enter positive thickness and gap values. The actual gap must not exceed the original pad thickness.</p></section>
+  <div class="tool-actions"><button type="button" data-copy-result>Copy Result</button><button type="button" data-copy-link>Copy Share Link</button><button type="button" data-print>Print / Save as PDF</button><button type="reset">Reset</button></div>
+</form>
+
+## What this tool calculates
+
+Compression amount is `original thickness − compressed BLT`. Compression ratio is that amount divided by original thickness. If both conductivity and area are supplied, the tool also calculates theoretical bulk resistance using `R = t/(k × A)` after converting millimetres and square millimetres to SI units.
+
+## Higher compression is not always better
+
+Compression can improve surface conformity and reduce interfacial air, but excessive compression can raise assembly force, bend a PCB, load optical or power components, amplify tolerance-stack risk and affect long-term recovery. **Compression suitability must be validated against the specific material’s compression-force curve, tolerance stack-up, component load limit and assembly conditions.**
+
+## Example and engineering limitations
+
+A 2.0 mm pad assembled into a 1.6 mm gap has 0.4 mm compression and a 20% compression ratio. That arithmetic does not establish suitability. Validate minimum and maximum gap, force-deflection behavior, compressed thermal resistance, contact quality, dimensional tolerance and post-aging condition.
+
+Related: [thermal-pad supplier qualification]({{ '/thermal-pad-supplier-china/' | relative_url }}), [compression / BLT decision guide]({{ '/engineering-resources/' | relative_url }}#thermal-pad-compression-blt-guide), [TIM second-source workflow]({{ '/engineering-resources/' | relative_url }}#tim-second-source-workflow), and [benchmark your current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}).
+
+{% include tool-result-cta.html %}
+
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Thermal Pad Compression Calculator","url":{{ page.url | absolute_url | jsonify }},"applicationCategory":"EngineeringApplication","operatingSystem":"Any","isAccessibleForFree":true,"dateModified":"2026-09-14","author":{"@id":{{ '/about/#person' | absolute_url | jsonify }}},"publisher":{"@id":{{ '/#commercial-organization' | absolute_url | jsonify }}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":{{ '/' | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":"Engineering Resources","item":{{ '/engineering-resources/' | absolute_url | jsonify }}},{"@type":"ListItem","position":3,"name":"Thermal Pad Compression Calculator","item":{{ page.url | absolute_url | jsonify }}}]}]}</script>
+<script>
+(function(){
+  var form=document.getElementById('pad-compression-calculator'), result=document.getElementById('pad-result'), error=document.getElementById('pad-error');
+  function value(id){var raw=document.getElementById(id).value;return raw===''?null:Number(raw)}
+  function calculate(){
+    var t=value('pad-thickness'),g=value('actual-gap'),k=value('pad-k'),a=value('pad-area');
+    if(!Number.isFinite(t)||!Number.isFinite(g)||t<=0||g<=0){throw new Error('Enter positive numbers for original thickness and actual gap.')}
+    if(g>t){throw new Error('Actual gap cannot exceed original pad thickness for a compression calculation.')}
+    if((k!==null&&(!Number.isFinite(k)||k<=0))||(a!==null&&(!Number.isFinite(a)||a<=0))){throw new Error('Optional conductivity and area must be positive numbers.')}
+    if((k===null)!==(a===null)){throw new Error('Enter both conductivity and contact area to calculate theoretical bulk resistance, or leave both blank.')}
+    var amount=t-g, ratio=amount/t*100, bulk=k&&a?(g/1000)/(k*(a/1000000)):null;
+    result.innerHTML='<h3>Calculated Result</h3><dl class="result-grid"><div><dt>Compression Amount</dt><dd>'+amount.toFixed(3)+' mm</dd></div><div><dt>Compression Ratio</dt><dd>'+ratio.toFixed(2)+'%</dd></div><div><dt>Compressed BLT</dt><dd>'+g.toFixed(3)+' mm</dd></div><div><dt>Theoretical Bulk R</dt><dd>'+(bulk===null?'Not calculated':bulk.toPrecision(5)+' K/W')+'</dd></div></dl><p><strong>Engineering note:</strong> Review the material compression-force curve, tolerance stack, component load limit and assembly conditions before accepting this condition.</p>';
+    var p=new URLSearchParams({thickness:t,gap:g});if(k!==null){p.set('k',k);p.set('area',a)}history.replaceState(null,'',location.pathname+'?'+p.toString());error.hidden=true;
+  }
+  form.addEventListener('submit',function(e){e.preventDefault();try{calculate()}catch(x){error.textContent=x.message;error.hidden=false}});
+  form.addEventListener('reset',function(){setTimeout(function(){result.innerHTML='<p>Enter positive thickness and gap values. The actual gap must not exceed the original pad thickness.</p>';error.hidden=true;history.replaceState(null,'',location.pathname)},0)});
+  var p=new URLSearchParams(location.search);[['pad-thickness','thickness'],['actual-gap','gap'],['pad-k','k'],['pad-area','area']].forEach(function(x){if(p.has(x[1]))document.getElementById(x[0]).value=p.get(x[1])});if(p.has('thickness')&&p.has('gap'))try{calculate()}catch(x){}
+}());
+</script>

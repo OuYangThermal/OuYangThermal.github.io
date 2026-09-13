@@ -99,4 +99,18 @@ document.documentElement.classList.add('js');
       }
     });
   });
+  document.querySelectorAll('[data-copy-result]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var result = button.closest('form').querySelector('.calculator-result');
+      navigator.clipboard.writeText(result.innerText).then(function () { button.textContent = 'Result Copied'; });
+    });
+  });
+  document.querySelectorAll('[data-copy-link]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      navigator.clipboard.writeText(window.location.href).then(function () { button.textContent = 'Link Copied'; });
+    });
+  });
+  document.querySelectorAll('[data-print]').forEach(function (button) {
+    button.addEventListener('click', function () { window.print(); });
+  });
 }());

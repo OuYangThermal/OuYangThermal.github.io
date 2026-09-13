@@ -70,6 +70,8 @@ Require notification for formulation, filler, package, raw-material source, manu
 - [Thermal Gel for Battery Cooling Plates]({{ '/battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/' | relative_url }})
 - [China TIM Supplier Evaluation]({{ '/china-thermal-interface-material-supplier/' | relative_url }})
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
+- [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }})
+- [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 
 {% include contact-card.html subject="Thermal Gel Supplier Evaluation" %}
