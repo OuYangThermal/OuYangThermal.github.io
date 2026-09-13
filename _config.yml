@@ -35,6 +35,7 @@ exclude:
   - AGENTS.md
   - PROJECT_HANDOFF.md
   - NEXT_ACTIONS.md
+  - OUTREACH_ASSET_LIST.md
   - NEW_CODEX_START_PROMPT.md
   - project-state.json
   - package.json
