@@ -111,3 +111,4 @@ When page context changes, update the rendered ALT and the manifest `alt` togeth
 | V10 | obc-multiple-thermal-interface-material-locations.webp | engineering-diagram | multiple TIMs | OBC | /obc/why-does-an-obc-use-multiple-thermal-interface-materials/ | published |
 | V11 | battery-pack-thermal-gel-liquid-cooling-plate.webp | engineering-diagram | thermal gel | battery pack | /battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/ | published |
 | V12 | optical-transceiver-thermal-interface-material-location.webp | engineering-diagram | TIM | optical transceiver | /optical-module/thermal-interface-materials-for-optical-transceivers/ | published |
+| V13 | 800g-optical-module-thermal-pad-contact-compression.webp | engineering-diagram | thermal pad | 800G optical module | /optical-module/thermal-pad-supplier-for-800g-optical-modules/ | published |
