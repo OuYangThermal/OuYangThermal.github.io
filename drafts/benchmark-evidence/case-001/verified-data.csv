@@ -1,0 +1,20 @@
+dataset,sample,nominal_thickness_mm,compressed_or_reported_thickness_mm,test_method,stated_pressure_psi,property,value,unit,public_status,notes
+thermal-series,FT-BN035,0.20,0.200,ASTM D5470,50,thermal resistance,0.185,degC-in2/W,verified,Formal report table
+thermal-series,FT-BN035,0.25,0.249,ASTM D5470,50,thermal resistance,0.211,degC-in2/W,verified,Formal report table
+thermal-series,FT-BN035,0.31,0.297,ASTM D5470,50,thermal resistance,0.245,degC-in2/W,verified,Formal report table
+thermal-series,FT-BN035,0.38,0.373,ASTM D5470,50,thermal resistance,0.265,degC-in2/W,verified,Formal report table
+thermal-series,FT-BN035,0.47,0.451,ASTM D5470,50,thermal resistance,0.311,degC-in2/W,verified,Formal report table
+thermal-reference,SP2000 reference sample,0.25,0.252,ASTM D5470,50,thermal resistance,0.267,degC-in2/W,verified,Single tested reference point
+electrical,FT-BN035,0.20,,ASTM D149,,breakdown voltage,4.93,kV,verified,Displayed report value
+electrical,FT-BN035,0.25,,ASTM D149,,breakdown voltage,>6,kV,verified,Displayed report value
+electrical,FT-BN035,0.31,,ASTM D149,,breakdown voltage,>6,kV,verified,Displayed report value
+electrical,FT-BN035,0.38,,ASTM D149,,breakdown voltage,>6,kV,verified,Displayed report value
+electrical,FT-BN035,0.47,,ASTM D149,,breakdown voltage,>6,kV,verified,Displayed report value
+electrical,SP2000 reference sample,0.25,,ASTM D149,,breakdown voltage,5.37,kV,verified,Displayed report value
+surface-resistance,FT-BN035,,,ASTM D257,,surface resistance,1.62E14,ohm,verified,Approximate displayed value at 500 V
+density,FT-BN035,,,ASTM D792,,density measurement 1,1.833,g/cm3,verified,Displayed report value
+density,FT-BN035,,,ASTM D792,,density measurement 2,1.875,g/cm3,verified,Displayed report value
+density,FT-BN035,,,ASTM D792,,density measurement 3,1.900,g/cm3,verified,Displayed report value
+density,FT-BN035,,,ASTM D792,,displayed average,1.87,g/cm3,verified,Displayed rounded average
+raw-run,unassigned raw run,0.22,0.22,ASTM D5470,49.9,thermal resistance,0.168,degC-in2/W,raw-only,Do not merge into formal series without source equivalence
+raw-run,unassigned raw run,0.22,0.22,ASTM D5470,49.9,apparent conductivity,2.03,W/mK,raw-only,Do not merge into formal series without source equivalence

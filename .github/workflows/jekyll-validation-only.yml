@@ -1,0 +1,47 @@
+name: Case 001 Jekyll Validation Only
+
+on:
+  push:
+    branches:
+      - codex/case-001-validation
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: case-001-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/codex/case-001-validation'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out validation branch
+        uses: actions/checkout@v4
+
+      - name: Set up GitHub Pages-compatible Ruby dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
+
+      - name: Validate rendered Case 001, canonical, sitemap and critical links
+        run: python3 scripts/validate_case001_build.py _site
+
+      - name: Upload rendered validation artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: case-001-rendered-${{ github.run_id }}
+          path: _site/
+          retention-days: 7
+          if-no-files-found: warn
+
