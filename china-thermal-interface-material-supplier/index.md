@@ -1,20 +1,24 @@
 ---
 title: How Should Engineers Evaluate Thermal Interface Material Suppliers?
-description: A practical framework for comparing thermal interface material suppliers by installed performance, process fit, qualification evidence and supply controls.
+description: A practical TIM second-source qualification framework: compare installed performance, application conditions, evidence, process fit and supply controls—not W/m·K alone.
 permalink: /china-thermal-interface-material-supplier/
 alternate_zh: /zh/thermal-interface-materials/
+author: Ouyang Xiaohui
+updated: 2026-09-15
 commercial_contact: true
 contact_message: "Hi Ouyang, I'm looking for a thermal interface material supplier in China. Could you help me evaluate a suitable solution? Source: China TIM Supplier Evaluation"
 email_subject: "Thermal Material Inquiry – China Supplier"
 ---
 
-## Direct answer
+## Answer first
 
 [中文：导热界面材料怎么选？]({{ '/zh/thermal-interface-materials/' | relative_url }})
 
-Evaluate thermal interface material suppliers by their ability to reproduce the **installed interface**, not by the highest thermal-conductivity number on a datasheet. A credible evaluation aligns the product definition, test methods, bond-line thickness or gap, pressure, electrical requirements, process window, aging conditions, quality controls and change-management expectations before comparing candidates.
+Qualify a TIM second source by reproducing the **installed interface**, not by matching a W/m·K value. Compare thermal performance, gap or thickness, compression, hardness, electrical insulation, reliability, process compatibility and the actual application conditions. Candidate equivalence is the evidence-based result of a controlled comparison—not the closest-looking TDS.
 
 The useful question is not simply “Who sells a high-W/m·K material?” It is: “Which candidate can meet the thermal, mechanical, electrical, manufacturing and supply requirements of this assembly with evidence we can reproduce?”
+
+<aside class="notice"><strong>Engineering note — 6 W/m·K vs 6 W/m·K is not equivalence.</strong><p>Installed performance can still differ because of bond-line thickness (BLT), contact resistance, compression, hardness, surface flatness, assembly pressure, test method and temperature. Record those conditions before treating two values as comparable.</p></aside>
 
 ## Choose the correct material and application route
 
@@ -59,58 +63,31 @@ where `t` is thickness in metres, `k` is conductivity in W/m·K and `A` is conta
 
 Request the test method, specimen preparation, direction, pressure and temperature behind each value. ASTM D5470 is commonly referenced for steady-state thermal transmission measurements, but ASTM notes that its idealized heat flow does not directly reproduce most applications. Controlled side-by-side testing in representative hardware remains necessary.
 
-## A practical supplier-evaluation sequence
+## Qualification flow
 
-### 1. Freeze the incumbent and the function
+**Existing TIM → Candidate Screening → Bench Test → Application Benchmark → Reliability → Pilot → Qualification → RFQ / Production**
 
-Record the incumbent grade, thickness or dispense setting, drawing requirements, process controls and known failure modes. If no incumbent exists, freeze the interface requirements and acceptance criteria instead.
+Each arrow is an evidence gate. A candidate that misses a gate should return to the relevant requirement, material or process step; it should not be advanced because its datasheet is similar.
 
-### 2. Build a normalized comparison matrix
+## TIM Second Source Qualification Gates
 
-Compare like with like. Include conductivity method, thermal impedance at stated bond-line thickness and pressure, hardness or rheology, compression-deflection, dielectric data, temperature range, shelf life, storage, rework and aging evidence. Mark missing or non-comparable data instead of forcing a ranking.
+| Gate | Define or compare | Minimum evidence to retain | Decision question |
+| --- | --- | --- | --- |
+| **1. Application definition** | Application; heat source; sink or housing; nominal gap; operating temperature; insulation requirement; pressure; existing TIM | Drawing or application information; incumbent TDS; gap and operating conditions | Is the interface and its job defined clearly enough to compare? |
+| **2. Candidate screening** | Thermal conductivity; thickness; hardness; density; breakdown voltage; volume resistivity; flammability; temperature range | Candidate and existing TDS; normalized comparison table | Is the candidate credible enough for controlled testing? |
+| **3. Bench test** | By material type, thermal resistance, compression, hardness, thickness, insulation, viscosity, dispensing, pump-out or bleed, and cure | Test method, sample thickness, temperature, pressure, equipment and conditioning | Are the results comparable? Do not compare unlike test methods as if they were equivalent. |
+| **4. Application benchmark** | Same fixture, gap, power, pressure, ambient and measurement approach | Device temperature, ΔT, Rth, assembly observations, contact or void inspection and process observations | Does the candidate meet the application-owner acceptance criteria in representative hardware? |
+| **5. Reliability** | As applicable: thermal cycling, high temperature, humidity, vibration, shock, power cycling, pump-out or bleed, dielectric retention | Exposure conditions, sample definition, inspection and post-test results | Does the interface remain acceptable after relevant stress? |
+| **6. Pilot / qualification** | Pilot samples or small batch; process validation; quality documents; PPAP/APQP where applicable; change control; traceability | Pilot record, process checks, lot identification and change-notification path | Can the delivered part and process be repeated under controlled conditions? |
+| **7. Commercial review** | Cost, MOQ, lead time, capacity, localization, supply continuity and second-source strategy | Current commercial inputs and the approved technical definition | Can the approved configuration proceed to RFQ or production review? |
 
-### 3. Review manufacturing fit
+Acceptance limits belong to the application owner. A supplier typical value is not a universal design limit, and a successful result from a different fixture is not automatically transferable.
 
-For pads, check thickness tolerance, die-cut geometry, liner removal, placement and compression window. For gels, check dispensing equipment, shot size, bead shape, slump, void risk and cure behavior when applicable. For grease, examine bond-line control, spreading, pump-out risk and serviceability.
+### Public benchmark example
 
-### 4. Run controlled samples
+For an example of how conditions, results and boundaries should travel together, see [Case 001: FT-BN035 vs. an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}). It documents a stated public benchmark under its stated conditions; it is not a customer qualification, production approval or a substitute for testing the target assembly. Use a common fixture and comparable conditions rather than comparing TDS values alone.
 
-Test incumbent and candidate with the same fixture, geometry, surface preparation, instrumentation and conditioning. Record both thermal outcome and mechanical/process observations. A sample that passes a bench test but cannot be dispensed or assembled consistently is not a qualified alternative.
-
-{% include quick-contact.html %}
-
-### 5. Audit quality and continuity evidence
-
-Ask how lots are identified, what certificate data is supplied, which changes trigger notification, how nonconformity is handled and what capacity or continuity evidence can be shared. Quality-system certification is useful context, but it does not replace product-level validation.
-
-### 6. Approve by test gate
-
-Separate screening, engineering validation, reliability testing, pilot production and final approval. Define who owns each decision and what evidence closes the gate. Keep the candidate marked “under evaluation” until the responsible organization approves it.
-
-## Second-source qualification: from benchmark to RFQ
-
-A second source is not qualified because its datasheet resembles the incumbent. Use controlled gates:
-
-| Gate | Minimum evidence | Decision |
-| --- | --- | --- |
-| Requirement definition | Frozen function, geometry, limits and failure risks | Is the comparison target clear? |
-| Incumbent benchmark | Reproducible baseline with method and uncertainty | Can candidate results be compared fairly? |
-| Sample screening | Identity, dimensions and same-condition test results | Is engineering validation justified? |
-| Thermal/mechanical/electrical validation | Installed performance across tolerance limits | Does the candidate meet functional requirements? |
-| Reliability | Application-relevant exposure and post-test inspection | Does performance remain acceptable? |
-| Multi-lot pilot build | Finished-part, process and traceability evidence | Is production repeatable? |
-| Supplier qualification | Quality controls, change notification and continuity review | Can the source enter the approved process? |
-| RFQ readiness | Approved specification, revision and commercial scope | Can pricing be compared without changing the requirement? |
-
-If a gate fails, return to the requirement or process step and document the cause. Do not lower an acceptance limit or bypass reliability merely to preserve a schedule.
-
-### What must be frozen before a second-source test
-
-Freeze the incumbent revision, interface drawing, gap or bond-line range, pressure or dispense process, surfaces, instrumentation, conditioning and acceptance criteria. If the incumbent has a known weakness, record it; “matching” an uncontrolled weakness is not a useful qualification goal.
-
-### When can a candidate enter mass-production validation?
-
-Only after the application owner accepts the engineering evidence and the organization has reviewed delivered-part controls. Sample approval is permission to continue testing, not supplier qualification. Pilot build is a production-risk gate, not proof that every future lot will pass.
+<aside class="cta contextual-cta"><strong>Discuss a TIM Benchmark</strong><p>Send the existing TIM model or TDS and briefly describe the application. Owen can help structure a practical benchmark plan.</p><p><a data-conversion="advanced_intake_click" data-source="China TIM Supplier Evaluation" data-cta-type="tim_benchmark" href="{{ '/benchmark-your-current-tim/' | relative_url }}">Discuss a TIM Benchmark →</a></p><p><a data-conversion="sample_request_click" data-source="China TIM Supplier Evaluation" href="{{ '/request-sample/' | relative_url }}">Request a Sample</a> · <a data-conversion="whatsapp_click" data-source="China TIM Supplier Evaluation" href="https://wa.me/8613367909790">WhatsApp Owen</a> · <a data-conversion="email_click" data-source="China TIM Supplier Evaluation" href="mailto:5672306@gmail.com">Email Owen</a></p></aside>
 
 ## Common sourcing mistakes
 
@@ -130,21 +107,33 @@ Acceptance limits must come from the application owner. A supplier typical value
 
 ## FAQ
 
-### Is the highest thermal conductivity always the best choice?
+### How should a TIM second source be qualified?
 
-No. A lower-conductivity material can perform better if it achieves a thinner, more stable interface with lower contact resistance and acceptable mechanical load.
+Define the installed interface, screen comparable data, run same-condition bench and application tests, apply relevant reliability exposure, then validate a pilot and supply controls. The application owner sets the acceptance limits.
 
-### Can two supplier datasheets be compared directly?
+### Are two 6 W/m·K thermal pads equivalent?
 
-Only when the definitions, methods, units and conditions align. Otherwise, use the datasheets for screening and perform a controlled benchmark.
+No. Their bond-line thickness, contact resistance, compression, hardness, flatness, pressure, test method and temperature can differ. Compare the installed interface under matched conditions.
 
-### What should be sent with a sample request?
+### What should be compared beyond thermal conductivity?
 
-Provide the application, gap range or target bond-line thickness, contact area, temperature range, electrical requirement, process preference, approximate quantity and the result you need to validate. Do not send confidential drawings unless an appropriate agreement is in place.
+Compare thickness or gap, thermal resistance, compression or rheology, hardness, electrical insulation, temperature range, process behavior, aging evidence, traceability and change control. Mark unlike methods or conditions as non-comparable.
 
-### Does “China supplier” prove manufacturing ownership?
+### What belongs in a practical benchmark test plan?
 
-No. Location, commercial coordination, manufacturing ownership, distribution authorization and product qualification are different claims. Each requires its own evidence.
+State the fixture, gap or bond-line thickness, power, pressure, ambient, sample definition, instrumentation, conditioning, method and acceptance criteria. Retain assembly, contact or void and process observations with the thermal result.
+
+### Can you benchmark Bergquist, Henkel or Laird material?
+
+We can help structure a bench comparison or alternative evaluation against an existing reference sample, subject to application-specific validation. OUYANG THERMAL is not affiliated with those brands, and a benchmark is not a universal replacement claim.
+
+### What information should be shared before requesting samples?
+
+Share the application, existing TIM model or TDS if available, gap or target bond-line thickness, contact area, operating temperature, electrical requirement, assembly pressure or process and the first result to validate. Do not share confidential drawings without an appropriate agreement.
+
+### When are PPAP or APQP relevant?
+
+They may be relevant when the application owner or program requires formal production-part or advanced quality planning evidence. Confirm the required scope, revision control, traceability and change-control expectations before pilot approval.
 
 ## Related engineering guides
 
@@ -165,7 +154,7 @@ No. Location, commercial coordination, manufacturing ownership, distribution aut
 
 ## Next step
 
-If you are evaluating a TIM supplier or second source, [Discuss Your Application]({{ '/discuss-your-application/' | relative_url }}). Send the material type, gap or bond-line thickness, application, incumbent reference if available, and the first result you need to verify. You can also continue by WhatsApp, email or phone through the existing contact options.
+If you are evaluating a TIM supplier or second source, [Discuss a TIM Benchmark]({{ '/benchmark-your-current-tim/' | relative_url }}). Send the material type, gap or bond-line thickness, application, incumbent reference if available, and the first result you need to verify.
 
 ## Technical reference
 
@@ -174,3 +163,35 @@ If you are evaluating a TIM supplier or second source, [Discuss Your Application
 {% include contact-card.html subject="Thermal Interface Material Supplier Evaluation" %}
 
 {% include commercial-authority-path.html %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": {{ page.url | append: '#article' | absolute_url | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "dateModified": "{{ page.updated | date_to_xmlschema }}",
+      "author": {"@id": {{ '/about/#person' | absolute_url | jsonify }}},
+      "publisher": {"@id": {{ '/#commercial-organization' | absolute_url | jsonify }}},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": {{ page.url | absolute_url | jsonify }}},
+      "about": {"@id": {{ '/#brand' | absolute_url | jsonify }}}
+    },
+    {
+      "@type": "FAQPage",
+      "@id": {{ page.url | append: '#faq' | absolute_url | jsonify }},
+      "mainEntity": [
+        {"@type":"Question","name":"How should a TIM second source be qualified?","acceptedAnswer":{"@type":"Answer","text":"Define the installed interface, screen comparable data, run same-condition bench and application tests, apply relevant reliability exposure, then validate a pilot and supply controls. The application owner sets the acceptance limits."}},
+        {"@type":"Question","name":"Are two 6 W/m·K thermal pads equivalent?","acceptedAnswer":{"@type":"Answer","text":"No. Their bond-line thickness, contact resistance, compression, hardness, flatness, pressure, test method and temperature can differ. Compare the installed interface under matched conditions."}},
+        {"@type":"Question","name":"What should be compared beyond thermal conductivity?","acceptedAnswer":{"@type":"Answer","text":"Compare thickness or gap, thermal resistance, compression or rheology, hardness, electrical insulation, temperature range, process behavior, aging evidence, traceability and change control. Mark unlike methods or conditions as non-comparable."}},
+        {"@type":"Question","name":"What belongs in a practical benchmark test plan?","acceptedAnswer":{"@type":"Answer","text":"State the fixture, gap or bond-line thickness, power, pressure, ambient, sample definition, instrumentation, conditioning, method and acceptance criteria. Retain assembly, contact or void and process observations with the thermal result."}},
+        {"@type":"Question","name":"Can you benchmark Bergquist, Henkel or Laird material?","acceptedAnswer":{"@type":"Answer","text":"We can help structure a bench comparison or alternative evaluation against an existing reference sample, subject to application-specific validation. OUYANG THERMAL is not affiliated with those brands, and a benchmark is not a universal replacement claim."}},
+        {"@type":"Question","name":"What information should be shared before requesting samples?","acceptedAnswer":{"@type":"Answer","text":"Share the application, existing TIM model or TDS if available, gap or target bond-line thickness, contact area, operating temperature, electrical requirement, assembly pressure or process and the first result to validate. Do not share confidential drawings without an appropriate agreement."}},
+        {"@type":"Question","name":"When are PPAP or APQP relevant?","acceptedAnswer":{"@type":"Answer","text":"They may be relevant when the application owner or program requires formal production-part or advanced quality planning evidence. Confirm the required scope, revision control, traceability and change-control expectations before pilot approval."}}
+      ]
+    }
+  ]
+}
+</script>

@@ -1,0 +1,325 @@
+{
+  "brand": "OUYANG THERMAL",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T03:54:02.102909+08:00",
+  "base_url": "https://ouyangthermal.github.io",
+  "score": 94,
+  "comparison": {
+    "yesterday": null,
+    "today": 94,
+    "change": null
+  },
+  "score_breakdown": {
+    "Technical Accessibility": 20,
+    "Crawlability": 15,
+    "Article Structure": 10.6,
+    "Schema": 10.0,
+    "Internal Linking": 9,
+    "Content Completeness": 9,
+    "Entity Consistency": 10.0,
+    "Freshness": 5,
+    "Performance": 5
+  },
+  "summary": {
+    "pages_checked": 89,
+    "pages_healthy": 89,
+    "articles_checked": 39,
+    "critical": 0,
+    "high_priority": 0,
+    "warnings": 45,
+    "average_response_ms": 664
+  },
+  "robots": {
+    "status": 200,
+    "agents": {
+      "OAI-SearchBot": true,
+      "GPTBot": true,
+      "Googlebot": true,
+      "Bingbot": true,
+      "*": true
+    }
+  },
+  "sitemap": {
+    "status": 200,
+    "url_count": 89,
+    "article_url_count": 39
+  },
+  "search_engine_submission_status": {
+    "Google Search Console": "NOT CONFIGURED",
+    "Bing Webmaster Tools": "NOT CONFIGURED",
+    "IndexNow": "NOT CONFIGURED",
+    "ChatGPT Benchmark": "NOT TESTED"
+  },
+  "issues": [
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/comparison/3w-vs-6w-vs-8w-thermal-pad/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/comparison/sp2000-thermal-pad-alternative-what-parameters-should-engineers-compare/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/comparison/thermal-conductivity-vs-thermal-resistance/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/comparison/thermal-pad-vs-thermal-grease-vs-thermal-gel/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/energy-storage/thermal-interface-materials-for-energy-storage-systems/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/energy-storage/thermal-materials-for-bms/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/obc/5w-mk-thermal-gel-for-obc-when-is-it-necessary/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/obc/thermal-interface-materials-for-obc-complete-selection-guide/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/obc/thermal-pad-vs-thermal-gel-for-obc/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/obc/why-do-obc-modules-use-two-part-thermal-gel/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/obc/why-does-an-obc-use-multiple-thermal-interface-materials/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/optical-module/thermal-interface-materials-for-optical-transceivers/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/optical-module/thermal-pad-selection-for-optical-modules/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/pcs/tim-selection-for-pcs/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/potting-compound/thermal-potting-compound-for-obc-how-to-select-it/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/power-electronics/how-to-select-tim-for-igbt-and-mosfet/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/server/thermal-management-materials-for-ai-servers/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/testing/why-can-the-same-thermal-material-produce-different-test-results/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-gel/common-thermal-gel-dispensing-problems/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-gel/how-gap-thickness-affects-thermal-performance/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-gel/how-to-select-thermal-gel-for-power-electronics/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-gel/one-part-vs-two-part-thermal-gel/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-gel/what-is-thermal-gel/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-gel/why-does-thermal-gel-pump-out/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-insulator/thermal-insulator-for-obc-power-devices/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-pad/how-to-select-a-thermal-pad/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-pad/thermal-pad-compression-ratio-explained/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-pad/thermal-pad-hardness-explained/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-pad/thermal-pad-thickness-selection-guide/",
+      "detail": "Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/obc/obc-thermal-gel-second-source-qualification/",
+      "detail": "Direct Answer, Key Takeaways, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-pad/thermal-pad-compression-set-explained/",
+      "detail": "Direct Answer, Key Takeaways, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/optical-module/thermal-pad-compression-for-800g-1-6t-modules/",
+      "detail": "Direct Answer, Key Takeaways, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/optical-module/thermal-pad-for-1-6t-optical-modules/",
+      "detail": "Direct Answer, Key Takeaways, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/optical-module/thermal-pad-supplier-for-800g-optical-modules/",
+      "detail": "Direct Answer, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/power-electronics/thermal-interface-material-for-sic-power-modules/",
+      "detail": "Direct Answer, Key Takeaways, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/server/thermal-pad-vs-thermal-gel-for-ai-servers/",
+      "detail": "Direct Answer, Key Takeaways, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/",
+      "detail": "Direct Answer, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_GEO_COMPONENTS",
+      "url": "https://ouyangthermal.github.io/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/",
+      "detail": "Direct Answer, Key Takeaways, Technical Explanation, Selection Parameters, Application Example, References / Standards, Related Guides"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_TITLE",
+      "url": "https://ouyangthermal.github.io/googlebd2df6f2d347ec36.html",
+      "detail": "No title element"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_DESCRIPTION",
+      "url": "https://ouyangthermal.github.io/googlebd2df6f2d347ec36.html",
+      "detail": "No meta description"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_H1",
+      "url": "https://ouyangthermal.github.io/googlebd2df6f2d347ec36.html",
+      "detail": "No H1"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_CANONICAL",
+      "url": "https://ouyangthermal.github.io/googlebd2df6f2d347ec36.html",
+      "detail": "No canonical"
+    },
+    {
+      "level": "warning",
+      "code": "MISSING_INTERNAL_LINKS",
+      "url": "https://ouyangthermal.github.io/googlebd2df6f2d347ec36.html",
+      "detail": "No internal links"
+    },
+    {
+      "level": "warning",
+      "code": "THIN_PAGE",
+      "url": "https://ouyangthermal.github.io/googlebd2df6f2d347ec36.html",
+      "detail": "Approximately 3 words"
+    }
+  ]
+}
