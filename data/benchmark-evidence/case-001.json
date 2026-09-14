@@ -1,0 +1,38 @@
+{
+  "case_id": "CASE-001",
+  "status": "pre-publication-review",
+  "title": "FT-BN035 Thermal Resistance Benchmark with an SP2000 Reference Sample",
+  "url": "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/",
+  "search_demand": "Unknown",
+  "evidence_type": "internal comparative test data",
+  "independent_third_party_certification": false,
+  "thermal_method": "ASTM D5470",
+  "formal_series_pressure": "approximately 50 psi",
+  "thermal_resistance_unit": "°C·in²/W",
+  "thermal_results": [
+    {"sample":"FT-BN035","nominal_thickness_mm":0.20,"reported_thickness_mm":0.200,"thermal_resistance":0.185},
+    {"sample":"FT-BN035","nominal_thickness_mm":0.25,"reported_thickness_mm":0.249,"thermal_resistance":0.211},
+    {"sample":"FT-BN035","nominal_thickness_mm":0.31,"reported_thickness_mm":0.297,"thermal_resistance":0.245},
+    {"sample":"FT-BN035","nominal_thickness_mm":0.38,"reported_thickness_mm":0.373,"thermal_resistance":0.265},
+    {"sample":"FT-BN035","nominal_thickness_mm":0.47,"reported_thickness_mm":0.451,"thermal_resistance":0.311},
+    {"sample":"SP2000 reference sample","nominal_thickness_mm":0.25,"reported_thickness_mm":0.252,"thermal_resistance":0.267}
+  ],
+  "same_nominal_thickness_comparison": {
+    "nominal_thickness_mm": 0.25,
+    "ft_bn035_thermal_resistance": 0.211,
+    "sp2000_reference_sample_thermal_resistance": 0.267,
+    "calculated_relative_difference_percent": 20.97,
+    "approved_wording": "approximately 21% lower measured thermal resistance under this specific internal test condition"
+  },
+  "electrical_results": {
+    "method": "ASTM D149",
+    "breakdown_voltage_unit": "kV",
+    "ft_bn035": [{"thickness_mm":0.20,"value":"4.93"},{"thickness_mm":0.25,"value":">6"},{"thickness_mm":0.31,"value":">6"},{"thickness_mm":0.38,"value":">6"},{"thickness_mm":0.47,"value":">6"}],
+    "sp2000_reference_sample": {"thickness_mm":0.25,"value":"5.37"}
+  },
+  "surface_resistance": {"method":"ASTM D257","test_voltage_v":500,"value_ohm":"approximately 1.62 × 10^14"},
+  "density": {"method":"ASTM D792","measurements_g_cm3":[1.833,1.875,1.900],"reported_average_g_cm3":"approximately 1.87"},
+  "separate_raw_run": {"formal_series":false,"thickness_mm":"approximately 0.22","apparent_conductivity_w_mk":2.03,"thermal_resistance_c_in2_w":0.168,"pressure_psi":"approximately 49.9"},
+  "disclosure": "Internal comparative testing under the stated conditions. Not an independent third-party certification."
+}
+
