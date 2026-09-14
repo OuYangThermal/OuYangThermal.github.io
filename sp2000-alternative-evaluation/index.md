@@ -30,6 +30,7 @@ The correct description during this process is **benchmark candidate** or **pote
 
 ## Related engineering guides
 
+- [Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}) — internal comparative test evidence under stated conditions, not a universal replacement claim.
 - [SP2000 Alternative: Parameters to Compare]({{ '/comparison/sp2000-thermal-pad-alternative-what-parameters-should-engineers-compare/' | relative_url }})
 - [Thermal Pad Compression Ratio]({{ '/thermal-pad/thermal-pad-compression-ratio-explained/' | relative_url }})
 - [Thermal Pad Hardness]({{ '/thermal-pad/thermal-pad-hardness-explained/' | relative_url }})

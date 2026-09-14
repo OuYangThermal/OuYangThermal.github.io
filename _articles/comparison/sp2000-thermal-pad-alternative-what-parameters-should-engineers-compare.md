@@ -69,6 +69,10 @@ Ranking only by W/m·K; mixing data from different methods; ignoring tolerance a
 <details><summary>What belongs in final validation?</summary><p>Verify temperature, installed geometry, mechanical load, electrical requirements, process repeatability, and relevant environmental aging.</p></details>
 
 
+## Related measured evidence
+
+[Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}) shows how same-nominal-thickness thermal resistance and electrical results can be documented under controlled internal test conditions. It is one specific comparison, not proof of universal equivalence or superiority.
+
 ## References and standards
 
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), Standard Test Method for Thermal Transmission Properties of Thermally Conductive Electrical Insulation Materials. ASTM states that its idealized heat flow does not directly reproduce most applications.
