@@ -14,6 +14,12 @@ Internal comparative test data covering an FT-BN035 thickness series and one tes
 
 [Review Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }})
 
+### Case 002 — Thin insulating TIM: thermal resistance vs thickness
+
+Internal FT-BN050 test data across five nominal thicknesses, with ASTM D5470 thermal-resistance results at 50 psi and ASTM D149 breakdown-voltage limits. The case focuses on thickness as an engineering selection variable without inferring unreported thermal conductivity.
+
+[Review Case 002: FT-BN050 thermal resistance vs thickness]({{ '/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/' | relative_url }})
+
 ## How to use this library
 
 Use a case as a source node for a controlled benchmark—not as a universal equivalence claim. Start from the measured values and method context, then align thickness, pressure, surfaces, electrical requirements, reliability conditions and assembly validation for the target application.

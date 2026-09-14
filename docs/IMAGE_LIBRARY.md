@@ -126,3 +126,6 @@ When page context changes, update the rendered ALT and the manifest `alt` togeth
 | CASE001-ELECTRICAL | case-001-electrical-properties-summary.webp | engineering-diagram | thermal pad | electrical evidence | Case 001 | publication-ready |
 | CASE001-METHODS | case-001-test-method-evidence-map.webp | engineering-diagram | thermal pad | testing | Case 001 | publication-ready |
 | CASE001-RAW-ANON | case-001-anonymized-raw-d5470-run.webp | real-photo | thermal pad | raw test evidence | Case 001 | publication-ready |
+| CASE002-TR-TREND | case-002-ft-bn050-thermal-resistance-vs-thickness.webp | engineering-diagram | insulating TIM | benchmark evidence | Case 002 | published |
+| CASE002-THICKNESS-GUIDE | case-002-ft-bn050-thickness-selection-guide.webp | engineering-diagram | insulating TIM | thickness selection | Case 002 | published |
+| CASE002-ELECTRICAL | case-002-ft-bn050-electrical-insulation-summary.webp | engineering-diagram | insulating TIM | electrical evidence | Case 002 | published |

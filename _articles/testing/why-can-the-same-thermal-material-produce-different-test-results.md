@@ -63,6 +63,8 @@ Ranking only by W/m·K; mixing data from different methods; ignoring tolerance a
 
 [Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}) is a documented example of reporting thickness, pressure, method and sample scope alongside internal comparative results.
 
+[Case 002: FT-BN050 thermal resistance vs thickness]({{ '/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/' | relative_url }}) provides a second scoped example using five thicknesses under one stated ASTM D5470 pressure condition.
+
 ## References and standards
 
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), Standard Test Method for Thermal Transmission Properties of Thermally Conductive Electrical Insulation Materials. ASTM states that its idealized heat flow does not directly reproduce most applications.

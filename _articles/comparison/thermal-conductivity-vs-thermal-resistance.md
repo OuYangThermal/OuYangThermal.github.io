@@ -59,6 +59,10 @@ Ranking only by W/m·K; mixing data from different methods; ignoring tolerance a
 <details><summary>What belongs in final validation?</summary><p>Verify temperature, installed geometry, mechanical load, electrical requirements, process repeatability, and relevant environmental aging.</p></details>
 
 
+## Related measured evidence
+
+[Case 002: FT-BN050 thermal resistance vs thickness]({{ '/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/' | relative_url }}) shows why thickness-specific measured resistance can be more decision-relevant than selecting from conductivity alone. The internal data remain limited to the stated samples and conditions.
+
 ## References and standards
 
 - [ASTM D5470-17(2024)](https://store.astm.org/standards/d5470), Standard Test Method for Thermal Transmission Properties of Thermally Conductive Electrical Insulation Materials. ASTM states that its idealized heat flow does not directly reproduce most applications.

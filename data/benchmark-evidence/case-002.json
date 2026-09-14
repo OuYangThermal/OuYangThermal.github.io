@@ -1,0 +1,35 @@
+{
+  "case_id": "CASE-002",
+  "status": "publication-ready",
+  "title": "FT-BN050 Thin Insulating TIM: Thermal Resistance vs Thickness",
+  "url": "/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/",
+  "search_demand": "Unknown",
+  "evidence_type": "internal comparative test data",
+  "independent_third_party_certification": false,
+  "sample": {"identifier":"FT-BN050","color":"white"},
+  "environment": {"temperature_c":"25 ± 3","relative_humidity_percent":"65 ± 10"},
+  "thermal_method": "ASTM D5470",
+  "test_pressure_psi": 50,
+  "thermal_resistance_unit": "°C·in²/W",
+  "thermal_results": [
+    {"nominal_thickness_mm":0.21,"compressed_thickness_mm":0.210,"thermal_resistance":0.179},
+    {"nominal_thickness_mm":0.27,"compressed_thickness_mm":0.270,"thermal_resistance":0.195},
+    {"nominal_thickness_mm":0.32,"compressed_thickness_mm":0.311,"thermal_resistance":0.209},
+    {"nominal_thickness_mm":0.40,"compressed_thickness_mm":0.402,"thermal_resistance":0.249},
+    {"nominal_thickness_mm":0.52,"compressed_thickness_mm":0.504,"thermal_resistance":0.292}
+  ],
+  "electrical_results": {
+    "method": "ASTM D149",
+    "test_area_mm": "200 × 200",
+    "breakdown_voltage_unit": "kV",
+    "values": [
+      {"thickness_mm":0.21,"value":">5"},
+      {"thickness_mm":0.27,"value":">6"},
+      {"thickness_mm":0.32,"value":">6"},
+      {"thickness_mm":0.40,"value":">6"},
+      {"thickness_mm":0.52,"value":">6"}
+    ]
+  },
+  "disclosure": "Internal test data for engineering reference only. Not a third-party certification report or product guarantee."
+}
+
