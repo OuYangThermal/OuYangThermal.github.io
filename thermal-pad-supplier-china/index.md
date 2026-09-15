@@ -66,6 +66,17 @@ Sample → Same-condition benchmark → Reliability → Multi-lot review
 → Pilot build → Supplier qualification → RFQ readiness
 ```
 
+## What measured evidence should a supplier provide?
+
+A useful qualification packet must connect each result to a named sample or lot, measured thickness, test method, pressure, temperature and conditioning history. Ask for the original units and specimen details—not only a rounded value copied into a sales table. For multi-lot validation, keep the same fixture and reporting format so that material variation is not confused with method variation.
+
+Two published evidence examples show how this traceability can be presented:
+
+- [Case 001: same-thickness FT-BN035 and SP2000 reference comparison]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}) records measured thickness, ASTM D5470 thermal resistance and electrical evidence under the stated internal test conditions.
+- [Case 002: FT-BN050 thermal resistance versus thickness]({{ '/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/' | relative_url }}) shows why qualification should examine a thickness series rather than treating one conductivity value as installed performance.
+
+These are internal comparative-test examples, not customer cases, independent certifications or universal product specifications. A buyer should define its own limits, repeat critical measurements across representative lots and confirm performance in the actual assembly before supplier approval.
+
 ## Related engineering guides
 
 - [How to Select a Thermal Pad]({{ '/thermal-pad/how-to-select-a-thermal-pad/' | relative_url }})
