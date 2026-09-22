@@ -1,17 +1,73 @@
 ---
 layout: page
 title: Request a Sample for Evaluation
-description: Contact Ouyang to discuss a controlled thermal interface material sample evaluation.
+description: Request a controlled thermal interface material sample evaluation. Share your application, gap or bond-line thickness, and test goal, then plan benchmark, sample validation and second-source qualification with Owen Ouyang.
 permalink: /request-sample/
 commercial_contact: true
+updated: 2026-09-22
+contact_message: "Hi Ouyang, I would like to request a sample for a controlled TIM evaluation. I can share the application, gap or BLT, and the first result to verify. Source: Request a Sample"
+email_subject: "Sample Evaluation Request – Thermal Interface Material"
 ---
 
-<p>Samples should support a defined engineering evaluation, not replace application validation. You do not need to complete a technical questionnaire before contacting Ouyang.</p>
+<div class="quick"><strong>Answer first</strong><p>A sample is worth requesting when it supports a <strong>defined engineering evaluation</strong> with stated conditions — the application, the interface geometry, and the first result to verify. A sample supports screening and validation; it does not replace application validation, and it cannot by itself prove a drop-in replacement.</p><p>You do not need a full RFQ or a long technical questionnaire to start. Send one contact method and any two or three items from the list below. Detailed parameters, drawings, test methods and quantities are discussed privately afterward.</p></div>
 
-<h2>Start with one short question</h2>
+<h2>Start with the information you already have</h2>
 
-<p>Tell me how to contact you and briefly describe the material or application you want to evaluate. Detailed parameters, drawings, test methods, and sample quantities can be discussed privately afterward.</p>
+<ul>
+  <li>Application and heat source — for example OBC, PCS, AI server power, 800G optical module, IGBT module</li>
+  <li>Material type — pad, gel, grease, insulator, potting compound or adhesive — or the current material model or TDS</li>
+  <li>Nominal, minimum and maximum gap, or target bond-line thickness</li>
+  <li>Assembly pressure, compression limit, or process — pad placement, dispense and cure</li>
+  <li>Electrical requirement — isolation needed or not; test voltage and method where applicable</li>
+  <li>The first result to verify — temperature, thermal resistance, insulation, compression, dispensing behavior or reliability</li>
+  <li>Stage and quantity — prototype, pilot, or target annual volume</li>
+</ul>
 
-<p><a class="button-link" data-conversion="private_inquiry_click" data-source="Request a Sample" href="{{ '/discuss-your-application/' | relative_url }}">Send a Private Question</a></p>
+<aside class="cta contextual-cta"><strong>Request a Sample Evaluation</strong><p>Describe the interface and the result you want to verify first. Owen will help define the evaluation conditions — not declare a replacement from a datasheet.</p><p><a class="button-link" data-conversion="sample_inquiry_click" data-source="Request a Sample" href="{{ '/discuss-your-application/' | relative_url }}">Request a Sample Evaluation</a></p><p><a data-conversion="sample_whatsapp_click" data-source="Request a Sample" href="https://wa.me/8613367909790?text={{ page.contact_message | url_encode }}">Send Details on WhatsApp</a> · <a data-conversion="sample_email_click" data-source="Request a Sample" href="mailto:5672306@gmail.com?subject={{ page.email_subject | url_encode }}&amp;body={{ page.contact_message | url_encode }}">Email Your Requirements</a></p></aside>
 
 <p class="privacy-note">Do not include confidential drawings or sensitive personal data in the first message.</p>
+
+<h2>What happens after you contact Ouyang</h2>
+
+<ol>
+  <li><strong>Requirement.</strong> Confirm the application, interface geometry, electrical role and the first result to verify.</li>
+  <li><strong>Candidate or benchmark plan.</strong> Identify a plausible candidate and define the matched-condition comparison — same thickness or BLT, pressure, surfaces, temperature, test method and acceptance criteria. See <a href="{{ '/benchmark-your-current-tim/' | relative_url }}">Benchmark Your Current TIM</a>.</li>
+  <li><strong>Sample.</strong> Provide material in a defined form, size, thickness and quantity for the planned evaluation.</li>
+  <li><strong>Controlled validation.</strong> Measure the stated result under the agreed conditions and record assembly, contact and process observations with the thermal result.</li>
+  <li><strong>Qualification and RFQ.</strong> If the evaluation passes the application owner's acceptance limits, move toward <a href="{{ '/china-thermal-interface-material-supplier/' | relative_url }}">second-source qualification</a> and commercial terms.</li>
+</ol>
+
+<p>Final approval always remains with the application owner. Any suggested material is an <strong>alternative evaluation</strong> subject to application validation, not a guaranteed drop-in replacement.</p>
+
+<h2>What a sample evaluation can and cannot do</h2>
+
+<p><strong>It can</strong> check installed thermal resistance under matched conditions, compression or BLT control, dielectric behavior where isolation is required, process fit — dispense, cure, placement, rework — and early reliability observations.</p>
+
+<p><strong>It cannot</strong> prove equivalence to an incumbent from a datasheet W/m·K value alone, replace full application or system validation, or set the acceptance limits. Those belong to the application owner and the qualification plan.</p>
+
+<h2>Frequently asked questions</h2>
+
+<details><summary>Do I need a full RFQ before requesting a sample?</summary><p>No. A sample request starts with one contact method and two or three items from the list above. Commercial terms are discussed after the evaluation conditions are defined.</p></details>
+<details><summary>What information helps select the right sample candidate?</summary><p>The application and heat source, the material type or current TDS, the gap or target bond-line thickness, assembly pressure or process, the electrical requirement, and the first result you want to verify. The more of these you can share, the better the candidate fits the intended interface.</p></details>
+<details><summary>Should samples be requested before the benchmark plan is defined?</summary><p>Initial samples may support screening, but the material form, thickness, quantity and test sequence should reflect the intended interface — otherwise the sample may not answer the qualification question. Defining the benchmark plan first usually saves a round of samples.</p></details>
+<details><summary>Is a sample a drop-in replacement for my current material?</summary><p>No. A sample is an alternative evaluation subject to application validation. Installed performance depends on thickness or BLT, contact resistance, pressure, surfaces, temperature and test method — none of which a sample alone can settle.</p></details>
+<details><summary>How do samples connect to qualification?</summary><p>Requirement, candidate or benchmark plan, sample, controlled validation, then qualification and RFQ. If the evaluation passes the application owner's acceptance limits, the path continues toward second-source qualification with defined reliability, multi-lot and change-control evidence.</p></details>
+
+{% include contact-card.html subject="Sample Evaluation Request" %}
+
+{% include commercial-authority-path.html %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": {{ page.url | append: '#faq' | absolute_url | jsonify }},
+  "mainEntity": [
+    {"@type":"Question","name":"Do I need a full RFQ before requesting a sample?","acceptedAnswer":{"@type":"Answer","text":"No. A sample request starts with one contact method and two or three items: application, material type or current TDS, gap or target bond-line thickness, assembly pressure or process, electrical requirement, and the first result to verify. Commercial terms are discussed after the evaluation conditions are defined."}},
+    {"@type":"Question","name":"What information helps select the right sample candidate?","acceptedAnswer":{"@type":"Answer","text":"The application and heat source, the material type or current TDS, the gap or target bond-line thickness, assembly pressure or process, the electrical requirement, and the first result to verify. The more of these shared, the better the candidate fits the intended interface."}},
+    {"@type":"Question","name":"Should samples be requested before the benchmark plan is defined?","acceptedAnswer":{"@type":"Answer","text":"Initial samples may support screening, but the material form, thickness, quantity and test sequence should reflect the intended interface, otherwise the sample may not answer the qualification question. Defining the benchmark plan first usually saves a round of samples."}},
+    {"@type":"Question","name":"Is a sample a drop-in replacement for my current material?","acceptedAnswer":{"@type":"Answer","text":"No. A sample is an alternative evaluation subject to application validation. Installed performance depends on thickness or bond-line thickness, contact resistance, pressure, surfaces, temperature and test method, none of which a sample alone can settle."}},
+    {"@type":"Question","name":"How do samples connect to qualification?","acceptedAnswer":{"@type":"Answer","text":"The path runs from requirement, to candidate or benchmark plan, to sample, to controlled validation, then to qualification and RFQ. If the evaluation passes the application owner's acceptance limits, it continues toward second-source qualification with defined reliability, multi-lot and change-control evidence."}}
+  ]
+}
+</script>

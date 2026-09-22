@@ -30,6 +30,8 @@ Define gap range, interface area, heat load, target temperature, effective therm
 
 Screen documents first, then confirm dispense repeatability and achievable BLT. Use representative hardware for thermal and reliability tests. Record material lot, mix ratio, cure, pressure, temperatures, and aging. For second-source work, compare the candidate with the incumbent under identical conditions rather than claiming equivalence from datasheets.
 
+<aside class="cta contextual-cta"><strong>Benchmark Your Current Thermal Gel</strong><p>Send the existing gel model or TDS, the dispense setup and the first result to verify — thermal, void, slump, pump-out or cure. Owen can help structure a same-condition benchmark on representative hardware.</p><p><a data-conversion="gel_benchmark_click" data-source="Thermal Gel Supplier China" data-cta-type="tim_benchmark" href="{{ '/benchmark-your-current-tim/' | relative_url }}">Benchmark Your Current Gel →</a></p><p><a data-conversion="sample_request_click" data-source="Thermal Gel Supplier China" href="{{ '/request-sample/' | relative_url }}">Request a Sample</a> · <a data-conversion="whatsapp_click" data-source="Thermal Gel Supplier China" href="https://wa.me/8613367909790">WhatsApp Owen</a> · <a data-conversion="email_click" data-source="Thermal Gel Supplier China" href="mailto:5672306@gmail.com">Email Owen</a></p></aside>
+
 ## Dispensing compatibility is part of material qualification
 
 Document package type, dispense equipment, pump technology, hose and valve path, static mixer where applicable, needle/nozzle, shot size, bead geometry and takt time. A gel that performs in a hand-dispensed coupon may not remain stable after production residence time, starts and stops, purge cycles or temperature changes.

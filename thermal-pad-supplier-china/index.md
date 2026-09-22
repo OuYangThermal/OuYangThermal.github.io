@@ -30,6 +30,8 @@ Specify nominal and worst-case gap, flatness, pressure distribution, compression
 
 Build a controlled comparison matrix. Select a benchmark candidate, measure thickness and mechanical response, then test thermal performance and electrical isolation using consistent methods. Reliability and production trials should precede qualification. “Potential alternative subject to validation” is the correct status until evidence is complete.
 
+<aside class="cta contextual-cta"><strong>Benchmark Your Current Thermal Pad</strong><p>Send the existing pad model or TDS, the gap range and the first result to verify. Owen can help structure a same-condition benchmark — not declare a drop-in replacement from datasheet values.</p><p><a data-conversion="pad_benchmark_click" data-source="Thermal Pad Supplier China" data-cta-type="tim_benchmark" href="{{ '/benchmark-your-current-tim/' | relative_url }}">Benchmark Your Current Pad →</a></p><p><a data-conversion="sample_request_click" data-source="Thermal Pad Supplier China" href="{{ '/request-sample/' | relative_url }}">Request a Sample</a> · <a data-conversion="whatsapp_click" data-source="Thermal Pad Supplier China" href="https://wa.me/8613367909790">WhatsApp Owen</a> · <a data-conversion="email_click" data-source="Thermal Pad Supplier China" href="mailto:5672306@gmail.com">Email Owen</a></p></aside>
+
 ## Twelve tests and gates before mass production
 
 | Gate | Evidence to review | Why it matters |

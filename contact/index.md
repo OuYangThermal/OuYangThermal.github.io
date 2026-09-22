@@ -16,7 +16,7 @@ Business email: **5672306@gmail.com**
 
 OUYANG THERMAL provides engineering knowledge, application analysis, TIM selection, and benchmark guidance. Hongjing New Materials Technology (Shenzhen) Co., Ltd. handles commercial inquiries, sample coordination, RFQs, and supply-chain coordination.
 
-The forms currently perform browser-side validation only. **No receiving service is connected, so submitting a form does not transmit or store your information.** Do not enter confidential drawings, personal data, or proprietary project details. See our [Privacy Notice]({{ '/privacy/' | relative_url }}).
+The private inquiry form on [Discuss Your Application]({{ '/discuss-your-application/' | relative_url }}) is configured to send your message to Ouyang Xiaohui; messages are never published on this website. For the fastest response, WhatsApp, email or phone remain available. Do not enter confidential drawings or proprietary project details in a first message. See our [Privacy Notice]({{ '/privacy/' | relative_url }}).
 
 ## Contact FAQ
 
