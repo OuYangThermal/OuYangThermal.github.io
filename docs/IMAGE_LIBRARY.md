@@ -121,6 +121,7 @@ When page context changes, update the rendered ALT and the manifest `alt` togeth
 | V20 | thermal-gel-supplier-dispensing-qualification-flow.webp | engineering-diagram | thermal gel | supplier qualification | /thermal-gel-supplier-china/ | published |
 | V21 | ai-server-800v-dc-power-supply-tim-map.webp | application-diagram | pad, gel, insulator | AI server / 800V DC | /server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/ | published |
 | V22 | igbt-sic-thermal-insulator-selection-matrix.webp | engineering-diagram | thermal insulator | IGBT / SiC power module | /thermal-insulator/thermal-insulator-supplier-for-igbt-modules/ | published |
+| V23 | thermal-pad-alternative-benchmark-method-schematic.svg | engineering-diagram | thermal pad | supplier qualification | /sp2000-alternative-evaluation/ | published |
 | CASE001-TR-TREND | case-001-thermal-resistance-vs-thickness.webp | engineering-diagram | thermal pad | benchmark evidence | Case 001 | publication-ready |
 | CASE001-025-COMPARE | case-001-0-25mm-thermal-resistance-comparison.webp | engineering-diagram | thermal pad | same-thickness benchmark | Case 001 | publication-ready |
 | CASE001-ELECTRICAL | case-001-electrical-properties-summary.webp | engineering-diagram | thermal pad | electrical evidence | Case 001 | publication-ready |

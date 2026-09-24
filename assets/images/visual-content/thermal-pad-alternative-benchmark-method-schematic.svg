@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 810" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">Controlled benchmark method for a thermal pad alternative</title>
+  <desc id="svgDesc">Engineering diagram showing an incumbent reference sample and a candidate material tested in the same fixture under matched thickness, pressure, temperature and method conditions, followed by electrical, aging and pilot-build validation gates.</desc>
+  <defs>
+    <marker id="arrowDown" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#16324f"/>
+    </marker>
+    <marker id="arrowHeat" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrowGate" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2563eb"/>
+    </marker>
+    <g id="stack">
+      <line x1="110" y1="-44" x2="110" y2="176" stroke="#dc2626" stroke-width="3" marker-end="url(#arrowHeat)"/>
+      <text x="128" y="70" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#dc2626">Heat flow</text>
+      <line x1="40" y1="-78" x2="40" y2="-52" stroke="#16324f" stroke-width="3" marker-end="url(#arrowDown)"/>
+      <line x1="180" y1="-78" x2="180" y2="-52" stroke="#16324f" stroke-width="3" marker-end="url(#arrowDown)"/>
+      <text x="110" y="-60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#16324f">Pressure</text>
+      <rect x="0" y="0" width="220" height="46" rx="4" fill="#64748b"/>
+      <text x="110" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff">Heater plate</text>
+      <rect x="0" y="46" width="220" height="30" rx="4" fill="#f59e0b"/>
+      <text x="110" y="67" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2937">TIM sample</text>
+      <rect x="0" y="76" width="220" height="46" rx="4" fill="#64748b"/>
+      <text x="110" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff">Cold plate</text>
+      <line x1="40" y1="178" x2="40" y2="152" stroke="#16324f" stroke-width="3" marker-end="url(#arrowDown)"/>
+      <line x1="180" y1="178" x2="180" y2="152" stroke="#16324f" stroke-width="3" marker-end="url(#arrowDown)"/>
+    </g>
+  </defs>
+
+  <rect width="1440" height="810" fill="#f8fafc"/>
+  <rect width="1440" height="96" fill="#16324f"/>
+  <text x="60" y="42" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Controlled Benchmark Method for a Thermal Pad Alternative</text>
+  <text x="60" y="72" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#b8c9dc">Engineering Diagram — method schematic. It does not report a test result or a product specification.</text>
+
+  <!-- Left panel: incumbent -->
+  <rect x="60" y="126" width="620" height="368" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="90" y="165" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#16324f">INCUMBENT</text>
+  <text x="90" y="190" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748b">Reference sample of the material in use</text>
+  <use href="#stack" x="300" y="285"/>
+  <text x="370" y="482" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">Record Rth at the stated BLT and pressure</text>
+
+  <!-- Equals sign -->
+  <text x="720" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#16324f">=</text>
+  <text x="720" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#64748b">same fixture</text>
+
+  <!-- Right panel: candidate -->
+  <rect x="760" y="126" width="620" height="368" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="790" y="165" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#16324f">CANDIDATE</text>
+  <text x="790" y="190" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748b">Benchmark material under evaluation</text>
+  <use href="#stack" x="1000" y="285"/>
+  <text x="1070" y="482" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">Record Rth under identical conditions</text>
+
+  <!-- Matched conditions strip -->
+  <text x="60" y="522" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#16324f">Matched conditions — the comparison is only valid when all five match</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#16324f">
+    <rect x="60" y="538" width="250" height="56" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="185" y="573" text-anchor="middle">ASTM D5470 method</text>
+    <rect x="326" y="538" width="250" height="56" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="451" y="573" text-anchor="middle">Same nominal thickness</text>
+    <rect x="592" y="538" width="250" height="56" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="717" y="573" text-anchor="middle">Same pressure (~50 psi)</text>
+    <rect x="858" y="538" width="250" height="56" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="983" y="573" text-anchor="middle">Same temperature</text>
+    <rect x="1124" y="538" width="250" height="56" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="1249" y="573" text-anchor="middle">Same fixture &amp; surfaces</text>
+  </g>
+
+  <!-- Gated validation -->
+  <text x="60" y="646" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#16324f">Then: gated validation — one thermal number never qualifies a second source</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937">
+    <rect x="60" y="662" width="292" height="58" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="206" y="697" text-anchor="middle"><tspan font-weight="700">1 · </tspan>Thermal resistance</text>
+    <line x1="356" y1="691" x2="392" y2="691" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowGate)"/>
+    <rect x="396" y="662" width="292" height="58" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="542" y="697" text-anchor="middle"><tspan font-weight="700">2 · </tspan>Electrical insulation</text>
+    <line x1="692" y1="691" x2="728" y2="691" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowGate)"/>
+    <rect x="732" y="662" width="292" height="58" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="878" y="697" text-anchor="middle"><tspan font-weight="700">3 · </tspan>Aging &amp; reliability</text>
+    <line x1="1028" y1="691" x2="1064" y2="691" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowGate)"/>
+    <rect x="1068" y="662" width="292" height="58" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="1214" y="697" text-anchor="middle"><tspan font-weight="700">4 · </tspan>Pilot build</text>
+  </g>
+
+  <text x="60" y="762" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#64748b">Results are specific to the tested samples, pressure, thickness and conditions. A candidate becomes a qualified</text>
+  <text x="60" y="784" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#64748b">second source only through gated validation — never from datasheet W/m·K alone.</text>
+</svg>
