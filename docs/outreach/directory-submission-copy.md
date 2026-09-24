@@ -128,9 +128,9 @@ Status: registration NOT started, NOT submitted. No account created; no verifica
 
 Determined fields are filled; unknowns are marked [待确认] — do not fabricate.
 
-- Company name (legal): ANDA — [待确认：ANDA 法定全称]
+- Company name (legal): 深圳安达新材料科技有限公司 (Shenzhen ANDA New Material Technology Co., Ltd.) — 来源：用户自有 ANDA 2026 国际版目录（slides 2/36）。官网 www.andatim.com（2026-09-24 检查域名暂无法解析，Europages 提交前复查；网站字段继续用已验证可访问的 https://ouyangthermal.github.io/）
 - Brand shown alongside: OUYANG THERMAL (engineering knowledge base)
-- Website: https://ouyangthermal.github.io/
+- Website: https://ouyangthermal.github.io/ （已验证可访问；www.andatim.com 暂不可访问，恢复后再评估）
 - Country: China — 注意：Europages 注册后 Country 不能随便改，提交前确认无误
 - Street and number (必填): [待确认：ANDA 公司真实注册街道地址；不得使用宏晶地址，不得混用深圳办公室/惠州工厂地址]
 - VAT / Tax number (必填): [待确认：ANDA 自有税号]
@@ -141,7 +141,7 @@ Determined fields are filled; unknowns are marked [待确认] — do not fabrica
 - Year founded: 留空（Europages 可选字段；未知不猜；ANDA 外贸事业部 2026 年启动 ≠ 公司成立年份）
 - Factory area: 不填（非必填；无可靠平方米数字）
 - Business description: 见 Variant A (Europages/ANDA)
-- Quality & Compliance: RoHS / REACH compliance documentation available for selected products upon request.（不得写成"公司拥有 RoHS/REACH certification"。ISO 9001：[待确认是否有证书，有才写]；UL：仅真正有文件号/认证产品才写）
+- Quality & Compliance: RoHS / REACH compliance documentation available for selected products upon request.（不得写成"公司拥有 RoHS/REACH certification"。ISO 9001：[待确认是否有证书，有才写]——ANDA 目录仅把 IATF16949/ISO9001 列为"质量体系框架"方法要求，不是持证声明，不得写已获证；UL：仅真正有文件号/认证产品才写）
 - Categories: Thermal interface materials; thermal pads; thermal gels; electrical insulation materials; potting compounds
 - Documents to upload: 上传前一律先经 owner 确认（证书、执照、测试报告未经批准不得上传）
 - Free-tier verification docs: 仍未验证（第 1 步流程内无上传项；帮助中心未明确免费档是否需营业执照/身份证件）。实际进入公司资料步骤时再确认，不预设结论
