@@ -1,6 +1,6 @@
 ---
 title: How Should Engineers Evaluate Thermal Interface Material Suppliers?
-description: A practical TIM second-source qualification framework: compare installed performance, application conditions, evidence, process fit and supply controls—not W/m·K alone.
+description: "A practical TIM second-source qualification framework: compare installed performance, application conditions, evidence, process fit and supply controls — not W/m·K alone."
 permalink: /china-thermal-interface-material-supplier/
 alternate_zh: /zh/thermal-interface-materials/
 author: Ouyang Xiaohui
