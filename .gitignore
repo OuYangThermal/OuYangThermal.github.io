@@ -20,3 +20,6 @@ token*.json
 *.mbox
 *.eml
 docs/backlink-outreach/private/
+
+# Private outreach records — never commit personal contacts or mailboxes.
+work/
