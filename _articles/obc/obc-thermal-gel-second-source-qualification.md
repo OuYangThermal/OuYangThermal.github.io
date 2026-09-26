@@ -6,7 +6,7 @@ category_slug: "obc"
 category_url: "/obc/"
 author: "Ouyang Xiaohui"
 date: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-27
 contact_message: "Hi Ouyang, I found your OBC thermal gel second-source qualification guide. We are evaluating an alternative gel and would like to discuss benchmark testing or a controlled sample."
 email_subject: "OBC Thermal Gel Second-Source Qualification"
 commercial_url: "/obc-thermal-material-supplier/"
@@ -106,6 +106,22 @@ Run a controlled pilot using production-intent material, equipment and work inst
 
 Approval should state the exact material, revision, supplier route, manufacturing site where relevant, process settings and validated application. It should not silently approve every thickness, formulation or OBC platform.
 
+## Gate evidence and owner matrix
+
+Use this blank matrix as a starting template. Copy it into the project file and fill each cell with the actual record, owner and criterion. Owners and acceptance limits belong to the application owner's quality system; this table is not a universal standard.
+
+| Gate | Evidence to record | Suggested owner | Acceptance defined by |
+| --- | --- | --- | --- |
+| 0 — Freeze the requirement | Gap range by zone (mm), contact area, thermal target, mechanical limits, electrical requirements, process route, incumbent baseline (grade, lot, TDS, measured results) | Design / thermal engineer + SQE | Application owner, before sampling |
+| 1 — Normalize the evidence | Side-by-side TDS and method matrix; rheology, cure, dielectric, shelf life, change-control documents; "not comparable" flags where methods differ | Thermal engineer + SQE | Agreed comparable-fields list |
+| 2 — Verify dispensing | Equipment, mix ratio, purge method, nozzle or needle, pressure, flow or shot time, bead geometry, shot-to-shot variation, void and wetting inspection records | Process engineer | Production-representative setup |
+| 3 — Installed behavior | Installed BLT at minimum, nominal and maximum gap; contact coverage; component and housing temperatures; force, deflection or movement observations | Thermal + mechanical engineer | Same-condition comparison against the incumbent |
+| 4 — Reliability stress | Stress plan (type, cycles, dwell, sample count), pre- and post-stress thermal data, post-stress inspection for void growth, separation, cracking, leakage or migration | Reliability engineer + SQE | Criteria defined before testing |
+| 5 — Supplier controls | Lot identification, certificate-of-analysis content, incoming-inspection methods, shelf life and storage controls, change notification, capacity and lead time | SQE + procurement | Approved supplier requirements |
+| 6 — Pilot and release | Yield, dispense stability, inspection findings, cycle time, rework, closed deviations, formal release record (material, revision, supplier route, process settings, validated application) | Process + quality | Documented release, no silent scope expansion |
+
+A gate is only complete when its evidence row is filled and the stated owner has signed the acceptance. If a gate fails, retain the evidence and correct the test plan rather than lowering the acceptance criterion after seeing the result.
+
 ## Common qualification mistakes
 
 - Treating equal conductivity values as product equivalence.
@@ -140,6 +156,7 @@ No. It can support screening and method alignment. The application owner must va
 
 - [OBC Thermal Material Supplier Evaluation]({{ '/obc-thermal-material-supplier/' | relative_url }})
 - [Thermal Interface Materials for OBC: Complete Selection Guide]({{ '/obc/thermal-interface-materials-for-obc-complete-selection-guide/' | relative_url }})
+- [Thermal Pad vs Thermal Gel for OBC]({{ '/obc/thermal-pad-vs-thermal-gel-for-obc/' | relative_url }})
 - [Why Do OBC Modules Use Two-Part Thermal Gel?]({{ '/obc/why-do-obc-modules-use-two-part-thermal-gel/' | relative_url }})
 - [5 W/m·K Thermal Gel for OBC: When Is It Necessary?]({{ '/obc/5w-mk-thermal-gel-for-obc-when-is-it-necessary/' | relative_url }})
 - [Common Thermal Gel Dispensing Problems]({{ '/thermal-gel/common-thermal-gel-dispensing-problems/' | relative_url }})
@@ -148,7 +165,9 @@ No. It can support screening and method alignment. The application owner must va
 
 ## Next step
 
-For an OBC second-source review, send the incumbent reference, gap range, dispense format, application temperatures and the first validation gate. [Request a Sample]({{ '/request-sample/' | relative_url }}) for controlled evaluation, or [Discuss Your Application]({{ '/discuss-your-application/' | relative_url }}). Existing WhatsApp, email and phone options remain available.
+Preparing an OBC thermal gel second-source evaluation? The practical path is: **request a controlled sample discussion** → direct engineering contact → dispense and benchmark plan → sample → pilot → RFQ.
+
+For the first discussion, send the incumbent reference, gap range, dispense format, application temperatures and the first validation gate. [Request a Sample]({{ '/request-sample/' | relative_url }}) for controlled evaluation, or [Discuss Your Application]({{ '/discuss-your-application/' | relative_url }}). Existing WhatsApp, email and phone options remain available.
 
 Build a project-specific starting list with the [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }}), then compare supplier documents using the [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }}).
 
