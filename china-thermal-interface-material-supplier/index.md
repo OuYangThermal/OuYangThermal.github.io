@@ -1,10 +1,10 @@
 ---
 title: China Thermal Interface Material Supplier | Ouyang Thermal
-description: "Ouyang Thermal is a China thermal interface material supplier and TIM manufacturer: thermal pads, thermal gels, thermal grease and electrically insulating TIM for EV power electronics, energy storage, AI servers and optical modules — with benchmark, sample and second-source qualification support."
+description: "China thermal interface material supplier evaluation: thermal pads, thermal gels, thermal grease and electrically insulating TIM for EV power electronics, energy storage, AI servers and optical modules — with benchmark, sample and second-source qualification support."
 permalink: /china-thermal-interface-material-supplier/
 alternate_zh: /zh/thermal-interface-materials/
 author: Ouyang Xiaohui
-updated: 2026-09-27
+updated: 2026-09-28
 commercial_contact: true
 contact_message: "Hi Ouyang, I'm looking for a thermal interface material supplier in China. Could you help me evaluate a suitable solution? Source: China TIM Supplier Evaluation"
 email_subject: "Thermal Material Inquiry – China Supplier"
