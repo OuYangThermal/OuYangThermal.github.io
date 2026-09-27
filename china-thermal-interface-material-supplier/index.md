@@ -1,10 +1,10 @@
 ---
-title: How Should Engineers Evaluate Thermal Interface Material Suppliers?
-description: "A practical TIM second-source qualification framework: compare installed performance, application conditions, evidence, process fit and supply controls — not W/m·K alone."
+title: China Thermal Interface Material Supplier | Ouyang Thermal
+description: "Ouyang Thermal is a China thermal interface material supplier and TIM manufacturer: thermal pads, thermal gels, thermal grease and electrically insulating TIM for EV power electronics, energy storage, AI servers and optical modules — with benchmark, sample and second-source qualification support."
 permalink: /china-thermal-interface-material-supplier/
 alternate_zh: /zh/thermal-interface-materials/
 author: Ouyang Xiaohui
-updated: 2026-09-15
+updated: 2026-09-27
 commercial_contact: true
 contact_message: "Hi Ouyang, I'm looking for a thermal interface material supplier in China. Could you help me evaluate a suitable solution? Source: China TIM Supplier Evaluation"
 email_subject: "Thermal Material Inquiry – China Supplier"
@@ -13,6 +13,8 @@ email_subject: "Thermal Material Inquiry – China Supplier"
 ## Answer first
 
 [中文：导热界面材料怎么选？]({{ '/zh/thermal-interface-materials/' | relative_url }})
+
+Ouyang Thermal supplies thermal interface materials — including thermal gap pads, thermal gels, thermal grease and electrically insulating thermal materials — for EV power electronics, energy storage, AI servers and optical modules. Owen Ouyang is the engineering and commercial contact for TIM benchmarking, reference samples, engineering validation, second-source qualification and RFQ discussions.
 
 Qualify a TIM second source by reproducing the **installed interface**, not by matching a W/m·K value. Compare thermal performance, gap or thickness, compression, hardness, electrical insulation, reliability, process compatibility and the actual application conditions. Candidate equivalence is the evidence-based result of a controlled comparison—not the closest-looking TDS.
 
@@ -107,6 +109,10 @@ Acceptance limits must come from the application owner. A supplier typical value
 
 ## FAQ
 
+### What is a thermal interface material?
+
+A thermal interface material (TIM) is a thermally conductive material placed between a heat source and a heat sink to displace air and reduce thermal contact resistance. Common forms include thermal gap pads, thermal gels (dispensable gap fillers), thermal grease and electrically insulating thermal sheets. Selection depends on gap, pressure, electrical isolation needs, process and reliability requirements — not on W/m·K alone.
+
 ### How should a TIM second source be qualified?
 
 Define the installed interface, screen comparable data, run same-condition bench and application tests, apply relevant reliability exposure, then validate a pilot and supply controls. The application owner sets the acceptance limits.
@@ -183,6 +189,7 @@ If you are evaluating a TIM supplier or second source, [Discuss a TIM Benchmark]
       "@type": "FAQPage",
       "@id": {{ page.url | append: '#faq' | absolute_url | jsonify }},
       "mainEntity": [
+        {"@type":"Question","name":"What is a thermal interface material?","acceptedAnswer":{"@type":"Answer","text":"A thermal interface material (TIM) is a thermally conductive material placed between a heat source and a heat sink to displace air and reduce thermal contact resistance. Common forms include thermal gap pads, thermal gels, thermal grease and electrically insulating thermal sheets. Selection depends on gap, pressure, electrical isolation needs, process and reliability requirements — not on W/m·K alone."}},
         {"@type":"Question","name":"How should a TIM second source be qualified?","acceptedAnswer":{"@type":"Answer","text":"Define the installed interface, screen comparable data, run same-condition bench and application tests, apply relevant reliability exposure, then validate a pilot and supply controls. The application owner sets the acceptance limits."}},
         {"@type":"Question","name":"Are two 6 W/m·K thermal pads equivalent?","acceptedAnswer":{"@type":"Answer","text":"No. Their bond-line thickness, contact resistance, compression, hardness, flatness, pressure, test method and temperature can differ. Compare the installed interface under matched conditions."}},
         {"@type":"Question","name":"What should be compared beyond thermal conductivity?","acceptedAnswer":{"@type":"Answer","text":"Compare thickness or gap, thermal resistance, compression or rheology, hardness, electrical insulation, temperature range, process behavior, aging evidence, traceability and change control. Mark unlike methods or conditions as non-comparable."}},

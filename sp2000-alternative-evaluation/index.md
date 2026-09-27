@@ -91,6 +91,7 @@ No such claim is made here. During evaluation the only correct status is **bench
 
 ## Related engineering guides
 
+- [China Thermal Interface Material Supplier]({{ '/china-thermal-interface-material-supplier/' | relative_url }}) — supplier evaluation and second-source qualification framework for TIM sourcing from China.
 - [Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}) — internal comparative test evidence under stated conditions, not a universal replacement claim.
 - [SP2000 Alternative: Parameters to Compare]({{ '/comparison/sp2000-thermal-pad-alternative-what-parameters-should-engineers-compare/' | relative_url }})
 - [Thermal Pad Compression Ratio]({{ '/thermal-pad/thermal-pad-compression-ratio-explained/' | relative_url }})
