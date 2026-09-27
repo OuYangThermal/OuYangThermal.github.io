@@ -10,9 +10,8 @@ Henkel / Bergquist · Laird · Parker Chomerics · Dow · Momentive · Shin-Etsu
 
 | Domain | Source URL | Competitor | Reason linked | Opportunity | Contact / submission route | Priority | Status |
 |---|---|---|---|---|---|---|---|
-| _pending research_ | | | | | | | Not started |
-
-_Research not yet run. First sweep scheduled in the weekly growth loop._
+| thomasnet.com | https://www.thomasnet.com/suppliers/usa/thermal-interface-materials-84891878 | Ellsworth Adhesives, XTO, New England Die Cutting, Indium Corp. | Supplier directory profiles in TIM category | Free supplier profile as Hongjing New Materials Technology (Shenzhen) Co., Ltd. | "List Your Company" signup | High | Blocked 2026-09-27: site hard-blocks our network (bot wall, no interactive challenge); auto-retry planned; nothing submitted |
+| globalspec.com | https://www.globalspec.com | — | — | None: "List Your Company" routes only to the PAID Product Discovery program (advertising.globalspec.com/list-your-products/); no free-tier signup exists | Paid inquiry form (not submitted) | — | Parked 2026-09-27: paid-only, out of scope for free-directory outreach |
 
 ## What earns links in this industry (to verify per competitor)
 

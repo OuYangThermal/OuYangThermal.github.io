@@ -48,8 +48,7 @@ Owen Ouyang
 Ouyang Thermal | Thermal Management Solutions
 https://ouyangthermal.github.io
 
-**Status:** PREPARED 2026-09-27. Follow-up #1 due 5–7 days after send; #2 due 7–14
-days after #1. Stop on refusal or bounce.
+**Status:** SENT 2026-09-27 from 5672306@gmail.com (user-approved platform confirmation). Follow-up #1 due 2026-10-02 – 2026-10-04; #2 due 2026-10-09 – 2026-10-18. Stop on refusal or bounce.
 
 ---
 
@@ -93,8 +92,7 @@ Owen Ouyang
 Ouyang Thermal | Thermal Management Solutions
 https://ouyangthermal.github.io
 
-**Status:** PREPARED 2026-09-27. Follow-up #1 due 5–7 days after send; #2 due 7–14
-days after #1. Stop on refusal or bounce.
+**Status:** SENT 2026-09-27 from 5672306@gmail.com (user-approved platform confirmation). Follow-up #1 due 2026-10-02 – 2026-10-04; #2 due 2026-10-09 – 2026-10-18. Stop on refusal or bounce.
 
 ---
 

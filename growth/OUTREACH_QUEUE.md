@@ -22,10 +22,10 @@ Record → Follow-up #1 (5–7d) → Follow-up #2 (7–14d) → Reply / Backlink
 
 | # | Target | Type | Why them | Resource pitched | Contact (verified) | Status |
 |---|---|---|---|---|---|---|
-| 1 | Voltera blog | Resource suggestion | TIM Selection Guide cited by AI Overviews; engineering readers | TIM Selection Tool | hello@voltera.io (voltera.io/contact) | Prepared — blocked on Gmail connection |
-| 2 | ALLPCB blog | Resource suggestion | Thermal pad/PCB thermal guides, large engineering audience | Thermal Resistance Calculator | sponsor@allpcb.com (Cooperation inbox) | Prepared — blocked on Gmail connection |
-| 3 | ThomasNet | Supplier directory | Free supplier profile; lists TIM competitors | Company profile | Form submission | Held — needs entity-name confirmation |
-| 4 | GlobalSpec | Supplier directory | Free supplier listing; engineering audience | Company profile | Form submission | Held — needs entity-name confirmation |
+| 1 | Voltera blog | Resource suggestion | TIM Selection Guide cited by AI Overviews; engineering readers | TIM Selection Tool | hello@voltera.io (voltera.io/contact) | SENT 2026-09-27 |
+| 2 | ALLPCB blog | Resource suggestion | Thermal pad/PCB thermal guides, large engineering audience | Thermal Resistance Calculator | sponsor@allpcb.com (Cooperation inbox) | SENT 2026-09-27 |
+| 3 | ThomasNet | Supplier directory | Free supplier profile; lists TIM competitors | Company profile | Form submission | Entity confirmed 2026-09-27: Hongjing New Materials Technology (Shenzhen) Co., Ltd. — BLOCKED: site bot-walls our network, auto-retry planned, nothing submitted |
+| 4 | GlobalSpec | Supplier directory | Assumed free listing — disproven 2026-09-27 | — | Paid program only | Parked: "List Your Company" is paid-only (no free tier); out of scope unless user approves paid route |
 
 Parked/dropped 2026-09-27: NEDC (failed 4-question check — converter of competing
 brands, weak reader fit), Krayden (distributor of competing brands), E-Mobility
