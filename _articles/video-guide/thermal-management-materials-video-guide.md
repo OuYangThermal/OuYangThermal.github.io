@@ -113,6 +113,8 @@ where BLT is the installed bond-line thickness, k is thermal conductivity, and c
 - A 6 W/m·K material at 3.0 mm BLT gives a bulk resistance of about 5.0 K·cm²/W.
 - A 3 W/m·K material at 0.5 mm BLT gives a bulk resistance of about 1.7 K·cm²/W.
 
+<figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/tim-conductivity-vs-blt-comparison.webp' | relative_url }}" width="2048" height="1152" loading="lazy" decoding="async" alt="Diagram comparing a thick 6 W/m·K bond line against a thin 3 W/m·K bond line: the thinner layer has lower bulk thermal resistance despite lower conductivity"><figcaption><strong>Engineering Diagram.</strong> Simplified illustration of the same comparison above: a thick 6 W/m·K layer at 3.0 mm BLT (~5.0 K·cm²/W) versus a thin 3 W/m·K layer at 0.5 mm BLT (~1.7 K·cm²/W). Values are illustrative, not product test results.</figcaption></figure>
+
 The "lower conductivity" material wins by a wide margin — before contact resistance is even counted. In real assemblies, contact resistance, compression, surface condition and aging add further terms that no single W/m·K number captures.
 
 Practical consequence: always compare candidate materials at the **same installed BLT, pressure and temperature**, and validate with a controlled benchmark rather than a datasheet ranking. See [benchmark your current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}), the [thermal resistance calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}), and the [TIM selection tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }}).

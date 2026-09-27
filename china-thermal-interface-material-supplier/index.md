@@ -143,6 +143,7 @@ They may be relevant when the application owner or program requires formal produ
 
 ## Related engineering guides
 
+- [Thermal Management Materials in Real Applications: Video Guide]({{ '/video-guide/thermal-management-materials-video-guide/' | relative_url }}) — see where thermal pads, gels and other TIMs are actually used inside ESS battery packs, optical modules and laptops.
 - [How to Select a Thermal Pad]({{ '/thermal-pad/how-to-select-a-thermal-pad/' | relative_url }})
 - [How to Select Thermal Gel for Power Electronics]({{ '/thermal-gel/how-to-select-thermal-gel-for-power-electronics/' | relative_url }})
 - [Thermal Conductivity vs Thermal Resistance]({{ '/comparison/thermal-conductivity-vs-thermal-resistance/' | relative_url }})
