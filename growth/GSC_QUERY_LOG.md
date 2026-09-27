@@ -6,8 +6,10 @@
 
 ## 2026-09-27 — first validated read
 
+> **Data-scope correction (2026-09-28):** this read was taken with a **Country: United States** filter active in GSC. All totals, queries and pages below are **US-only**, not global site data. Do not cite them as whole-site performance. A filter-free re-read is scheduled to establish the true baseline.
+
 - Date range: 2026-09-09 → 2026-09-24 (16 days of history; verified no data exists before 2026-09-09 via 16-month range check)
-- Site totals: **5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8**
+- Site totals (US-filtered): **5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8**
 
 | Query | Clicks | Impressions | CTR | Avg position | Notes |
 |---|---|---|---|---|---|
@@ -29,4 +31,4 @@
 1. Google treats the homepage as the site's representative page for the seed keyword "thermal interface material" (position 1.5). Per ranking-protection rules: do not overhaul the homepage URL/title; strengthen its commercial conversion instead.
 2. The pillar page upgraded 2026-09-27 has no impressions yet — monitor whether it starts capturing supplier-intent queries over the next 2–4 weeks.
 3. 0 clicks on a position-1.5 ranking is a 2-impression sample — not actionable alone; watch CTR as impressions grow.
-4. All current traffic is brand/seed-keyword on the homepage. Commercial long-tail (supplier/manufacturer/second source) has zero validated demand yet — treat as hypothesis until GSC shows it.
+4. All current traffic (US-filtered view) is brand/seed-keyword on the homepage. Commercial long-tail (supplier/manufacturer/second source) has zero validated demand yet — treat as hypothesis until GSC shows it.
