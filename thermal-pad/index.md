@@ -7,6 +7,8 @@ permalink: /thermal-pad/
 
 Compressible sheet-form gap fillers: selection, thickness, hardness, compression, and reliability.
 
+<p><a href="{{ '/video-guide/thermal-management-materials-video-guide/' | relative_url }}">See thermal interface materials in real applications</a> — a video guide showing where thermal pads, gels and other TIMs are actually used inside electronic products.</p>
+
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/thermal-pad-compression-gap-tolerance-diagram.webp' | relative_url }}" width="1440" height="810" loading="lazy" decoding="async" alt="Thermal pad compression across component height and gap tolerances"><figcaption><strong>Engineering Diagram.</strong> Engineering diagram showing insufficient, controlled and excessive thermal pad compression.</figcaption></figure>
 
 {% include visual-cta.html visual_id="V03" %}

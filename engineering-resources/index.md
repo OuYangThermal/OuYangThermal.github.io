@@ -20,6 +20,8 @@ commercial_contact: true
 <article class="card"><h3>5. Second Source Qualification Generator</h3><p>Build an application-specific TIM qualification checklist.</p><a class="button-link" href="{{ '/engineering-resources/second-source-qualification-generator/' | relative_url }}">Use Tool</a></article>
 </div>
 
+<p><a href="{{ '/video-guide/thermal-management-materials-video-guide/' | relative_url }}">Watch our thermal management application video</a> — a video guide showing where thermal interface materials are actually used inside ESS battery packs, optical modules and laptops, with engineering selection notes.</p>
+
 ## Engineering Guides & Citation Assets
 
 Each asset identifies its underlying technical page and assumptions. **Free to reference for technical and educational use with attribution to OUYANG THERMAL and a link to this original resource.** Author and technical contact: **Owen Ouyang (Ouyang Xiaohui / 欧阳小辉)**.

@@ -6,6 +6,8 @@ permalink: /thermal-gel/
 
 Dispensable gap fillers for variable gaps, automation, rework, and stress-sensitive assemblies.
 
+<p><a href="{{ '/video-guide/thermal-management-materials-video-guide/' | relative_url }}">See thermal interface materials in real applications</a> — a video guide showing where thermal pads, gels and other TIMs are actually used inside electronic products.</p>
+
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/thermal-gel-dispensing-variable-gap-assembly.webp' | relative_url }}" width="1440" height="810" loading="lazy" decoding="async" alt="Thermal gel dispensing and compression across variable component gaps"><figcaption><strong>Engineering Diagram.</strong> Engineering diagram showing thermal gel dispensing, assembly compression and the installed heat path.</figcaption></figure>
 
 {% include visual-cta.html visual_id="V04" %}
