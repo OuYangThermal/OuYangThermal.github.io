@@ -6,6 +6,8 @@ permalink: /thermal-grease/
 
 Thin bond-line compounds for controlled, clamped interfaces.
 
+<p><a href="{{ '/video-guide/thermal-management-materials-video-guide/' | relative_url }}">See thermal interface materials in real applications</a> — a video guide showing where thermal pads, gels and other TIMs are actually used inside electronic products.</p>
+
 <figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/thermal-grease-thin-bond-line-interface.webp' | relative_url }}" width="1200" height="800" loading="lazy" decoding="async" alt="Thin thermal grease bond line between a power device and heat sink"><figcaption><strong>Engineering Diagram.</strong> Engineering comparison of a controlled grease bond line, excess material and an unsuitable large gap.</figcaption></figure>
 
 {% include visual-cta.html visual_id="V05" %}

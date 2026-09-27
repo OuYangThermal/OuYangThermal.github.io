@@ -11,6 +11,8 @@ email_subject: "Optical Transceiver TIM Inquiry"
 
 OUYANG THERMAL supports engineering selection and controlled benchmark planning. Hongjing New Materials Technology (Shenzhen) Co., Ltd. coordinates commercial inquiries, samples, RFQs and supply-chain discussions. Supplier or manufacturer status, authorization and drop-in equivalence are not implied; the application owner controls final qualification.
 
+<p><a href="{{ '/video-guide/thermal-management-materials-video-guide/#video-optical-modules' | relative_url }}">See TIMs inside real optical modules</a> — a video chapter showing thermal interface locations in 400G, 800G and 1.6T modules.</p>
+
 <aside class="cta contextual-cta"><strong>Evaluating a 400G, 800G or 1.6T TIM?</strong><p>Send the current material model or TDS, module form factor, gap range and the first result you need to verify. Owen can help structure a practical incumbent-versus-candidate benchmark.</p><p><a class="button-link" data-conversion="optical_supplier_whatsapp_click" data-source="Optical Transceiver TIM Supplier" href="https://wa.me/8613367909790?text={{ 'Hi Owen, we are evaluating a TIM supplier or second source for an optical transceiver. We can share the current material, module form factor and gap range.' | url_encode }}">Discuss on WhatsApp</a></p><p><a href="mailto:5672306@gmail.com?subject={{ 'Optical Transceiver TIM Supplier Evaluation' | url_encode }}">Email the Current TDS</a> · <a href="{{ '/discuss-your-application/' | relative_url }}">Send a Private Question</a></p></aside>
 
 ## Choose the qualification route

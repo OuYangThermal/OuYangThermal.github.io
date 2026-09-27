@@ -53,7 +53,7 @@ The table below summarizes the application types covered in the video. These are
 
 Related application pages: [battery packs]({{ '/battery-pack/' | relative_url }}), [energy storage]({{ '/energy-storage/' | relative_url }}), [optical modules]({{ '/optical-module/' | relative_url }}), [AI servers]({{ '/server/' | relative_url }}).
 
-## ESS / battery PACK: filling the gap between cells and the cooling plate
+## ESS / battery PACK: filling the gap between cells and the cooling plate {#video-ess-battery-pack}
 
 In an ESS battery pack the typical thermal path is:
 
@@ -74,7 +74,7 @@ Material selection for this interface is not a single-number decision. Evaluate:
 
 Use the [thermal resistance calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}) to estimate how BLT and conductivity combine into interface resistance before selecting a candidate. For background on this application, see [battery pack thermal management]({{ '/battery-pack/' | relative_url }}) and [energy storage]({{ '/energy-storage/' | relative_url }}).
 
-## Optical modules: thin, controlled interfaces at 400G / 800G / 1.6T
+## Optical modules: thin, controlled interfaces at 400G / 800G / 1.6T {#video-optical-modules}
 
 In a high-speed optical module the heat path is short and unforgiving:
 
@@ -92,7 +92,7 @@ This is exactly where ranking materials by W/m·K alone breaks down. For optical
 
 A structured way to compare an incumbent against an alternative is a controlled side-by-side test — see [benchmark your current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}) and the [optical transceiver TIM supplier and second-source evaluation]({{ '/optical-transceiver-tim-supplier/' | relative_url }}) guide. The [optical module]({{ '/optical-module/' | relative_url }}) application page covers this interface in more depth.
 
-## Laptop / consumer electronics: CPU, GPU and power devices
+## Laptop / consumer electronics: CPU, GPU and power devices {#video-laptop-consumer}
 
 In a laptop, heat sources such as the CPU, GPU, power devices and memory/power modules must all transfer heat into a shared cooling assembly — a heat spreader, heat pipe or the housing itself. Every one of those joints is a thermal interface, and each has different geometry:
 
@@ -102,7 +102,7 @@ In a laptop, heat sources such as the CPU, GPU, power devices and memory/power m
 
 For a non-specialist buyer, the rule of thumb: match the material to the gap and the assembly process first, then compare thermal values at the installed condition — not the other way around.
 
-## Why "6 W/m·K" does not automatically mean better cooling
+## Why "6 W/m·K" does not automatically mean better cooling {#video-6wmk-vs-blt}
 
 Installed cooling performance is decided by the **total interface thermal resistance**, not by conductivity alone. For a simplified uniform layer:
 
