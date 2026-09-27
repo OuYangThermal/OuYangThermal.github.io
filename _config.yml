@@ -33,6 +33,7 @@ defaults:
 exclude:
   - README.md
   - AGENTS.md
+  - growth/
   - PROJECT_HANDOFF.md
   - NEXT_ACTIONS.md
   - OUTREACH_ASSET_LIST.md
