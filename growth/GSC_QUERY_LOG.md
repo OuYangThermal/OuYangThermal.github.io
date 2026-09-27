@@ -32,3 +32,16 @@
 2. The pillar page upgraded 2026-09-27 has no impressions yet — monitor whether it starts capturing supplier-intent queries over the next 2–4 weeks.
 3. 0 clicks on a position-1.5 ranking is a 2-impression sample — not actionable alone; watch CTR as impressions grow.
 4. All current traffic (US-filtered view) is brand/seed-keyword on the homepage. Commercial long-tail (supplier/manufacturer/second source) has zero validated demand yet — treat as hypothesis until GSC shows it.
+
+## 2026-09-28 — filter-free re-read (full site, all countries)
+
+- Verified: no country/device/search-appearance filter active. Date range: last 3 months; data available 2026-09-09 → 2026-09-25 (GSC lags ~2 days).
+- Full-site totals: **5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8** — identical to the 2026-09-27 US-filtered read. Conclusion: all recorded traffic to date is from the United States; the earlier US-filter note was technically accurate as a scope label but the numbers ARE the global totals. No correction to the figures needed.
+- Queries (only 2 rows): "thermal interface material" 0 clicks / 2 impressions; junk exclusion-string query 0 / 2. The 5 clicks are unattributed per-query (anonymized), all 5 land on the homepage.
+- Pages (only 1 row): homepage 5 clicks / 24 impressions. Pillar and all product/application pages: still 0 impressions.
+- No settings changed. Read-only.
+
+### Strategic reads (logged as hypotheses, not facts)
+
+1. Baseline confirmed: the site has 16 days of measurable history, all on the homepage, all US. Every other page is invisible to Google search so far — this is normal for a young property; indexing requests for the two video pages are already queued.
+2. Next check: 2026-09-30 per the indexing-request commitment — look for the two video URLs in coverage and any new queries/pages.
