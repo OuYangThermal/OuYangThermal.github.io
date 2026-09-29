@@ -3,11 +3,9 @@
 Every outreach attempt. Full email text is the audit trail — never summarize away
 the actual wording that was sent.
 
-## 2026-09-27 — Batch 1: PREPARED, not yet sent
+## 2026-09-27 — Batch 1: SENT 2026-09-27
 
-**Blocker:** 5672306@gmail.com is not connected to the Gmail connector yet
-(only suno223335@gmail.com is linked). The user was asked to connect the business
-address; sending begins immediately after. Drafts below passed the 4-question check.
+**Status:** Both emails sent 2026-09-27 from 5672306@gmail.com (Gmail connector linked 2026-09-27). Follow-up #1 window: 2026-10-02 – 2026-10-04; #2: 2026-10-09 – 2026-10-18. Drafts below passed the 4-question check.
 
 ### Email 1 — Voltera (hello@voltera.io, verified on voltera.io/contact 2026-09-27)
 

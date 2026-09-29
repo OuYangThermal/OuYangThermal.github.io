@@ -45,3 +45,10 @@
 
 1. Baseline confirmed: the site has 16 days of measurable history, all on the homepage, all US. Every other page is invisible to Google search so far — this is normal for a young property; indexing requests for the two video pages are already queued.
 2. Next check: 2026-09-30 per the indexing-request commitment — look for the two video URLs in coverage and any new queries/pages.
+
+## 2026-09-29 — GSC read BLOCKED (login session expired)
+
+- Managed browser's Google session (5672306@gmail.com) is signed out → password challenge on account chooser. No credentials available on a detached run; did not attempt login. Task closed per policy.
+- Standing baseline (2026-09-28 filter-free read): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. "thermal interface material": 2 impressions, position 1.5, 0 clicks; the 5 clicks' queries anonymized by Google.
+- No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
+- OWNER ACTION: user signs in to Google once in the managed browser; next run retries the full Performance + Links read.

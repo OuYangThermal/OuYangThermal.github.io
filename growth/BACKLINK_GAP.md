@@ -12,6 +12,9 @@ Henkel / Bergquist · Laird · Parker Chomerics · Dow · Momentive · Shin-Etsu
 |---|---|---|---|---|---|---|---|
 | thomasnet.com | https://www.thomasnet.com/suppliers/usa/thermal-interface-materials-84891878 | Ellsworth Adhesives, XTO, New England Die Cutting, Indium Corp. | Supplier directory profiles in TIM category | Free supplier profile as Hongjing New Materials Technology (Shenzhen) Co., Ltd. | "List Your Company" signup | High | Blocked 2026-09-27: site hard-blocks our network (bot wall, no interactive challenge); auto-retry planned; nothing submitted |
 | globalspec.com | https://www.globalspec.com | — | — | None: "List Your Company" routes only to the PAID Product Discovery program (advertising.globalspec.com/list-your-products/); no free-tier signup exists | Paid inquiry form (not submitted) | — | Parked 2026-09-27: paid-only, out of scope for free-directory outreach |
+| pcbway.com/blog | http://pcbway.com/blog/PCB_Design_Layout/Considerations_for_High_Power_PCB_Design_25a54c5a.html | — (PCB fab, not a TIM competitor) | High-power PCB design guides with thermal management sections; large PCB-designer audience | Resource suggestion: Thermal Resistance Calculator as companion link | simon@pcbway.com (published "Co-operation" inbox, PCBWay contact list via CNX Software sponsored post 2024-11-20) | Medium | Prepared 2026-09-29; send blocked by Gmail tool instability (3× service restart, 0 sends confirmed) — retry next run |
+| protoexpress.com/blog (Sierra Circuits) | https://www.protoexpress.com/blog/12-pcb-thermal-management-techniques-to-reduce-pcb-heating/ | — (PCB fab, not a TIM competitor) | Strong thermal how-to library ("12 PCB Thermal Management Techniques", aerospace thermal tips); manufacturer-agnostic guides | Calculator / selection tool as reader resource | No verifiable editorial/cooperation email (amit@protoexpress.com from 2020 guide PDF is stale) — never guess contacts | — | Parked 2026-09-29 |
+| eeworldonline.com | https://www.eeworldonline.com/how-to-choose-the-right-thermal-interface-for-compact-electronics/ | Laird (images cited as "Image: Laird"), Dow Corning, Würth Elektronik | Engineering how-to articles cite manufacturer reference diagrams and selection content | Reference diagram / calculator as cited companion resource | No public editorial email (contact form only); guest-article submissions get URLs stripped → no link value | — | Parked 2026-09-29 |
 
 ## Opportunity scores (2026-09-28)
 
@@ -36,6 +39,12 @@ Reading: ThomasNet is the highest-value target but access-gated; Voltera/ALLPCB 
 - Industry directories (electronics components, thermal management)
 - Technical media articles citing test methods or data
 - GitHub / open technical resources
+
+### Observed 2026-09-29 — how Laird / Henkel actually earn citations
+
+- **Laird:** third-party engineering how-tos (e.g. EEWorld Online's TIM selection article) cite Laird's *reference diagrams* as images ("Image: Laird") alongside Dow Corning and Würth Elektronik. What earns the citation: reusable, clearly-labeled engineering visuals + explicit selection guidance, not product pages.
+- **Henkel/Bergquist:** selection guides get hosted/referenced by distributors (Mouser); AutomotiveWorld coverage of Henkel content emphasizes *test conditions, independent research (ZFW Stuttgart), and webinars*. What earns the citation: stated test methodology + third-party validation + educational format.
+- Implication for us: our citable assets should be methodology-packaged (assumptions, worked examples, test conditions, author/date) — exactly what the 2026-09-29 calculator upgrade did. Reusable diagrams with clear source labeling are the next format to build.
 
 ## Hard bans
 

@@ -45,3 +45,11 @@ engineering source — never attempt to deceive AI systems.
 ## Retest cadence
 
 - Monthly, or after a major content/authority push. One AI answer is not a ranking — track trends, not snapshots.
+
+## Retest 2026-09-29 — Perplexity (3 questions)
+
+Retest executed on perplexity.ai (no login): "What is thermal interface material?", "How to select thermal pad?", "Thermal interface material for AI server". 33 browser steps, no login wall / quota / CAPTCHA encountered; all three answers generated.
+
+⚠️ **Detailed citation results pending:** the browser task's structured summary handoff had not been delivered to this run when the growth files were committed. Citation table will be filled in from the handoff on the next run — nothing recorded as observed until then. (Run executed 2026-09-29 UTC; the task itself completed, only the report delivery lagged.)
+
+Purpose of this retest: measure whether the 2026-09-29 calculator methodology upgrade (assumptions, worked example, author/date provenance) changes Perplexity citation behavior vs the 2026-09-27 baseline of zero mentions.

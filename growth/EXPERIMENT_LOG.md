@@ -25,3 +25,12 @@
 - **URL:** https://ouyangthermal.github.io/server/thermal-management-materials-for-ai-servers/
 - **Commit:** 6836258
 - **Result:** production HTTP 200; GSC impressions pending.
+
+## 2026-09-29 — Weekly growth loop: pillar + calculator upgrade
+
+- **Money page pick:** `/china-thermal-interface-material-supplier/` (opportunity score 18/25). Change: inline-linked Thermal Resistance Calculator in the R = t/(kA) section + added calculator to Related engineering guides. No URL/title change (rank-protection rule).
+- **Engineering resource pick:** `/engineering-resources/thermal-resistance-calculator/` (score 19/25). Change: citable methodology packaging — model assumptions (steady-state 1-D), worked example (6 W/m·K, 1.0 mm, 40×40 mm² → ≈0.104 K/W), visible provenance "maintained by Ouyang Xiaohui (Owen Ouyang), last reviewed 2026-09-28"; JSON-LD dateModified → 2026-09-28.
+- **Commit:** e501e3a (shipped via concurrent daily-GEO run; working tree was clean — no duplicate commit).
+- **Production verified 2026-09-29:** calculator + pillar + homepage + sitemap.xml + robots.txt + googlebd2df6f2d347ec36.html + request-sample all HTTP 200; "Worked example" live on calculator page; pillar→calculator link live.
+- **Build:** Jekyll build PASS (bundle install required first); canonical/sitemap/robots/growth-exclusion validated.
+- **Risk note:** ~~meta description says "TIM manufacturer" — identity claim to re-verify against company framework before further iteration.~~ RESOLVED 2026-09-29: removed by `c40161e`; current meta reads "China thermal interface material supplier evaluation…". Verified live.

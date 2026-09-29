@@ -23,4 +23,5 @@ answerability + purchase potential. No generic filler ("what is thermal paste").
 
 ## Answered / shipped
 
-- (none yet via this log — site has 110 pages from earlier GEO work; new entries start here)
+- 2026-09-29: Thermal Resistance Calculator upgraded with citable methodology packaging (model assumptions, worked example, author/date provenance) — direct response to the 2026-09-27 AI-visibility finding that how-to methodology content is what AI cites. AI retest pending.
+- 2026-09-29: Pillar /china-thermal-interface-material-supplier/ strengthened with calculator internal links (rank 11–50 rule); "TIM manufacturer" meta flag verified resolved.
