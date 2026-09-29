@@ -31,7 +31,7 @@
 1. Google treats the homepage as the site's representative page for the seed keyword "thermal interface material" (position 1.5). Per ranking-protection rules: do not overhaul the homepage URL/title; strengthen its commercial conversion instead.
 2. The pillar page upgraded 2026-09-27 has no impressions yet — monitor whether it starts capturing supplier-intent queries over the next 2–4 weeks.
 3. 0 clicks on a position-1.5 ranking is a 2-impression sample — not actionable alone; watch CTR as impressions grow.
-4. All current traffic (US-filtered view) is brand/seed-keyword on the homepage. Commercial long-tail (supplier/manufacturer/second source) has zero validated demand yet — treat as hypothesis until GSC shows it.
+4. [Corrected 2026-09-29] The earlier note called homepage traffic "brand/seed-keyword" — that was wrong. The 2026-09-28 filter-free re-read shows 5 clicks all landing on the homepage, but GSC anonymized the per-query attribution, so the actual queries are unknown. Do not claim brand or seed-keyword traffic without query-level evidence. Commercial long-tail (supplier/manufacturer/second source) has zero validated demand yet — treat as hypothesis until GSC shows it.
 
 ## 2026-09-28 — filter-free re-read (full site, all countries)
 
