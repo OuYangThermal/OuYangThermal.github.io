@@ -111,6 +111,43 @@ That is why the same nominal thickness and approximately aligned pressure provid
 - It does not establish independent, official or third-party certification.
 - It does not establish production approval, customer use or supplier authorization.
 
+## Frequently asked questions
+
+### What did Case 001 measure?
+
+Thermal resistance of five FT-BN035 thicknesses — 0.20 mm → 0.185, 0.25 mm → 0.211, 0.31 mm → 0.245, 0.38 mm → 0.265, 0.47 mm → 0.311 °C·in²/W — plus one 0.25 mm SP2000 reference sample at 0.267 °C·in²/W. At the same nominal 0.25 mm thickness, the FT-BN035 sample measured approximately 21% lower in this specific comparison. The page also records ASTM D149 breakdown-voltage limits, an ASTM D257 surface-resistance value and ASTM D792 density values for the tested specimens.
+
+### What test method and conditions were used?
+
+Thermal resistance was measured using ASTM D5470 at approximately 50 psi (the formal report rows display about 49.8–50 psi). Electrical results used ASTM D149 for breakdown voltage, ASTM D257 at a displayed 500 V for surface resistance, and ASTM D792 for density.
+
+### Is Case 001 an independent third-party certification?
+
+No. It is internal comparative testing under the stated conditions, presented for engineering reference. Results apply only to the tested samples, pressure, thickness and conditions.
+
+### Does Case 001 prove FT-BN035 can replace SP2000?
+
+No. Case 001 is one evidence input within a gated second-source qualification process. FT-BN035 is treated as a benchmark candidate and potential alternative subject to validation — never as a guaranteed or drop-in replacement. See the [SP2000 Alternative Evaluation]({{ '/sp2000-alternative-evaluation/' | relative_url }}) for the qualification path.
+
+### Can my current thermal pad be benchmarked the same way?
+
+Yes. Send the current material and TDS, target thickness, pressure or assembly gap, electrical requirement and application conditions, and a controlled same-condition comparison can be structured: [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://ouyangthermal.github.io/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/#faq",
+  "mainEntity": [
+    {"@type":"Question","name":"What did Case 001 measure?","acceptedAnswer":{"@type":"Answer","text":"Thermal resistance of five FT-BN035 thicknesses: 0.20 mm at 0.185, 0.25 mm at 0.211, 0.31 mm at 0.245, 0.38 mm at 0.265 and 0.47 mm at 0.311 C-in2/W, plus one 0.25 mm SP2000 reference sample at 0.267 C-in2/W. At the same nominal 0.25 mm thickness the FT-BN035 sample measured approximately 21% lower in this specific comparison."}},
+    {"@type":"Question","name":"What test method and conditions were used in Case 001?","acceptedAnswer":{"@type":"Answer","text":"ASTM D5470 at approximately 50 psi for thermal resistance; ASTM D149 for breakdown voltage, ASTM D257 at 500 V for surface resistance, and ASTM D792 for density."}},
+    {"@type":"Question","name":"Is Case 001 an independent third-party certification?","acceptedAnswer":{"@type":"Answer","text":"No. It is internal comparative testing under the stated conditions, for engineering reference. Results apply only to the tested samples, pressure, thickness and conditions."}},
+    {"@type":"Question","name":"Does Case 001 prove FT-BN035 can replace SP2000?","acceptedAnswer":{"@type":"Answer","text":"No. Case 001 is one evidence input within a gated second-source qualification process. FT-BN035 is a benchmark candidate and potential alternative subject to validation, not a guaranteed or drop-in replacement."}},
+    {"@type":"Question","name":"Can my current thermal pad be benchmarked the same way?","acceptedAnswer":{"@type":"Answer","text":"Yes. Provide the current material and TDS, target thickness, pressure or assembly gap, electrical requirement and application conditions, and a controlled same-condition comparison can be structured."}}
+  ]
+}
+</script>
+
 ## Second-source qualification
 
 Use this case as one evidence input within a gated process. Freeze the incumbent reference and requirements; align thickness, pressure, substrates and methods; test multiple specimens and lots; confirm compression, electrical insulation and reliability; and complete a representative pilot build before RFQ approval.
