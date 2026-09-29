@@ -61,7 +61,7 @@ Thermal conductivity, expressed in W/m·K, is a material property measured under
 
 **R = t / (kA)**
 
-where `t` is thickness in metres, `k` is conductivity in W/m·K and `A` is contact area in m². A real assembly also contains contact resistances and non-uniform pressure, so the equation is a screening model rather than a complete product prediction.
+where `t` is thickness in metres, `k` is conductivity in W/m·K and `A` is contact area in m². A real assembly also contains contact resistances and non-uniform pressure, so the equation is a screening model rather than a complete product prediction. Screen a candidate at your own bond-line thickness and area with the [Thermal Resistance Calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}).
 
 Request the test method, specimen preparation, direction, pressure and temperature behind each value. ASTM D5470 is commonly referenced for steady-state thermal transmission measurements, but ASTM notes that its idealized heat flow does not directly reproduce most applications. Controlled side-by-side testing in representative hardware remains necessary.
 
@@ -156,6 +156,7 @@ They may be relevant when the application owner or program requires formal produ
 - [China Thermal Gel Supplier Evaluation]({{ '/thermal-gel-supplier-china/' | relative_url }})
 - [AI Server Power Supply and 800V DC TIM]({{ '/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/' | relative_url }})
 - [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }})
+- [Thermal Resistance Calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}) — screen bulk thermal resistance from conductivity, bond-line thickness and area
 - [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
 - [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }})
 
