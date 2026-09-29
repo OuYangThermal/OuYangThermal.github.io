@@ -48,8 +48,19 @@ engineering source — never attempt to deceive AI systems.
 
 ## Retest 2026-09-29 — Perplexity (3 questions)
 
-Retest executed on perplexity.ai (no login): "What is thermal interface material?", "How to select thermal pad?", "Thermal interface material for AI server". 33 browser steps, no login wall / quota / CAPTCHA encountered; all three answers generated.
+Retest executed on perplexity.ai (no login): all three answers fully generated, no blocking login wall/quota/CAPTCHA (a "sign in to continue" modal appeared twice but was dismissible).
 
-⚠️ **Detailed citation results pending:** the browser task's structured summary handoff had not been delivered to this run when the growth files were committed. Citation table will be filled in from the handoff on the next run — nothing recorded as observed until then. (Run executed 2026-09-29 UTC; the task itself completed, only the report delivery lagged.)
+**Result: Ouyang Thermal — zero mentions across all 3 questions**, answers and source lists alike. Unchanged from the 2026-09-27 baseline (the 2026-09-29 calculator methodology upgrade had not yet had time to matter for indexing/citation).
 
-Purpose of this retest: measure whether the 2026-09-29 calculator methodology upgrade (assumptions, worked example, author/date provenance) changes Perplexity citation behavior vs the 2026-09-27 baseline of zero mentions.
+| Date | Engine | Question | Ouyang cited? | Brands mentioned/cited | Sources cited |
+|---|---|---|---|---|---|
+| 2026-09-29 | Perplexity | What is thermal interface material? | No | Laird, Indium, Boyd, Ohmite (via sources, not in answer body) | en.wikipedia.org, laird.com (×3), indium.com, boydcorp.com, ohmite.com, onlinelibrary.wiley.com, electronics-cooling.com, forum.digikey.com |
+| 2026-09-29 | Perplexity | How to select thermal pad? | No | Sheen Thermal, T-Global, AiVon, Power CTC, NFION Thermal, ALLPCB (via sources) | allpcb.com ("How to Choose Thermal Pads for PCB Applications"), sheenthermal.com, tglobaltechnology.com, nfionthermal.com, powerctc.com, aivon.co.kr |
+| 2026-09-29 | Perplexity | Thermal interface material for AI server | No | Ziitek (cited inline in answer body), Laird, Intel, Google, Tesla, IBM, Arctic, Krayden, Sheen, NovoLINC/MaxLINC | eps.ieee.org, krayden.com, ziitek.com (×2), patsnap.com, sheenthermal.com, sheenmaterials.com, igorslab.de, finance.yahoo.com (ResearchAndMarkets) |
+
+### Reads (hypotheses, not facts)
+
+1. **Q2 ("How to select thermal pad?") is the most winnable format**: all 6 cited sources are how-to content sites, no dominant brand owns the answer. Our calculator + selection tool are exactly this asset class.
+2. **ALLPCB validation signal**: Perplexity already cites ALLPCB's thermal-pad guide — our Batch 1 outreach target. A calculator link from that article would put us directly in the citation path. Follow-up #1 (2026-10-02 – 2026-10-04) matters more now.
+3. **Q3 cites R = t/(k·A) explicitly** in selection criteria — our calculator page covers exactly this formula; needs indexation + a citing page.
+4. **Q1 is brand/Wikipedia territory** (Laird ×3, Wikipedia) — not worth chasing head-on; win via Q2/Q3-style methodology content instead.
