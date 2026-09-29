@@ -112,3 +112,86 @@ https://ouyangthermal.github.io
   Moss") but no verifiable public editorial email address; will not guess.
 
 ---
+
+## 2026-09-29 — Batch 2: Email 3 — PCBWay (PREPARED, send blocked)
+
+4-question check:
+1. Why this person? simon@pcbway.com is PCBWay's published "Co-operation" inbox (from PCBWay's own contact list, quoted in their CNX Software sponsored post, 2024-11-20).
+2. Why this website? pcbway.com/blog publishes PCB design guides including "Considerations for High-Power PCB Design" with a thermal management section (verified 2026-09-29); readers are PCB designers.
+3. Why this resource? Our free Thermal Resistance Calculator estimates a TIM joint's bulk thermal resistance from conductivity, bond-line thickness and area — directly applicable to their thermal management / heat-sink content.
+4. Why would readers care? PCB designers following thermal guidance need to sanity-check a candidate thermal pad's thermal path numerically; the calculator does that in seconds.
+
+Subject: Free thermal calculator for your high-power PCB design readers
+
+Hi PCBWay team,
+
+I have been reading the PCB design guides on the PCBWay blog — your "Considerations for High-Power PCB Design" piece, with its thermal management section on heat sinks and thermal vias, is the practical kind of content PCB designers actually bookmark.
+
+I run Ouyang Thermal (ouyangthermal.github.io), where we publish free engineering tools for thermal design. One of them is a Thermal Resistance Calculator that estimates a TIM joint's bulk thermal resistance from conductivity, bond-line thickness, and contact area:
+
+https://ouyangthermal.github.io/engineering-resources/thermal-resistance-calculator/
+
+It pairs naturally with articles on thermal management and heat-sink selection — readers can plug in the numbers for the thermal pad they are considering and sanity-check the thermal path before layout.
+
+If you think it is useful, feel free to link it from a relevant article. Happy to adjust anything on our side to make it a better fit.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+https://ouyangthermal.github.io
+
+**Status:** PREPARED 2026-09-29. Send FAILED 3× — `+send` via the Gmail connector hit a service restart mid-command on all three attempts; Sent-mailbox verified empty after each attempt, so nothing went out and no duplicate risk materialized. Not retrying further on this flaky path. Ready to send on the next run.
+
+---
+
+## Follow-up #1 texts (PREPARED 2026-09-29 — send window 2026-10-02 – 2026-10-04, NOT before)
+
+### Voltera follow-up #1 (reply in same thread)
+
+Subject: Re: Resource suggestion for your TIM Selection Guide
+
+Hi Voltera team,
+
+Floating this back to the top of your inbox in case it got buried — I wrote last week suggesting our free interactive TIM Selection Tool as a possible companion link for your TIM Selection Guide:
+
+https://ouyangthermal.github.io/engineering-resources/tim-selection-tool/
+
+No pressure either way; if it is not a fit, no need to reply.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+https://ouyangthermal.github.io
+
+### ALLPCB follow-up #1 (reply in same thread)
+
+Subject: Re: Free thermal calculator your readers might like
+
+Hi ALLPCB team,
+
+Quick follow-up on my note from last week — our free Thermal Resistance Calculator as a possible companion link for your PCB thermal management articles:
+
+https://ouyangthermal.github.io/engineering-resources/thermal-resistance-calculator/
+
+If it is not a fit for your editorial plans, no need to reply.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+https://ouyangthermal.github.io
+
+---
+
+### 2026-09-29 reply/bounce check (business account, since 2026-09-26)
+
+No replies and no bounces from voltera.io or allpcb.com. No refusal signals — follow-ups #1 remain scheduled for 2026-10-02 – 2026-10-04; stop on refusal or bounce per standing rules.
+
+### 2026-09-30 pitch batch #1 — 5 technical media pitches sent (all approved by user)
+
+1. bodospower.com → editor@bodospower.com — Case 001 original ASTM D5470 data article proposal (Oct Thermal Management focus)
+2. powerelectronicsnews.com → aalyia.shaukat@aspencore.com — SP2000 second-source evaluation framework feature proposal
+3. edn.com → majeed.kamran@aspencore.com — ASTM D5470 reading case-study proposal (proposal-first per EDN policy)
+4. electronicdesign.com → editors@electronicdesign.com — ASTM D5470 thermal-resistance explainer proposal (contribute page)
+5. lightwaveonline.com → sbuckley@endeavorb2b.com — 800G/1.6T optical module thermal abstract offer (bylined, non-commercial, first-run)
+
+All sent from 5672306@gmail.com, signed Owen Ouyang | Thermal Management Solutions | International Business | Hongjing New Materials Technology (Shenzhen) Co., Ltd. Pitch drafts archived at references/pitch-drafts-2026-09-29/. No exclusivity promised; no pricing/business commitments. Follow-up #1 window: 2026-10-07 – 2026-10-14; #2: 2026-10-14 – 2026-10-28. Stop on refusal or bounce.
