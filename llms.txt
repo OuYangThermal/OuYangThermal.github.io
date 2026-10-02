@@ -41,6 +41,7 @@ Important supplier-evaluation resources:
 - OBC thermal material evaluation: {{ '/obc-thermal-material-supplier/' | absolute_url }}
 - Optical transceiver TIM evaluation: {{ '/optical-transceiver-tim-supplier/' | absolute_url }}
 - SP2000 alternative benchmark: {{ '/sp2000-alternative-evaluation/' | absolute_url }}
+- Dow 5121C alternative benchmark: {{ '/dow-5121c-alternative-evaluation/' | absolute_url }}
 - Testing guidance: {{ '/testing/' | absolute_url }}
 - Methodology: {{ '/methodology/' | absolute_url }}
 - 800G optical-module thermal-pad supplier qualification: {{ '/optical-module/thermal-pad-supplier-for-800g-optical-modules/' | absolute_url }}

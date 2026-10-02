@@ -1,15 +1,15 @@
 ---
-title: SP2000 Alternative Evaluation and Benchmark Process
-description: A disciplined framework for comparing a potential SP2000 alternative subject to application validation.
-permalink: /sp2000-alternative-evaluation/
+title: Dow 5121C Alternative Evaluation and Benchmark Process
+description: A disciplined framework for comparing a potential Dow 5121C alternative subject to application validation.
+permalink: /dow-5121c-alternative-evaluation/
 commercial_contact: true
-contact_message: "Hi Ouyang, I'm evaluating an alternative to SP2000 for my application. Could you help me compare the key parameters and recommend a suitable direction? Source: SP2000 Alternative Evaluation"
-email_subject: "Thermal Material Inquiry – SP2000 Alternative"
+contact_message: "Hi Ouyang, I'm evaluating an alternative to Dow 5121C for my application. Could you help me compare the key parameters and recommend a suitable direction? Source: Dow 5121C Alternative Evaluation"
+email_subject: "Thermal Material Inquiry – Dow 5121C Alternative"
 ---
 
 ## Direct answer
 
-An SP2000 alternative cannot be established from a conductivity number or product description alone. A candidate should be benchmarked against the incumbent using equivalent thickness, pressure, fixtures, test methods, electrical criteria, and aging conditions. This page does not claim authorization, equivalence, or a drop-in replacement relationship with Bergquist or Henkel.
+A Dow 5121C alternative cannot be established from a conductivity number or product description alone. A candidate should be benchmarked against the incumbent using equivalent thickness, pressure, fixtures, test methods, electrical criteria, and aging conditions. This page does not claim authorization, equivalence, or a drop-in replacement relationship with Dow or any brand owner.
 
 ## What engineers should compare
 
@@ -19,13 +19,13 @@ Compare thermal conductivity method, thermal resistance, available thicknesses a
 
 ## How a controlled benchmark is structured
 
-A benchmark only means something when the incumbent and the candidate are tested under the same conditions. The schematic below shows the structure: same fixture, same nominal bond-line thickness, same pressure, same temperature, same method — then gated validation beyond the thermal number.
+A benchmark only means something when the incumbent and the candidate are tested under the same conditions: same fixture, same nominal bond-line thickness, same pressure, same temperature, same method — then gated validation beyond the thermal number.
 
-<figure class="engineering-visual"><img src="{{ '/assets/images/visual-content/thermal-pad-alternative-benchmark-method-schematic.svg' | relative_url }}" width="1440" height="810" loading="lazy" decoding="async" alt="Benchmark method schematic: incumbent and candidate samples tested in the same fixture under matched thickness, pressure, temperature and ASTM D5470 conditions, then gated electrical, aging and pilot-build validation"><figcaption><strong>Engineering Diagram.</strong> Controlled-condition benchmark method. The schematic explains the comparison structure; it does not report a test result or a product specification.</figcaption></figure>
+No incumbent-specific test data is published on this page. The evaluation always starts from the incumbent's own TDS and the application's interface requirements, never from a comparison against assumed values.
 
-## Measured evidence: Case 001 scope
+## Measured evidence: method example from Case 001
 
-One published internal benchmark shows how a matched-condition comparison is scoped and reported. These are the recorded facts of that case — not a universal claim:
+One published internal benchmark shows how a matched-condition comparison is scoped and reported. These are the recorded facts of that case — not a universal claim and not Dow 5121C data:
 
 | Scope item | Recorded context |
 | --- | --- |
@@ -35,9 +35,9 @@ One published internal benchmark shows how a matched-condition comparison is sco
 | Pressure | Approximately 50 psi (report rows display about 49.8–50 psi) |
 | Key thermal result | 0.25 mm FT-BN035 measured 0.211 °C·in²/W vs 0.267 °C·in²/W for the tested SP2000 reference sample — approximately 21% lower **in this specific comparison** |
 | Electrical methods | ASTM D149 (breakdown voltage), ASTM D257 at 500 V (surface resistance), ASTM D792 (density) |
-| What it does not prove | Universal superiority, a drop-in replacement, customer qualification, every SP2000 lot or thickness, device temperature, or third-party certification |
+| What it does not prove | Universal superiority, a drop-in replacement, customer qualification, every reference lot or thickness, device temperature, or third-party certification |
 
-See the full evidence: [Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}). Results are specific to the tested samples, pressure, thickness and conditions. SP2000 is referenced solely for comparative identification; OUYANG THERMAL is not affiliated with or endorsed by the referenced brand owner.
+See the full evidence: [Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}). Results are specific to the tested samples, pressure, thickness and conditions. Dow 5121C is referenced solely for comparative identification; OUYANG THERMAL is not affiliated with or endorsed by the referenced brand owner.
 
 ## Benchmark workflow
 
@@ -50,13 +50,13 @@ See the full evidence: [Case 001: FT-BN035 benchmark with an SP2000 reference sa
 
 The correct description during this process is **benchmark candidate** or **potential alternative subject to validation**.
 
-<aside class="cta contextual-cta"><strong>Benchmark Your Current SP2000</strong><p>Send the incumbent part number or TDS, the installed gap range and pressure, and the first result you need to verify. Owen can structure a same-condition benchmark plan — not declare a replacement from datasheet values.</p><p><a data-conversion="sp2000_benchmark_click" data-source="SP2000 Alternative Evaluation" data-cta-type="tim_benchmark" href="{{ '/benchmark-your-current-tim/' | relative_url }}">Benchmark Your Current TIM →</a></p><p><a data-conversion="sample_request_click" data-source="SP2000 Alternative Evaluation" href="{{ '/request-sample/' | relative_url }}">Request a Sample</a> · <a data-conversion="whatsapp_click" data-source="SP2000 Alternative Evaluation" href="https://wa.me/8613367909790">WhatsApp Owen</a> · <a data-conversion="email_click" data-source="SP2000 Alternative Evaluation" href="mailto:5672306@gmail.com">Email Owen</a></p></aside>
+<aside class="cta contextual-cta"><strong>Benchmark Your Current Dow 5121C-Based Assembly</strong><p>Send the incumbent part number or TDS, the installed gap range and pressure, and the first result you need to verify. Owen can structure a same-condition benchmark plan — not declare a replacement from datasheet values.</p><p><a data-conversion="dow5121c_benchmark_click" data-source="Dow 5121C Alternative Evaluation" data-cta-type="tim_benchmark" href="{{ '/benchmark-your-current-tim/' | relative_url }}">Benchmark Your Current TIM →</a></p><p><a data-conversion="sample_request_click" data-source="Dow 5121C Alternative Evaluation" href="{{ '/request-sample/' | relative_url }}">Request a Sample</a> · <a data-conversion="whatsapp_click" data-source="Dow 5121C Alternative Evaluation" href="https://wa.me/8613367909790">WhatsApp Owen</a> · <a data-conversion="email_click" data-source="Dow 5121C Alternative Evaluation" href="mailto:5672306@gmail.com">Email Owen</a></p></aside>
 
 ## Frequently asked questions
 
 ### What does a benchmark prove?
 
-A benchmark proves how two specific samples compared under the stated conditions — method, thickness, pressure, temperature, fixture and surfaces. It does not prove universal superiority, predict device temperature, or replace customer qualification. See the [Case 001 scope](#measured-evidence-case-001-scope) for how a benchmark's limits are documented.
+A benchmark proves how two specific samples compared under the stated conditions — method, thickness, pressure, temperature, fixture and surfaces. It does not prove universal superiority, predict device temperature, or replace customer qualification. See the [Case 001 method example](#measured-evidence-method-example-from-case-001) for how a benchmark's limits are documented.
 
 ### Can matching W/m·K prove equivalence?
 
@@ -66,11 +66,11 @@ No. Thermal conductivity is a material property under a stated method; installed
 
 The incumbent reference (part number, lot if known), the target bond-line thickness range, the pressure or clamping condition, the test method, the electrical requirements, the acceptance criteria, and who owns the qualification decision. Without frozen requirements, a test result cannot be tied to an approval. The [second-source qualification generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }}) walks through the gates.
 
-### Can you benchmark our current SP2000-based assembly?
+### Can you benchmark our current Dow 5121C-based assembly?
 
 Yes. Send the incumbent part number or TDS, the installed thickness and hardness, the application and gap range, the operating temperature, the compression condition, and the first result you need to verify. We structure a controlled incumbent-versus-candidate plan: [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}).
 
-### Is the candidate a drop-in replacement for SP2000?
+### Is the candidate a drop-in replacement for Dow 5121C?
 
 No such claim is made here. During evaluation the only correct status is **benchmark candidate** or **potential alternative subject to validation**. A candidate becomes a qualified second source only after gated thermal, electrical, aging and pilot-build evidence — never from datasheet values alone.
 
@@ -83,25 +83,24 @@ No such claim is made here. During evaluation the only correct status is **bench
     {"@type":"Question","name":"What does a benchmark prove?","acceptedAnswer":{"@type":"Answer","text":"A benchmark proves how two specific samples compared under the stated conditions — method, thickness, pressure, temperature, fixture and surfaces. It does not prove universal superiority, predict device temperature, or replace customer qualification."}},
     {"@type":"Question","name":"Can matching W/m·K prove equivalence?","acceptedAnswer":{"@type":"Answer","text":"No. Thermal conductivity is a material property under a stated method; installed performance is thermal resistance through a real interface at a real bond-line thickness and pressure. Compare thermal resistance under matched conditions instead."}},
     {"@type":"Question","name":"What must be frozen before sample tests?","acceptedAnswer":{"@type":"Answer","text":"The incumbent reference, target bond-line thickness range, pressure or clamping condition, test method, electrical requirements, acceptance criteria, and who owns the qualification decision."}},
-    {"@type":"Question","name":"Can you benchmark our current SP2000-based assembly?","acceptedAnswer":{"@type":"Answer","text":"Yes. Provide the incumbent part number or TDS, installed thickness and hardness, application and gap range, operating temperature, compression condition, and the first result to verify, and a controlled benchmark plan can be structured."}},
-    {"@type":"Question","name":"Is the candidate a drop-in replacement for SP2000?","acceptedAnswer":{"@type":"Answer","text":"No such claim is made. During evaluation the only correct status is benchmark candidate or potential alternative subject to validation, confirmed through gated thermal, electrical, aging and pilot-build evidence."}}
+    {"@type":"Question","name":"Can you benchmark our current Dow 5121C-based assembly?","acceptedAnswer":{"@type":"Answer","text":"Yes. Provide the incumbent part number or TDS, installed thickness and hardness, application and gap range, operating temperature, compression condition, and the first result to verify, and a controlled benchmark plan can be structured."}},
+    {"@type":"Question","name":"Is the candidate a drop-in replacement for Dow 5121C?","acceptedAnswer":{"@type":"Answer","text":"No such claim is made. During evaluation the only correct status is benchmark candidate or potential alternative subject to validation, confirmed through gated thermal, electrical, aging and pilot-build evidence."}}
   ]
 }
 </script>
 
 ## Related engineering guides
 
-- [Dow 5121C Alternative Evaluation]({{ '/dow-5121c-alternative-evaluation/' | relative_url }}) — the same gated benchmark framework applied to another incumbent reference.
+- [SP2000 Alternative Evaluation]({{ '/sp2000-alternative-evaluation/' | relative_url }}) — the same gated benchmark framework applied to another incumbent reference.
 - [China Thermal Interface Material Supplier]({{ '/china-thermal-interface-material-supplier/' | relative_url }}) — supplier evaluation and second-source qualification framework for TIM sourcing from China.
 - [Case 001: FT-BN035 benchmark with an SP2000 reference sample]({{ '/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/' | relative_url }}) — internal comparative test evidence under stated conditions, not a universal replacement claim.
 - [SP2000 Alternative: Parameters to Compare]({{ '/comparison/sp2000-thermal-pad-alternative-what-parameters-should-engineers-compare/' | relative_url }})
-- [Thermal Pad Compression Ratio]({{ '/thermal-pad/thermal-pad-compression-ratio-explained/' | relative_url }})
-- [Thermal Pad Hardness]({{ '/thermal-pad/thermal-pad-hardness-explained/' | relative_url }})
+- [Thermal Conductivity vs Thermal Resistance]({{ '/comparison/thermal-conductivity-vs-thermal-resistance/' | relative_url }})
 - [Why Test Results Differ]({{ '/testing/why-can-the-same-thermal-material-produce-different-test-results/' | relative_url }})
 - [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
 - [Second-Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }})
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 
-{% include contact-card.html whatsapp="Hi Ouyang, I found your SP2000 alternative guide on Ouyang Thermal. We are evaluating an alternative TIM and would like to discuss benchmark testing." subject="SP2000 Benchmark Evaluation" %}
+{% include contact-card.html whatsapp="Hi Ouyang, I found your Dow 5121C alternative guide on Ouyang Thermal. We are evaluating an alternative TIM and would like to discuss benchmark testing." subject="Dow 5121C Benchmark Evaluation" %}
 {% include commercial-authority-path.html %}

@@ -18,6 +18,7 @@ Always check the CSV before creating or targeting any keyword — UPDATE > CREAT
 - thermal gel supplier → `/thermal-gel-supplier-china/`
 - OBC thermal gel second source qualification → `/obc/obc-thermal-gel-second-source-qualification/` (published 2026-09-27)
 - SP2000 alternative → `/sp2000-alternative-evaluation/`
+- Dow 5121C alternative / Dow 5121C replacement → `/dow-5121c-alternative-evaluation/` (published 2026-10-02; framework-only, no invented incumbent data)
 
 ## Rules
 
