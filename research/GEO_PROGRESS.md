@@ -30,7 +30,8 @@ Standing baseline and change log. KPIs here are discovery and commercial inquiry
 **Validation:** Jekyll build PASS; production HTTP 200 on new URL; sitemap regenerated automatically (jekyll-sitemap).
 
 - URLs: https://ouyangthermal.github.io/dow-5121c-alternative-evaluation/
-- Commit: (see push record below)
+- Commit: e9ea342 ("GEO Phase II: add Dow 5121C alternative evaluation page + keyword map sync") — pushed 2026-10-02, local clone re-synced to origin/main
+- Production: new URL returns HTTP 200; SP2000 page (internal-link edit) returns 200
 - Unverified: GSC impressions/clicks for the new page (no access until owner re-signs in); actual search demand for "Dow 5121C alternative" (no autocomplete evidence — hypothesis, monitor).
 
 **Next:** Watch for new page entering coverage once GSC access returns; consider indexing request for the new URL; continue Phase II with OBC/ESS/SiC cluster work per priority order.
