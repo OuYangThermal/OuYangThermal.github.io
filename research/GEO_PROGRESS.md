@@ -35,3 +35,9 @@ Standing baseline and change log. KPIs here are discovery and commercial inquiry
 - Unverified: GSC impressions/clicks for the new page (no access until owner re-signs in); actual search demand for "Dow 5121C alternative" (no autocomplete evidence — hypothesis, monitor).
 
 **Next:** Watch for new page entering coverage once GSC access returns; consider indexing request for the new URL; continue Phase II with OBC/ESS/SiC cluster work per priority order.
+
+## 2026-10-07 — Dow TC-3120 reference citation on 5121C alternative page
+
+**Action:** Added a "What Dow publicly offers today" section to `/dow-5121c-alternative-evaluation/` citing Dow's May 28, 2026 DOWSIL™ TC-3120 Thermal Gel launch (~12 W/m·K silicone gel, 800G/1.6T optical modules, 200 µm min bondline, −45 to 150 °C, reworkable, minimal oil bleed/outgassing). Facts verified against the official Dow press release (corporate.dow.com) and Dow product page before push. Explicit non-equivalence disclaimer included; no incumbent test data invented.
+
+- Staged from earlier GEO run; facts verified 2026-10-07. Push deferred: research-stage network policy blocks GitHub API writes, so build → push → production 200 verification is queued for the delivery agent. Local clone files (page + this log) are ready to push as-is.

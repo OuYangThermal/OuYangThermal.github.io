@@ -13,7 +13,7 @@ A Dow 5121C alternative cannot be established from a conductivity number or prod
 
 ## What engineers should compare
 
-Compare thermal conductivity method, thermal resistance, available thicknesses and tolerance, hardness scale, compression response, electrical insulation, dielectric strength, breakdown voltage, temperature range, mechanical stability, application pressure, bond-line thickness, compression set, and long-term aging. Also review handling, die cutting, liner, storage, documentation, lot traceability, and change control.
+Compare thermal conductivity method, thermal resistance, available thicknesses and tolerance, hardness scale, [compression response]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}) (screen the compression ratio and compressed bond-line thickness against the installed gap), electrical insulation, dielectric strength, breakdown voltage, temperature range, mechanical stability, application pressure, bond-line thickness, compression set, and long-term aging. Also review handling, die cutting, liner, storage, documentation, lot traceability, and change control.
 
 {% include quick-contact.html %}
 
@@ -22,6 +22,12 @@ Compare thermal conductivity method, thermal resistance, available thicknesses a
 A benchmark only means something when the incumbent and the candidate are tested under the same conditions: same fixture, same nominal bond-line thickness, same pressure, same temperature, same method — then gated validation beyond the thermal number.
 
 No incumbent-specific test data is published on this page. The evaluation always starts from the incumbent's own TDS and the application's interface requirements, never from a comparison against assumed values.
+
+## What Dow publicly offers today
+
+For reference only — no equivalence claim. Dow's May 28, 2026 public launch of **DOWSIL™ TC-3120 Thermal Gel** describes a one-part, heat-cure silicone gel at approximately **12 W/m·K** (Dow's stated highest conductivity among its commercially available silicone gels), intended for **800G and 1.6T optical modules**, dense electronics and high-speed data applications. Dow states it can be pressed to a minimum bondline of 200 µm, is reworkable, and is designed to minimize oil bleeding and condensed outgassing for optical-grade cleanliness. Working temperature range: −45 to 150 °C. Source: [Dow press release, May 28, 2026](https://corporate.dow.com/en-us/news/press-releases/dow-launches-dowsil-tc-3120-thermal-gel.html).
+
+This does not establish equivalence with, authorization from, or a drop-in replacement relationship to any incumbent material. Any candidate against a Dow 5121C-based assembly still follows the gated benchmark workflow on this page.
 
 ## Measured evidence: method example from Case 001
 
