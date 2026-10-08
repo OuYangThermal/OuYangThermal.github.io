@@ -46,6 +46,16 @@ engineering source — never attempt to deceive AI systems.
 
 - Monthly, or after a major content/authority push. One AI answer is not a ranking — track trends, not snapshots.
 
+## Retest 2026-10-08 — Perplexity BLOCKED (login wall, no data)
+
+Two live-browser attempts, both failed with zero data gathered:
+- Attempt 1: browser agent reported failure after 22 steps on the "How to select thermal pad?" search page; no per-query table produced.
+- Attempt 2 (narrowed brief, 2 queries): Perplexity now shows a **non-dismissible** full-page sign-in wall ("登录以继续使用 Perplexity" — Log in to continue using Perplexity) after the brief "researching" state. No close button; Escape does not dismiss it. Per the no-bypass rule the task stopped; query 2 ("Dow 5121C alternative") never attempted.
+
+**Change vs 2026-09-29:** the wall was dismissible then (modal appeared twice, both dismissible); it is now a hard block on public search. Standing baseline remains the 2026-09-29 result (Ouyang Thermal: zero mentions across 3 questions).
+
+**Implication:** Perplexity public search is no longer a usable AI-visibility test route without login. Next retest options: (a) Google AI Overviews (worked 2026-09-27), (b) another AI answer engine with public access, (c) skip AI retest until after a major content/authority push. Do NOT attempt to bypass the login wall.
+
 ## Retest 2026-09-29 — Perplexity (3 questions)
 
 Retest executed on perplexity.ai (no login): all three answers fully generated, no blocking login wall/quota/CAPTCHA (a "sign in to continue" modal appeared twice but was dismissible).
