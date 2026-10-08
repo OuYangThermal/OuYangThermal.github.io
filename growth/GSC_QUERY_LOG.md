@@ -52,3 +52,10 @@
 - Standing baseline (2026-09-28 filter-free read): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. "thermal interface material": 2 impressions, position 1.5, 0 clicks; the 5 clicks' queries anonymized by Google.
 - No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
 - OWNER ACTION: user signs in to Google once in the managed browser; next run retries the full Performance + Links read.
+
+## 2026-10-08 — GSC read BLOCKED (login session still expired)
+
+- Live-browser check (no login attempted per policy): Search Console landed on the Google account chooser showing "thermal ouyang 5672306@gmail.com" as signed out. Nothing collected from Performance, Queries, Pages, or Links.
+- Standing baseline (2026-09-28 filter-free read, last validated): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. "thermal interface material": 2 impressions, position 1.5, 0 clicks; 5 clicks' queries anonymized by Google.
+- No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
+- OWNER ACTION (standing since 2026-09-29): user signs in to Google once in the managed browser; next run retries the full Performance + Links read.

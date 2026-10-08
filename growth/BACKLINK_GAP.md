@@ -40,6 +40,12 @@ Reading: ThomasNet is the highest-value target but access-gated; Voltera/ALLPCB 
 - Technical media articles citing test methods or data
 - GitHub / open technical resources
 
+### Observed 2026-10-08 — how Bergquist/Henkel earn citations (second pass)
+
+- **Distributor-hosted selection guides:** Mouser hosts Bergquist's TIM selection guide as PDFs — the distributor's domain carries the citation, not henkel.com. Pattern: manufacturer content + distributor distribution = two domains citing the same asset.
+- **PCB-fab how-to content:** RayPCB's "What Bergquist Materials for PCB?" and reseller guides re-package Bergquist selection logic for their own audiences — same method-copy dynamic as our PCBWay/ALLPCB targets.
+- **Implication for us:** our methodology-packaged tools (assumptions + worked examples + provenance, now on both calculators) are built for exactly this reuse path. The outreach (Voltera/ALLPCB/PCBWay) puts the asset in front of the right redistributors; the packaging makes it citable when they write. No new outreach target added this week — pipeline already covers this pattern.
+
 ### Observed 2026-09-29 — how Laird / Henkel actually earn citations
 
 - **Laird:** third-party engineering how-tos (e.g. EEWorld Online's TIM selection article) cite Laird's *reference diagrams* as images ("Image: Laird") alongside Dow Corning and Würth Elektronik. What earns the citation: reusable, clearly-labeled engineering visuals + explicit selection guidance, not product pages.

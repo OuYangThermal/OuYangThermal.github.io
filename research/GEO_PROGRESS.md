@@ -36,6 +36,20 @@ Standing baseline and change log. KPIs here are discovery and commercial inquiry
 
 **Next:** Watch for new page entering coverage once GSC access returns; consider indexing request for the new URL; continue Phase II with OBC/ESS/SiC cluster work per priority order.
 
+## 2026-10-08 — Weekly growth loop
+
+**Money page pick:** `/dow-5121c-alternative-evaluation/` (opportunity score 19/25). The new page had only 1 inbound internal link → discoverability was the binding constraint. Pillar page now links to it (inline in the second-source paragraph + Related engineering guides); Dow page "What engineers should compare" links "compression response" to the compression calculator (this edit landed via the concurrent daily run's 936af2b, verified live). No URL/title change; no invented incumbent data; SP2000 cross-link kept brand-neutral.
+
+**Engineering resource pick:** `/engineering-resources/thermal-pad-compression-calculator/` (score 20/25). Replicated the 2026-09-29 resistance-calculator packaging: model assumptions, verifiable worked example (2.0 mm → 1.6 mm = 20% compression; 6 W/m·K, 40×40 mm² → R ≈ 0.167 K/W), visible author/date provenance, JSON-LD dateModified → 2026-10-08.
+
+**Validation:** Jekyll build PASS; front matter/canonical/sitemap/robots/growth-exclusion verified in built output. Recovery push `582c344` verified non-empty (first push `14ea1b7` was empty — shared-clone collision, see EXPERIMENT_LOG); local clone re-synced to origin/main. Production: 8 URLs HTTP 200 (homepage, Dow page, pillar, compression calculator, sitemap.xml, robots.txt, googlebd2df6f2d347ec36.html, request-sample); live-content verified on all changed pages after recovery push.
+
+**Outreach (5672306@gmail.com):** reply/bounce pre-check clean (no replies/bounces from voltera.io or allpcb.com). Voltera + ALLPCB follow-up #1 SENT 2026-10-08 as replies in original threads; follow-up #2 window 2026-10-09 – 2026-10-18 (final). PCBWay first pitch send BLOCKED by Gmail tool instability (3 failed attempts, 0 sends confirmed); prepared text saved as Gmail draft for one-click manual send. Mailer-daemon scan: FII hard bounce (known) + editor@electronicscooling.com bounce (2026-09-26) — both dead addresses, never retry; unrelated to this week's outreach.
+
+**GSC:** still blocked (session expired since 2026-09-29; verified via live browser, no login attempted). Standing baseline: 5 clicks / 24 impressions. OWNER ACTION: user re-signs in to Google in the managed browser.
+
+**Unverified:** Dow-page impressions/clicks (no GSC access); Perplexity AI retest results (browser task in flight at time of push — logged separately on arrival).
+
 ## 2026-10-07 — Dow TC-3120 reference citation on 5121C alternative page
 
 **Action:** Added a "What Dow publicly offers today" section to `/dow-5121c-alternative-evaluation/` citing Dow's May 28, 2026 DOWSIL™ TC-3120 Thermal Gel launch (~12 W/m·K silicone gel, 800G/1.6T optical modules, 200 µm min bondline, −45 to 150 °C, reworkable, minimal oil bleed/outgassing). Facts verified against the official Dow press release (corporate.dow.com) and Dow product page before push. Explicit non-equivalence disclaimer included; no incumbent test data invented.

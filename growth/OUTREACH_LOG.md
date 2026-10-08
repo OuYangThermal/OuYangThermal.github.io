@@ -184,6 +184,22 @@ https://ouyangthermal.github.io
 
 No replies and no bounces from voltera.io or allpcb.com. No refusal signals — follow-ups #1 remain scheduled for 2026-10-02 – 2026-10-04; stop on refusal or bounce per standing rules.
 
+### 2026-10-08 reply/bounce check (business account 5672306@gmail.com, before any send)
+
+- No replies and no bounces from voltera.io or allpcb.com since Batch 1. Follow-up #1 texts (prepared 2026-09-29) still valid; sent 2026-10-08 as replies in the original threads (window 2026-10-02 – 2026-10-04 was missed — sent as a gentle bump, acceptable).
+- Mailer-daemon scan found 4 notifications: 2026-09-29 Failure → fiisustainability@fiifoxconn.com (known FII hard bounce, recipient server timeout — never retry); 2026-09-26 Failure → editor@electronicscooling.com (recipient server timeout — never retry); 2 delay notices (2026-09-27/28), no action. None involve Voltera/ALLPCB/PCBWay addresses.
+
+### 2026-10-08 — Batch 1 follow-ups #1: SENT
+
+- **Voltera follow-up #1:** SENT 2026-10-08 as a reply in the original thread ("Resource suggestion for your TIM Selection Guide", first sent 2026-09-27). First attempt hit a Gmail service restart (0 sends confirmed in Sent); retry succeeded. Full text as prepared 2026-09-29. Follow-up #2 due 2026-10-09 – 2026-10-18 (final per max-2 rule). Stop on refusal or bounce.
+- **ALLPCB follow-up #1:** SENT 2026-10-08 as a reply in the original thread ("Free thermal calculator your readers might like", first sent 2026-09-27). Sent cleanly on first attempt. Full text as prepared 2026-09-29. Follow-up #2 due 2026-10-09 – 2026-10-18 (final per max-2 rule). Stop on refusal or bounce.
+
+### 2026-10-08 — PCBWay first pitch: SEND BLOCKED, saved as Gmail draft
+
+- 3 send attempts all failed on Gmail tool instability: 2× `+send` and 1× `drafts.send` hit service restarts mid-command; Sent-mailbox verified empty after each attempt, so nothing went out and no duplicate risk materialized. Same flaky pattern as 2026-09-29.
+- Fallback: the prepared 2026-09-29 pitch text saved as a real Gmail draft in 5672306@gmail.com Drafts (to simon@pcbway.com, subject "Free thermal calculator for your high-power PCB design readers") — one-click manual send for the user. Retry the autonomous send next run if the path recovers; delete the draft then to avoid double-send.
+- No bounce, no refusal — simon@pcbway.com remains the verified "Co-operation" inbox; address stays live.
+
 ### 2026-09-30 pitch batch #1 — 5 technical media pitches sent (all approved by user)
 
 1. bodospower.com → editor@bodospower.com — Case 001 original ASTM D5470 data article proposal (Oct Thermal Management focus)

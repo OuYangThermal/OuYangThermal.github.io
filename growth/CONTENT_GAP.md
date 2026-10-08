@@ -25,3 +25,5 @@ answerability + purchase potential. No generic filler ("what is thermal paste").
 
 - 2026-09-29: Thermal Resistance Calculator upgraded with citable methodology packaging (model assumptions, worked example, author/date provenance) — direct response to the 2026-09-27 AI-visibility finding that how-to methodology content is what AI cites. AI retest pending.
 - 2026-09-29: Pillar /china-thermal-interface-material-supplier/ strengthened with calculator internal links (rank 11–50 rule); "TIM manufacturer" meta flag verified resolved.
+- 2026-10-08: Thermal Pad Compression Calculator upgraded with the same methodology packaging (model assumptions, verifiable worked example with bulk-R arithmetic, author/date provenance, dateModified 2026-10-08) — extends the citable-format treatment across the tool set. AI retest next cycle.
+- 2026-10-08: Dow 5121C page discoverability — pillar now links to it (inline + related guides); Dow page cross-links compression calculator (landed via concurrent run's 936af2b, verified live). New money pages need internal links to be discoverable (Phase II 2026-10-02 finding).
