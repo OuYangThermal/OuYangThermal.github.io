@@ -16,7 +16,7 @@ email_subject: "Thermal Material Inquiry – China Supplier"
 
 Ouyang Thermal supplies thermal interface materials — including thermal gap pads, thermal gels, thermal grease and electrically insulating thermal materials — for EV power electronics, energy storage, AI servers and optical modules. Owen Ouyang is the engineering and commercial contact for TIM benchmarking, reference samples, engineering validation, second-source qualification and RFQ discussions.
 
-Qualify a TIM second source by reproducing the **installed interface**, not by matching a W/m·K value. Compare thermal performance, gap or thickness, compression, hardness, electrical insulation, reliability, process compatibility and the actual application conditions. Candidate equivalence is the evidence-based result of a controlled comparison—not the closest-looking TDS.
+Qualify a TIM second source by reproducing the **installed interface**, not by matching a W/m·K value. Compare thermal performance, gap or thickness, compression, hardness, electrical insulation, reliability, process compatibility and the actual application conditions. Candidate equivalence is the evidence-based result of a controlled comparison—not the closest-looking TDS. See the framework applied to a [Dow 5121C alternative evaluation]({{ '/dow-5121c-alternative-evaluation/' | relative_url }}) and an [SP2000 alternative evaluation]({{ '/sp2000-alternative-evaluation/' | relative_url }}).
 
 The useful question is not simply “Who sells a high-W/m·K material?” It is: “Which candidate can meet the thermal, mechanical, electrical, manufacturing and supply requirements of this assembly with evidence we can reproduce?”
 
@@ -147,6 +147,8 @@ They may be relevant when the application owner or program requires formal produ
 - [How to Select a Thermal Pad]({{ '/thermal-pad/how-to-select-a-thermal-pad/' | relative_url }})
 - [How to Select Thermal Gel for Power Electronics]({{ '/thermal-gel/how-to-select-thermal-gel-for-power-electronics/' | relative_url }})
 - [Thermal Conductivity vs Thermal Resistance]({{ '/comparison/thermal-conductivity-vs-thermal-resistance/' | relative_url }})
+- [Dow 5121C Alternative Evaluation]({{ '/dow-5121c-alternative-evaluation/' | relative_url }}) — the same gated second-source benchmark framework applied to a Dow incumbent reference
+- [SP2000 Alternative Evaluation]({{ '/sp2000-alternative-evaluation/' | relative_url }}) — the same gated second-source benchmark framework applied to an SP2000 incumbent reference
 - [Why Test Results Differ]({{ '/testing/why-can-the-same-thermal-material-produce-different-test-results/' | relative_url }})
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
