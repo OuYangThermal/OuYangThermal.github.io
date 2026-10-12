@@ -59,3 +59,10 @@
 - Standing baseline (2026-09-28 filter-free read, last validated): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. "thermal interface material": 2 impressions, position 1.5, 0 clicks; 5 clicks' queries anonymized by Google.
 - No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
 - OWNER ACTION (standing since 2026-09-29): user signs in to Google once in the managed browser; next run retries the full Performance + Links read.
+
+## 2026-10-12 — GSC read ATTEMPTED, findings not retrievable
+
+- Live-browser task ran 14 steps: visited Search Console (property https://ouyangthermal.github.io/) and then ran the three AI-Overview test searches on google.com. The task reported completion via handoff, but its final structured report was NOT delivered to this run — the findings (logged in vs logged out; any Performance data) cannot be verified or quoted.
+- Status recorded honestly: GSC login state unverified this week. Standing presumption (last direct observation 2026-10-08): session expired, owner re-sign-in still pending. No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
+- Standing baseline (2026-09-28 filter-free read, last validated): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. Supplementary email-observed signal (2026-10-10, from GSC milestone email, recorded in daily memory): 5 clicks in the 28 days ending 2026-10-07 — email-observed only, not a full GSC read.
+- OWNER ACTION (standing since 2026-09-29): user signs in to Google once in the managed browser; next run retries the full Performance + Links read.

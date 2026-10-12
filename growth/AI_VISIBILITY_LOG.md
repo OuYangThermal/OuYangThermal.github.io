@@ -74,3 +74,9 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 2. **ALLPCB validation signal**: Perplexity already cites ALLPCB's thermal-pad guide — our Batch 1 outreach target. A calculator link from that article would put us directly in the citation path. Follow-up #1 (2026-10-02 – 2026-10-04) matters more now.
 3. **Q3 cites R = t/(k·A) explicitly** in selection criteria — our calculator page covers exactly this formula; needs indexation + a citing page.
 4. **Q1 is brand/Wikipedia territory** (Laird ×3, Wikipedia) — not worth chasing head-on; win via Q2/Q3-style methodology content instead.
+
+## Retest 2026-10-12 — Google AI Overviews: findings not retrievable
+
+- Live-browser task ran the 3 test questions on google.com ("What is thermal interface material?", "How to select thermal pad?", "Thermal interface material for AI server") and reported completion via handoff, but its final report was NOT delivered to this run — per-question results cannot be verified or quoted.
+- Recorded honestly: no AI-visibility data obtained this week. Do NOT report "Ouyang Thermal still not cited" or any per-question result as a finding.
+- Standing baseline remains the 2026-09-29 Perplexity retest (Ouyang Thermal: zero mentions across 3 questions) and the 2026-10-08 Perplexity login-wall note (public search no longer usable without login). Next retest after a major content/authority push, or when a reliable public route is confirmed.
