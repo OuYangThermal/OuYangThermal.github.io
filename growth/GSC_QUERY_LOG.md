@@ -66,3 +66,11 @@
 - Status recorded honestly: GSC login state unverified this week. Standing presumption (last direct observation 2026-10-08): session expired, owner re-sign-in still pending. No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
 - Standing baseline (2026-09-28 filter-free read, last validated): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. Supplementary email-observed signal (2026-10-10, from GSC milestone email, recorded in daily memory): 5 clicks in the 28 days ending 2026-10-07 — email-observed only, not a full GSC read.
 - OWNER ACTION (standing since 2026-09-29): user signs in to Google once in the managed browser; next run retries the full Performance + Links read.
+
+## 2026-10-12 — CORRECTION: browser findings delivered (GSC still blocked)
+
+- The 2026-10-12 browser task's structured report arrived after the earlier log entry was pushed. Real findings:
+- **Part A: GSC BLOCKED — login session expired.** The Search Console entry point redirected to the Google account chooser; the session is logged out. The chooser showed exactly one account: "thermal ouyang — 5672306@gmail.com" with status "已退出账号" (signed out). No sign-in attempted; no Performance data viewed — no clicks, impressions, CTR, position, query, or page data could be recorded.
+- The earlier 2026-10-12 entry ("findings not retrievable") is superseded by this correction for Part A; the standing presumption is now a direct observation.
+- Standing baseline (2026-09-28 filter-free read, last validated): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
+- OWNER ACTION (standing since 2026-09-29): user signs in to Google once in the managed browser; next run retries the full Performance + Links read.

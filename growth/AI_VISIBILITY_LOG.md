@@ -80,3 +80,23 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 - Live-browser task ran the 3 test questions on google.com ("What is thermal interface material?", "How to select thermal pad?", "Thermal interface material for AI server") and reported completion via handoff, but its final report was NOT delivered to this run — per-question results cannot be verified or quoted.
 - Recorded honestly: no AI-visibility data obtained this week. Do NOT report "Ouyang Thermal still not cited" or any per-question result as a finding.
 - Standing baseline remains the 2026-09-29 Perplexity retest (Ouyang Thermal: zero mentions across 3 questions) and the 2026-10-08 Perplexity login-wall note (public search no longer usable without login). Next retest after a major content/authority push, or when a reliable public route is confirmed.
+
+## Retest 2026-10-12 — CORRECTION: browser findings delivered (Google AI Overviews, 3 questions)
+
+- The 2026-10-12 browser task's structured report arrived after the earlier log entry was pushed. Real findings (plain google.com searches, English UI, ~15:00 CST; AI Overview appeared for all 3 questions):
+- **Ouyang Thermal: NOT mentioned or cited in any of the 3 answers or their source lists.** Unchanged from the 2026-09-29 baseline.
+- The earlier 2026-10-12 entry ("findings not retrievable") is superseded by this correction.
+
+| Date | Engine | Question | Ouyang cited? | Brands mentioned/cited | Sources cited |
+|---|---|---|---|---|---|
+| 2026-10-12 | Google AI Overviews | What is thermal interface material? | No | Laird, Voltera, Parker Chomerics, Indium, Boyd, Honeywell, DigiKey, Prostech, RS Components, Wikipedia | Laird TIM page, Indium TIM page, Wikipedia, Parker Chomerics TIM page, Boyd TIM page, Voltera "Thermal Interface Material (TIM): Selection Guide", Honeywell TIM role article, Prostech TIM/YouTube, DigiKey editorial, RS Components guide, Parker Chomerics theory/YouTube |
+| 2026-10-12 | Google AI Overviews | How to select thermal pad? | No | Arctic, Gelid, Fujipoly, ALLPCB, T-Global, CTC POWER, Sheen, FIBERSTAMP, New England Die Cutting, SerpentX Tech, Tech YES City, Springgrasstech | ALLPCB "Beginner's Guide to Thermal Pads", T-Global guide, CTC POWER guide, Sheen 2026 guide, FIBERSTAMP selection guide, NEDC GPU/CPU thermal pad guides, SerpentX Tech/Tech YES City YouTube tutorials, Springgrasstech, one 2026-05 selection article (domain not visible) |
+| 2026-10-12 | Google AI Overviews | Thermal interface material for AI server | No | Indium, Krayden, New England Die Cutting, Laird, Sheen, Honeywell (PTM7950/PTM7900), DuPont (TGel 600), NVIDIA (H100/H200/B200 as examples) | Krayden blog (AI server TIM, Nov 2025), Indium metal TIMs for AI GPU (Dec 2025), Laird TGel 600 (Apr 2025), NEDC engineer's guide (Aug 2025), Sheen AI server pages (Jul/Sep 2026), one Sep 2026 best-practices article (domain not visible) |
+
+### Reads (hypotheses, not facts)
+
+1. **Q2 is the most winnable format, confirmed again**: every cited source is a how-to guide built around conductivity/thickness data tables (ALLPCB, T-Global, CTC POWER, Sheen, NEDC, FIBERSTAMP). Our three methodology-packaged tools are exactly this asset class. Notably, **ALLPCB's "Beginner's Guide to Thermal Pads" is in the citation path** — our Batch 1 outreach target — which raises the value of that relationship (and its prepared-but-unsent follow-up).
+2. **Q1 cites Voltera's TIM Selection Guide with a product-selection table** — our other Batch 1 target. Both outreach targets sit directly in the AI citation path; the TIM Selection Tool upgrade (this week) is the right asset to keep pitching them.
+3. **Q3 is won by application-specific data/specs blogs** (Indium metal TIMs, Laird TGel 600, Krayden distributor blog, Sheen AI-server pages). Our AI server page is not cited — a data/spec-anchored AI-server piece (real specs, no invented data) remains the gap; requires the user's real product data before it can be built honestly.
+4. Domestic competitors (Sheen) appear in Q2/Q3 via their own sites — the "China supplier presence" gap persists; not closable with content alone.
+5. AI Overview content is dynamic/personalized — this is a 2026-10-12 ~15:00 CST snapshot, not a ranking. Retest monthly or after a major push.
