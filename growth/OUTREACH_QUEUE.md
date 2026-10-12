@@ -35,9 +35,21 @@ Engineering (no verifiable editorial email). Details in OUTREACH_LOG.md.
 
 | # | Target | Type | Why them | Resource pitched | Contact (verified) | Status |
 |---|---|---|---|---|---|---|
-| 3 | PCBWay blog | Resource suggestion | High-power PCB design guides with thermal management sections; large PCB-designer audience | Thermal Resistance Calculator | simon@pcbway.com (published "Co-operation" inbox from PCBWay's own contact list, via CNX Software sponsored post 2024-11-20) | SEND BLOCKED 2026-10-08: 2× +send + 1× drafts.send all hit Gmail service restarts, 0 sends confirmed in Sent after each. Prepared text saved as real Gmail draft in 5672306@gmail.com Drafts (one-click manual send); retry autonomous send next run if path recovers. |
-| — | Voltera | Follow-up #1 | Batch 1 sent 2026-09-27; no reply, no bounce (verified 2026-10-08) | TIM Selection Tool | hello@voltera.io | SENT 2026-10-08 (reply in original thread) — follow-up #2 due 2026-10-09 – 2026-10-18 (final) |
-| — | ALLPCB | Follow-up #1 | Batch 1 sent 2026-09-27; no reply, no bounce (verified 2026-10-08) | Thermal Resistance Calculator | sponsor@allpcb.com | SENT 2026-10-08 (reply in original thread) — follow-up #2 due 2026-10-09 – 2026-10-18 (final) |
+| 3 | PCBWay blog | Resource suggestion | High-power PCB design guides with thermal management sections; large PCB-designer audience | Thermal Resistance Calculator | simon@pcbway.com (published "Co-operation" inbox from PCBWay's own contact list, via CNX Software sponsored post 2024-11-20) | **SENT 2026-10-08** (verified 2026-10-12 in Sent box; 04:50 CST; text matches prepared draft. The 10/8 "saved draft" note was superseded — no draft exists. No reply/bounce as of 2026-10-12) — follow-up #1 due 2026-10-13 – 2026-10-18 (final per max-2) |
+| — | Voltera | Follow-up #1 re-send | Batch 1 verified sent 2026-09-27; no reply, no bounce (verified 2026-10-12). Follow-up #1 texts prepared 2026-09-29; the 2026-10-08 "SENT" claim was corrected (never sent — no Sent-box entries after 10/07). | TIM Selection Tool | hello@voltera.io | PREPARED-ONLY — **send HOLD awaiting user's explicit "send" word** (user decision 2026-10-09: re-send Voltera only, NOT ALLPCB) |
+| — | ALLPCB | Follow-up #1 | Batch 1 verified sent 2026-09-27; no reply, no bounce (verified 2026-10-12) | Thermal Resistance Calculator | sponsor@allpcb.com | **CLOSED per user decision 2026-10-09** — do not re-send, do not follow up |
+
+## Queue — Batch 3 (prepared 2026-10-12; full text in OUTREACH_LOG.md)
+
+| # | Target | Type | Why them | Resource pitched | Contact (verified) | Status |
+|---|---|---|---|---|---|---|
+| 4 | PCBWay blog | Follow-up #1 (final) | First pitch verified sent 2026-10-08; no reply, no bounce | Thermal Resistance Calculator | simon@pcbway.com | PREPARED 2026-10-12 — send window 2026-10-13 – 2026-10-18; reply to 2026-10-08 original; stop on refusal/bounce |
+| 5 | Power Electronics News | Technical media follow-up #1 | 9/30 pitch (SP2000 second-source evaluation framework) approved & sent by user; no reply | Byline/feature proposal | Aalyia Shaukat <aalyia.shaukat@aspencore.com> | PREPARED 2026-10-12 — **send HOLD, awaiting user go-ahead** (user-owned relationship) |
+| 6 | EDN | Technical media follow-up #1 | 9/30 pitch (ASTM D5470 case-study proposal) approved & sent by user; no reply | Case-study proposal | Majeed Kamran <majeed.kamran@aspencore.com> | PREPARED 2026-10-12 — **send HOLD, awaiting user go-ahead** |
+| 7 | Electronic Design | Technical media follow-up #1 | 9/30 pitch (ASTM D5470 thermal-resistance explainer) approved & sent by user; no reply | Explainer proposal | editors@electronicdesign.com | PREPARED 2026-10-12 — **send HOLD, awaiting user go-ahead** |
+| 8 | Lightwave | Technical media follow-up #1 | 9/30 pitch (800G/1.6T optical module thermal abstract) approved & sent by user; no reply | Bylined abstract | Sean Buckley <sbuckley@endeavorb2b.com> | PREPARED 2026-10-12 — **send HOLD, awaiting user go-ahead** |
+
+Not prepared: Bodo's Power Systems follow-up (active thread — Holger Moscheik replied 2026-09-30, user owns it).
 
 Parked 2026-09-29: Sierra Circuits blog (protoexpress.com — strong thermal content incl. "12 PCB Thermal Management Techniques", but no verifiable editorial/cooperation email; amit@protoexpress.com from a 2020 guide PDF is stale — never guess contacts), EEWorld Online (contribution form strips URLs → no link value; no public editorial email; About page names editors but no addresses), ThomasNet (entity confirmed: Hongjing New Materials Technology (Shenzhen) Co., Ltd. — still bot-walled, retry planned), GlobalSpec (paid-only, out of scope).
 

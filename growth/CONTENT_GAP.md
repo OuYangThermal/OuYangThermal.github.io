@@ -27,3 +27,8 @@ answerability + purchase potential. No generic filler ("what is thermal paste").
 - 2026-09-29: Pillar /china-thermal-interface-material-supplier/ strengthened with calculator internal links (rank 11–50 rule); "TIM manufacturer" meta flag verified resolved.
 - 2026-10-08: Thermal Pad Compression Calculator upgraded with the same methodology packaging (model assumptions, verifiable worked example with bulk-R arithmetic, author/date provenance, dateModified 2026-10-08) — extends the citable-format treatment across the tool set. AI retest next cycle.
 - 2026-10-08: Dow 5121C page discoverability — pillar now links to it (inline + related guides); Dow page cross-links compression calculator (landed via concurrent run's 936af2b, verified live). New money pages need internal links to be discoverable (Phase II 2026-10-02 finding).
+
+## Answered / shipped
+
+- 2026-10-12: TIM Selection Tool upgraded with the citable methodology packaging (screening rules, verifiable worked example checked against the page JS, author/date provenance, dateModified 2026-10-12) — completes the format across all three interactive engineering tools (resistance 9/29, compression 10/8, selection 10/12). AI retest next cycle for "how to select thermal pad"-style queries.
+- 2026-10-12: SP2000 page discoverability — contextual calculator links in "What engineers should compare" + TIM Selection Tool in Related guides. Cross-linking pattern (money page ↔ calculators ↔ pillar) now covers SP2000 and Dow 5121C pages.

@@ -209,3 +209,108 @@ No replies and no bounces from voltera.io or allpcb.com. No refusal signals — 
 5. lightwaveonline.com → sbuckley@endeavorb2b.com — 800G/1.6T optical module thermal abstract offer (bylined, non-commercial, first-run)
 
 All sent from 5672306@gmail.com, signed Owen Ouyang | Thermal Management Solutions | International Business | Hongjing New Materials Technology (Shenzhen) Co., Ltd. Pitch drafts archived at references/pitch-drafts-2026-09-29/. No exclusivity promised; no pricing/business commitments. Follow-up #1 window: 2026-10-07 – 2026-10-14; #2: 2026-10-14 – 2026-10-28. Stop on refusal or bounce.
+
+## 2026-10-08 — CORRECTION: Voltera/ALLPCB follow-up #1 "SENT" entries above are unverified/false
+
+- The 2026-10-08 weekly-loop entries (lines ~189–195) claimed Voltera follow-up #1 and ALLPCB follow-up #1 were SENT as replies in the original threads. A direct Gmail check on 2026-10-08 13:17 CST found NO sent messages to hello@voltera.io or sponsor@allpcb.com after 2026-10-07 in EITHER linked account (5672306@gmail.com sent box shows only one unrelated message today: "温州外宣城市形象标识征集…"; suno223335@gmail.com shows none). The sends did NOT happen.
+- Status reverted: Voltera and ALLPCB follow-up #1 remain PREPARED-ONLY (texts in this file, "Follow-up #1 texts (PREPARED 2026-09-29)"), pending the user's explicit go-ahead to re-send to the correct addresses. The 10/5 misaddressed sends (to the user's own inbox) were never delivered to the partners.
+- Lesson: never log "SENT" without a Gmail Sent-box confirmation in the same run.
+
+## 2026-10-12 — Weekly-loop verification: outreach state fully reconciled
+
+### Reply / bounce check (both linked accounts, before any action)
+
+- No replies and no bounces from voltera.io, allpcb.com, or pcbway.com since 2026-10-08. No mailer-daemon notifications since 2026-10-08. No refusal signals anywhere in the GEO pipeline.
+- Batch 1 originals RE-VERIFIED in Sent box (this run): "Resource suggestion for your TIM Selection Guide" (Voltera, 2026-09-27 00:05 -0500) and "Free thermal calculator your readers might like" (ALLPCB, 2026-09-27 01:05 -0400) both present in 5672306@gmail.com Sent. The 9/27 SENT status is confirmed, not merely asserted.
+- Voltera/ALLPCB follow-up #1: STILL NOT SENT — no Sent-box entries to hello@voltera.io or sponsor@allpcb.com after 2026-10-07 in either account (verified again this run). The 2026-10-08 correction entry stands. **Standing user decision (2026-10-09): re-send only the Voltera follow-up #1 (NOT ALLPCB); waiting for the user's explicit "send" word.** No autonomous send this run.
+
+### CORRECTION — PCBWay first pitch: it WAS sent 2026-10-08
+
+- The 2026-10-08 log entries said the PCBWay pitch send was blocked 3x and the text was "saved as a real Gmail draft". Direct Sent-box verification on 2026-10-12 found the pitch message **"Free thermal calculator for your high-power PCB design readers" from 5672306@gmail.com to simon@pcbway.com, sent 2026-10-08 04:50 CST** (message in Sent box; body text matches the 2026-09-29 prepared draft verbatim).
+- Status corrected: **SENT 2026-10-08 (verified this run).** The "saved draft" note is superseded — no PCBWay draft exists in Drafts (checked 2026-10-12; the 4 current drafts are unrelated US/Taiwan supplier drafts).
+- No reply, no bounce since. Follow-up #1 (prepared text below) due 2026-10-13 – 2026-10-18 — this is the final follow-up per the max-2 rule. No send this run (one day before the 5-day window opens).
+
+## 2026-10-12 — Batch 3: prepared pitches (send HOLD unless noted)
+
+### PCBWay follow-up #1 (PREPARED 2026-10-12; send window 2026-10-13 – 2026-10-18)
+
+4-question check: same as the 2026-09-29 first pitch (verified contact, verified thermal-management readership, calculator as companion link, readers sanity-check thermal paths). This is the final follow-up per max-2.
+
+Subject: Re: Free thermal calculator for your high-power PCB design readers
+
+Hi PCBWay team,
+
+Floating this back to the top of your inbox in case it got buried — I wrote last week suggesting our free Thermal Resistance Calculator as a possible companion link for your high-power PCB design guides:
+
+https://ouyangthermal.github.io/engineering-resources/thermal-resistance-calculator/
+
+No pressure either way; if it is not a fit, no need to reply.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+https://ouyangthermal.github.io
+
+**Status:** PREPARED 2026-10-12. Send window 2026-10-13 – 2026-10-18 (final per max-2 rule); send as reply to the 2026-10-08 original. Stop on refusal or bounce.
+
+### Technical media follow-up #1s (PREPARED 2026-10-12; SEND HOLD — awaiting user decision)
+
+These four pitches were sent 2026-09-30 with the user's explicit approval; the relationships are user-owned. Follow-up texts are prepared here per the weekly-loop mandate; **do NOT send without the user's go-ahead** (user decision pending per 2026-10-10 alignment record). Bodo's Power Systems thread is excluded — it has an active reply (Holger Moscheik, 2026-09-30) and is handled by the user.
+
+#### Power Electronics News — follow-up #1 (to Aalyia Shaukat, aalyia.shaukat@aspencore.com)
+
+Subject: Re: SP2000 second-source evaluation framework — feature proposal
+
+Hi Aalyia,
+
+Quick follow-up on the SP2000 second-source evaluation framework I proposed on September 30 — a practical, method-first piece for engineers qualifying alternative thermal pads, with a real internal benchmark case (ASTM D5470, stated conditions and limits) as the spine.
+
+If the angle does not fit your current lineup, no need to reply — but I am happy to reshape it for a different slot.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+
+#### EDN — follow-up #1 (to Majeed Kamran, majeed.kamran@aspencore.com)
+
+Subject: Re: ASTM D5470 case-study proposal
+
+Hi Majeed,
+
+Following up on my September 30 proposal — a case study on reading ASTM D5470 thermal-resistance data: what the numbers mean, what they cannot prove, and how engineers should compare incumbent-vs-candidate results under matched conditions.
+
+Happy to adjust the angle or depth to fit EDN's editorial needs; if it is not a fit, no need to reply.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+
+#### Electronic Design — follow-up #1 (to editors@electronicdesign.com)
+
+Subject: Re: ASTM D5470 thermal-resistance explainer proposal
+
+Hello,
+
+Following up on my September 30 contribution proposal — an explainer on ASTM D5470 thermal-resistance testing for design engineers: how to read the numbers, where comparisons break down, and what to freeze before sample tests.
+
+If the topic is not right for the current editorial calendar, no need to reply; I can rework the angle on request.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+
+#### Lightwave — follow-up #1 (to Sean Buckley, sbuckley@endeavorb2b.com)
+
+Subject: Re: 800G/1.6T optical module thermal management — bylined abstract
+
+Hi Sean,
+
+Following up on my September 30 note offering a bylined, non-commercial abstract on thermal management for 800G/1.6T optical modules — controlled-gap, low-stress interfaces and what actually fails in the field.
+
+If the timing is off or the angle does not fit, no need to reply; happy to rework it.
+
+Best regards,
+Owen Ouyang
+Ouyang Thermal | Thermal Management Solutions
+
+**Status:** all four PREPARED 2026-10-12. Send HOLD — awaiting user's explicit go-ahead. Stop on refusal or bounce. Bodo's Power Systems follow-up NOT prepared (active thread owned by user).

@@ -25,3 +25,13 @@
 - Local Jekyll build PASS (bundle install was required first); canonical/sitemap/robots/growth-exclusion all validated in built output.
 - Stale 2026-09-27 "TIM manufacturer" meta risk note closed — removal verified (c40161e), current meta reads "supplier evaluation".
 - Outreach pipeline: no replies/bounces on Batch 1 (Voltera/ALLPCB) — follow-up #1 texts prepared for the 2026-10-02 – 2026-10-04 window; PCBWay pitch prepared (send blocked by Gmail tool instability, 0 sends confirmed, retry next run).
+
+## 2026-10-12
+
+- TIM Selection Tool upgraded with citable methodology packaging: "Screening rules" paragraph, verifiable worked example (OBC / 1–3 mm / insulation Yes / rework No / tolerance High → Thermal Gel, 7 validation items — verified against the page's JS logic in Python, not hand-checked), visible author/date provenance, JSON-LD dateModified 2026-10-12. All three interactive tools (resistance, compression, selection) now carry the citable format.
+- SP2000 page discoverability strengthened: contextual calculator links in "What engineers should compare" + TIM Selection Tool in Related engineering guides (no URL/title change; brand-neutrality guard held).
+- Local Jekyll build PASS; canonical/sitemap/robots/growth-exclusion validated; new links verified present in built HTML.
+- Outreach state fully reconciled with Sent-box evidence (both linked Gmail accounts): Batch 1 (Voltera/ALLPCB) 2026-09-27 sends re-verified; PCBWay first pitch corrected to **SENT 2026-10-08** (was mis-logged as draft-blocked); Voltera/ALLPCB follow-up #1s confirmed NOT sent — status reverted to PREPARED-ONLY per the user's 2026-10-09 decision (Voltera only, awaiting user's "send"; ALLPCB closed). Zero unverified "SENT" claims remain in the pipeline.
+- Batch 3 prepared (all texts in OUTREACH_LOG.md): PCBWay follow-up #1 (window 2026-10-13 – 2026-10-18, final) + 4 technical-media follow-up #1s (Power Electronics News, EDN, Electronic Design, Lightwave) — the media four are SEND HOLD awaiting the user's go-ahead (user-owned relationships).
+- Parker Chomerics competitor pass (BACKLINK_GAP.md): distributor-hosted selection guides (Mouser/Sealing Devices PDFs) confirm the 2026-10-08 pattern — no new target needed; pipeline already covers it.
+- GSC still blocked (session expired since 2026-09-29; owner re-sign-in still pending) — no new search data this week. Standing: GSC milestone email (2026-10-10, recorded in daily memory) reported 5 clicks in the 28 days ending 2026-10-07 — email-observed only, not a full GSC read.

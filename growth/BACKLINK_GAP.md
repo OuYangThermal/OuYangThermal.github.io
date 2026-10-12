@@ -55,3 +55,9 @@ Reading: ThomasNet is the highest-value target but access-gated; Voltera/ALLPCB 
 ## Hard bans
 
 Paid links · PBNs · auto comments · forum spam · junk directories · bulk profile links · hidden links · AI spam articles · fake testimonials · fake reviews.
+
+### Observed 2026-10-12 — how Parker Chomerics earns citations (third pass)
+
+- **Distributor-hosted selection guides (same pattern as Bergquist):** Mouser hosts Parker's TIM Dispensing Guide as a PDF (mouser.vn/pdfDocs/Parker-Chomerics-Dispensing-Guide.pdf); Sealing Devices hosts a "Thermal Interface Materials for Electronics Cooling" selector PDF (sealingdevices.com). The distributor's domain carries the citation — manufacturer content + distributor distribution = two domains pointing at the same asset.
+- **Application case studies on discover.parker.com** (5G base-station TIM) use a structured format: critical design requirements → customer-specific requirements → solution → conclusion. Citation-friendly because the requirements are stated explicitly, not because of brand authority.
+- **Implication for us:** no new target this week — pipeline already covers this pattern (Voltera/ALLPCB/PCBWay). The methodology-packaged tools (assumptions + worked examples + provenance, now on all three interactive tools after this week's TIM Selection Tool upgrade) are built for exactly this reuse path. The durable lesson from three competitor passes: citable formats are selection guides, test-methodology writeups, and requirement-stated case studies — never product pages.

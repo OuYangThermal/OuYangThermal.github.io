@@ -13,7 +13,7 @@ An SP2000 alternative cannot be established from a conductivity number or produc
 
 ## What engineers should compare
 
-Compare thermal conductivity method, thermal resistance, available thicknesses and tolerance, hardness scale, compression response, electrical insulation, dielectric strength, breakdown voltage, temperature range, mechanical stability, application pressure, bond-line thickness, compression set, and long-term aging. Also review handling, die cutting, liner, storage, documentation, lot traceability, and change control.
+Compare thermal conductivity method, [thermal resistance]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}), available thicknesses and tolerance, hardness scale, [compression response]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}), electrical insulation, dielectric strength, breakdown voltage, temperature range, mechanical stability, application pressure, bond-line thickness, compression set, and long-term aging. Also review handling, die cutting, liner, storage, documentation, lot traceability, and change control.
 
 {% include quick-contact.html %}
 
@@ -99,6 +99,7 @@ No such claim is made here. During evaluation the only correct status is **bench
 - [Thermal Pad Hardness]({{ '/thermal-pad/thermal-pad-hardness-explained/' | relative_url }})
 - [Why Test Results Differ]({{ '/testing/why-can-the-same-thermal-material-produce-different-test-results/' | relative_url }})
 - [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
+- [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }}) — screen a TIM category from application requirements before starting a benchmark.
 - [Second-Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }})
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
