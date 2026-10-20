@@ -74,3 +74,10 @@
 - The earlier 2026-10-12 entry ("findings not retrievable") is superseded by this correction for Part A; the standing presumption is now a direct observation.
 - Standing baseline (2026-09-28 filter-free read, last validated): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
 - OWNER ACTION (standing since 2026-09-29): user signs in to Google once in the managed browser; next run retries the full Performance + Links read.
+
+## 2026-10-19 — GSC read BLOCKED (login session still expired; direct observation)
+
+- Live-browser check (no login attempted per policy): search.google.com/search-console redirected to the public /about page; clicking "立即使用" opened the Google account chooser showing exactly one account: "thermal ouyang — 5672306@gmail.com", status "已退出账号" (signed out). No Performance data, no Links data — no clicks, impressions, CTR, position, query, page, or backlink numbers could be recorded.
+- Standing baseline (2026-09-28 filter-free read, last validated): 5 clicks / 24 impressions / avg CTR 20.8% / avg position 8.8; data 2026-09-09 → 2026-09-25; all US, all homepage. "thermal interface material": 2 impressions, position 1.5, 0 clicks; 5 clicks' queries anonymized by Google.
+- No new query/page/backlink data obtained — do NOT report "no new queries/backlinks" as a finding.
+- OWNER ACTION (standing since 2026-09-29): user signs in to Google once in the managed browser; next run retries the full Performance + Links read.

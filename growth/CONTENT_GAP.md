@@ -32,3 +32,8 @@ answerability + purchase potential. No generic filler ("what is thermal paste").
 
 - 2026-10-12: TIM Selection Tool upgraded with the citable methodology packaging (screening rules, verifiable worked example checked against the page JS, author/date provenance, dateModified 2026-10-12) — completes the format across all three interactive engineering tools (resistance 9/29, compression 10/8, selection 10/12). AI retest next cycle for "how to select thermal pad"-style queries.
 - 2026-10-12: SP2000 page discoverability — contextual calculator links in "What engineers should compare" + TIM Selection Tool in Related guides. Cross-linking pattern (money page ↔ calculators ↔ pillar) now covers SP2000 and Dow 5121C pages.
+
+## Answered / shipped
+
+- 2026-10-19: TIM TDS Comparison Tool upgraded with the citable methodology packaging (model assumptions, verifiable worked example with Python-checked bulk-R arithmetic, author/date provenance, dateModified 2026-10-19) — completes the format across four of five interactive tools (resistance 9/29, compression 10/8, selection 10/12, TDS comparison 10/19). AI retest next cycle for "how to select"-style queries.
+- 2026-10-19: Homepage hero evidence line (internal ASTM D5470 benchmark numbers + Case 002 thickness series + free tools) — conversion-only improvement per rank-protection on the site's only ranking URL. CONTENT_GAP gap #1 (homepage commercial CTA) is now substantially addressed.

@@ -100,3 +100,19 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 3. **Q3 is won by application-specific data/specs blogs** (Indium metal TIMs, Laird TGel 600, Krayden distributor blog, Sheen AI-server pages). Our AI server page is not cited — a data/spec-anchored AI-server piece (real specs, no invented data) remains the gap; requires the user's real product data before it can be built honestly.
 4. Domestic competitors (Sheen) appear in Q2/Q3 via their own sites — the "China supplier presence" gap persists; not closable with content alone.
 5. AI Overview content is dynamic/personalized — this is a 2026-10-12 ~15:00 CST snapshot, not a ranking. Retest monthly or after a major push.
+
+## Retest 2026-10-19 — Google AI Overviews (2 questions, no login)
+
+- Live-browser run 15:10–15:20 CST, plain google.com English queries. AI Overview rendered for both.
+- **Ouyang Thermal: NOT mentioned or cited in either answer or their cited sources.** Unchanged from the 2026-10-12 baseline. One AI answer is not a ranking — this is a snapshot.
+
+| Date | Engine | Question | Ouyang cited? | Brands mentioned/cited | Sources cited |
+|---|---|---|---|---|---|
+| 2026-10-19 | Google AI Overviews | How to select thermal pad? | No | None in answer body (only component types: GPU, CPU, MOSFET, VRAM, SSD) | tglobaltechnology.com (T-Global how-to/selection guide), powerctc.com (CTC Power guide), allpcb.com (PCB vendor guide with size table), Sheen Technology (conductivity & hardness guide), FIBERSTAMP (selection guide), Shenzhen AOCHUAN Technology (selection guide), Tech YES City YouTube video (thermal pad comparison) |
+| 2026-10-19 | Google AI Overviews | Thermal interface material for AI server | No | Honeywell (PTM7900/7950/6000), Indium Corporation, Boston Materials (LMZ) | blog.krayden.com (Krayden AI-server TIM guide), indium.com (metal TIMs for AI GPU), eps.ieee.org (IEEE Electronics Packaging Society TIM strategy whitepaper), exponentialindustry.com, OCP YouTube (2026-10-15), Semiconductor Digest, nedc.com (NEDC engineer's guide), sheenthermal.com, sheenmaterials.com |
+
+### Reads (hypotheses, not facts)
+
+1. **Q1 is still won by manufacturer how-to/selection guides and data tables** (gap measurement, W/mK ranges, hardness tables) — ALLPCB remains in the citation path (Batch 1 outreach target; follow-up closed per user decision 2026-10-09). A re-run of the same question cited a different set (ziitek.com.vn, haktak.com, TermoPasty, thermalconductivematerials.com) — citation sets vary by exact phrasing; one snapshot is not a ranking.
+2. **Q2 is won by recent (2025–2026) topical application guides + one engineering whitepaper** (IEEE EPS). No Chinese manufacturer brands appear anywhere. Our AI-server page is not cited — still a data/spec-anchored content gap; requires the user's real product data before it can be built honestly.
+3. This week's TDS Comparison Tool packaging (assumptions + worked example + provenance) is the right asset class for Q1-style citations; it needs indexation + an external citing page to enter the path.

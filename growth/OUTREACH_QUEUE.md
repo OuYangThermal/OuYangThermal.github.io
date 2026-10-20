@@ -51,6 +51,14 @@ Engineering (no verifiable editorial email). Details in OUTREACH_LOG.md.
 
 Not prepared: Bodo's Power Systems follow-up (active thread — Holger Moscheik replied 2026-09-30, user owns it).
 
+## Queue — Batch 4 (prepared 2026-10-19; full text in OUTREACH_LOG.md)
+
+| # | Target | Type | Why them | Resource pitched | Contact (verified) | Status |
+|---|---|---|---|---|---|---|
+| 9 | TECHSiL Resource Centre | Resource suggestion | Hosts Momentive TIM Product Guide; publishes "Choosing the Right TIM" guide; electronics design-engineer audience | TIM TDS Comparison Tool | technical@techsil.co.uk (published on techsil.co.uk Resource Centre pages) | **PREPARED 2026-10-19** — GEO engineering outreach, authorized to send; send window 2026-10-20 – 2026-10-26 (held this run: Gmail connector service instability, 2 restarts, 0 sends confirmed) |
+| 10 | RayPCB blog | Resource suggestion | Thermal/material design guides (Bergquist Thermal Clad, metal-core PCB); guides tell readers to "run the thermal resistance calculations" | Thermal Resistance Calculator | sales@raypcb.com (published on raypcb.com as email-discussion inbox) | **PREPARED 2026-10-19** — GEO engineering outreach, authorized to send; send window 2026-10-20 – 2026-10-26 (held this run: Gmail connector service instability) |
+| 4 | PCBWay blog | Follow-up #1 (final) | First pitch verified sent 2026-10-08; no reply, no bounce (verified 2026-10-19) | Thermal Resistance Calculator | simon@pcbway.com | **SEND ATTEMPTED 2026-10-19, FAILED** — two +reply attempts both hit Gmail service restarts; 0 sends confirmed; remains PREPARED (final per max-2). Retry next run; do NOT claim sent |
+
 Parked 2026-09-29: Sierra Circuits blog (protoexpress.com — strong thermal content incl. "12 PCB Thermal Management Techniques", but no verifiable editorial/cooperation email; amit@protoexpress.com from a 2020 guide PDF is stale — never guess contacts), EEWorld Online (contribution form strips URLs → no link value; no public editorial email; About page names editors but no addresses), ThomasNet (entity confirmed: Hongjing New Materials Technology (Shenzhen) Co., Ltd. — still bot-walled, retry planned), GlobalSpec (paid-only, out of scope).
 
 ### Technical abstracts (Batch 2)
