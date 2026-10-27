@@ -70,7 +70,7 @@ Paid links · PBNs · auto comments · forum spam · junk directories · bulk pr
 - **Shin-Etsu's own literature states Fourier's Law** (Q = k·A·ΔT/L) — methodology content, not product claims.
 - **Implication for us:** no new outreach target needed from the pattern itself — but two new targets were opened from this research this week and moved to the queue: TECHSiL (Batch 4 #9, technical@techsil.co.uk verified) and RayPCB (Batch 4 #10, sales@raypcb.com verified). The durable lesson after four competitor passes stands: citable formats are selection guides, test-methodology writeups, and requirement-stated comparisons — never product pages. Our newly packaged TDS Comparison Tool (worked example: 8 W/m·K at 1.5 mm BLT = 0.117 K/W vs 6 W/m·K at 1.0 mm BLT = 0.104 K/W) is built for exactly the Pantronics-style educational slot.
 
-### Observed 2026-10-26 — how Dow earns citations (fifth pass)
+### Observed 2026-10-27 — how Dow earns citations (fifth pass)
 
 - **Manufacturer methodology papers as the cited asset:** Dow's own "Understanding Thermal Performance Data" paper (dow.com PDF) teaches the resistance-vs-conductivity lesson by bond-line thickness — thin bond lines (<50 microns) are resistance-critical, thick ones (>150 microns) conductivity-critical — with supplier comparison tables. It earns the citation by stating the method and the conditions, not by product claims.
 - **Distributor hosting again:** Mouser hosts the Laird "How to Choose the Right Thermal Interface Materials" guide as a PDF (mouser.co.uk / mouser.fr copies) — the same manufacturer-content-plus-distributor-domain pattern as Bergquist, Parker Chomerics and Momentive in the previous four passes.

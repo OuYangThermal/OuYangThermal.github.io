@@ -375,13 +375,13 @@ https://ouyangthermal.github.io
 
 **Status:** PREPARED 2026-10-19. GEO engineering outreach — send authorized under 2026-09-27 approval (4-question check passed). Send HOLD this run due to Gmail connector service instability (two +reply service restarts, 0 sends confirmed 2026-10-19). Send window next run 2026-10-20 – 2026-10-26.
 
-## 2026-10-26 — Batch 4 + PCBWay follow-up #1: sends FAILED, drafts saved (verified)
+## 2026-10-27 — Batch 4 + PCBWay follow-up #1: sends FAILED, drafts saved (verified)
 
-- Reply/bounce pre-check (2026-10-26, both linked accounts, since 2026-10-19): no replies and no bounces from pcbway.com, techsil.co.uk, raypcb.com, voltera.io, or allpcb.com; no mailer-daemon notifications since 2026-10-19. No refusal signals anywhere in the GEO pipeline.
+- Reply/bounce pre-check (2026-10-27, both linked accounts, since 2026-10-19): no replies and no bounces from pcbway.com, techsil.co.uk, raypcb.com, voltera.io, or allpcb.com; no mailer-daemon notifications since 2026-10-19. No refusal signals anywhere in the GEO pipeline.
 - Send attempts: two `+send` attempts for TECHSiL both hit Gmail connector service restarts mid-command (one session disappeared, one explicit service restart); Sent-box re-verified after each: **0 sends confirmed**. The send path is down on this detached run exactly as on 2026-10-19. No further send attempts were made for RayPCB or PCBWay (same path, same failure mode); nothing was claimed sent.
 - Fallback: the draft path works. All three items below were saved as real Gmail drafts in 5672306@gmail.com Drafts for one-click manual send. Sent box remains empty for all three addresses — **status is DRAFT SAVED, not SENT**.
 
-### Draft 1 — TECHSiL first pitch (draft message 1a17c43398e6a1c3, saved 2026-10-26)
+### Draft 1 — TECHSiL first pitch (draft message 1a17c43398e6a1c3, saved 2026-10-27)
 
 To technical@techsil.co.uk, subject "Free TDS-comparison tool for your thermal interface material guides". Text as drafted (shortened from the 2026-10-19 prepared text — no apostrophes, same substance):
 
@@ -400,9 +400,9 @@ To technical@techsil.co.uk, subject "Free TDS-comparison tool for your thermal i
 > Ouyang Thermal | Thermal Management Solutions
 > https://ouyangthermal.github.io
 
-**Status:** DRAFT SAVED 2026-10-26. GEO engineering outreach, authorized to send; send window was 2026-10-20 – 2026-10-26. Delete the draft after sending to avoid double-send.
+**Status:** DRAFT SAVED 2026-10-27. GEO engineering outreach, authorized to send; send window was 2026-10-20 – 2026-10-26. Delete the draft after sending to avoid double-send.
 
-### Draft 2 — RayPCB first pitch (draft message 1a17c43585dba777, saved 2026-10-26)
+### Draft 2 — RayPCB first pitch (draft message 1a17c43585dba777, saved 2026-10-27)
 
 To sales@raypcb.com, subject "Free thermal resistance calculator for your PCB thermal design readers". Text as drafted (shortened from the 2026-10-19 prepared text):
 
@@ -421,11 +421,11 @@ To sales@raypcb.com, subject "Free thermal resistance calculator for your PCB th
 > Ouyang Thermal | Thermal Management Solutions
 > https://ouyangthermal.github.io
 
-**Status:** DRAFT SAVED 2026-10-26. GEO engineering outreach, authorized to send; send window was 2026-10-20 – 2026-10-26. Delete the draft after sending to avoid double-send.
+**Status:** DRAFT SAVED 2026-10-27. GEO engineering outreach, authorized to send; send window was 2026-10-20 – 2026-10-26. Delete the draft after sending to avoid double-send.
 
-### Draft 3 — PCBWay follow-up #1 (final, reply draft message 1a17c438ff4531b7, saved 2026-10-26)
+### Draft 3 — PCBWay follow-up #1 (final, reply draft message 1a17c438ff4531b7, saved 2026-10-27)
 
-Reply draft in the original thread (message 1a118215a2e1d91a, verified in Sent box 2026-10-26: "Free thermal calculator for your high-power PCB design readers", sent 2026-10-08 04:50 CST). Text is the 2026-10-12 prepared follow-up verbatim:
+Reply draft in the original thread (message 1a118215a2e1d91a, verified in Sent box 2026-10-27: "Free thermal calculator for your high-power PCB design readers", sent 2026-10-08 04:50 CST). Text is the 2026-10-12 prepared follow-up verbatim:
 
 > Hi PCBWay team,
 >
@@ -440,7 +440,7 @@ Reply draft in the original thread (message 1a118215a2e1d91a, verified in Sent b
 > Ouyang Thermal | Thermal Management Solutions
 > https://ouyangthermal.github.io
 
-**Status:** DRAFT SAVED 2026-10-26 (final per max-2 rule; the 2026-10-13 – 2026-10-18 window had lapsed by the time the send path failed). Delete the draft after sending to avoid double-send. Stop on refusal or bounce.
+**Status:** DRAFT SAVED 2026-10-27 (final per max-2 rule; the 2026-10-13 – 2026-10-18 window had lapsed by the time the send path failed). Delete the draft after sending to avoid double-send. Stop on refusal or bounce.
 
 - The 4 technical-media follow-up #1s remain SEND HOLD (user-owned relationships, awaiting the user's go-ahead). Voltera follow-up #1 remains PREPARED-ONLY per the user's 2026-10-09 decision (Voltera only, awaiting the user's "send" word); ALLPCB remains CLOSED.
 

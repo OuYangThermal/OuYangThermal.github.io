@@ -46,13 +46,13 @@
 - GSC still blocked (session expired since 2026-09-29; signed-out state directly observed) — no new search data this week.
 - AI Overviews retest 2026-10-19: Ouyang Thermal not cited on either of 2 questions (unchanged); "How to select thermal pad?" still manufacturer how-to/data-table territory with ALLPCB in the citation path; AI-server query won by recent topical guides + IEEE whitepaper.
 
-## 2026-10-26
+## 2026-10-27
 
-- Second Source Qualification Generator upgraded with citable methodology packaging: deterministic selection rules, verifiable worked example (OBC / DC-DC, Thermal Gel, insulation Yes, Supplier Qualification, Automotive → 21-item checklist, verified against the page's JS logic in Python), visible author/date provenance, JSON-LD dateModified 2026-10-26. All five interactive tools now carry the format (resistance 9/29, compression 10/8, selection 10/12, TDS comparison 10/19, second-source generator 10/26).
+- Second Source Qualification Generator upgraded with citable methodology packaging: deterministic selection rules, verifiable worked example (OBC / DC-DC, Thermal Gel, insulation Yes, Supplier Qualification, Automotive → 21-item checklist, verified against the page's JS logic in Python), visible author/date provenance, JSON-LD dateModified 2026-10-27. All five interactive tools now carry the format (resistance 9/29, compression 10/8, selection 10/12, TDS comparison 10/19, second-source generator 10/26).
 - Thermal Gel Supplier China money page now links the Second Source Qualification Generator (contextual link + Related guides entry), matching the pad page's treatment — the last tool-link gap on that page. No URL/title change.
 - Local Jekyll build PASS (Ruby/bundler installed on this VM first); front matter YAML valid; canonical/sitemap/robots/growth-exclusion validated; push 95f332f verified non-empty via git diff --stat; local clone re-synced; no shared-clone incident.
 - Production HTTP 200 on homepage, generator, gel page, pillar, sitemap.xml, robots.txt, request-sample, and the Google verification file; new content verified live after deploy propagation.
 - Outreach: sends FAILED on the Gmail connector (two +send attempts, service restarts, 0 sends confirmed, honestly kept as drafts, never claimed sent). Fallback drafts saved and verified: TECHSiL, RayPCB, and the PCBWay follow-up #1 reply — all in 5672306@gmail.com Drafts for one-click manual send. Reply/bounce pre-check: none from any pipeline domain in either account since 2026-10-19.
 - Dow competitor backlink pass (fifth): manufacturer methodology papers + distributor-hosted guides pattern confirmed again; no new target (no verifiable editorial contact).
 - GSC still blocked (session expired since 2026-09-29; signed-out state directly observed) — no new search data this week.
-- AI Overviews retest 2026-10-26: Ouyang Thermal not cited on any of 3 questions (unchanged); "How to select thermal pad?" still manufacturer how-to/data-table territory with ALLPCB in the citation path; AI-server query names Dow DOWSIL examples.
+- AI Overviews retest 2026-10-27: Ouyang Thermal not cited on any of 3 questions (unchanged); "How to select thermal pad?" still manufacturer how-to/data-table territory with ALLPCB in the citation path; AI-server query names Dow DOWSIL examples.
