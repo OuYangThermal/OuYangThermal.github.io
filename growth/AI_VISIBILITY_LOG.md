@@ -116,3 +116,21 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 1. **Q1 is still won by manufacturer how-to/selection guides and data tables** (gap measurement, W/mK ranges, hardness tables) — ALLPCB remains in the citation path (Batch 1 outreach target; follow-up closed per user decision 2026-10-09). A re-run of the same question cited a different set (ziitek.com.vn, haktak.com, TermoPasty, thermalconductivematerials.com) — citation sets vary by exact phrasing; one snapshot is not a ranking.
 2. **Q2 is won by recent (2025–2026) topical application guides + one engineering whitepaper** (IEEE EPS). No Chinese manufacturer brands appear anywhere. Our AI-server page is not cited — still a data/spec-anchored content gap; requires the user's real product data before it can be built honestly.
 3. This week's TDS Comparison Tool packaging (assumptions + worked example + provenance) is the right asset class for Q1-style citations; it needs indexation + an external citing page to enter the path.
+
+## Retest 2026-10-26 — Google AI Overviews (3 questions, no login)
+
+- Live-browser run 14:53–14:54 CST, plain google.com English queries (hl=en, signed-out; location shown from IP as Seattle-Tacoma / Seattle, Washington). AI Overview rendered for all three.
+- **Ouyang Thermal: NOT mentioned or cited in any of the 3 answers or their source lists.** Unchanged from the 2026-10-19 baseline. One AI answer is not a ranking — this is a snapshot.
+
+| Date | Engine | Question | Ouyang cited? | Brands mentioned/cited | Sources cited |
+|---|---|---|---|---|---|
+| 2026-10-26 | Google AI Overviews | What is thermal interface material? | No | Laird, Parker Chomerics, Honeywell, Voltera, DigiKey, MG Chemicals | laird.com, en.wikipedia.org, sciencedirect.com, youtube.com (Prostech), digikey.com, voltera.io, plus RS Components, Modus Advanced, Hardware Whisperer |
+| 2026-10-26 | Google AI Overviews | How to select thermal pad? | No | Sheen Technology, CTC POWER, ALLPCB, FIBERSTAMP, T-Global (no specific product brand named in the Overview text) | powerctc.com, allpcb.com, fiberstamp.com, tglobaltechnology.com, Sheen Technology guide, SerpentX Tech YouTube |
+| 2026-10-26 | Google AI Overviews | Thermal interface material for AI server | No | Indium Corporation, Sheen, DOWSIL TC-5960 / TC-3080 (Dow products named as examples), Indium Heat-Spring | indium.com, sheenthermal.com, semiconductor-digest.com, New England Die Cutting, Intel YouTube |
+
+### Reads (hypotheses, not facts)
+
+1. **Q1 is still supplier-hub territory** (Laird/Wikipedia/Voltera/DigiKey) — not worth chasing head-on; win via Q2-style methodology content.
+2. **Q2 is still won by manufacturer how-to/selection guides with data tables** (thickness/gap ranges, W/mK bands, hardness) — ALLPCB, T-Global, CTC POWER, FIBERSTAMP and Sheen all remain in the citation path. Our methodology-packaged tools are the right asset class; the second-source generator packaging this week completes the set across all five tools.
+3. **Q3 names Dow product examples (DOWSIL TC-5960/TC-3080) inline** — the Dow 5121C alternative page's framework (no invented incumbent data) stays the honest route into this query; no new data claim is justified by this snapshot.
+4. Citation sets keep varying by exact phrasing and location — one snapshot is not a ranking. Next retest monthly or after a major content/authority push.

@@ -375,7 +375,74 @@ https://ouyangthermal.github.io
 
 **Status:** PREPARED 2026-10-19. GEO engineering outreach — send authorized under 2026-09-27 approval (4-question check passed). Send HOLD this run due to Gmail connector service instability (two +reply service restarts, 0 sends confirmed 2026-10-19). Send window next run 2026-10-20 – 2026-10-26.
 
-## 2026-10-19 — PCBWay follow-up #1 (final): SEND ATTEMPTED, service failure
+## 2026-10-26 — Batch 4 + PCBWay follow-up #1: sends FAILED, drafts saved (verified)
+
+- Reply/bounce pre-check (2026-10-26, both linked accounts, since 2026-10-19): no replies and no bounces from pcbway.com, techsil.co.uk, raypcb.com, voltera.io, or allpcb.com; no mailer-daemon notifications since 2026-10-19. No refusal signals anywhere in the GEO pipeline.
+- Send attempts: two `+send` attempts for TECHSiL both hit Gmail connector service restarts mid-command (one session disappeared, one explicit service restart); Sent-box re-verified after each: **0 sends confirmed**. The send path is down on this detached run exactly as on 2026-10-19. No further send attempts were made for RayPCB or PCBWay (same path, same failure mode); nothing was claimed sent.
+- Fallback: the draft path works. All three items below were saved as real Gmail drafts in 5672306@gmail.com Drafts for one-click manual send. Sent box remains empty for all three addresses — **status is DRAFT SAVED, not SENT**.
+
+### Draft 1 — TECHSiL first pitch (draft message 1a17c43398e6a1c3, saved 2026-10-26)
+
+To technical@techsil.co.uk, subject "Free TDS-comparison tool for your thermal interface material guides". Text as drafted (shortened from the 2026-10-19 prepared text — no apostrophes, same substance):
+
+> Hi TECHSiL team,
+>
+> I came across your Resource Centre thermal management guides. We have published a free TIM TDS Comparison Tool that lets engineers compare two thermal interface material datasheets field by field, exposes non-comparable test methods, and calculates theoretical bulk resistance from conductivity, bond-line thickness and contact area:
+>
+> https://ouyangthermal.github.io/engineering-resources/tim-tds-comparison-tool/
+>
+> It includes a worked example showing how an 8 W/mK material at 1.5 mm BLT can have a higher bulk resistance (0.117 K/W) than a 6 W/mK material at 1.0 mm BLT (0.104 K/W).
+>
+> If you find it useful, feel free to link it from your guide as a reader resource. No pressure either way.
+>
+> Best regards,
+> Owen Ouyang
+> Ouyang Thermal | Thermal Management Solutions
+> https://ouyangthermal.github.io
+
+**Status:** DRAFT SAVED 2026-10-26. GEO engineering outreach, authorized to send; send window was 2026-10-20 – 2026-10-26. Delete the draft after sending to avoid double-send.
+
+### Draft 2 — RayPCB first pitch (draft message 1a17c43585dba777, saved 2026-10-26)
+
+To sales@raypcb.com, subject "Free thermal resistance calculator for your PCB thermal design readers". Text as drafted (shortened from the 2026-10-19 prepared text):
+
+> Hi RayPCB team,
+>
+> I read your Bergquist Thermal Clad and metal-core PCB thermal design guides. Your point that readers should run the thermal resistance calculations is well made.
+>
+> We have published a free Thermal Resistance Calculator that estimates the theoretical bulk thermal resistance of a TIM joint from conductivity, bond-line thickness and contact area, with explicit model assumptions and a verifiable worked example (6 W/mK, 1.0 mm, 40x40 mm2 -> approx 0.104 K/W):
+>
+> https://ouyangthermal.github.io/engineering-resources/thermal-resistance-calculator/
+>
+> If it fits, feel free to link it as a reader resource from your thermal design guides. No pressure either way.
+>
+> Best regards,
+> Owen Ouyang
+> Ouyang Thermal | Thermal Management Solutions
+> https://ouyangthermal.github.io
+
+**Status:** DRAFT SAVED 2026-10-26. GEO engineering outreach, authorized to send; send window was 2026-10-20 – 2026-10-26. Delete the draft after sending to avoid double-send.
+
+### Draft 3 — PCBWay follow-up #1 (final, reply draft message 1a17c438ff4531b7, saved 2026-10-26)
+
+Reply draft in the original thread (message 1a118215a2e1d91a, verified in Sent box 2026-10-26: "Free thermal calculator for your high-power PCB design readers", sent 2026-10-08 04:50 CST). Text is the 2026-10-12 prepared follow-up verbatim:
+
+> Hi PCBWay team,
+>
+> Floating this back to the top of your inbox in case it got buried — I wrote last week suggesting our free Thermal Resistance Calculator as a possible companion link for your high-power PCB design guides:
+>
+> https://ouyangthermal.github.io/engineering-resources/thermal-resistance-calculator/
+>
+> No pressure either way; if it is not a fit, no need to reply.
+>
+> Best regards,
+> Owen Ouyang
+> Ouyang Thermal | Thermal Management Solutions
+> https://ouyangthermal.github.io
+
+**Status:** DRAFT SAVED 2026-10-26 (final per max-2 rule; the 2026-10-13 – 2026-10-18 window had lapsed by the time the send path failed). Delete the draft after sending to avoid double-send. Stop on refusal or bounce.
+
+- The 4 technical-media follow-up #1s remain SEND HOLD (user-owned relationships, awaiting the user's go-ahead). Voltera follow-up #1 remains PREPARED-ONLY per the user's 2026-10-09 decision (Voltera only, awaiting the user's "send" word); ALLPCB remains CLOSED.
 
 - Reply pre-check (2026-10-19): no replies, no bounces from pcbway.com in 5672306@gmail.com since 2026-10-12. Max-2 rule: follow-up #1 of 2 is allowed. Window 2026-10-13 – 2026-10-18 lapsed by one day (detached run) — treated as in-window.
 - Two `+reply` attempts to message 1a118215a2e1d91a (2026-10-08 original) both hit Gmail connector service restarts; Sent-box re-verified after each: 0 new sends. The 2026-10-12 prepared text is unchanged.

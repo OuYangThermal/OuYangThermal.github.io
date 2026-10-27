@@ -28,7 +28,7 @@ Define gap range, interface area, heat load, target temperature, effective therm
 
 ## Evaluation and qualification
 
-Screen documents first, then confirm dispense repeatability and achievable BLT. Use representative hardware for thermal and reliability tests. Record material lot, mix ratio, cure, pressure, temperatures, and aging. For second-source work, compare the candidate with the incumbent under identical conditions rather than claiming equivalence from datasheets.
+Screen documents first, then confirm dispense repeatability and achievable BLT. Use representative hardware for thermal and reliability tests. Record material lot, mix ratio, cure, pressure, temperatures, and aging. For second-source work, compare the candidate with the incumbent under identical conditions rather than claiming equivalence from datasheets. The [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }}) turns those controls into a project-specific checklist before samples are requested.
 
 <aside class="cta contextual-cta"><strong>Benchmark Your Current Thermal Gel</strong><p>Send the existing gel model or TDS, the dispense setup and the first result to verify — thermal, void, slump, pump-out or cure. Owen can help structure a same-condition benchmark on representative hardware.</p><p><a data-conversion="gel_benchmark_click" data-source="Thermal Gel Supplier China" data-cta-type="tim_benchmark" href="{{ '/benchmark-your-current-tim/' | relative_url }}">Benchmark Your Current Gel →</a></p><p><a data-conversion="sample_request_click" data-source="Thermal Gel Supplier China" href="{{ '/request-sample/' | relative_url }}">Request a Sample</a> · <a data-conversion="whatsapp_click" data-source="Thermal Gel Supplier China" href="https://wa.me/8613367909790">WhatsApp Owen</a> · <a data-conversion="email_click" data-source="Thermal Gel Supplier China" href="mailto:5672306@gmail.com">Email Owen</a></p></aside>
 
@@ -74,6 +74,7 @@ Require notification for formulation, filler, package, raw-material source, manu
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
 - [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }})
 - [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
+- [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 
 {% include contact-card.html subject="Thermal Gel Supplier Evaluation" %}
