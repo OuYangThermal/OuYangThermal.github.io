@@ -20,6 +20,8 @@ Qualify a TIM second source by reproducing the **installed interface**, not by m
 
 The useful question is not simply “Who sells a high-W/m·K material?” It is: “Which candidate can meet the thermal, mechanical, electrical, manufacturing and supply requirements of this assembly with evidence we can reproduce?”
 
+Watch the [60-second thermal interface materials overview]({{ '/thermal-interface-materials-video/' | relative_url }}) covering thermal gap pads, thermal gap fillers and thermally conductive potting compounds for AI servers, energy storage PCS and EV power electronics.
+
 <aside class="notice"><strong>Engineering note — 6 W/m·K vs 6 W/m·K is not equivalence.</strong><p>Installed performance can still differ because of bond-line thickness (BLT), contact resistance, compression, hardness, surface flatness, assembly pressure, test method and temperature. Record those conditions before treating two values as comparable.</p></aside>
 
 ## Choose the correct material and application route
