@@ -41,7 +41,7 @@ A datasheet thermal-conductivity value alone does not predict how a pad performs
 
 ## Thermal pad selection and qualification map
 
-Scan by application, then validate by measurement. These are typical engineering considerations, not product specifications — limits must be defined by the responsible engineering team and verified in the actual assembly.
+Scan by application, then validate by measurement. Start with the [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }}) to narrow the TIM category from the gap range, insulation need, rework need, and tolerance sensitivity, then work the table below. These are typical engineering considerations, not product specifications — limits must be defined by the responsible engineering team and verified in the actual assembly.
 
 | Application | Target conductivity | Thickness | Hardness / compression | Electrical insulation | Thermal resistance concern | Recommended validation |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -211,6 +211,9 @@ Against the module maker's thermal and isolation requirements: Rth at the define
 - [China TIM Supplier Evaluation]({{ '/china-thermal-interface-material-supplier/' | relative_url }})
 - [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }})
 - [Thermal Pad Compression Calculator]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }})
+- [Thermal Resistance Calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }})
+- [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }})
+- [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }})
 - [TIM TDS Comparison & Benchmark Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
 - [Request a Sample]({{ '/request-sample/' | relative_url }})
 

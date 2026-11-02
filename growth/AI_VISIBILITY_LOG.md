@@ -134,3 +134,21 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 2. **Q2 is still won by manufacturer how-to/selection guides with data tables** (thickness/gap ranges, W/mK bands, hardness) — ALLPCB, T-Global, CTC POWER, FIBERSTAMP and Sheen all remain in the citation path. Our methodology-packaged tools are the right asset class; the second-source generator packaging this week completes the set across all five tools.
 3. **Q3 names Dow product examples (DOWSIL TC-5960/TC-3080) inline** — the Dow 5121C alternative page's framework (no invented incumbent data) stays the honest route into this query; no new data claim is justified by this snapshot.
 4. Citation sets keep varying by exact phrasing and location — one snapshot is not a ranking. Next retest monthly or after a major content/authority push.
+
+## Retest 2026-11-02 — Google AI Overviews (3 questions, no login)
+
+- Live-browser run 14:53–14:55 CST, plain google.com English queries (hl=en, signed out; location shown as El Paso County, Colorado, "based on your past activity"). AI Overview rendered for all three.
+- **Ouyang Thermal: NOT mentioned or cited in any of the 3 answers or their source lists.** Unchanged from the 2026-10-27 baseline. One AI answer is not a ranking — this is a snapshot. A Google "unusual traffic" check appeared once and was cleared without login; one query was first run with literal quotation marks and re-run unquoted — the unquoted result is recorded below.
+
+| Date | Engine | Question | Ouyang cited? | Brands mentioned/cited | Sources cited |
+|---|---|---|---|---|---|
+| 2026-11-02 | Google AI Overviews | How to select thermal pad? | No | Thermal Grizzly (Minus Pad 8), Gelid (GP-Extreme / GP-Ultimate), ARCTIC | T-Global Technology, CTC POWER, ALLPCB, New England Die Cutting, AiVon, FIBERSTAMP, YouTube tutorials, LinkedIn, Reddit (r/nvidia) |
+| 2026-11-02 | Google AI Overviews | SP2000 alternatives | No | Astell&Kern (SP3000/SP3000T/SP2000T/Kann Ultra/SE300/Kann Max), Cayin, Shanling, HiBy, Sony | Headfonia, Porta Fi, Facebook (Astell&Kern User Group), YouTube (Bloom Audio) |
+| 2026-11-02 | Google AI Overviews | Thermal pad for OBC | No | None named in the Overview body | No named source in the Overview body; related results showed Dongguan Hongtui, Ziitek, HakTak, JIUJU, Amazon |
+
+### Reads (hypotheses, not facts)
+
+1. **"SP2000 alternatives" is an ambiguous query — it is currently captured by the Astell&Kern A&ultima SP2000 audio player**, not by any thermal-pad content. The SP2000 page should never be optimized for the bare "SP2000 alternatives" phrase; qualified phrasing ("SP2000 thermal pad alternative", "Sil-Pad 2000 alternative") is the only honest route into this intent. No page change is justified by this snapshot alone.
+2. **"Thermal pad for OBC" returned only a single definitional sentence** with no how-to steps, data table, or product list — the query is thin in AI answers today; our OBC guide and OBC gel second-source article are the existing assets, and no new OBC page is justified by this snapshot.
+3. **Q1 is still won by manufacturer how-to/selection guides with data tables** (thickness bands, W/m·K tiers, hardness, compression rule) — ALLPCB, T-Global, CTC POWER, FIBERSTAMP remain in the citation path. This week's methodology packaging of `/thermal-pad/how-to-select-a-thermal-pad/` (selection steps, Python-verified worked example, assumptions/limits, provenance) is aimed exactly at this format. FIBERSTAMP was checked for a verifiable editorial contact this run: none found — do not pitch without one (see BACKLINK_GAP.md 2026-11-02).
+4. Citation sets keep varying by exact phrasing and location — one snapshot is not a ranking. Next retest monthly or after a major content/authority push.

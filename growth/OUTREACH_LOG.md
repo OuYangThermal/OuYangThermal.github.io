@@ -447,3 +447,11 @@ Reply draft in the original thread (message 1a118215a2e1d91a, verified in Sent b
 - Reply pre-check (2026-10-19): no replies, no bounces from pcbway.com in 5672306@gmail.com since 2026-10-12. Max-2 rule: follow-up #1 of 2 is allowed. Window 2026-10-13 – 2026-10-18 lapsed by one day (detached run) — treated as in-window.
 - Two `+reply` attempts to message 1a118215a2e1d91a (2026-10-08 original) both hit Gmail connector service restarts; Sent-box re-verified after each: 0 new sends. The 2026-10-12 prepared text is unchanged.
 - **Status:** remains PREPARED — final per max-2 rule. Retry send next run 2026-10-20; do NOT claim sent. Text already in the 2026-10-12 log entry above.
+
+## 2026-11-02 — Weekly-loop verification: reply/bounce check + drafts re-verified, no sends attempted
+
+- Reply/bounce pre-check (business account 5672306@gmail.com, since 2026-10-27): no replies and no bounces from pcbway.com, techsil.co.uk, raypcb.com, voltera.io, or allpcb.com. No refusal signals anywhere in the GEO pipeline.
+- The two mailer-daemon failures found since 2026-10-27 are the already-known US B2B bounces, NOT GEO pipeline bounces: info@relionbattery.com (550 5.4.1, 2026-10-28) and info@btcpower.com (550 5.1.1, 2026-10-27) — both already recorded BOUNCED / never-resend in the sales database. No GEO action arises from them.
+- Drafts re-verified present and unsent (label DRAFT, 2026-10-27): TECHSiL first pitch (1a17c43398e6a1c3), RayPCB first pitch (1a17c43585dba777), PCBWay follow-up #1 reply draft (1a17c438ff4531b7, thread 1a118215a2e1d91a). Sent box contains no sends to any of the three addresses after 2026-10-27.
+- No send attempted this run: the Gmail send path failed on the three previous weekly runs (service restarts, 0 sends confirmed each time) and a detached run cannot complete an approval card if one stalls. The three drafts remain in place for one-click manual send; delete each draft after sending to avoid double-send. The 4 technical-media follow-up #1s remain SEND HOLD (user-owned relationships); Voltera follow-up #1 remains PREPARED-ONLY per the user's 2026-10-09 decision; ALLPCB remains CLOSED.
+- No new pitchable target this week: Henkel/Mouser (sixth competitor pass) has no verifiable editorial inbox; FIBERSTAMP (AI citation path) has no verifiable editorial email — both parked, never guess contacts.
