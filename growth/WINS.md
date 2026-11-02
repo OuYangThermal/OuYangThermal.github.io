@@ -56,3 +56,14 @@
 - Dow competitor backlink pass (fifth): manufacturer methodology papers + distributor-hosted guides pattern confirmed again; no new target (no verifiable editorial contact).
 - GSC still blocked (session expired since 2026-09-29; signed-out state directly observed) — no new search data this week.
 - AI Overviews retest 2026-10-27: Ouyang Thermal not cited on any of 3 questions (unchanged); "How to select thermal pad?" still manufacturer how-to/data-table territory with ALLPCB in the citation path; AI-server query names Dow DOWSIL examples.
+
+## 2026-11-02
+
+- "How to Select a Thermal Pad" article upgraded with citable methodology packaging: six selection steps, Python-verified worked example (0.104 / 0.167 / 0.117 K/W, 20% compression), model assumptions and limits, visible author/date provenance, JSON-LD dateModified 2026-11-02, four tool links, and an intent-matched Benchmark/Sample CTA (previously no CTA). The article matches the exact "How to select thermal pad?" query tested in every AI-visibility retest.
+- Thermal Pad Supplier China money page now links the TIM Selection Tool (contextual + Related guides) and completes its Related engineering guides with the Thermal Resistance Calculator and Second Source Qualification Generator — all five tools are now reachable from the pad money page. No URL/title change.
+- Local Jekyll build PASS; front matter YAML valid; canonical/sitemap/robots/growth-exclusion validated; push 13d8353 verified non-empty via git diff --stat; local clone re-synced; no shared-clone incident.
+- Production HTTP 200 checks recorded in the experiment log after deploy propagation.
+- Outreach state honestly reconciled: 3 drafts re-verified present and unsent, zero replies/bounces from GEO domains since 2026-10-27, the two new mailer-daemon failures identified as the known US B2B bounces (RELiON, BTC Power) — not GEO. No unverified "SENT" claims. No new pitchable target (Henkel/Mouser, FIBERSTAMP: no verifiable editorial inbox).
+- Henkel/Bergquist competitor backlink pass (sixth): distributor-hosted selection guides pattern confirmed again; no new target needed.
+- GSC still blocked (session expired since 2026-09-29; signed-out state directly observed) — no new search data this week.
+- AI Overviews retest 2026-11-02: Ouyang Thermal not cited on any of 3 questions (unchanged); "SP2000 alternatives" shown to be captured by an unrelated audio product — bare-phrase targeting ruled out.
