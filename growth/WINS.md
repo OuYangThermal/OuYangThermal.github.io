@@ -65,7 +65,7 @@
 - Step 6 CTA check passed on the optical money page: three labeled CTAs (Request Engineering Sample / Request TDS / Contact Thermal Engineer) + mobile bar Sample link render in built HTML; no generic "Contact Us".
 - Outreach: Batch 4 drafts found LOST (deleted/expired, never sent) and re-created with new draft IDs (TECHSiL r-2172808966062938986, RayPCB r-9081483065445090397, PCBWay follow-up r5356969303661329192 as standalone — original message no longer fetchable). TECHSiL send attempt failed on a Gmail service restart (4th consecutive weekly failure); Sent re-verified, draft intact, 0 sends claimed. Batch 5 editorial drafts prepared (PREPARED ONLY): Bodo's new-topic pitch to Holger Moscheik (address verified from his 2026-09-30 reply) and PCBWay technical-article pitch to Simon; submission requirements verified for both outlets.
 - Laird competitor backlink pass (seventh): Mouser-hosted selection whitepaper + distributor hub confirm the citation pattern again; no new target (no verifiable editorial inbox).
-- GSC read BLOCKED again (session restored by user at 13:18, signed out by 14:55 — discrepancy recorded, possible different window/profile; no new search data this week). AI Overviews retest (4 GEO 2.0 questions) pending browser handoff.
+- GSC read BLOCKED again (session restored by user at 13:18, signed out by 14:55 — discrepancy recorded, possible different window/profile; no new search data this week). AI Overviews retest NOT run (browser task 962c7c54 never returned; finishing subagent has no live-browser capability — live retest still owed). Web-search fallback 2026-11-10: Ouyang Thermal absent from returned top results for all 4 GEO 2.0 questions (Sheen dominates 800G/best-manufacturer/silicone-free).
 
 ## 2026-11-02
 
