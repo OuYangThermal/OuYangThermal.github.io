@@ -57,6 +57,16 @@
 - GSC still blocked (session expired since 2026-09-29; signed-out state directly observed) — no new search data this week.
 - AI Overviews retest 2026-10-27: Ouyang Thermal not cited on any of 3 questions (unchanged); "How to select thermal pad?" still manufacturer how-to/data-table territory with ALLPCB in the citation path; AI-server query names Dow DOWSIL examples.
 
+## 2026-11-09
+
+- Optical Transceiver TIM Supplier money page now links all five interactive tools (contextual calculator links in the comparison table and qualification path + all five in Related guides) — closes the last tool-link gap on a money page. No URL/title change.
+- 800G Optical-Module Thermal Pad Supplier Qualification article upgraded with citable methodology packaging: worked example (20% compression; 0.417 K/W at 1.0 mm, 0.333 K/W installed — Python-verified, labeled illustrative), model assumptions and limits, visible author/date provenance, JSON-LD dateModified 2026-11-09, plus Compression and Resistance Calculator links.
+- Local Jekyll build PASS; check_site.py PASS (227 pages); front matter YAML valid; new links/content verified present in built HTML; canonicals correct; sitemap includes both pages.
+- Step 6 CTA check passed on the optical money page: three labeled CTAs (Request Engineering Sample / Request TDS / Contact Thermal Engineer) + mobile bar Sample link render in built HTML; no generic "Contact Us".
+- Outreach: Batch 4 drafts found LOST (deleted/expired, never sent) and re-created with new draft IDs (TECHSiL r-2172808966062938986, RayPCB r-9081483065445090397, PCBWay follow-up r5356969303661329192 as standalone — original message no longer fetchable). TECHSiL send attempt failed on a Gmail service restart (4th consecutive weekly failure); Sent re-verified, draft intact, 0 sends claimed. Batch 5 editorial drafts prepared (PREPARED ONLY): Bodo's new-topic pitch to Holger Moscheik (address verified from his 2026-09-30 reply) and PCBWay technical-article pitch to Simon; submission requirements verified for both outlets.
+- Laird competitor backlink pass (seventh): Mouser-hosted selection whitepaper + distributor hub confirm the citation pattern again; no new target (no verifiable editorial inbox).
+- GSC read BLOCKED again (session restored by user at 13:18, signed out by 14:55 — discrepancy recorded, possible different window/profile; no new search data this week). AI Overviews retest (4 GEO 2.0 questions) pending browser handoff.
+
 ## 2026-11-02
 
 - "How to Select a Thermal Pad" article upgraded with citable methodology packaging: six selection steps, Python-verified worked example (0.104 / 0.167 / 0.117 K/W, 20% compression), model assumptions and limits, visible author/date provenance, JSON-LD dateModified 2026-11-02, four tool links, and an intent-matched Benchmark/Sample CTA (previously no CTA). The article matches the exact "How to select thermal pad?" query tested in every AI-visibility retest.

@@ -455,3 +455,77 @@ Reply draft in the original thread (message 1a118215a2e1d91a, verified in Sent b
 - Drafts re-verified present and unsent (label DRAFT, 2026-10-27): TECHSiL first pitch (1a17c43398e6a1c3), RayPCB first pitch (1a17c43585dba777), PCBWay follow-up #1 reply draft (1a17c438ff4531b7, thread 1a118215a2e1d91a). Sent box contains no sends to any of the three addresses after 2026-10-27.
 - No send attempted this run: the Gmail send path failed on the three previous weekly runs (service restarts, 0 sends confirmed each time) and a detached run cannot complete an approval card if one stalls. The three drafts remain in place for one-click manual send; delete each draft after sending to avoid double-send. The 4 technical-media follow-up #1s remain SEND HOLD (user-owned relationships); Voltera follow-up #1 remains PREPARED-ONLY per the user's 2026-10-09 decision; ALLPCB remains CLOSED.
 - No new pitchable target this week: Henkel/Mouser (sixth competitor pass) has no verifiable editorial inbox; FIBERSTAMP (AI citation path) has no verifiable editorial email — both parked, never guess contacts.
+
+## 2026-11-09 — Weekly loop: Batch 4 drafts LOST, re-created; TECHSiL send attempt FAILED again
+
+- Reply/bounce pre-check (business account 5672306@gmail.com, since 2026-11-02): triage search for from:(pcbway.com OR techsil.co.uk OR raypcb.com OR voltera.io OR allpcb.com) after 2026/11/02 returned **no messages**. Caveat (standing): Gmail CLI triage search has proven unreliable for new mail (2026-11-09 lesson — it missed the confirmed Keith auto-reply), so this is "no replies found by this search", not proof of no replies. No refusal signals found anywhere in the GEO pipeline.
+- **Drafts LOST:** the three 2026-10-27 drafts are gone from the mailbox. Full drafts list (2026-11-09 14:57) shows only 4 drafts — all old US B2B drafts from 2026-09-26 (Acbel, MEAN WELL, COSEL, Dynapower). Direct fetch of the three GEO draft message IDs (1a17c43398e6a1c3, 1a17c43585dba777, 1a17c438ff4531b7) returns "Requested entity was not found". Sent-box search finds no sends to techsil.co.uk, raypcb.com or pcbway.com after 2026-10-20 — so the drafts were **deleted or expired, never sent**. Who deleted them is unknown (user cleanup, expiry, or another process); do not guess. Status corrected from "DRAFT SAVED 2026-10-27" to "DRAFT LOST — re-created this run".
+- **Drafts RE-CREATED this run** (same texts as 2026-10-27, verified in OUTREACH_LOG.md):
+  - TECHSiL first pitch → draft r-2172808966062938986, message 1a1bf1d620564110, to technical@techsil.co.uk.
+  - RayPCB first pitch → draft r-9081483065445090397, message 1a1bf1d80ba83d36, to sales@raypcb.com.
+  - PCBWay follow-up #1 → draft r5356969303661329192, message 1a1bf1decc9050ec, to simon@pcbway.com. NOTE: this is a NEW standalone draft, not a reply — the original 2026-10-08 message (1a118215a2e1d91a) is no longer fetchable ("Requested entity was not found"), and a Sent search for simon@pcbway.com also returns 0 (same search-reliability caveat; the 2026-10-08 send was verified in Sent on 2026-10-12). The draft subject is "Re: Free thermal calculator for your high-power PCB design readers" and the body notes it follows up on the 2026-10-08 note. ALSO NOTE: the user approved this follow-up on 2026-10-20 but the send never completed, and the user has not decided re-send vs abandon since — this draft restores the one-click manual option only; do NOT send it autonomously.
+- **TECHSiL send attempt FAILED (fourth consecutive weekly failure):** `users drafts send` for r-2172808966062938986 hit a Gmail connector service restart mid-command; outcome unknown at the time. Verified after: Sent search for technical@techsil.co.uk after 2026/11/09 = 0, and the TECHSiL draft is STILL in Drafts — so the send did NOT complete. **0 sends confirmed this run.** No further send attempts made for RayPCB/PCBWay (same path, same failure mode). Never claimed sent.
+- The 4 technical-media follow-up #1s remain SEND HOLD (user-owned relationships); Voltera follow-up #1 remains PREPARED-ONLY per the user's 2026-10-09 decision; ALLPCB remains CLOSED.
+- No new pitchable resource-page target this week: Laird/Mouser (seventh competitor pass) has no verifiable editorial inbox (contact-form only); FIBERSTAMP still parked (no verifiable editorial email). Never guess contacts.
+
+## 2026-11-09 — Batch 5: editorial drafts PREPARED ONLY (never send without user approval)
+
+Two GEO 2.0 P1 editorial drafts prepared this run, per the user's 2026-11-09 GEO 2.0 task. Both are PREPARED ONLY — editorial pitches require the user's explicit approval before sending. Collect for the Monday operating report's approval list.
+
+### Draft B1 — Bodo's Power Systems: new topic pitch to Holger Moscheik (holger.moscheik@bodospower.com, verified from his 2026-09-30 reply, message 1a0f1c06d504de11)
+
+Submission-requirements check: no public Bodo's author-guidelines page was found by search. The verified route is the existing relationship: Holger (publisher) replied 2026-09-30 to the Case 001 proposal, asked for a short outline first, then discuss structure/length; earliest slot Jan–Feb 2027 issue. This draft follows exactly that route (short outline by email). NOTE: the Case 001 outline itself is still pending user approval since 2026-10-01 — this is a SECOND topic, not a replacement; send order (Case 001 outline first vs this pitch) is the user's call.
+
+Subject: Article outline: TIM failure modes in high-power PCS applications
+
+> Dear Holger,
+>
+> Following your kind reply on our ASTM D5470 benchmark proposal, I would like to offer a second topic for Bodo's Power Systems, aimed at the same engineering readership.
+>
+> Working title: "Thermal Interface Material Failure Modes in High-Power PCS Applications"
+>
+> Outline:
+> 1. Why PCS power modules expose TIM failure modes that coupon tests miss — IGBT/SiC power cycling, large-area interfaces, long service life.
+> 2. The six failure modes engineers actually see: pump-out under thermal cycling, oil bleed / dry-out, compression set, voiding after dispense, delamination at interfaces, and contact degradation over time.
+> 3. How to tell them apart in the lab: what each failure mode looks like in thermal-resistance drift, visual inspection and disassembly — and which test conditions separate a material problem from an assembly problem.
+> 4. A qualification checklist: matched-condition benchmarking, multi-lot sampling, cycling exposure and pilot-build validation before approval.
+> 5. What we will NOT claim: no field-failure statistics, no customer cases and no product ratings — every statement is framed as a testable condition or a published-method observation.
+>
+> Proposed length: about 2,000 words plus two diagrams and one checklist table. Methods, conditions, data and limitations stated openly, as you asked for.
+>
+> Author: Owen Ouyang, Ouyang Thermal (ouyangthermal.github.io) — engineering content author; commercial follow-up via Hongjing New Materials Technology (Shenzhen) Co., Ltd.
+>
+> If the topic fits, I will draft the full article for your review. Happy to adjust scope or length to your issue plan.
+>
+> Best regards,
+> Owen Ouyang
+
+**Status:** PREPARED 2026-11-09. Editorial pitch — NEVER send without the user's explicit approval. Send as a reply in the existing thread with Holger (his 2026-09-30 reply, message 1a0f1c06d504de11) or as a new email to holger.moscheik@bodospower.com, per the user's decision.
+
+### Draft P1 — PCBWay blog: technical article pitch to Simon (simon@pcbway.com, verified Co-operation inbox)
+
+Submission-requirements check: no verified PCBWay technical guest-post route was found. The only "guidelines" surfaced by search describe a 2022-era monthly articles contest (send article link to gloria@pcbway.com, include a PCBWay services link, three images) via a third-party summary — NOT verified on pcbway.com itself, and gloria@ is not a verified contact. Do NOT use it. The verified route is the existing contact Simon (simon@pcbway.com), who received the 2026-10-08 calculator pitch. This draft pitches the article to Simon as a blog contribution and asks about their submission process.
+
+Subject: Technical article proposal: How to Select Thermal Interface Materials for Power Electronics
+
+> Hi Simon,
+>
+> Following my earlier note about our free Thermal Resistance Calculator, I would like to propose a technical article for the PCBWay blog:
+>
+> "How to Select Thermal Interface Materials for Power Electronics"
+>
+> Outline:
+> 1. Why pad/gel/grease selection fails when engineers rank by W/m·K alone — bulk resistance vs installed resistance.
+> 2. A worked example: 6 W/m·K at 1.0 mm vs 8 W/m·K at 1.5 mm (0.104 vs 0.117 K/W) — the higher-k material with the higher resistance.
+> 3. Gap, compression and force: selecting thickness against the full tolerance stack, not the nominal gap.
+> 4. Insulation, cleanliness and reliability checks that belong in the selection step, not after sampling.
+> 5. A short qualification checklist engineers can run before requesting samples.
+>
+> The article would be original, method-first and free of product promotion, with our free calculators (Thermal Resistance, Compression, TDS Comparison) linked as reader tools. If the PCBWay blog has a submission process or format I should follow, please point me to it and I will prepare the draft accordingly.
+>
+> Best regards,
+> Owen Ouyang
+> Ouyang Thermal | Thermal Management Solutions
+> https://ouyangthermal.github.io
+
+**Status:** PREPARED 2026-11-09. Editorial pitch — NEVER send without the user's explicit approval. Recipient Simon (simon@pcbway.com); the PCBWay follow-up #1 decision (re-send vs abandon) is a separate user-owned item and is unaffected by this draft.

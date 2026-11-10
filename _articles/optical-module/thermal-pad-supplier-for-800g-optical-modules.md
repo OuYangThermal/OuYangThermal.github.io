@@ -6,7 +6,7 @@ category_slug: "optical-module"
 category_url: "/optical-module/"
 author: "Ouyang Xiaohui"
 date: 2026-09-13
-updated: 2026-09-13
+updated: 2026-11-09
 pilot_day: 2
 action: CREATE
 primary_keyword: "thermal pad supplier for 800G optical modules"
@@ -57,11 +57,17 @@ If the geometry is confidential, use a sanitized tolerance stack or coupon fixtu
 
 Nominal pad thickness should be selected against the full gap distribution. Compression ratio can be written as `(t0 - tc) / t0 × 100%`, where `t0` is initial thickness and `tc` is installed thickness. This calculation describes the assembly state; it does not predict compression set or long-term recovery.
 
+**Worked example (illustrative, not a product recommendation or measured data).** A 1.0 mm pad installed at 0.8 mm is compressed by (1.0 − 0.8) / 1.0 × 100% = **20%**. For the same pad at 6 W/m·K over a 20×20 mm² contact area, the ideal bulk resistance is R = t/(k·A): at 1.0 mm, R ≈ **0.417 K/W**; installed at 0.8 mm, R ≈ **0.333 K/W** — compression shortens the bulk path, but contact resistance and force must be checked alongside it, since the thinner installed state also loads the package harder. Arithmetic verified in Python; model the installed thickness for your own gap with the [Thermal Pad Compression Calculator]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}).
+
 Evaluate minimum-gap force and maximum-gap contact together. A thick or firm pad may close the maximum gap but overstress the minimum-gap location. A very soft pad may conform well yet create handling, cut-edge or long-term stability concerns.
 
 ### Thermal impedance
 
-For an ideal bulk layer, resistance varies with thickness and conductivity. Real performance also includes contact resistance and nonuniform pressure. ASTM D5470 provides a controlled way to measure thermal impedance and apparent thermal conductivity, but ASTM notes that its idealized heat flow does not directly reproduce most applications. Compare candidates at aligned thickness, pressure and temperature, then confirm module temperature in hardware.
+For an ideal bulk layer, resistance varies with thickness and conductivity. Real performance also includes contact resistance and nonuniform pressure. ASTM D5470 provides a controlled way to measure thermal impedance and apparent thermal conductivity, but ASTM notes that its idealized heat flow does not directly reproduce most applications. Compare candidates at aligned thickness, pressure and temperature, then confirm module temperature in hardware. Estimate the bulk part first with the [Thermal Resistance Calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}) (R = t/(k·A), steady-state one-dimensional bulk only — it excludes contact resistance, spreading and aging).
+
+### Model assumptions and limits
+
+The worked example above uses steady-state, one-dimensional bulk conduction only. It assumes uniform thickness, full contact and the stated conductivity; it does not account for contact resistance, pressure distribution, surface roughness, edge effects or aging. Treat the numbers as a screening illustration for comparing gap and thickness choices — never as a product rating or a measured result for any specific pad.
 
 ### Cleanliness and material interaction
 
@@ -144,6 +150,8 @@ A lower unit price does not offset uncontrolled variation, rework or a forced th
 Share the sanitized gap range, contact area, force limit, form factor and thermal boundary. We can discuss a benchmark matrix before you request converted samples.
 
 [Discuss Your Application]({{ '/discuss-your-application/' | relative_url }}) · [Benchmark Your Current TIM]({{ '/benchmark-your-current-tim/' | relative_url }}) · [Request a Sample]({{ '/request-sample/' | relative_url }})
+
+*This guide is maintained by Ouyang Xiaohui (Owen Ouyang), Ouyang Thermal. Last reviewed 2026-11-09.*
 
 ## References
 

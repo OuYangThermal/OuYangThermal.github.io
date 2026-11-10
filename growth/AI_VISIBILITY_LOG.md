@@ -152,3 +152,21 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 2. **"Thermal pad for OBC" returned only a single definitional sentence** with no how-to steps, data table, or product list — the query is thin in AI answers today; our OBC guide and OBC gel second-source article are the existing assets, and no new OBC page is justified by this snapshot.
 3. **Q1 is still won by manufacturer how-to/selection guides with data tables** (thickness bands, W/m·K tiers, hardness, compression rule) — ALLPCB, T-Global, CTC POWER, FIBERSTAMP remain in the citation path. This week's methodology packaging of `/thermal-pad/how-to-select-a-thermal-pad/` (selection steps, Python-verified worked example, assumptions/limits, provenance) is aimed exactly at this format. FIBERSTAMP was checked for a verifiable editorial contact this run: none found — do not pitch without one (see BACKLINK_GAP.md 2026-11-02).
 4. Citation sets keep varying by exact phrasing and location — one snapshot is not a ranking. Next retest monthly or after a major content/authority push.
+
+## Retest 2026-11-10 — Google AI Overviews NOT run; web-search fallback (organic only)
+
+- The 2026-11-09 loop's live-browser AI task (962c7c54) never returned a result; its window closed with no handoff. The finishing subagent has no live-browser capability, so the Google AI Overviews retest of the 4 GEO 2.0 bank questions could NOT be executed. No AI-citation claim is made from this entry.
+- Fallback executed 2026-11-10 ~15:15 CST via browser.search (plain web search, top returned results only — a partial SERP snapshot, not a ranking, and NOT an AI answer). Ouyang Thermal / ouyangthermal.github.io did not appear in the returned results for any of the 4 questions.
+
+| Date | Engine | Question | Ouyang in returned results? | Top results observed |
+|---|---|---|---|---|
+| 2026-11-10 | Web search (fallback) | Thermal pad for 800G optical transceiver | No | Sheen graphene pad for 800G OSFP (×2 pages), ysdiecut optical-module thermal guide, Ecotherm 400G/800G/1.6T guide, SiliconePlus custom 800G pad |
+| 2026-11-10 | Web search (fallback) | Best thermal gap pad manufacturer | No | Sheen "Best TIM Manufacturers 2026" guide, Accio supplier directory, igorslab compression-test roundup, Marian gap-pad guide |
+| 2026-11-10 | Web search (fallback) | Silicone free thermal pad supplier | No | Kitagawa (KGS) silicone-free pads, Rathbun/3M non-silicone, Sheen (×3: medical, LiDAR, general), Farnell non-silicone comparison, Schlegel |
+| 2026-11-10 | Web search (fallback) | Alternative to Dow 5121C thermal pad | No | Farnell/Bergquist/T-Global datasheets, 3G Thermaworx, Gluespec gap-filler catalog — no page directly answers the Dow 5121C alternative question |
+
+### Reads (hypotheses, not facts)
+
+1. Sheen is the most aggressive competitor in the exact queries we target (800G pad, best-manufacturer, silicone-free) — data-rich pages with test reports and ASTM methods, updated within days. Our 800G article's methodology packaging (2026-11-09) is the right format but needs indexation (GSC: only the homepage indexed as of 2026-11-09) before it can appear.
+2. The Dow 5121C query returns generic datasheets, no direct answer page — our /dow-5121c-alternative-evaluation/ is the only direct-answer asset, but it is not indexed/ranking yet.
+3. Live AI Overview retest still owed — run it from the parent agent's live browser before the next weekly loop, or accept the gap and retest after the 12W/silicone-free pages land and indexation improves.

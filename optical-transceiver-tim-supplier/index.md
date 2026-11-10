@@ -44,9 +44,9 @@ The labels 400G, 800G and 1.6T do not define one universal pad thickness, hardne
 | Variable | Why it matters | What evidence to request |
 | --- | --- | --- |
 | Thermal conductivity | Method-dependent material property used for screening | Original method, specimen direction, temperature and typical-versus-guaranteed status |
-| Thermal resistance | Better reflects the tested interface than conductivity alone | Thickness, pressure, surfaces, temperature and fixture details |
+| Thermal resistance | Better reflects the tested interface than conductivity alone | Thickness, pressure, surfaces, temperature and fixture details — estimate the bulk part with the [Thermal Resistance Calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }}) (R = t/(k·A)) before module testing |
 | Bond-line or compressed thickness | Directly changes bulk resistance and contact behavior | Nominal and tolerance limits at representative assembly conditions |
-| Compression and force | Too little can leave poor contact; too much can load the package, PCB or housing | Compression-deflection evidence across the required gap range |
+| Compression and force | Too little can leave poor contact; too much can load the package, PCB or housing | Compression-deflection evidence across the required gap range — model the installed thickness with the [Thermal Pad Compression Calculator]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}) |
 | Contact resistance | Can dominate a thin, small interface | Same-surface and same-pressure comparison with the incumbent |
 | Cleanliness and compatibility | Residue, particles or material interaction may affect assembly risk | Defined test, handling, packaging and inspection controls |
 | Finished-part control | Sheet data does not prove die-cut consistency | Dimensions, edges, liner, orientation, lot traceability and converting-site controls |
@@ -57,12 +57,12 @@ The labels 400G, 800G and 1.6T do not define one universal pad thickness, hardne
 Use this gated path:
 
 1. **Requirement definition:** freeze the heat path, tolerance stack, force budget and acceptance criteria.
-2. **Document screening:** align methods, units, thickness and test conditions; identify missing evidence.
+2. **Document screening:** align methods, units, thickness and test conditions; identify missing evidence. Use the [TIM TDS Comparison Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }}) to expose non-comparable datasheet fields before trusting a W/m·K ranking.
 3. **Same-condition benchmark:** compare incumbent and candidate at matched compressed thickness, pressure, surfaces and temperature.
 4. **Finished-part sample:** inspect die cuts, liner, orientation, cleanliness, packaging and handling.
 5. **Module and host validation:** test representative modules, cages and heat sinks, including relevant tolerance extremes.
 6. **Reliability and multiple lots:** repeat the critical checks after project-relevant exposure and across delivered lots.
-7. **Pilot build and supplier qualification:** verify normal operators, placement, inspection, rework, traceability and change control.
+7. **Pilot build and supplier qualification:** verify normal operators, placement, inspection, rework, traceability and change control. Turn the gates above into a project-specific checklist with the [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }}).
 8. **RFQ readiness:** freeze the approved material and finished-part revision, quantity, packaging, evidence and commercial scope.
 
 Coupon data supports screening but does not establish module approval. A candidate advances only when the application owner's predefined acceptance gates are met.
@@ -98,6 +98,11 @@ Coupon data supports screening but does not establish module approval. A candida
 
 ## Related engineering guides
 
+- [Thermal Resistance Calculator]({{ '/engineering-resources/thermal-resistance-calculator/' | relative_url }})
+- [Thermal Pad Compression Calculator]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }})
+- [TIM Selection Tool]({{ '/engineering-resources/tim-selection-tool/' | relative_url }})
+- [TIM TDS Comparison Tool]({{ '/engineering-resources/tim-tds-comparison-tool/' | relative_url }})
+- [Second Source Qualification Generator]({{ '/engineering-resources/second-source-qualification-generator/' | relative_url }})
 - [TIMs for Optical Transceivers]({{ '/optical-module/thermal-interface-materials-for-optical-transceivers/' | relative_url }})
 - [Thermal Pad Selection for Optical Modules]({{ '/optical-module/thermal-pad-selection-for-optical-modules/' | relative_url }})
 - [800G Optical-Module Thermal Pad Supplier Qualification]({{ '/optical-module/thermal-pad-supplier-for-800g-optical-modules/' | relative_url }})
