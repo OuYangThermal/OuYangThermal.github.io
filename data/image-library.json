@@ -1,55 +1,1929 @@
 {
-  "schema_version": "1.0",
-  "library_path": "/data/image-library.json",
-  "content_type_values": ["real-photo", "real-photo-composite", "engineering-diagram", "application-diagram", "portrait", "product-sample", "production-reference"],
-  "authenticity_values": ["real-user-supplied-photo", "real-production-reference", "generated-engineering-diagram", "edited-user-supplied-portrait", "source-uncertain-do-not-claim"],
-  "inventory_summary": {"total_images":46,"online_used_images":37,"unused_images":2,"unused_ids":["V02-01","V01-SOURCE"],"possible_duplicate_binary_groups":0,"rights_not_independently_verified":13},
-  "images": [
-    {"id":"UI-FAVICON","filename":"favicon.svg","path":"/assets/favicon.svg","format":"svg","width":64,"height":64,"aspect_ratio":"1:1","file_size_bytes":216,"sha256":"7f142b21ec5aa182a54878c90658c9fbacfc63981dd07a7f6cf6562aa1f8eabb","content_type":"application-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":[],"applications":["site-interface"],"topics":["brand-mark","favicon"],"primary_page":"*","used_on":["*"],"alt":"OUYANG THERMAL favicon","caption":"OUYANG THERMAL interface icon.","reuse_policy":"site-interface-only","contains_brand":true,"contains_customer_information":false,"status":"published","notes":"Referenced by the shared head include."},
-    {"id":"V02-01","filename":"01-thermal-material-samples.jpg","path":"/assets/images/real-evidence/01-thermal-material-samples.jpg","format":"jpg","width":1173,"height":484,"aspect_ratio":"1173:484","file_size_bytes":50472,"sha256":"9b326b6c5d3e91ee741716591cf4ff847321f2178164c6e80cd665521bdc529d","content_type":"product-sample","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-pad","thermal-gel","thermal-grease"],"applications":[],"topics":["material-samples","material-overview"],"primary_page":null,"used_on":[],"alt":"Thermal material samples arranged for engineering reference","caption":"Real Application Reference — thermal material samples; no grade or performance is inferred.","reuse_policy":"single-context-after-review","contains_brand":false,"contains_customer_information":false,"status":"available","notes":"Currently unused; preserve as the V02 material-overview source photo."},
-    {"id":"V02-02","filename":"02-obc-thermal-pad-layout.jpg","path":"/assets/images/real-evidence/02-obc-thermal-pad-layout.jpg","format":"jpg","width":750,"height":479,"aspect_ratio":"750:479","file_size_bytes":59915,"sha256":"0816a52fb2775ffdf97910db09c045ef0d9072aca9c1c2a50e885ee61b84dbc3","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-pad"],"applications":["obc","power-electronics"],"topics":["pad-layout","installed-interface"],"primary_page":"/thermal-pad/","used_on":["/thermal-pad/"],"alt":"Pre-cut thermal pads positioned between OBC electronics and the mating housing","caption":"Real Application Reference. Pre-cut thermal pads positioned at multiple OBC interface locations. No material grade or performance is inferred from the photograph.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Do not identify a customer, model or performance."},
-    {"id":"V02-03","filename":"03-pcb-thermal-gel-dispensing.jpg","path":"/assets/images/real-evidence/03-pcb-thermal-gel-dispensing.jpg","format":"jpg","width":1259,"height":1280,"aspect_ratio":"1259:1280","file_size_bytes":145586,"sha256":"3d93735c5f93199808dcfd77f80cf27462c1832f349f06fa21fb6655ab98447f","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-gel"],"applications":["pcb","power-electronics"],"topics":["dispensing","deposit-pattern"],"primary_page":"/thermal-gel/","used_on":["/thermal-gel/"],"alt":"Thermal gel deposits dispensed across components on a printed circuit board","caption":"Real Application Reference. Controlled thermal-gel deposits on a PCB before mating with a cooling surface.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Material identity is not independently verified."},
-    {"id":"V02-04","filename":"04-thermal-gel-dot-pattern.jpg","path":"/assets/images/real-evidence/04-thermal-gel-dot-pattern.jpg","format":"jpg","width":800,"height":547,"aspect_ratio":"800:547","file_size_bytes":39814,"sha256":"93cbde66060e84b7dd58dcbd2c3257e8f3f3a856bc50be79e62026e2d792946b","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-gel"],"applications":["dispensing-process"],"topics":["dot-pattern","shape-retention","process-control"],"primary_page":"/thermal-gel/common-thermal-gel-dispensing-problems/","used_on":["/thermal-gel/common-thermal-gel-dispensing-problems/"],"alt":"Controlled thermal gel dot pattern showing deposited shape retention","caption":"Engineering Application Example. A controlled dot pattern used to observe deposit consistency and shape retention before assembly.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Do not infer formulation or performance."},
-    {"id":"V02-05","filename":"05-optical-transceiver-tim-opened.jpg","path":"/assets/images/real-evidence/05-optical-transceiver-tim-opened.jpg","format":"jpg","width":997,"height":1272,"aspect_ratio":"997:1272","file_size_bytes":120896,"sha256":"b595f809c0a9a714581fa909d15b5077b9676455431d6e2de7ba7f94fe3b61b4","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-interface-material"],"applications":["optical-transceiver"],"topics":["opened-module","tim-location"],"primary_page":"/optical-module/","used_on":["/optical-module/"],"alt":"Opened optical transceiver showing thermal interface material contact locations","caption":"Real Application Reference. An opened optical-transceiver assembly showing several interface locations between the PCB and housing.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"No customer or model attribution."},
-    {"id":"V02-06","filename":"06-optical-transceiver-tim-contact.jpg","path":"/assets/images/real-evidence/06-optical-transceiver-tim-contact.jpg","format":"jpg","width":990,"height":1256,"aspect_ratio":"495:628","file_size_bytes":124651,"sha256":"55966a0f7714b87c2c70863d52b156a04b1f5b948f58d014e1fe9c055f2b39a0","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-interface-material"],"applications":["optical-transceiver"],"topics":["contact-interface","pcb-housing"],"primary_page":"/optical-module/thermal-interface-materials-for-optical-transceivers/","used_on":["/optical-module/thermal-interface-materials-for-optical-transceivers/"],"alt":"Close view of thermal interface contact areas between an optical transceiver PCB and metal housing","caption":"Real Application Reference. Contact areas between an optical-module PCB and its metal housing. Material identity and performance are not inferred from the photograph.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Do not infer material identity or performance."},
-    {"id":"V02-07","filename":"07-optical-transceiver-module-exterior.jpg","path":"/assets/images/real-evidence/07-optical-transceiver-module-exterior.jpg","format":"jpg","width":1080,"height":439,"aspect_ratio":"1080:439","file_size_bytes":19420,"sha256":"b72180366e2e0403880d912b150247a52c4484eff658c3ea3d44f919066aef2d","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-interface-material"],"applications":["optical-transceiver"],"topics":["module-exterior","application-entry"],"primary_page":"/applications/","used_on":["/applications/"],"alt":"Exterior view of a complete optical transceiver module","caption":"Real Application Reference. A complete optical-transceiver module representing one of the compact, tolerance-sensitive applications covered in this knowledge base.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"No brand or model attribution."},
-    {"id":"V02-08","filename":"08-power-device-insulation-pad.jpg","path":"/assets/images/real-evidence/08-power-device-insulation-pad.jpg","format":"jpg","width":800,"height":500,"aspect_ratio":"8:5","file_size_bytes":85097,"sha256":"3934586aa946630de6e6dde890003d805ec225a918e018ddd36f0a653c889ed6","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-insulation-pad"],"applications":["power-electronics"],"topics":["electrical-isolation","device-mounting"],"primary_page":"/thermal-insulator/","used_on":["/thermal-insulator/"],"alt":"Power semiconductor devices mounted against an electrically insulating thermal interface pad","caption":"Engineering Application Example. An insulating interface between power devices and a metal cooling structure. Electrical and thermal ratings must be verified separately.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Electrical and thermal ratings are not inferred."},
-    {"id":"V02-09","filename":"09-battery-pack-liquid-cooling-plate-dispensing.jpg","path":"/assets/images/real-evidence/09-battery-pack-liquid-cooling-plate-dispensing.jpg","format":"jpg","width":800,"height":500,"aspect_ratio":"8:5","file_size_bytes":90718,"sha256":"744e256a56cac2b8d9b28b74e8478e699318c56b9f7df52ab2c6636f6e8f3358","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-gel"],"applications":["battery-pack","liquid-cooling-plate"],"topics":["bead-dispensing","production-process"],"primary_page":"/battery-pack/","used_on":["/battery-pack/"],"alt":"Automated bead dispensing across a battery pack liquid cooling plate","caption":"Real Application Reference. Production-scale material dispensing on a liquid-cooling plate before assembly.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Do not infer customer, line capacity or material grade."},
-    {"id":"V02","filename":"real-thermal-materials-and-applications-v02.webp","path":"/assets/images/real-thermal-materials-and-applications-v02.webp","format":"webp","width":1440,"height":960,"aspect_ratio":"3:2","file_size_bytes":101942,"sha256":"91f0dbb32a8d58c3c7d5dc10f963a28d822ff38a5f59af6198c2582fed4531b8","content_type":"real-photo-composite","authenticity":"real-user-supplied-photo","source":"user-supplied-composite","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-pad","thermal-gel","thermal-insulation-pad"],"applications":["obc","pcb","optical-transceiver","power-electronics","battery-cooling"],"topics":["real-materials","installed-interfaces","production-dispensing"],"primary_page":"/","used_on":["/"],"alt":"Real thermal material samples and installed interfaces in OBC, PCB, optical transceiver, power electronics and battery cooling applications","caption":"Real Application References. Material forms, installed interfaces and production dispensing examples. Images are not presented as customer cases or performance claims.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Composite of user-supplied real photos; not a customer case."},
-    {"id":"V01-MOBILE","filename":"thermal-interface-material-applications-mobile.webp","path":"/assets/images/thermal-interface-material-applications-mobile.webp","format":"webp","width":800,"height":600,"aspect_ratio":"4:3","file_size_bytes":78468,"sha256":"f7d80cfbcccd6892cf3811d3c94652b7f8cd85bcdb633324507aad63bd98c9a7","content_type":"application-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-gel"],"applications":["obc","energy-storage","optical-transceiver","ai-server"],"topics":["heat-path","mobile-hero"],"primary_page":"/","used_on":["/"],"alt":"Mobile thermal interface material application overview","caption":"Mobile crop of the V01 application heat-path overview.","reuse_policy":"homepage-responsive-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Used through picture source srcset; the fallback img carries the rendered ALT."},
-    {"id":"V01","filename":"thermal-interface-material-applications-obc-pcs-optical-ai-server.webp","path":"/assets/images/thermal-interface-material-applications-obc-pcs-optical-ai-server.webp","format":"webp","width":1672,"height":941,"aspect_ratio":"1672:941","file_size_bytes":240344,"sha256":"54a1f7d4e188cb3aa55704106a31ec3a5830022df7c227ca081f41745bc13fa5","content_type":"application-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-gel"],"applications":["obc","pcs","energy-storage","optical-transceiver","ai-server"],"topics":["heat-path","homepage-hero"],"primary_page":"/","used_on":["/"],"alt":"Thermal pad and thermal gel locations in OBC, energy storage, optical transceiver and AI server cooling assemblies","caption":"V01 application and heat-path overview.","reuse_policy":"homepage-hero-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Hero image; intentionally not lazy-loaded."},
-    {"id":"V01-SOURCE","filename":"thermal-interface-material-applications-obc-pcs-optical-ai-server-source.png","path":"/assets/images/source/thermal-interface-material-applications-obc-pcs-optical-ai-server-source.png","format":"png","width":1672,"height":941,"aspect_ratio":"1672:941","file_size_bytes":2289157,"sha256":"093eb19372b3704c61c52c1b61e89846d2aba01736e79baca9e5e8811af76ca8","content_type":"application-diagram","authenticity":"generated-engineering-diagram","source":"project-created-master","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-gel"],"applications":["obc","pcs","energy-storage","optical-transceiver","ai-server"],"topics":["heat-path","editable-source"],"primary_page":null,"used_on":[],"alt":"Source master for the V01 thermal application diagram","caption":"Non-rendered source master for V01.","reuse_policy":"source-master-do-not-render","contains_brand":false,"contains_customer_information":false,"status":"source-master","notes":"Not deployed into page markup; use only to derive optimized variants."},
-    {"id":"V03","filename":"thermal-pad-compression-gap-tolerance-diagram.webp","path":"/assets/images/visual-content/thermal-pad-compression-gap-tolerance-diagram.webp","format":"webp","width":1440,"height":810,"aspect_ratio":"16:9","file_size_bytes":90366,"sha256":"164af277369481cab253ca8aab349e457aaa1c4c0655d005904cdbad04e4b4ee","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad"],"applications":["power-electronics"],"topics":["compression","gap-tolerance"],"primary_page":"/thermal-pad/","used_on":["/thermal-pad/"],"alt":"Thermal pad compression across component height and gap tolerances","caption":"Engineering Diagram. Engineering diagram showing insufficient, controlled and excessive thermal pad compression.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":""},
-    {"id":"V04","filename":"thermal-gel-dispensing-variable-gap-assembly.webp","path":"/assets/images/visual-content/thermal-gel-dispensing-variable-gap-assembly.webp","format":"webp","width":1440,"height":810,"aspect_ratio":"16:9","file_size_bytes":87932,"sha256":"102ad5e5e7cee63cf39db3c8ec17fb020850c6e25f39b387fd1c01cd776da4e8","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-gel"],"applications":["pcb","power-electronics"],"topics":["dispensing","assembly-compression","variable-gap"],"primary_page":"/thermal-gel/","used_on":["/thermal-gel/"],"alt":"Thermal gel dispensing and compression across variable component gaps","caption":"Engineering Diagram. Engineering diagram showing thermal gel dispensing, assembly compression and the installed heat path.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":""},
-    {"id":"V05","filename":"thermal-grease-thin-bond-line-interface.webp","path":"/assets/images/visual-content/thermal-grease-thin-bond-line-interface.webp","format":"webp","width":1200,"height":800,"aspect_ratio":"3:2","file_size_bytes":97394,"sha256":"f0265236e6125391a954c67cd4e3c593f8943cffc3db6665590a68858c07f30d","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-grease"],"applications":["power-electronics"],"topics":["thin-bond-line","clamped-interface","large-gap-risk"],"primary_page":"/thermal-grease/","used_on":["/thermal-grease/"],"alt":"Thin thermal grease bond line between a power device and heat sink","caption":"Engineering Diagram. Engineering comparison of a controlled grease bond line, excess material and an unsuitable large gap.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":""},
-    {"id":"V06","filename":"thermally-conductive-structural-adhesive-joint.webp","path":"/assets/images/visual-content/thermally-conductive-structural-adhesive-joint.webp","format":"webp","width":1200,"height":800,"aspect_ratio":"3:2","file_size_bytes":101498,"sha256":"d27e58886486f6502701fee2e2ef25d325547009ccae6d28ae49c43f6062219d","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["structural-adhesive"],"applications":["power-electronics"],"topics":["heat-flow","shear-load","surface-preparation","bond-line-control"],"primary_page":"/structural-adhesive/","used_on":["/structural-adhesive/"],"alt":"Thermally conductive structural adhesive joint carrying mechanical load and heat","caption":"Engineering Diagram. Engineering diagram showing heat flow, shear load, surface preparation and bond-line control.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":""},
-    {"id":"V07","filename":"thermal-management-application-heat-path-matrix.webp","path":"/assets/images/visual-content/thermal-management-application-heat-path-matrix.webp","format":"webp","width":1600,"height":1000,"aspect_ratio":"8:5","file_size_bytes":162646,"sha256":"53895e1197b7bd0d8791c8c07cd16b228ad2664360e3e73b3d3490564a76632c","content_type":"application-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-gel","thermal-insulation-pad"],"applications":["obc","dc-dc","pcs","battery-pack","optical-transceiver","ai-server","igbt","automotive-lighting"],"topics":["application-matrix","heat-path"],"primary_page":"/applications/","used_on":["/applications/"],"alt":"Thermal interface material heat paths across automotive, energy storage, optical and server applications","caption":"Engineering Diagram. Application heat-path matrix covering OBC, DC/DC, PCS, battery packs, optical modules, AI servers, IGBT modules and automotive lighting.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"May link to the full-size asset; do not crop on mobile."},
-    {"id":"V08","filename":"thermal-material-test-method-pressure-thickness.webp","path":"/assets/images/visual-content/thermal-material-test-method-pressure-thickness.webp","format":"webp","width":1440,"height":810,"aspect_ratio":"16:9","file_size_bytes":97154,"sha256":"e11de3567deee45c7b34815997eae8c8e87a996a14550c4e5c8389c8a4b92ec6","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-interface-material"],"applications":["testing"],"topics":["test-method","pressure","thickness","temperature","heat-flow"],"primary_page":"/testing/","used_on":["/testing/"],"alt":"Thermal material test stack showing pressure, thickness, temperature and heat flow conditions","caption":"Generic Engineering Diagram. Test method and boundary conditions affect thermal results; this is not a representation of owned laboratory equipment or test capability.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Must remain a Generic Engineering Diagram."},
-    {"id":"V09-PORTRAIT","filename":"ouyang-xiaohui-thermal-management-shenzhen.webp","path":"/assets/images/visual-content/ouyang-xiaohui-thermal-management-shenzhen.webp","format":"webp","width":1200,"height":900,"aspect_ratio":"4:3","file_size_bytes":39964,"sha256":"b6eb50caaca9c80aef8a9785aed4ea4e06e9a62082fd135acd3c498ab142274a","content_type":"portrait","authenticity":"edited-user-supplied-portrait","source":"user-supplied","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-interface-material"],"applications":["professional-profile"],"topics":["ouyang-xiaohui","shenzhen","material-review"],"primary_page":"/about/","used_on":["/about/"],"alt":"Ouyang Xiaohui reviewing thermal interface material samples in Shenzhen","caption":"Ouyang Xiaohui in a professional thermal management working environment.","reuse_policy":"about-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Do not add magazine names, customer logos or unverified affiliations."},
-    {"id":"V09-PRODUCTION","filename":"thermal-material-real-production-support.webp","path":"/assets/images/visual-content/thermal-material-real-production-support.webp","format":"webp","width":1200,"height":900,"aspect_ratio":"4:3","file_size_bytes":104304,"sha256":"566589d639e9e9023e6441635f1eeb6d678837a5efbf3fa5b256f2a6046c893e","content_type":"production-reference","authenticity":"real-production-reference","source":"user-supplied-composite","rights_status":"user-supplied-rights-not-independently-verified","products":["thermal-interface-material"],"applications":["production-support"],"topics":["material-samples","converting","sheet-production","supply-preparation"],"primary_page":"/about/","used_on":["/about/"],"alt":"Real thermal material samples, converting equipment, sheet production and supply preparation","caption":"Real Production Reference. Material samples, converting, sheet production and supply preparation. No customer, capacity, model or performance claim is implied.","reuse_policy":"about-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Not a Customer Case; do not infer ownership or capacity."},
-    {"id":"V10","filename":"obc-multiple-thermal-interface-material-locations.webp","path":"/assets/images/visual-content/obc-multiple-thermal-interface-material-locations.webp","format":"webp","width":1440,"height":810,"aspect_ratio":"16:9","file_size_bytes":140784,"sha256":"54eb3d943cedd0a4bec60397c4ea491d2f501e97e9b5e7aaf941ec6182269245","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-gel","thermal-grease","thermal-insulation-pad","potting-compound"],"applications":["obc"],"topics":["multiple-tim-locations","heat-path"],"primary_page":"/obc/why-does-an-obc-use-multiple-thermal-interface-materials/","used_on":["/obc/why-does-an-obc-use-multiple-thermal-interface-materials/"],"alt":"Thermal pad, gel, grease, insulation and potting locations inside an onboard charger","caption":"Representative Engineering Diagram. Multiple thermal-material zones that may be used inside an OBC; not every OBC uses all five material types.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Always use Representative Engineering Diagram wording."},
-    {"id":"V11","filename":"battery-pack-thermal-gel-liquid-cooling-plate.webp","path":"/assets/images/visual-content/battery-pack-thermal-gel-liquid-cooling-plate.webp","format":"webp","width":1440,"height":810,"aspect_ratio":"16:9","file_size_bytes":139234,"sha256":"2306de27d92ffb1254838348d76194fc4b59cba5704b96ce0bfc8347d232b88a","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-gel"],"applications":["battery-pack","liquid-cooling-plate"],"topics":["dispensing-path","variable-gap","assembly-compression","liquid-cooling"],"primary_page":"/battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/","used_on":["/battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/"],"alt":"Thermal gel between battery modules and a liquid cooling plate","caption":"Engineering Diagram. Engineering diagram showing gel dispensing, module assembly and heat transfer into a liquid cooling plate.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":""},
-    {"id":"V12","filename":"optical-transceiver-thermal-interface-material-location.webp","path":"/assets/images/visual-content/optical-transceiver-thermal-interface-material-location.webp","format":"webp","width":1440,"height":810,"aspect_ratio":"16:9","file_size_bytes":121268,"sha256":"19d8ebfe6dc78ef12a382549dac43f7566065cba60d1c1eb1fb7e5aeacfc2d48","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-interface-material"],"applications":["optical-transceiver"],"topics":["localized-contact","low-stress-interface","metal-housing"],"primary_page":"/optical-module/thermal-interface-materials-for-optical-transceivers/","used_on":["/optical-module/thermal-interface-materials-for-optical-transceivers/"],"alt":"Thermal interface material between optical transceiver components and the metal housing","caption":"Engineering Diagram. Engineering diagram showing localized, low-stress TIM contact inside an optical transceiver.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":""},
-    {"id":"V13","filename":"800g-optical-module-thermal-pad-contact-compression.webp","path":"/assets/images/visual-content/800g-optical-module-thermal-pad-contact-compression.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":97360,"sha256":"44420a6be930d312b351a5f66b76cda866b6761e5ef8ee4e7daf56f29516722a","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad"],"applications":["800g-optical-module","optical-transceiver"],"topics":["heat-path","gap-contact","compression","supplier-qualification"],"primary_page":"/optical-module/thermal-pad-supplier-for-800g-optical-modules/","used_on":["/optical-module/thermal-pad-supplier-for-800g-optical-modules/"],"alt":"Thermal pad heat path and compression conditions inside a generic optical transceiver module","caption":"Representative Engineering Diagram. A generic optical-module heat path and the difference between insufficient, controlled and excessive pad compression.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"AI-generated generic engineering visualization; not a customer case or specific product design."},
-    {"id":"V14","filename":"1-6t-optical-module-tim-thermal-path.webp","path":"/assets/images/visual-content/1-6t-optical-module-tim-thermal-path.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":98600,"sha256":"821f88c266df4bf0c9cebf21d35ec8ff5c6f442a00266f56f4c4d0f47bd9469d","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad"],"applications":["1.6t-optical-module"],"topics":["heat-path","dsp","optical-engine","supplier-qualification"],"primary_page":"/optical-module/thermal-pad-for-1-6t-optical-modules/","used_on":["/optical-module/thermal-pad-for-1-6t-optical-modules/"],"alt":"Thermal interface heat path from DSP and optical engine through TIM to the housing and heat sink in a representative 1.6T optical module","caption":"Representative Engineering Diagram. Generic 1.6T-class optical-module heat path.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Not a customer case or exact product design."},
-    {"id":"V15","filename":"800g-1-6t-optical-module-thermal-pad-compression.webp","path":"/assets/images/visual-content/800g-1-6t-optical-module-thermal-pad-compression.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":116092,"sha256":"8c800197800ff0941d42c5811d693c03895dd45e30a7edf866d8417c9a420ceb","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad"],"applications":["800g-optical-module","1.6t-optical-module"],"topics":["compression","contact-resistance","mechanical-stress"],"primary_page":"/optical-module/thermal-pad-compression-for-800g-1-6t-modules/","used_on":["/optical-module/thermal-pad-compression-for-800g-1-6t-modules/","/engineering-resources/"],"alt":"Under-compressed, controlled and over-compressed thermal pad conditions in 800G and 1.6T optical module interfaces","caption":"Representative Engineering Diagram. Three optical-module pad compression states.","reuse_policy":"primary-and-resource-hub","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"No universal compression percentage is implied."},
-    {"id":"V16","filename":"ai-server-thermal-pad-gel-application-map.webp","path":"/assets/images/visual-content/ai-server-thermal-pad-gel-application-map.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":182572,"sha256":"f79bb8abebe4168c693bb2e285bbe7a940ff9fdf66cc3a41a2ce461c714220f2","content_type":"application-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-gel"],"applications":["ai-server"],"topics":["gpu","cpu","hbm","vrm","ssd","power-supply","cold-plate"],"primary_page":"/server/thermal-pad-vs-thermal-gel-for-ai-servers/","used_on":["/server/thermal-pad-vs-thermal-gel-for-ai-servers/"],"alt":"Representative thermal pad and thermal gel locations around GPU, CPU, HBM, VRM, SSD, power supply and cold plate interfaces in an AI server","caption":"Representative Engineering Diagram. Possible pad and gel locations; architecture varies.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Do not claim all servers use the shown material assignments."},
-    {"id":"V17","filename":"tim-second-source-supplier-qualification-flow.webp","path":"/assets/images/visual-content/tim-second-source-supplier-qualification-flow.webp","format":"webp","width":1440,"height":540,"aspect_ratio":"8:3","file_size_bytes":27326,"sha256":"22561f53e6087cba2dd6d0ea00c42f777a0b6ea5702d20507517f0fa2d78c0a6","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-interface-material"],"applications":["supplier-qualification"],"topics":["second-source","benchmark","sample","pilot-build","rfq"],"primary_page":"/china-thermal-interface-material-supplier/","used_on":["/china-thermal-interface-material-supplier/","/engineering-resources/"],"alt":"Thermal interface material second-source qualification flow from requirement definition and benchmark testing to pilot build and RFQ","caption":"Engineering Diagram. Gated second-source TIM qualification flow.","reuse_policy":"primary-and-resource-hub","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Does not claim completed customer qualification."},
-    {"id":"V18","filename":"sic-power-module-pad-grease-phase-change-selection.webp","path":"/assets/images/visual-content/sic-power-module-pad-grease-phase-change-selection.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":85338,"sha256":"92c9fb18768af39d6fb4e1c6e0c5d250428497f9861ca49b7f1ee243d41e7ed5","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-grease","phase-change-material"],"applications":["sic-power-module"],"topics":["cold-plate","thermal-resistance","electrical-insulation","assembly","rework","reliability"],"primary_page":"/power-electronics/thermal-interface-material-for-sic-power-modules/","used_on":["/power-electronics/thermal-interface-material-for-sic-power-modules/"],"alt":"Thermal pad, grease and phase change material selection between a SiC power module and cold plate","caption":"Representative Engineering Diagram. Generic SiC module TIM selection comparison.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"All criteria require application-specific verification."},
-    {"id":"V19","filename":"thermal-pad-supplier-qualification-12-gate-checklist.webp","path":"/assets/images/visual-content/thermal-pad-supplier-qualification-12-gate-checklist.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":68732,"sha256":"be1b306dbfcbfcfa6348d35d3b6af4d40da715a2374bc14aa6518a7d632a4e95","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad"],"applications":["supplier-qualification"],"topics":["twelve-gate-checklist","multi-lot","die-cut","pilot-build","change-control"],"primary_page":"/thermal-pad-supplier-china/","used_on":["/thermal-pad-supplier-china/","/engineering-resources/"],"alt":"Twelve-gate thermal pad supplier qualification checklist from requirement definition through pilot build and change control","caption":"Engineering Diagram. Twelve evidence gates for thermal-pad supplier qualification.","reuse_policy":"primary-and-resource-hub","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Not a certification or customer approval claim."},
-    {"id":"V20","filename":"thermal-gel-supplier-dispensing-qualification-flow.webp","path":"/assets/images/visual-content/thermal-gel-supplier-dispensing-qualification-flow.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":67556,"sha256":"2ef68ab593976b189b3bf9571b914fae39d4489be3938f91dee52850d4f9d7cb","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-gel"],"applications":["supplier-qualification"],"topics":["storage","mix-ratio","dispensing","void","pump-out","multi-lot","pilot-build"],"primary_page":"/thermal-gel-supplier-china/","used_on":["/thermal-gel-supplier-china/","/engineering-resources/"],"alt":"Thermal gel supplier qualification flow covering storage, mixing, dispensing, void inspection, aging, multiple lots and pilot build","caption":"Engineering Diagram. Representative thermal-gel production qualification flow.","reuse_policy":"primary-and-resource-hub","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"Equipment and criteria are application-specific."},
-    {"id":"V21","filename":"ai-server-800v-dc-power-supply-tim-map.webp","path":"/assets/images/visual-content/ai-server-800v-dc-power-supply-tim-map.webp","format":"webp","width":1439,"height":810,"aspect_ratio":"1439:810","file_size_bytes":130628,"sha256":"4caf346a1c4c87183592aa230e9c4d8689ee80e0551a7d78a192ffec59d46aac","content_type":"application-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-pad","thermal-gel","thermal-insulator"],"applications":["ai-server","800v-dc-power-system"],"topics":["power-module","dc-dc","magnetics","busbar","cold-plate","heat-path"],"primary_page":"/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/","used_on":["/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/"],"alt":"Representative thermal pad, gel and electrical insulator locations in an AI server 800V DC to board-power conversion path","caption":"Representative Engineering Diagram. Possible TIM zones in a generic 800V DC conversion path.","reuse_policy":"primary-page-only","contains_brand":false,"contains_customer_information":false,"status":"published","notes":"800V DC is architecture context, not a TIM specification."},
-    {"id":"V22","filename":"igbt-sic-thermal-insulator-selection-matrix.webp","path":"/assets/images/visual-content/igbt-sic-thermal-insulator-selection-matrix.webp","format":"webp","width":1672,"height":941,"aspect_ratio":"1672:941","file_size_bytes":147132,"sha256":"c958afe30bbda4366ec91ac64cebedc23eac97c851c9a1dcbb040b593bc9c81a","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created","rights_status":"approved-for-owned-site","products":["thermal-insulator","thermal-pad"],"applications":["igbt-power-module","sic-power-module"],"topics":["thermal-resistance","electrical-insulation","thickness","contact-resistance","mounting-pressure","rework","reliability"],"primary_page":"/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/","used_on":["/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/","/engineering-resources/","/zh/igbt-sic/","/zh/engineering-resources/"],"alt":"IGBT and SiC thermal insulator selection matrix comparing thin coated, ceramic-based and conformable insulating interfaces","caption":"Engineering Diagram. IGBT and SiC thermal-insulator selection matrix by interface condition and validation requirement.","reuse_policy":"primary-and-bilingual-resource-hubs","contains_brand":true,"contains_customer_information":false,"status":"published","notes":"Source attribution is OUYANG THERMAL and Owen Ouyang. Qualitative screening only; system qualification required."},
-    {"id":"CASE001-TR-TREND","filename":"case-001-thermal-resistance-vs-thickness.webp","path":"/assets/images/benchmark-evidence/case-001/case-001-thermal-resistance-vs-thickness.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":40772,"sha256":"47b2806e5b2550e0760157f079478e12bc3709562915bb6dbf8de63316c3de54","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created-from-user-supplied-test-evidence","rights_status":"user-approved-for-owned-site","products":["thermal-pad"],"applications":["benchmark-evidence","second-source-qualification"],"topics":["ASTM-D5470","thermal-resistance","thickness","50-psi"],"primary_page":"/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/","used_on":["/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"],"alt":"FT-BN035 thermal resistance versus thickness with one SP2000 reference point","caption":"Internal ASTM D5470 test data at approximately 50 psi; results depend on sample and test conditions.","reuse_policy":"case-001-only","contains_brand":true,"contains_customer_information":false,"status":"publication-ready","notes":"Clean chart derived from verified displayed values; publication decision approved in Case 001 phase two."},
-    {"id":"CASE001-025-COMPARE","filename":"case-001-0-25mm-thermal-resistance-comparison.webp","path":"/assets/images/benchmark-evidence/case-001/case-001-0-25mm-thermal-resistance-comparison.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":49236,"sha256":"6820eb8fce39a8d25e4995cb70a100a63ed560796e8e4ce2a8b38ae1afa53de5","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created-from-user-supplied-test-evidence","rights_status":"user-approved-for-owned-site","products":["thermal-pad"],"applications":["benchmark-evidence","second-source-qualification"],"topics":["ASTM-D5470","same-thickness","thermal-resistance","reference-comparison"],"primary_page":"/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/","used_on":["/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"],"alt":"Same-thickness thermal resistance comparison between FT-BN035 and the tested SP2000 reference sample","caption":"Same nominal thickness comparison under the stated internal test conditions; not a universal replacement claim.","reuse_policy":"case-001-only","contains_brand":true,"contains_customer_information":false,"status":"publication-ready","notes":"Calculated difference is approximately 21.0% lower relative to the displayed reference value."},
-    {"id":"CASE001-ELECTRICAL","filename":"case-001-electrical-properties-summary.webp","path":"/assets/images/benchmark-evidence/case-001/case-001-electrical-properties-summary.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":53206,"sha256":"8cfb512e9b0e080432edf604f6a4a9a3a94567ffe30a9fc0db22bf1647f619c6","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created-from-user-supplied-test-evidence","rights_status":"user-approved-for-owned-site","products":["thermal-pad"],"applications":["benchmark-evidence","electrical-insulation"],"topics":["ASTM-D149","ASTM-D257","ASTM-D792","breakdown-voltage","surface-resistance","density"],"primary_page":"/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/","used_on":["/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"],"alt":"Electrical property summary for the tested FT-BN035 and SP2000 reference samples","caption":"Displayed internal ASTM D149, D257 and D792 evidence; system-level electrical validation remains required.","reuse_policy":"case-001-only","contains_brand":true,"contains_customer_information":false,"status":"publication-ready","notes":"Greater-than signs and approximate values are preserved without conversion to exact results."},
-    {"id":"CASE001-METHODS","filename":"case-001-test-method-evidence-map.webp","path":"/assets/images/benchmark-evidence/case-001/case-001-test-method-evidence-map.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":49720,"sha256":"269ee549a37eb6d6c891194a03bd9b9e4b4d3bd381799adae693dc3f9ffc5e3e","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created-from-user-supplied-test-evidence","rights_status":"user-approved-for-owned-site","products":["thermal-pad"],"applications":["benchmark-evidence","testing"],"topics":["ASTM-D5470","ASTM-D149","ASTM-D257","ASTM-D792","test-method"],"primary_page":"/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/","used_on":["/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"],"alt":"Case 001 test-method evidence map for ASTM D5470, D149, D257 and D792","caption":"Engineering evidence map tying each displayed property to its stated test method.","reuse_policy":"case-001-only","contains_brand":true,"contains_customer_information":false,"status":"publication-ready","notes":"Method map only; it does not claim third-party certification."},
-    {"id":"CASE001-RAW-ANON","filename":"case-001-anonymized-raw-d5470-run.webp","path":"/assets/images/benchmark-evidence/case-001/case-001-anonymized-raw-d5470-run.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":117458,"sha256":"f87fbb2bf654fef65f3d441023a0b788d9a72a4ef34f54c3e9b40cdfa7b9c45f","content_type":"real-photo","authenticity":"real-user-supplied-photo","source":"user-supplied-redacted-derivative","rights_status":"user-approved-for-owned-site","products":["thermal-pad"],"applications":["benchmark-evidence","testing"],"topics":["ASTM-D5470","raw-run","anonymized-test-screen"],"primary_page":"/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/","used_on":["/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"],"alt":"Anonymized raw ASTM D5470 screen showing a separate 0.22 mm internal test run","caption":"Anonymized raw-test evidence. The run is separate from the formal thickness series.","reuse_policy":"case-001-only","contains_brand":true,"contains_customer_information":false,"status":"publication-ready","notes":"Header and operating-system areas cropped or covered; publication approved in Case 001 phase two."},
-    {"id":"CASE002-TR-TREND","filename":"case-002-ft-bn050-thermal-resistance-vs-thickness.webp","path":"/assets/images/benchmark-evidence/case-002/case-002-ft-bn050-thermal-resistance-vs-thickness.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":38846,"sha256":"0945b1d067c4ed01fa3643f75ce399e5ab22c0ca7ffae7bcdc8e07d11068326b","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created-from-user-supplied-test-evidence","rights_status":"user-approved-for-owned-site","products":["thermal-insulator","thermal-pad"],"applications":["benchmark-evidence","electrical-insulation"],"topics":["ASTM-D5470","thermal-resistance","thickness","50-psi"],"primary_page":"/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/","used_on":["/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/"],"alt":"FT-BN050 measured thermal resistance versus nominal thickness under internal ASTM D5470 testing at 50 psi","caption":"Internal ASTM D5470 thickness series at 50 psi; results apply to the tested samples and conditions.","reuse_policy":"case-002-only","contains_brand":true,"contains_customer_information":false,"status":"published","notes":"Clean chart derived only from the approved public-data table."},
-    {"id":"CASE002-THICKNESS-GUIDE","filename":"case-002-ft-bn050-thickness-selection-guide.webp","path":"/assets/images/benchmark-evidence/case-002/case-002-ft-bn050-thickness-selection-guide.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":52660,"sha256":"d61815154f968c4f06941425990ddb19bf2d9e8f8d5f5708edba209adcd218c6","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created-from-user-supplied-test-evidence","rights_status":"user-approved-for-owned-site","products":["thermal-insulator","thermal-pad"],"applications":["benchmark-evidence","tim-selection"],"topics":["compressed-thickness","thermal-resistance","selection"],"primary_page":"/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/","used_on":["/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/"],"alt":"FT-BN050 nominal thickness, compressed thickness and measured thermal resistance selection guide","caption":"Thickness and resistance comparison input for application-specific selection.","reuse_policy":"case-002-only","contains_brand":true,"contains_customer_information":false,"status":"published","notes":"Does not infer thermal conductivity or application temperature."},
-    {"id":"CASE002-ELECTRICAL","filename":"case-002-ft-bn050-electrical-insulation-summary.webp","path":"/assets/images/benchmark-evidence/case-002/case-002-ft-bn050-electrical-insulation-summary.webp","format":"webp","width":1440,"height":900,"aspect_ratio":"8:5","file_size_bytes":50164,"sha256":"77d2be88cafc28982dcd1db9a4d3c5abfc3e1afb50e52898784bc275e9bac280","content_type":"engineering-diagram","authenticity":"generated-engineering-diagram","source":"project-created-from-user-supplied-test-evidence","rights_status":"user-approved-for-owned-site","products":["thermal-insulator","thermal-pad"],"applications":["benchmark-evidence","electrical-insulation"],"topics":["ASTM-D149","breakdown-voltage","thickness"],"primary_page":"/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/","used_on":["/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/"],"alt":"FT-BN050 ASTM D149 breakdown-voltage limits across five tested thicknesses","caption":"Displayed ASTM D149 limits for the stated test area; application insulation validation remains required.","reuse_policy":"case-002-only","contains_brand":true,"contains_customer_information":false,"status":"published","notes":"Greater-than values remain limits rather than invented exact results."},
-    {"id": "V23", "filename": "thermal-pad-alternative-benchmark-method-schematic.svg", "path": "/assets/images/visual-content/thermal-pad-alternative-benchmark-method-schematic.svg", "format": "svg", "width": 1440, "height": 810, "aspect_ratio": "16:9", "file_size_bytes": 7699, "sha256": "11c6f08fc5fbf08a868c8adb23615f768c78ba7dece90e34f9a6e20aaafe7947", "content_type": "engineering-diagram", "authenticity": "generated-engineering-diagram", "source": "project-created", "rights_status": "approved-for-owned-site", "products": ["thermal pad"], "applications": ["supplier qualification"], "topics": ["benchmark method", "matched conditions", "second source", "thermal resistance"], "primary_page": "/sp2000-alternative-evaluation/", "used_on": ["/sp2000-alternative-evaluation/"], "alt": "Benchmark method schematic: incumbent and candidate samples tested in the same fixture under matched thickness, pressure, temperature and ASTM D5470 conditions, then gated electrical, aging and pilot-build validation", "caption": "Engineering Diagram. Controlled-condition benchmark method; the schematic does not report a test result or a product specification.", "reuse_policy": "primary-page-only", "contains_brand": false, "contains_customer_information": false, "status": "published", "notes": "Must remain an Engineering Diagram; no SP2000 brand mark is depicted."},
-    {"id": "V24", "filename": "tim-conductivity-vs-blt-comparison.webp", "path": "/assets/images/visual-content/tim-conductivity-vs-blt-comparison.webp", "format": "webp", "width": 2048, "height": 1152, "aspect_ratio": "16:9", "file_size_bytes": 143432, "sha256": "39419da8b504d5ab2aad92efb69973745fe54aced7451494d3f43669f13b5b05", "content_type": "engineering-diagram", "authenticity": "generated-engineering-diagram", "source": "project-created", "rights_status": "approved-for-owned-site", "products": ["thermal pad", "thermal gel", "thermal grease"], "applications": ["supplier qualification", "benchmark"], "topics": ["thermal conductivity", "bond-line thickness", "thermal resistance", "second source"], "primary_page": "/video-guide/thermal-management-materials-video-guide/", "used_on": ["/video-guide/thermal-management-materials-video-guide/"], "alt": "Diagram comparing a thick 6 W/m·K bond line against a thin 3 W/m·K bond line: the thinner layer has lower bulk thermal resistance despite lower conductivity", "caption": "Engineering Diagram. A thick 6 W/m·K bond line compared with a thin 3 W/m·K bond line; bulk thermal resistance depends on thickness as well as conductivity.", "reuse_policy": "primary-page-only"},
-    {"id": "VID-01", "filename": "thermal-interface-materials-video-cover.jpg", "path": "/assets/videos/thermal-interface-materials-video-cover.jpg", "format": "jpg", "width": 1920, "height": 1080, "aspect_ratio": "16:9", "file_size_bytes": 95827, "sha256": "4447e77bec581da64dbaefdaf4e927260ce46f7046892868b346a6c3b9e2202d", "content_type": "application-diagram", "authenticity": "generated-engineering-diagram", "source": "project-created", "rights_status": "approved-for-owned-site", "products": ["thermal-pad", "thermal-gel", "potting-compound"], "applications": ["ai-server", "energy-storage", "ev-power-electronics"], "topics": ["video-poster", "concept-visual"], "primary_page": "/thermal-interface-materials-video/", "used_on": ["/thermal-interface-materials-video/"], "alt": "Concept display stand with thermal gap pad, gap filler and potting compound samples in a blue technology space", "caption": "Concept visual. AI-generated video frame used as the video poster; not a real facility, product photograph or performance claim.", "reuse_policy": "primary-page-only", "contains_brand": true, "contains_customer_information": false, "status": "published", "notes": "Frame from the AI-generated 60-second HONGJING thermal interface materials video. Do not present as a real product photograph or facility."}
-  ]
+ "schema_version": "1.0",
+ "library_path": "/data/image-library.json",
+ "content_type_values": [
+  "real-photo",
+  "real-photo-composite",
+  "engineering-diagram",
+  "application-diagram",
+  "portrait",
+  "product-sample",
+  "production-reference"
+ ],
+ "authenticity_values": [
+  "real-user-supplied-photo",
+  "real-production-reference",
+  "generated-engineering-diagram",
+  "edited-user-supplied-portrait",
+  "source-uncertain-do-not-claim"
+ ],
+ "inventory_summary": {
+  "total_images": 49,
+  "online_used_images": 40,
+  "unused_images": 2,
+  "unused_ids": [
+   "V02-01",
+   "V01-SOURCE"
+  ],
+  "possible_duplicate_binary_groups": 0,
+  "rights_not_independently_verified": 13
+ },
+ "images": [
+  {
+   "id": "UI-FAVICON",
+   "filename": "favicon.svg",
+   "path": "/assets/favicon.svg",
+   "format": "svg",
+   "width": 64,
+   "height": 64,
+   "aspect_ratio": "1:1",
+   "file_size_bytes": 216,
+   "sha256": "7f142b21ec5aa182a54878c90658c9fbacfc63981dd07a7f6cf6562aa1f8eabb",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [],
+   "applications": [
+    "site-interface"
+   ],
+   "topics": [
+    "brand-mark",
+    "favicon"
+   ],
+   "primary_page": "*",
+   "used_on": [
+    "*"
+   ],
+   "alt": "OUYANG THERMAL favicon",
+   "caption": "OUYANG THERMAL interface icon.",
+   "reuse_policy": "site-interface-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Referenced by the shared head include."
+  },
+  {
+   "id": "V02-01",
+   "filename": "01-thermal-material-samples.jpg",
+   "path": "/assets/images/real-evidence/01-thermal-material-samples.jpg",
+   "format": "jpg",
+   "width": 1173,
+   "height": 484,
+   "aspect_ratio": "1173:484",
+   "file_size_bytes": 50472,
+   "sha256": "9b326b6c5d3e91ee741716591cf4ff847321f2178164c6e80cd665521bdc529d",
+   "content_type": "product-sample",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-pad",
+    "thermal-gel",
+    "thermal-grease"
+   ],
+   "applications": [],
+   "topics": [
+    "material-samples",
+    "material-overview"
+   ],
+   "primary_page": null,
+   "used_on": [],
+   "alt": "Thermal material samples arranged for engineering reference",
+   "caption": "Real Application Reference — thermal material samples; no grade or performance is inferred.",
+   "reuse_policy": "single-context-after-review",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "available",
+   "notes": "Currently unused; preserve as the V02 material-overview source photo."
+  },
+  {
+   "id": "V02-02",
+   "filename": "02-obc-thermal-pad-layout.jpg",
+   "path": "/assets/images/real-evidence/02-obc-thermal-pad-layout.jpg",
+   "format": "jpg",
+   "width": 750,
+   "height": 479,
+   "aspect_ratio": "750:479",
+   "file_size_bytes": 59915,
+   "sha256": "0816a52fb2775ffdf97910db09c045ef0d9072aca9c1c2a50e885ee61b84dbc3",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "obc",
+    "power-electronics"
+   ],
+   "topics": [
+    "pad-layout",
+    "installed-interface"
+   ],
+   "primary_page": "/thermal-pad/",
+   "used_on": [
+    "/thermal-pad/"
+   ],
+   "alt": "Pre-cut thermal pads positioned between OBC electronics and the mating housing",
+   "caption": "Real Application Reference. Pre-cut thermal pads positioned at multiple OBC interface locations. No material grade or performance is inferred from the photograph.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Do not identify a customer, model or performance."
+  },
+  {
+   "id": "V02-03",
+   "filename": "03-pcb-thermal-gel-dispensing.jpg",
+   "path": "/assets/images/real-evidence/03-pcb-thermal-gel-dispensing.jpg",
+   "format": "jpg",
+   "width": 1259,
+   "height": 1280,
+   "aspect_ratio": "1259:1280",
+   "file_size_bytes": 145586,
+   "sha256": "3d93735c5f93199808dcfd77f80cf27462c1832f349f06fa21fb6655ab98447f",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-gel"
+   ],
+   "applications": [
+    "pcb",
+    "power-electronics"
+   ],
+   "topics": [
+    "dispensing",
+    "deposit-pattern"
+   ],
+   "primary_page": "/thermal-gel/",
+   "used_on": [
+    "/thermal-gel/"
+   ],
+   "alt": "Thermal gel deposits dispensed across components on a printed circuit board",
+   "caption": "Real Application Reference. Controlled thermal-gel deposits on a PCB before mating with a cooling surface.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Material identity is not independently verified."
+  },
+  {
+   "id": "V02-04",
+   "filename": "04-thermal-gel-dot-pattern.jpg",
+   "path": "/assets/images/real-evidence/04-thermal-gel-dot-pattern.jpg",
+   "format": "jpg",
+   "width": 800,
+   "height": 547,
+   "aspect_ratio": "800:547",
+   "file_size_bytes": 39814,
+   "sha256": "93cbde66060e84b7dd58dcbd2c3257e8f3f3a856bc50be79e62026e2d792946b",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-gel"
+   ],
+   "applications": [
+    "dispensing-process"
+   ],
+   "topics": [
+    "dot-pattern",
+    "shape-retention",
+    "process-control"
+   ],
+   "primary_page": "/thermal-gel/common-thermal-gel-dispensing-problems/",
+   "used_on": [
+    "/thermal-gel/common-thermal-gel-dispensing-problems/"
+   ],
+   "alt": "Controlled thermal gel dot pattern showing deposited shape retention",
+   "caption": "Engineering Application Example. A controlled dot pattern used to observe deposit consistency and shape retention before assembly.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Do not infer formulation or performance."
+  },
+  {
+   "id": "V02-05",
+   "filename": "05-optical-transceiver-tim-opened.jpg",
+   "path": "/assets/images/real-evidence/05-optical-transceiver-tim-opened.jpg",
+   "format": "jpg",
+   "width": 997,
+   "height": 1272,
+   "aspect_ratio": "997:1272",
+   "file_size_bytes": 120896,
+   "sha256": "b595f809c0a9a714581fa909d15b5077b9676455431d6e2de7ba7f94fe3b61b4",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "optical-transceiver"
+   ],
+   "topics": [
+    "opened-module",
+    "tim-location"
+   ],
+   "primary_page": "/optical-module/",
+   "used_on": [
+    "/optical-module/"
+   ],
+   "alt": "Opened optical transceiver showing thermal interface material contact locations",
+   "caption": "Real Application Reference. An opened optical-transceiver assembly showing several interface locations between the PCB and housing.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "No customer or model attribution."
+  },
+  {
+   "id": "V02-06",
+   "filename": "06-optical-transceiver-tim-contact.jpg",
+   "path": "/assets/images/real-evidence/06-optical-transceiver-tim-contact.jpg",
+   "format": "jpg",
+   "width": 990,
+   "height": 1256,
+   "aspect_ratio": "495:628",
+   "file_size_bytes": 124651,
+   "sha256": "55966a0f7714b87c2c70863d52b156a04b1f5b948f58d014e1fe9c055f2b39a0",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "optical-transceiver"
+   ],
+   "topics": [
+    "contact-interface",
+    "pcb-housing"
+   ],
+   "primary_page": "/optical-module/thermal-interface-materials-for-optical-transceivers/",
+   "used_on": [
+    "/optical-module/thermal-interface-materials-for-optical-transceivers/"
+   ],
+   "alt": "Close view of thermal interface contact areas between an optical transceiver PCB and metal housing",
+   "caption": "Real Application Reference. Contact areas between an optical-module PCB and its metal housing. Material identity and performance are not inferred from the photograph.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Do not infer material identity or performance."
+  },
+  {
+   "id": "V02-07",
+   "filename": "07-optical-transceiver-module-exterior.jpg",
+   "path": "/assets/images/real-evidence/07-optical-transceiver-module-exterior.jpg",
+   "format": "jpg",
+   "width": 1080,
+   "height": 439,
+   "aspect_ratio": "1080:439",
+   "file_size_bytes": 19420,
+   "sha256": "b72180366e2e0403880d912b150247a52c4484eff658c3ea3d44f919066aef2d",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "optical-transceiver"
+   ],
+   "topics": [
+    "module-exterior",
+    "application-entry"
+   ],
+   "primary_page": "/applications/",
+   "used_on": [
+    "/applications/"
+   ],
+   "alt": "Exterior view of a complete optical transceiver module",
+   "caption": "Real Application Reference. A complete optical-transceiver module representing one of the compact, tolerance-sensitive applications covered in this knowledge base.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "No brand or model attribution."
+  },
+  {
+   "id": "V02-08",
+   "filename": "08-power-device-insulation-pad.jpg",
+   "path": "/assets/images/real-evidence/08-power-device-insulation-pad.jpg",
+   "format": "jpg",
+   "width": 800,
+   "height": 500,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 85097,
+   "sha256": "3934586aa946630de6e6dde890003d805ec225a918e018ddd36f0a653c889ed6",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-insulation-pad"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "electrical-isolation",
+    "device-mounting"
+   ],
+   "primary_page": "/thermal-insulator/",
+   "used_on": [
+    "/thermal-insulator/"
+   ],
+   "alt": "Power semiconductor devices mounted against an electrically insulating thermal interface pad",
+   "caption": "Engineering Application Example. An insulating interface between power devices and a metal cooling structure. Electrical and thermal ratings must be verified separately.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Electrical and thermal ratings are not inferred."
+  },
+  {
+   "id": "V02-09",
+   "filename": "09-battery-pack-liquid-cooling-plate-dispensing.jpg",
+   "path": "/assets/images/real-evidence/09-battery-pack-liquid-cooling-plate-dispensing.jpg",
+   "format": "jpg",
+   "width": 800,
+   "height": 500,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 90718,
+   "sha256": "744e256a56cac2b8d9b28b74e8478e699318c56b9f7df52ab2c6636f6e8f3358",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-gel"
+   ],
+   "applications": [
+    "battery-pack",
+    "liquid-cooling-plate"
+   ],
+   "topics": [
+    "bead-dispensing",
+    "production-process"
+   ],
+   "primary_page": "/battery-pack/",
+   "used_on": [
+    "/battery-pack/"
+   ],
+   "alt": "Automated bead dispensing across a battery pack liquid cooling plate",
+   "caption": "Real Application Reference. Production-scale material dispensing on a liquid-cooling plate before assembly.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Do not infer customer, line capacity or material grade."
+  },
+  {
+   "id": "V02",
+   "filename": "real-thermal-materials-and-applications-v02.webp",
+   "path": "/assets/images/real-thermal-materials-and-applications-v02.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 960,
+   "aspect_ratio": "3:2",
+   "file_size_bytes": 101942,
+   "sha256": "91f0dbb32a8d58c3c7d5dc10f963a28d822ff38a5f59af6198c2582fed4531b8",
+   "content_type": "real-photo-composite",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied-composite",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-pad",
+    "thermal-gel",
+    "thermal-insulation-pad"
+   ],
+   "applications": [
+    "obc",
+    "pcb",
+    "optical-transceiver",
+    "power-electronics",
+    "battery-cooling"
+   ],
+   "topics": [
+    "real-materials",
+    "installed-interfaces",
+    "production-dispensing"
+   ],
+   "primary_page": "/",
+   "used_on": [
+    "/"
+   ],
+   "alt": "Real thermal material samples and installed interfaces in OBC, PCB, optical transceiver, power electronics and battery cooling applications",
+   "caption": "Real Application References. Material forms, installed interfaces and production dispensing examples. Images are not presented as customer cases or performance claims.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Composite of user-supplied real photos; not a customer case."
+  },
+  {
+   "id": "V01-MOBILE",
+   "filename": "thermal-interface-material-applications-mobile.webp",
+   "path": "/assets/images/thermal-interface-material-applications-mobile.webp",
+   "format": "webp",
+   "width": 800,
+   "height": 600,
+   "aspect_ratio": "4:3",
+   "file_size_bytes": 78468,
+   "sha256": "f7d80cfbcccd6892cf3811d3c94652b7f8cd85bcdb633324507aad63bd98c9a7",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel"
+   ],
+   "applications": [
+    "obc",
+    "energy-storage",
+    "optical-transceiver",
+    "ai-server"
+   ],
+   "topics": [
+    "heat-path",
+    "mobile-hero"
+   ],
+   "primary_page": "/",
+   "used_on": [
+    "/"
+   ],
+   "alt": "Mobile thermal interface material application overview",
+   "caption": "Mobile crop of the V01 application heat-path overview.",
+   "reuse_policy": "homepage-responsive-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Used through picture source srcset; the fallback img carries the rendered ALT."
+  },
+  {
+   "id": "V01",
+   "filename": "thermal-interface-material-applications-obc-pcs-optical-ai-server.webp",
+   "path": "/assets/images/thermal-interface-material-applications-obc-pcs-optical-ai-server.webp",
+   "format": "webp",
+   "width": 1672,
+   "height": 941,
+   "aspect_ratio": "1672:941",
+   "file_size_bytes": 240344,
+   "sha256": "54a1f7d4e188cb3aa55704106a31ec3a5830022df7c227ca081f41745bc13fa5",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel"
+   ],
+   "applications": [
+    "obc",
+    "pcs",
+    "energy-storage",
+    "optical-transceiver",
+    "ai-server"
+   ],
+   "topics": [
+    "heat-path",
+    "homepage-hero"
+   ],
+   "primary_page": "/",
+   "used_on": [
+    "/"
+   ],
+   "alt": "Thermal pad and thermal gel locations in OBC, energy storage, optical transceiver and AI server cooling assemblies",
+   "caption": "V01 application and heat-path overview.",
+   "reuse_policy": "homepage-hero-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Hero image; intentionally not lazy-loaded."
+  },
+  {
+   "id": "V01-SOURCE",
+   "filename": "thermal-interface-material-applications-obc-pcs-optical-ai-server-source.png",
+   "path": "/assets/images/source/thermal-interface-material-applications-obc-pcs-optical-ai-server-source.png",
+   "format": "png",
+   "width": 1672,
+   "height": 941,
+   "aspect_ratio": "1672:941",
+   "file_size_bytes": 2289157,
+   "sha256": "093eb19372b3704c61c52c1b61e89846d2aba01736e79baca9e5e8811af76ca8",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-master",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel"
+   ],
+   "applications": [
+    "obc",
+    "pcs",
+    "energy-storage",
+    "optical-transceiver",
+    "ai-server"
+   ],
+   "topics": [
+    "heat-path",
+    "editable-source"
+   ],
+   "primary_page": null,
+   "used_on": [],
+   "alt": "Source master for the V01 thermal application diagram",
+   "caption": "Non-rendered source master for V01.",
+   "reuse_policy": "source-master-do-not-render",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "source-master",
+   "notes": "Not deployed into page markup; use only to derive optimized variants."
+  },
+  {
+   "id": "V03",
+   "filename": "thermal-pad-compression-gap-tolerance-diagram.webp",
+   "path": "/assets/images/visual-content/thermal-pad-compression-gap-tolerance-diagram.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 810,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 90366,
+   "sha256": "164af277369481cab253ca8aab349e457aaa1c4c0655d005904cdbad04e4b4ee",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "compression",
+    "gap-tolerance"
+   ],
+   "primary_page": "/thermal-pad/",
+   "used_on": [
+    "/thermal-pad/"
+   ],
+   "alt": "Thermal pad compression across component height and gap tolerances",
+   "caption": "Engineering Diagram. Engineering diagram showing insufficient, controlled and excessive thermal pad compression.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": ""
+  },
+  {
+   "id": "V04",
+   "filename": "thermal-gel-dispensing-variable-gap-assembly.webp",
+   "path": "/assets/images/visual-content/thermal-gel-dispensing-variable-gap-assembly.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 810,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 87932,
+   "sha256": "102ad5e5e7cee63cf39db3c8ec17fb020850c6e25f39b387fd1c01cd776da4e8",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-gel"
+   ],
+   "applications": [
+    "pcb",
+    "power-electronics"
+   ],
+   "topics": [
+    "dispensing",
+    "assembly-compression",
+    "variable-gap"
+   ],
+   "primary_page": "/thermal-gel/",
+   "used_on": [
+    "/thermal-gel/"
+   ],
+   "alt": "Thermal gel dispensing and compression across variable component gaps",
+   "caption": "Engineering Diagram. Engineering diagram showing thermal gel dispensing, assembly compression and the installed heat path.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": ""
+  },
+  {
+   "id": "V05",
+   "filename": "thermal-grease-thin-bond-line-interface.webp",
+   "path": "/assets/images/visual-content/thermal-grease-thin-bond-line-interface.webp",
+   "format": "webp",
+   "width": 1200,
+   "height": 800,
+   "aspect_ratio": "3:2",
+   "file_size_bytes": 97394,
+   "sha256": "f0265236e6125391a954c67cd4e3c593f8943cffc3db6665590a68858c07f30d",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-grease"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "thin-bond-line",
+    "clamped-interface",
+    "large-gap-risk"
+   ],
+   "primary_page": "/thermal-grease/",
+   "used_on": [
+    "/thermal-grease/"
+   ],
+   "alt": "Thin thermal grease bond line between a power device and heat sink",
+   "caption": "Engineering Diagram. Engineering comparison of a controlled grease bond line, excess material and an unsuitable large gap.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": ""
+  },
+  {
+   "id": "V06",
+   "filename": "thermally-conductive-structural-adhesive-joint.webp",
+   "path": "/assets/images/visual-content/thermally-conductive-structural-adhesive-joint.webp",
+   "format": "webp",
+   "width": 1200,
+   "height": 800,
+   "aspect_ratio": "3:2",
+   "file_size_bytes": 101498,
+   "sha256": "d27e58886486f6502701fee2e2ef25d325547009ccae6d28ae49c43f6062219d",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "structural-adhesive"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "heat-flow",
+    "shear-load",
+    "surface-preparation",
+    "bond-line-control"
+   ],
+   "primary_page": "/structural-adhesive/",
+   "used_on": [
+    "/structural-adhesive/"
+   ],
+   "alt": "Thermally conductive structural adhesive joint carrying mechanical load and heat",
+   "caption": "Engineering Diagram. Engineering diagram showing heat flow, shear load, surface preparation and bond-line control.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": ""
+  },
+  {
+   "id": "V07",
+   "filename": "thermal-management-application-heat-path-matrix.webp",
+   "path": "/assets/images/visual-content/thermal-management-application-heat-path-matrix.webp",
+   "format": "webp",
+   "width": 1600,
+   "height": 1000,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 162646,
+   "sha256": "53895e1197b7bd0d8791c8c07cd16b228ad2664360e3e73b3d3490564a76632c",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel",
+    "thermal-insulation-pad"
+   ],
+   "applications": [
+    "obc",
+    "dc-dc",
+    "pcs",
+    "battery-pack",
+    "optical-transceiver",
+    "ai-server",
+    "igbt",
+    "automotive-lighting"
+   ],
+   "topics": [
+    "application-matrix",
+    "heat-path"
+   ],
+   "primary_page": "/applications/",
+   "used_on": [
+    "/applications/"
+   ],
+   "alt": "Thermal interface material heat paths across automotive, energy storage, optical and server applications",
+   "caption": "Engineering Diagram. Application heat-path matrix covering OBC, DC/DC, PCS, battery packs, optical modules, AI servers, IGBT modules and automotive lighting.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "May link to the full-size asset; do not crop on mobile."
+  },
+  {
+   "id": "V08",
+   "filename": "thermal-material-test-method-pressure-thickness.webp",
+   "path": "/assets/images/visual-content/thermal-material-test-method-pressure-thickness.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 810,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 97154,
+   "sha256": "e11de3567deee45c7b34815997eae8c8e87a996a14550c4e5c8389c8a4b92ec6",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "testing"
+   ],
+   "topics": [
+    "test-method",
+    "pressure",
+    "thickness",
+    "temperature",
+    "heat-flow"
+   ],
+   "primary_page": "/testing/",
+   "used_on": [
+    "/testing/"
+   ],
+   "alt": "Thermal material test stack showing pressure, thickness, temperature and heat flow conditions",
+   "caption": "Generic Engineering Diagram. Test method and boundary conditions affect thermal results; this is not a representation of owned laboratory equipment or test capability.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Must remain a Generic Engineering Diagram."
+  },
+  {
+   "id": "V09-PORTRAIT",
+   "filename": "ouyang-xiaohui-thermal-management-shenzhen.webp",
+   "path": "/assets/images/visual-content/ouyang-xiaohui-thermal-management-shenzhen.webp",
+   "format": "webp",
+   "width": 1200,
+   "height": 900,
+   "aspect_ratio": "4:3",
+   "file_size_bytes": 39964,
+   "sha256": "b6eb50caaca9c80aef8a9785aed4ea4e06e9a62082fd135acd3c498ab142274a",
+   "content_type": "portrait",
+   "authenticity": "edited-user-supplied-portrait",
+   "source": "user-supplied",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "professional-profile"
+   ],
+   "topics": [
+    "ouyang-xiaohui",
+    "shenzhen",
+    "material-review"
+   ],
+   "primary_page": "/about/",
+   "used_on": [
+    "/about/"
+   ],
+   "alt": "Ouyang Xiaohui reviewing thermal interface material samples in Shenzhen",
+   "caption": "Ouyang Xiaohui in a professional thermal management working environment.",
+   "reuse_policy": "about-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Do not add magazine names, customer logos or unverified affiliations."
+  },
+  {
+   "id": "V09-PRODUCTION",
+   "filename": "thermal-material-real-production-support.webp",
+   "path": "/assets/images/visual-content/thermal-material-real-production-support.webp",
+   "format": "webp",
+   "width": 1200,
+   "height": 900,
+   "aspect_ratio": "4:3",
+   "file_size_bytes": 104304,
+   "sha256": "566589d639e9e9023e6441635f1eeb6d678837a5efbf3fa5b256f2a6046c893e",
+   "content_type": "production-reference",
+   "authenticity": "real-production-reference",
+   "source": "user-supplied-composite",
+   "rights_status": "user-supplied-rights-not-independently-verified",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "production-support"
+   ],
+   "topics": [
+    "material-samples",
+    "converting",
+    "sheet-production",
+    "supply-preparation"
+   ],
+   "primary_page": "/about/",
+   "used_on": [
+    "/about/"
+   ],
+   "alt": "Real thermal material samples, converting equipment, sheet production and supply preparation",
+   "caption": "Real Production Reference. Material samples, converting, sheet production and supply preparation. No customer, capacity, model or performance claim is implied.",
+   "reuse_policy": "about-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Not a Customer Case; do not infer ownership or capacity."
+  },
+  {
+   "id": "V10",
+   "filename": "obc-multiple-thermal-interface-material-locations.webp",
+   "path": "/assets/images/visual-content/obc-multiple-thermal-interface-material-locations.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 810,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 140784,
+   "sha256": "54eb3d943cedd0a4bec60397c4ea491d2f501e97e9b5e7aaf941ec6182269245",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel",
+    "thermal-grease",
+    "thermal-insulation-pad",
+    "potting-compound"
+   ],
+   "applications": [
+    "obc"
+   ],
+   "topics": [
+    "multiple-tim-locations",
+    "heat-path"
+   ],
+   "primary_page": "/obc/why-does-an-obc-use-multiple-thermal-interface-materials/",
+   "used_on": [
+    "/obc/why-does-an-obc-use-multiple-thermal-interface-materials/"
+   ],
+   "alt": "Thermal pad, gel, grease, insulation and potting locations inside an onboard charger",
+   "caption": "Representative Engineering Diagram. Multiple thermal-material zones that may be used inside an OBC; not every OBC uses all five material types.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Always use Representative Engineering Diagram wording."
+  },
+  {
+   "id": "V11",
+   "filename": "battery-pack-thermal-gel-liquid-cooling-plate.webp",
+   "path": "/assets/images/visual-content/battery-pack-thermal-gel-liquid-cooling-plate.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 810,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 139234,
+   "sha256": "2306de27d92ffb1254838348d76194fc4b59cba5704b96ce0bfc8347d232b88a",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-gel"
+   ],
+   "applications": [
+    "battery-pack",
+    "liquid-cooling-plate"
+   ],
+   "topics": [
+    "dispensing-path",
+    "variable-gap",
+    "assembly-compression",
+    "liquid-cooling"
+   ],
+   "primary_page": "/battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/",
+   "used_on": [
+    "/battery-pack/thermal-gel-for-battery-pack-liquid-cooling-plates/"
+   ],
+   "alt": "Thermal gel between battery modules and a liquid cooling plate",
+   "caption": "Engineering Diagram. Engineering diagram showing gel dispensing, module assembly and heat transfer into a liquid cooling plate.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": ""
+  },
+  {
+   "id": "V12",
+   "filename": "optical-transceiver-thermal-interface-material-location.webp",
+   "path": "/assets/images/visual-content/optical-transceiver-thermal-interface-material-location.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 810,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 121268,
+   "sha256": "19d8ebfe6dc78ef12a382549dac43f7566065cba60d1c1eb1fb7e5aeacfc2d48",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "optical-transceiver"
+   ],
+   "topics": [
+    "localized-contact",
+    "low-stress-interface",
+    "metal-housing"
+   ],
+   "primary_page": "/optical-module/thermal-interface-materials-for-optical-transceivers/",
+   "used_on": [
+    "/optical-module/thermal-interface-materials-for-optical-transceivers/"
+   ],
+   "alt": "Thermal interface material between optical transceiver components and the metal housing",
+   "caption": "Engineering Diagram. Engineering diagram showing localized, low-stress TIM contact inside an optical transceiver.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": ""
+  },
+  {
+   "id": "V13",
+   "filename": "800g-optical-module-thermal-pad-contact-compression.webp",
+   "path": "/assets/images/visual-content/800g-optical-module-thermal-pad-contact-compression.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 97360,
+   "sha256": "44420a6be930d312b351a5f66b76cda866b6761e5ef8ee4e7daf56f29516722a",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "800g-optical-module",
+    "optical-transceiver"
+   ],
+   "topics": [
+    "heat-path",
+    "gap-contact",
+    "compression",
+    "supplier-qualification"
+   ],
+   "primary_page": "/optical-module/thermal-pad-supplier-for-800g-optical-modules/",
+   "used_on": [
+    "/optical-module/thermal-pad-supplier-for-800g-optical-modules/"
+   ],
+   "alt": "Thermal pad heat path and compression conditions inside a generic optical transceiver module",
+   "caption": "Representative Engineering Diagram. A generic optical-module heat path and the difference between insufficient, controlled and excessive pad compression.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "AI-generated generic engineering visualization; not a customer case or specific product design."
+  },
+  {
+   "id": "V14",
+   "filename": "1-6t-optical-module-tim-thermal-path.webp",
+   "path": "/assets/images/visual-content/1-6t-optical-module-tim-thermal-path.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 98600,
+   "sha256": "821f88c266df4bf0c9cebf21d35ec8ff5c6f442a00266f56f4c4d0f47bd9469d",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "1.6t-optical-module"
+   ],
+   "topics": [
+    "heat-path",
+    "dsp",
+    "optical-engine",
+    "supplier-qualification"
+   ],
+   "primary_page": "/optical-module/thermal-pad-for-1-6t-optical-modules/",
+   "used_on": [
+    "/optical-module/thermal-pad-for-1-6t-optical-modules/"
+   ],
+   "alt": "Thermal interface heat path from DSP and optical engine through TIM to the housing and heat sink in a representative 1.6T optical module",
+   "caption": "Representative Engineering Diagram. Generic 1.6T-class optical-module heat path.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Not a customer case or exact product design."
+  },
+  {
+   "id": "V15",
+   "filename": "800g-1-6t-optical-module-thermal-pad-compression.webp",
+   "path": "/assets/images/visual-content/800g-1-6t-optical-module-thermal-pad-compression.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 116092,
+   "sha256": "8c800197800ff0941d42c5811d693c03895dd45e30a7edf866d8417c9a420ceb",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "800g-optical-module",
+    "1.6t-optical-module"
+   ],
+   "topics": [
+    "compression",
+    "contact-resistance",
+    "mechanical-stress"
+   ],
+   "primary_page": "/optical-module/thermal-pad-compression-for-800g-1-6t-modules/",
+   "used_on": [
+    "/optical-module/thermal-pad-compression-for-800g-1-6t-modules/",
+    "/engineering-resources/"
+   ],
+   "alt": "Under-compressed, controlled and over-compressed thermal pad conditions in 800G and 1.6T optical module interfaces",
+   "caption": "Representative Engineering Diagram. Three optical-module pad compression states.",
+   "reuse_policy": "primary-and-resource-hub",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "No universal compression percentage is implied."
+  },
+  {
+   "id": "V16",
+   "filename": "ai-server-thermal-pad-gel-application-map.webp",
+   "path": "/assets/images/visual-content/ai-server-thermal-pad-gel-application-map.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 182572,
+   "sha256": "f79bb8abebe4168c693bb2e285bbe7a940ff9fdf66cc3a41a2ce461c714220f2",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel"
+   ],
+   "applications": [
+    "ai-server"
+   ],
+   "topics": [
+    "gpu",
+    "cpu",
+    "hbm",
+    "vrm",
+    "ssd",
+    "power-supply",
+    "cold-plate"
+   ],
+   "primary_page": "/server/thermal-pad-vs-thermal-gel-for-ai-servers/",
+   "used_on": [
+    "/server/thermal-pad-vs-thermal-gel-for-ai-servers/"
+   ],
+   "alt": "Representative thermal pad and thermal gel locations around GPU, CPU, HBM, VRM, SSD, power supply and cold plate interfaces in an AI server",
+   "caption": "Representative Engineering Diagram. Possible pad and gel locations; architecture varies.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Do not claim all servers use the shown material assignments."
+  },
+  {
+   "id": "V17",
+   "filename": "tim-second-source-supplier-qualification-flow.webp",
+   "path": "/assets/images/visual-content/tim-second-source-supplier-qualification-flow.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 540,
+   "aspect_ratio": "8:3",
+   "file_size_bytes": 27326,
+   "sha256": "22561f53e6087cba2dd6d0ea00c42f777a0b6ea5702d20507517f0fa2d78c0a6",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-interface-material"
+   ],
+   "applications": [
+    "supplier-qualification"
+   ],
+   "topics": [
+    "second-source",
+    "benchmark",
+    "sample",
+    "pilot-build",
+    "rfq"
+   ],
+   "primary_page": "/china-thermal-interface-material-supplier/",
+   "used_on": [
+    "/china-thermal-interface-material-supplier/",
+    "/engineering-resources/"
+   ],
+   "alt": "Thermal interface material second-source qualification flow from requirement definition and benchmark testing to pilot build and RFQ",
+   "caption": "Engineering Diagram. Gated second-source TIM qualification flow.",
+   "reuse_policy": "primary-and-resource-hub",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Does not claim completed customer qualification."
+  },
+  {
+   "id": "V18",
+   "filename": "sic-power-module-pad-grease-phase-change-selection.webp",
+   "path": "/assets/images/visual-content/sic-power-module-pad-grease-phase-change-selection.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 85338,
+   "sha256": "92c9fb18768af39d6fb4e1c6e0c5d250428497f9861ca49b7f1ee243d41e7ed5",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-grease",
+    "phase-change-material"
+   ],
+   "applications": [
+    "sic-power-module"
+   ],
+   "topics": [
+    "cold-plate",
+    "thermal-resistance",
+    "electrical-insulation",
+    "assembly",
+    "rework",
+    "reliability"
+   ],
+   "primary_page": "/power-electronics/thermal-interface-material-for-sic-power-modules/",
+   "used_on": [
+    "/power-electronics/thermal-interface-material-for-sic-power-modules/"
+   ],
+   "alt": "Thermal pad, grease and phase change material selection between a SiC power module and cold plate",
+   "caption": "Representative Engineering Diagram. Generic SiC module TIM selection comparison.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "All criteria require application-specific verification."
+  },
+  {
+   "id": "V19",
+   "filename": "thermal-pad-supplier-qualification-12-gate-checklist.webp",
+   "path": "/assets/images/visual-content/thermal-pad-supplier-qualification-12-gate-checklist.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 68732,
+   "sha256": "be1b306dbfcbfcfa6348d35d3b6af4d40da715a2374bc14aa6518a7d632a4e95",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "supplier-qualification"
+   ],
+   "topics": [
+    "twelve-gate-checklist",
+    "multi-lot",
+    "die-cut",
+    "pilot-build",
+    "change-control"
+   ],
+   "primary_page": "/thermal-pad-supplier-china/",
+   "used_on": [
+    "/thermal-pad-supplier-china/",
+    "/engineering-resources/"
+   ],
+   "alt": "Twelve-gate thermal pad supplier qualification checklist from requirement definition through pilot build and change control",
+   "caption": "Engineering Diagram. Twelve evidence gates for thermal-pad supplier qualification.",
+   "reuse_policy": "primary-and-resource-hub",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Not a certification or customer approval claim."
+  },
+  {
+   "id": "V20",
+   "filename": "thermal-gel-supplier-dispensing-qualification-flow.webp",
+   "path": "/assets/images/visual-content/thermal-gel-supplier-dispensing-qualification-flow.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 67556,
+   "sha256": "2ef68ab593976b189b3bf9571b914fae39d4489be3938f91dee52850d4f9d7cb",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-gel"
+   ],
+   "applications": [
+    "supplier-qualification"
+   ],
+   "topics": [
+    "storage",
+    "mix-ratio",
+    "dispensing",
+    "void",
+    "pump-out",
+    "multi-lot",
+    "pilot-build"
+   ],
+   "primary_page": "/thermal-gel-supplier-china/",
+   "used_on": [
+    "/thermal-gel-supplier-china/",
+    "/engineering-resources/"
+   ],
+   "alt": "Thermal gel supplier qualification flow covering storage, mixing, dispensing, void inspection, aging, multiple lots and pilot build",
+   "caption": "Engineering Diagram. Representative thermal-gel production qualification flow.",
+   "reuse_policy": "primary-and-resource-hub",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Equipment and criteria are application-specific."
+  },
+  {
+   "id": "V21",
+   "filename": "ai-server-800v-dc-power-supply-tim-map.webp",
+   "path": "/assets/images/visual-content/ai-server-800v-dc-power-supply-tim-map.webp",
+   "format": "webp",
+   "width": 1439,
+   "height": 810,
+   "aspect_ratio": "1439:810",
+   "file_size_bytes": 130628,
+   "sha256": "4caf346a1c4c87183592aa230e9c4d8689ee80e0551a7d78a192ffec59d46aac",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel",
+    "thermal-insulator"
+   ],
+   "applications": [
+    "ai-server",
+    "800v-dc-power-system"
+   ],
+   "topics": [
+    "power-module",
+    "dc-dc",
+    "magnetics",
+    "busbar",
+    "cold-plate",
+    "heat-path"
+   ],
+   "primary_page": "/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/",
+   "used_on": [
+    "/server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/"
+   ],
+   "alt": "Representative thermal pad, gel and electrical insulator locations in an AI server 800V DC to board-power conversion path",
+   "caption": "Representative Engineering Diagram. Possible TIM zones in a generic 800V DC conversion path.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "800V DC is architecture context, not a TIM specification."
+  },
+  {
+   "id": "V22",
+   "filename": "igbt-sic-thermal-insulator-selection-matrix.webp",
+   "path": "/assets/images/visual-content/igbt-sic-thermal-insulator-selection-matrix.webp",
+   "format": "webp",
+   "width": 1672,
+   "height": 941,
+   "aspect_ratio": "1672:941",
+   "file_size_bytes": 147132,
+   "sha256": "c958afe30bbda4366ec91ac64cebedc23eac97c851c9a1dcbb040b593bc9c81a",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-insulator",
+    "thermal-pad"
+   ],
+   "applications": [
+    "igbt-power-module",
+    "sic-power-module"
+   ],
+   "topics": [
+    "thermal-resistance",
+    "electrical-insulation",
+    "thickness",
+    "contact-resistance",
+    "mounting-pressure",
+    "rework",
+    "reliability"
+   ],
+   "primary_page": "/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/",
+   "used_on": [
+    "/thermal-insulator/thermal-insulator-supplier-for-igbt-modules/",
+    "/engineering-resources/",
+    "/zh/igbt-sic/",
+    "/zh/engineering-resources/"
+   ],
+   "alt": "IGBT and SiC thermal insulator selection matrix comparing thin coated, ceramic-based and conformable insulating interfaces",
+   "caption": "Engineering Diagram. IGBT and SiC thermal-insulator selection matrix by interface condition and validation requirement.",
+   "reuse_policy": "primary-and-bilingual-resource-hubs",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Source attribution is OUYANG THERMAL and Owen Ouyang. Qualitative screening only; system qualification required."
+  },
+  {
+   "id": "CASE001-TR-TREND",
+   "filename": "case-001-thermal-resistance-vs-thickness.webp",
+   "path": "/assets/images/benchmark-evidence/case-001/case-001-thermal-resistance-vs-thickness.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 40772,
+   "sha256": "47b2806e5b2550e0760157f079478e12bc3709562915bb6dbf8de63316c3de54",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-from-user-supplied-test-evidence",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "second-source-qualification"
+   ],
+   "topics": [
+    "ASTM-D5470",
+    "thermal-resistance",
+    "thickness",
+    "50-psi"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"
+   ],
+   "alt": "FT-BN035 thermal resistance versus thickness with one SP2000 reference point",
+   "caption": "Internal ASTM D5470 test data at approximately 50 psi; results depend on sample and test conditions.",
+   "reuse_policy": "case-001-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "publication-ready",
+   "notes": "Clean chart derived from verified displayed values; publication decision approved in Case 001 phase two."
+  },
+  {
+   "id": "CASE001-025-COMPARE",
+   "filename": "case-001-0-25mm-thermal-resistance-comparison.webp",
+   "path": "/assets/images/benchmark-evidence/case-001/case-001-0-25mm-thermal-resistance-comparison.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 49236,
+   "sha256": "6820eb8fce39a8d25e4995cb70a100a63ed560796e8e4ce2a8b38ae1afa53de5",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-from-user-supplied-test-evidence",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "second-source-qualification"
+   ],
+   "topics": [
+    "ASTM-D5470",
+    "same-thickness",
+    "thermal-resistance",
+    "reference-comparison"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"
+   ],
+   "alt": "Same-thickness thermal resistance comparison between FT-BN035 and the tested SP2000 reference sample",
+   "caption": "Same nominal thickness comparison under the stated internal test conditions; not a universal replacement claim.",
+   "reuse_policy": "case-001-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "publication-ready",
+   "notes": "Calculated difference is approximately 21.0% lower relative to the displayed reference value."
+  },
+  {
+   "id": "CASE001-ELECTRICAL",
+   "filename": "case-001-electrical-properties-summary.webp",
+   "path": "/assets/images/benchmark-evidence/case-001/case-001-electrical-properties-summary.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 53206,
+   "sha256": "8cfb512e9b0e080432edf604f6a4a9a3a94567ffe30a9fc0db22bf1647f619c6",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-from-user-supplied-test-evidence",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "electrical-insulation"
+   ],
+   "topics": [
+    "ASTM-D149",
+    "ASTM-D257",
+    "ASTM-D792",
+    "breakdown-voltage",
+    "surface-resistance",
+    "density"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"
+   ],
+   "alt": "Electrical property summary for the tested FT-BN035 and SP2000 reference samples",
+   "caption": "Displayed internal ASTM D149, D257 and D792 evidence; system-level electrical validation remains required.",
+   "reuse_policy": "case-001-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "publication-ready",
+   "notes": "Greater-than signs and approximate values are preserved without conversion to exact results."
+  },
+  {
+   "id": "CASE001-METHODS",
+   "filename": "case-001-test-method-evidence-map.webp",
+   "path": "/assets/images/benchmark-evidence/case-001/case-001-test-method-evidence-map.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 49720,
+   "sha256": "269ee549a37eb6d6c891194a03bd9b9e4b4d3bd381799adae693dc3f9ffc5e3e",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-from-user-supplied-test-evidence",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "testing"
+   ],
+   "topics": [
+    "ASTM-D5470",
+    "ASTM-D149",
+    "ASTM-D257",
+    "ASTM-D792",
+    "test-method"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"
+   ],
+   "alt": "Case 001 test-method evidence map for ASTM D5470, D149, D257 and D792",
+   "caption": "Engineering evidence map tying each displayed property to its stated test method.",
+   "reuse_policy": "case-001-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "publication-ready",
+   "notes": "Method map only; it does not claim third-party certification."
+  },
+  {
+   "id": "CASE001-RAW-ANON",
+   "filename": "case-001-anonymized-raw-d5470-run.webp",
+   "path": "/assets/images/benchmark-evidence/case-001/case-001-anonymized-raw-d5470-run.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 117458,
+   "sha256": "f87fbb2bf654fef65f3d441023a0b788d9a72a4ef34f54c3e9b40cdfa7b9c45f",
+   "content_type": "real-photo",
+   "authenticity": "real-user-supplied-photo",
+   "source": "user-supplied-redacted-derivative",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "testing"
+   ],
+   "topics": [
+    "ASTM-D5470",
+    "raw-run",
+    "anonymized-test-screen"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn035-vs-sp2000-reference-sample/"
+   ],
+   "alt": "Anonymized raw ASTM D5470 screen showing a separate 0.22 mm internal test run",
+   "caption": "Anonymized raw-test evidence. The run is separate from the formal thickness series.",
+   "reuse_policy": "case-001-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "publication-ready",
+   "notes": "Header and operating-system areas cropped or covered; publication approved in Case 001 phase two."
+  },
+  {
+   "id": "CASE002-TR-TREND",
+   "filename": "case-002-ft-bn050-thermal-resistance-vs-thickness.webp",
+   "path": "/assets/images/benchmark-evidence/case-002/case-002-ft-bn050-thermal-resistance-vs-thickness.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 38846,
+   "sha256": "0945b1d067c4ed01fa3643f75ce399e5ab22c0ca7ffae7bcdc8e07d11068326b",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-from-user-supplied-test-evidence",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-insulator",
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "electrical-insulation"
+   ],
+   "topics": [
+    "ASTM-D5470",
+    "thermal-resistance",
+    "thickness",
+    "50-psi"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/"
+   ],
+   "alt": "FT-BN050 measured thermal resistance versus nominal thickness under internal ASTM D5470 testing at 50 psi",
+   "caption": "Internal ASTM D5470 thickness series at 50 psi; results apply to the tested samples and conditions.",
+   "reuse_policy": "case-002-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Clean chart derived only from the approved public-data table."
+  },
+  {
+   "id": "CASE002-THICKNESS-GUIDE",
+   "filename": "case-002-ft-bn050-thickness-selection-guide.webp",
+   "path": "/assets/images/benchmark-evidence/case-002/case-002-ft-bn050-thickness-selection-guide.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 52660,
+   "sha256": "d61815154f968c4f06941425990ddb19bf2d9e8f8d5f5708edba209adcd218c6",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-from-user-supplied-test-evidence",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-insulator",
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "tim-selection"
+   ],
+   "topics": [
+    "compressed-thickness",
+    "thermal-resistance",
+    "selection"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/"
+   ],
+   "alt": "FT-BN050 nominal thickness, compressed thickness and measured thermal resistance selection guide",
+   "caption": "Thickness and resistance comparison input for application-specific selection.",
+   "reuse_policy": "case-002-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Does not infer thermal conductivity or application temperature."
+  },
+  {
+   "id": "CASE002-ELECTRICAL",
+   "filename": "case-002-ft-bn050-electrical-insulation-summary.webp",
+   "path": "/assets/images/benchmark-evidence/case-002/case-002-ft-bn050-electrical-insulation-summary.webp",
+   "format": "webp",
+   "width": 1440,
+   "height": 900,
+   "aspect_ratio": "8:5",
+   "file_size_bytes": 50164,
+   "sha256": "77d2be88cafc28982dcd1db9a4d3c5abfc3e1afb50e52898784bc275e9bac280",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created-from-user-supplied-test-evidence",
+   "rights_status": "user-approved-for-owned-site",
+   "products": [
+    "thermal-insulator",
+    "thermal-pad"
+   ],
+   "applications": [
+    "benchmark-evidence",
+    "electrical-insulation"
+   ],
+   "topics": [
+    "ASTM-D149",
+    "breakdown-voltage",
+    "thickness"
+   ],
+   "primary_page": "/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/",
+   "used_on": [
+    "/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/"
+   ],
+   "alt": "FT-BN050 ASTM D149 breakdown-voltage limits across five tested thicknesses",
+   "caption": "Displayed ASTM D149 limits for the stated test area; application insulation validation remains required.",
+   "reuse_policy": "case-002-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Greater-than values remain limits rather than invented exact results."
+  },
+  {
+   "id": "V23",
+   "filename": "thermal-pad-alternative-benchmark-method-schematic.svg",
+   "path": "/assets/images/visual-content/thermal-pad-alternative-benchmark-method-schematic.svg",
+   "format": "svg",
+   "width": 1440,
+   "height": 810,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 7699,
+   "sha256": "11c6f08fc5fbf08a868c8adb23615f768c78ba7dece90e34f9a6e20aaafe7947",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal pad"
+   ],
+   "applications": [
+    "supplier qualification"
+   ],
+   "topics": [
+    "benchmark method",
+    "matched conditions",
+    "second source",
+    "thermal resistance"
+   ],
+   "primary_page": "/sp2000-alternative-evaluation/",
+   "used_on": [
+    "/sp2000-alternative-evaluation/"
+   ],
+   "alt": "Benchmark method schematic: incumbent and candidate samples tested in the same fixture under matched thickness, pressure, temperature and ASTM D5470 conditions, then gated electrical, aging and pilot-build validation",
+   "caption": "Engineering Diagram. Controlled-condition benchmark method; the schematic does not report a test result or a product specification.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Must remain an Engineering Diagram; no SP2000 brand mark is depicted."
+  },
+  {
+   "id": "V24",
+   "filename": "tim-conductivity-vs-blt-comparison.webp",
+   "path": "/assets/images/visual-content/tim-conductivity-vs-blt-comparison.webp",
+   "format": "webp",
+   "width": 2048,
+   "height": 1152,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 143432,
+   "sha256": "39419da8b504d5ab2aad92efb69973745fe54aced7451494d3f43669f13b5b05",
+   "content_type": "engineering-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal pad",
+    "thermal gel",
+    "thermal grease"
+   ],
+   "applications": [
+    "supplier qualification",
+    "benchmark"
+   ],
+   "topics": [
+    "thermal conductivity",
+    "bond-line thickness",
+    "thermal resistance",
+    "second source"
+   ],
+   "primary_page": "/video-guide/thermal-management-materials-video-guide/",
+   "used_on": [
+    "/video-guide/thermal-management-materials-video-guide/"
+   ],
+   "alt": "Diagram comparing a thick 6 W/m·K bond line against a thin 3 W/m·K bond line: the thinner layer has lower bulk thermal resistance despite lower conductivity",
+   "caption": "Engineering Diagram. A thick 6 W/m·K bond line compared with a thin 3 W/m·K bond line; bulk thermal resistance depends on thickness as well as conductivity.",
+   "reuse_policy": "primary-page-only"
+  },
+  {
+   "id": "VID-01",
+   "filename": "thermal-interface-materials-video-cover.jpg",
+   "path": "/assets/videos/thermal-interface-materials-video-cover.jpg",
+   "format": "jpg",
+   "width": 1920,
+   "height": 1080,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 95827,
+   "sha256": "4447e77bec581da64dbaefdaf4e927260ce46f7046892868b346a6c3b9e2202d",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad",
+    "thermal-gel",
+    "potting-compound"
+   ],
+   "applications": [
+    "ai-server",
+    "energy-storage",
+    "ev-power-electronics"
+   ],
+   "topics": [
+    "video-poster",
+    "concept-visual"
+   ],
+   "primary_page": "/thermal-interface-materials-video/",
+   "used_on": [
+    "/thermal-interface-materials-video/"
+   ],
+   "alt": "Concept display stand with thermal gap pad, gap filler and potting compound samples in a blue technology space",
+   "caption": "Concept visual. AI-generated video frame used as the video poster; not a real facility, product photograph or performance claim.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": true,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Frame from the AI-generated 60-second HONGJING thermal interface materials video. Do not present as a real product photograph or facility."
+  },
+  {
+   "id": "VID-02",
+   "filename": "engineering-short-compression-thermal-resistance.jpg",
+   "path": "/assets/videos/engineering-short-compression-thermal-resistance.jpg",
+   "format": "jpg",
+   "width": 1280,
+   "height": 720,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 31219,
+   "sha256": "87e2ebfc02c9302e02c32b4c72cd58c7d84f49a56025d1fe0b334da130e7d7ea",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "video-poster",
+    "concept-visual"
+   ],
+   "primary_page": "/thermal-interface-materials-video/",
+   "used_on": [
+    "/thermal-interface-materials-video/"
+   ],
+   "alt": "Thermal gap pad between two metal plates with the upper plate hovering above it",
+   "caption": "Concept visual. AI-generated video frame used as the video poster; not a real product photograph or performance claim.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Frame from the AI-generated 10-second engineering short on how compression changes thermal resistance. Do not present as a real product photograph or measured result."
+  },
+  {
+   "id": "VID-03",
+   "filename": "engineering-short-pad-thicker-than-gap.jpg",
+   "path": "/assets/videos/engineering-short-pad-thicker-than-gap.jpg",
+   "format": "jpg",
+   "width": 1280,
+   "height": 720,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 32179,
+   "sha256": "d6295a29fe743b876cdfbe2687ee61a9ef7c1c95779a2160befcc677b9042f1e",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "video-poster",
+    "concept-visual"
+   ],
+   "primary_page": "/thermal-interface-materials-video/",
+   "used_on": [
+    "/thermal-interface-materials-video/"
+   ],
+   "alt": "Thermal gap pad under an assembly plate with a visible air gap before compression",
+   "caption": "Concept visual. AI-generated video frame used as the video poster; not a real product photograph or performance claim.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Frame from the AI-generated 10-second engineering short on picking a pad thicker than the gap. Do not present as a real product photograph or measured result."
+  },
+  {
+   "id": "VID-04",
+   "filename": "engineering-short-same-wmk-different-resistance.jpg",
+   "path": "/assets/videos/engineering-short-same-wmk-different-resistance.jpg",
+   "format": "jpg",
+   "width": 1280,
+   "height": 720,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 38023,
+   "sha256": "8aeec1388665ed6ce0c83dc70ba95226bee583b55a000434004088e533e23267",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "video-poster",
+    "concept-visual"
+   ],
+   "primary_page": "/thermal-interface-materials-video/",
+   "used_on": [
+    "/thermal-interface-materials-video/"
+   ],
+   "alt": "Single thermal gap pad between two metal plates, top plate hovering",
+   "caption": "Concept visual. AI-generated video frame used as the video poster; not a real product photograph or performance claim.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Frame from the AI-generated 10-second engineering short on same W/m·K with different installed resistance. Do not present as a real product photograph or measured result."
+  }
+ ]
 }

@@ -170,3 +170,23 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 1. Sheen is the most aggressive competitor in the exact queries we target (800G pad, best-manufacturer, silicone-free) — data-rich pages with test reports and ASTM methods, updated within days. Our 800G article's methodology packaging (2026-11-09) is the right format but needs indexation (GSC: only the homepage indexed as of 2026-11-09) before it can appear.
 2. The Dow 5121C query returns generic datasheets, no direct answer page — our /dow-5121c-alternative-evaluation/ is the only direct-answer asset, but it is not indexed/ranking yet.
 3. Live AI Overview retest still owed — run it from the parent agent's live browser before the next weekly loop, or accept the gap and retest after the 12W/silicone-free pages land and indexation improves.
+
+## Retest 2026-11-10 — Google AI Overviews LIVE (parent agent browser task, 15:20–15:26 CST)
+
+- Method: signed-out, google.com (hl=en, location shown Denton County, Texas), each question searched, AI Overview fully expanded before recording. A "unusual traffic" check appeared at the start and was passed via reCAPTCHA; no sign-in, no settings changed, nothing submitted. Single snapshot, not a ranking.
+- Result: AI Overview appeared for all 5 questions. Ouyang Thermal / ouyangthermal.github.io was mentioned or cited in 0 of 5 AI Overviews.
+- Bright spot: Q4 "Alternative to Dow 5121C thermal pad" — our /dow-5121c-alternative-evaluation/ page ranked #2 in organic results (only top-5 organic appearance for us across the 5 questions), but did NOT enter the AI Overview.
+
+| Date | Engine | Question | Ouyang cited in AI Overview? | AI Overview brands/sources | Top 5 organic |
+|---|---|---|---|---|---|
+| 2026-11-10 | Google AI Overviews | Best thermal gap pad manufacturer | No | Henkel (Bergquist), Parker Chomerics, Laird, GLPOLY, Kerafol, HALA Contec; Fortune Business Insights | Kerafol; Parker Hannifin; GLPOLY; GALLOP INNOTEK; HALA Contec |
+| 2026-11-10 | Google AI Overviews | Silicone free thermal pad supplier | No | Kitagawa, Shiu Li/LiPOLY, Universal Science/Materials Direct, T-Global, GLPOLY, Amec Thermasol, Stanford Advanced Materials | KITAGAWA; T-Global; JARO Thermal; SHEEN Thermal; Stanford Advanced Materials |
+| 2026-11-10 | Google AI Overviews | Thermal interface material supplier for EV battery | No | Henkel, Boyd, H.B. Fuller, DuPont, Saint-Gobain, Sika, Elkem, Polymer Science | Tocco Earth; Polymer Science; Sika Automotive; Saint-Gobain Tape Solutions; Elkem |
+| 2026-11-10 | Google AI Overviews | Alternative to Dow 5121C thermal pad | No | DOWSIL TC-5026/TC-5622, Arctic Silver 5, ARCTIC MX-4/MX-7, 3M 5519, Parker Chomerics THERM-A-PAD, Gelid GP-Ultimate | Dow; ouyangthermal.github.io (#2); Reddit r/AskPCGamers; Ellsworth Adhesives; iFixit |
+| 2026-11-10 | Google AI Overviews | Thermal pad for 800G optical transceiver | No | Ziitek, SiliconePlus, CR Technology EVSF800-80, Thermal Grizzly Minus Pad 8; Ziitek, Power Electronic Tips, ALLPCB | Ziitek; SiliconePlus; Facebook; L-P; SHEEN Thermal |
+
+### Reads (hypotheses, not facts)
+
+1. The Dow 5121C page is our only query where we already rank organically (#2) — and still not cited in the AI Overview. Ranking alone does not buy AI citation; the Overview's cited set is dominated by big-brand/manufacturer and distributor sources.
+2. The 800G and silicone-free Overviews cite data-rich manufacturer pages (Kitagawa with Shore/conductivity ranges, Ziitek case study). Our 800G methodology packaging is the right format, but the page is not indexed yet (GSC: only homepage indexed as of 2026-11-09) — indexation remains the first gate.
+3. Next retest after the 12W/silicone-free pages land and indexation improves, or monthly.

@@ -1,9 +1,9 @@
 ---
 title: "Thermal Interface Materials Video: AI Servers, Energy Storage and EVs"
-description: "Watch a 60-second overview of thermal gap pads, thermal gap fillers and thermally conductive potting compounds for AI servers, energy storage PCS and EV power electronics — with benchmark, sample and RFQ routes."
+description: "Watch a 60-second overview of thermal gap pads, thermal gap fillers and thermally conductive potting compounds for AI servers, energy storage PCS and EV power electronics — plus three 10-second explainers on compression, pad thickness and second-source benchmarking."
 permalink: /thermal-interface-materials-video/
 author: Ouyang Xiaohui
-updated: 2026-10-28
+updated: 2026-11-16
 commercial_contact: true
 contact_message: "Hi Ouyang, I watched the thermal interface materials video. Could you help me evaluate a material for my application? Source: Thermal Interface Materials Video"
 email_subject: "Thermal Material Inquiry – Video"
@@ -19,6 +19,39 @@ This 60-second video shows where thermal interface materials work: [thermal gap 
 </video>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Thermal Interface Materials for AI Servers, Energy Storage & EVs | HONGJING","description":"A 60-second overview of thermal gap pads, thermal gap fillers and thermally conductive potting compounds for AI servers, energy storage PCS and EV power electronics.","thumbnailUrl":"https://ouyangthermal.github.io/assets/videos/thermal-interface-materials-video-cover.jpg","uploadDate":"2026-10-28","duration":"PT60S","contentUrl":"https://ouyangthermal.github.io/assets/videos/thermal-interface-materials-video-60s.mp4","embedUrl":"https://ouyangthermal.github.io/thermal-interface-materials-video/","inLanguage":"en"}</script>
+
+## Engineering Shorts — 10-second explainers
+
+Three 10-second clips, each answering one engineering question with a visual. Subtitles are in English. The footage is AI-generated concept illustration, like the 60-second video above: no clip shows a measured result or a product performance claim. Numbers shown come from the linked tool or guide, and the worked examples are labelled as examples.
+
+### 1. How compression changes thermal resistance
+
+<video controls preload="metadata" poster="{{ '/assets/videos/engineering-short-compression-thermal-resistance.jpg' | relative_url }}" width="1280" height="720" style="width:100%;height:auto;">
+  <source src="{{ '/assets/videos/engineering-short-compression-thermal-resistance.mp4' | relative_url }}" type="video/mp4">
+  Your browser cannot play this video inline. <a href="{{ '/assets/videos/engineering-short-compression-thermal-resistance.mp4' | relative_url }}">Download the 10-second video (MP4, 10 s)</a>.
+</video>
+
+A 2.0 mm pad installed in a 1.6 mm gap is compressed 0.4 mm (20%). The clip shows the theoretical bulk resistance for that installed state; the installed interface measures higher once contact resistance is included, so model your own gap with the [Thermal Pad Compression Calculator]({{ '/engineering-resources/thermal-pad-compression-calculator/' | relative_url }}).
+
+### 2. Pick a pad thicker than the gap
+
+<video controls preload="metadata" poster="{{ '/assets/videos/engineering-short-pad-thicker-than-gap.jpg' | relative_url }}" width="1280" height="720" style="width:100%;height:auto;">
+  <source src="{{ '/assets/videos/engineering-short-pad-thicker-than-gap.mp4' | relative_url }}" type="video/mp4">
+  Your browser cannot play this video inline. <a href="{{ '/assets/videos/engineering-short-pad-thicker-than-gap.mp4' | relative_url }}">Download the 10-second video (MP4, 10 s)</a>.
+</video>
+
+An engineering-forum question asked how to move heat from a PCB across a ~6 mm gap to an aluminum enclosure. The rule is simple — the pad must be thicker than the gap it fills — illustrated with the worked example of a 2.0 mm pad in a 1.6 mm gap. See [How to Select a Thermal Pad]({{ '/thermal-pad/how-to-select-a-thermal-pad/' | relative_url }}) for the selection steps.
+
+### 3. Same W/m·K, different installed resistance
+
+<video controls preload="metadata" poster="{{ '/assets/videos/engineering-short-same-wmk-different-resistance.jpg' | relative_url }}" width="1280" height="720" style="width:100%;height:auto;">
+  <source src="{{ '/assets/videos/engineering-short-same-wmk-different-resistance.mp4' | relative_url }}" type="video/mp4">
+  Your browser cannot play this video inline. <a href="{{ '/assets/videos/engineering-short-same-wmk-different-resistance.mp4' | relative_url }}">Download the 10-second video (MP4, 10 s)</a>.
+</video>
+
+Two materials can share the same datasheet conductivity and still behave differently once installed — thickness, compression, contact resistance, hardness and surface condition all contribute. Compare thermal resistance under matched conditions instead. The method is on the [Dow 5121C Alternative Evaluation]({{ '/dow-5121c-alternative-evaluation/' | relative_url }}) page.
+
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"VideoObject","name":"How compression changes thermal resistance","description":"A 2.0 mm thermal gap pad installed in a 1.6 mm gap is compressed 0.4 mm (20%); the clip shows the theoretical bulk resistance for that installed state.","thumbnailUrl":"https://ouyangthermal.github.io/assets/videos/engineering-short-compression-thermal-resistance.jpg","uploadDate":"2026-11-10","duration":"PT10S","contentUrl":"https://ouyangthermal.github.io/assets/videos/engineering-short-compression-thermal-resistance.mp4","embedUrl":"https://ouyangthermal.github.io/thermal-interface-materials-video/","inLanguage":"en"},{"@context":"https://schema.org","@type":"VideoObject","name":"Pick a pad thicker than the gap","description":"A 10-second explainer: the pad must be thicker than the gap it fills, illustrated with a 2.0 mm pad in a 1.6 mm gap.","thumbnailUrl":"https://ouyangthermal.github.io/assets/videos/engineering-short-pad-thicker-than-gap.jpg","uploadDate":"2026-11-12","duration":"PT10S","contentUrl":"https://ouyangthermal.github.io/assets/videos/engineering-short-pad-thicker-than-gap.mp4","embedUrl":"https://ouyangthermal.github.io/thermal-interface-materials-video/","inLanguage":"en"},{"@context":"https://schema.org","@type":"VideoObject","name":"Same W/m·K, different installed resistance","description":"Two materials can share the same datasheet conductivity and still behave differently once installed; compare thermal resistance under matched conditions.","thumbnailUrl":"https://ouyangthermal.github.io/assets/videos/engineering-short-same-wmk-different-resistance.jpg","uploadDate":"2026-11-14","duration":"PT10S","contentUrl":"https://ouyangthermal.github.io/assets/videos/engineering-short-same-wmk-different-resistance.mp4","embedUrl":"https://ouyangthermal.github.io/thermal-interface-materials-video/","inLanguage":"en"}]</script>
 
 ## What the video shows
 

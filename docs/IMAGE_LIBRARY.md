@@ -119,6 +119,9 @@ When page context changes, update the rendered ALT and the manifest `alt` togeth
 | V17 | tim-second-source-supplier-qualification-flow.webp | engineering-diagram | TIM | supplier qualification | /china-thermal-interface-material-supplier/ | published |
 | V18 | sic-power-module-pad-grease-phase-change-selection.webp | engineering-diagram | pad, grease, PCM | SiC power module | /power-electronics/thermal-interface-material-for-sic-power-modules/ | published |
 | VID-01 | thermal-interface-materials-video-cover.jpg | application-diagram | thermal pad, gel, potting | AI server, ESS, EV | /thermal-interface-materials-video/ | published |
+| VID-02 | engineering-short-compression-thermal-resistance.jpg | application-diagram | thermal pad | power electronics | /thermal-interface-materials-video/ | published |
+| VID-03 | engineering-short-pad-thicker-than-gap.jpg | application-diagram | thermal pad | power electronics | /thermal-interface-materials-video/ | published |
+| VID-04 | engineering-short-same-wmk-different-resistance.jpg | application-diagram | thermal pad | power electronics | /thermal-interface-materials-video/ | published |
 | V19 | thermal-pad-supplier-qualification-12-gate-checklist.webp | engineering-diagram | thermal pad | supplier qualification | /thermal-pad-supplier-china/ | published |
 | V20 | thermal-gel-supplier-dispensing-qualification-flow.webp | engineering-diagram | thermal gel | supplier qualification | /thermal-gel-supplier-china/ | published |
 | V21 | ai-server-800v-dc-power-supply-tim-map.webp | application-diagram | pad, gel, insulator | AI server / 800V DC | /server/thermal-interface-materials-for-ai-server-power-supplies-and-800v-dc/ | published |
