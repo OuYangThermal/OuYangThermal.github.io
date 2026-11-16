@@ -20,6 +20,12 @@ Internal FT-BN050 test data across five nominal thicknesses, with ASTM D5470 the
 
 [Review Case 002: FT-BN050 thermal resistance vs thickness]({{ '/benchmark-evidence/ft-bn050-thermal-resistance-vs-thickness/' | relative_url }})
 
+### Case 003 — PCS power module TIM selection (engineering analysis)
+
+Worked bulk-resistance calculation examples for IGBT baseplate and magnetics-gap interfaces in a PCS power module, packaged from the PCS selection guide with the Case 001/002 method format. **This case contains no measured test data** — all numbers are illustrative calculations with stated assumptions and limits, not product data or a material recommendation.
+
+[Review Case 003: PCS power module TIM selection]({{ '/benchmark-evidence/pcs-power-module-tim-selection/' | relative_url }})
+
 ## How to use this library
 
 Use a case as a source node for a controlled benchmark—not as a universal equivalence claim. Start from the measured values and method context, then align thickness, pressure, surfaces, electrical requirements, reliability conditions and assembly validation for the target application.

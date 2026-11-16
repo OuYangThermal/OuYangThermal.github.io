@@ -529,3 +529,71 @@ Subject: Technical article proposal: How to Select Thermal Interface Materials f
 > https://ouyangthermal.github.io
 
 **Status:** PREPARED 2026-11-09. Editorial pitch — NEVER send without the user's explicit approval. Recipient Simon (simon@pcbway.com); the PCBWay follow-up #1 decision (re-send vs abandon) is a separate user-owned item and is unaffected by this draft.
+
+## 2026-11-16 — Batch 4 SENDS COMPLETED (correction of the 2026-11-09 record)
+
+### Correction: the 2026-10-27 drafts were never lost
+
+- Today's direct `users drafts list` read (account 5672306@gmail.com, 15:05 CST) returned 9 drafts, including the 2026-10-27 originals: TECHSiL draft r-8723995164657522420 (message 1a17c43398e6a1c3), RayPCB draft r-2602538476272682958 (message 1a17c43585dba777), PCBWay follow-up #1 reply draft r-4668234318128959675 (message 1a17c438ff4531b7, thread 1a118215a2e1d91a).
+- The 2026-11-09 entry's claim that these drafts were "LOST (deleted/expired, never sent)" was a list/search miss — the same Gmail unreliability pattern documented in the search-reliability amendment. The duplicate drafts created on 2026-11-09 (TECHSiL r-2172808966062938986, RayPCB r-9081483065445090397, PCBWay r5356969303661329192) are NOT in today's drafts list: they are the ones now gone (deleted/expired, never sent).
+- Lesson recorded: verify drafts with a direct list read before declaring them lost, and never create duplicate drafts on a single miss. The 11-09 draft IDs above are dead; use only the 10-27 originals.
+- Draft contents re-verified before sending (2026-11-16): TECHSiL draft (To technical@techsil.co.uk, TDS Comparison Tool, worked example 8 W/m·K at 1.5 mm BLT → 0.117 K/W vs 6 W/m·K at 1.0 mm BLT → 0.104 K/W) and RayPCB draft (To sales@raypcb.com, Thermal Resistance Calculator, 6 W/m·K, 1.0 mm, 40×40 mm² → ≈0.104 K/W) both match the prepared Batch 4 texts exactly.
+
+### Pre-send check (2026-11-16)
+
+- No replies from techsil.co.uk, raypcb.com, pcbway.com, voltera.io or allpcb.com since 2026-11-09 (triage search, ~15:06 CST; a search miss is not proof of absence, but the same check on 2026-10-27 and the daily BD run's mailer-daemon check today both agree). No mailer-daemon bounces since 2026-11-09 (GEO domains; the known US B2B bounces are RELiON/BTC Power, not GEO).
+
+### Sends — both completed 2026-11-16
+
+- **TECHSiL first pitch — SENT 2026-11-16 15:07:37 CST.** `users drafts send` for r-8723995164657522420 returned message 1a1e32ecc3aee80f, labelIds SENT, thread 1a17c43398e6a1c3. Verified in Sent box (triage `in:sent to:techsil.co.uk after:2026/11/15`, 2 results). First successful GEO engineering-outreach send since 2026-10-08 — the Gmail send path works again on this run.
+- **RayPCB first pitch — SENT 2026-11-16 15:08:02 CST.** `users drafts send` for r-2602538476272682958 returned message 1a1e32f2dba63945, labelIds SENT, thread 1a17c43585dba777. Verified in Sent box the same way.
+- PCBWay follow-up #1 NOT sent — the re-send vs abandon decision is still the user's (unchanged). Draft r-4668234318128959675 remains in Drafts.
+
+### Batch 6 — follow-ups prepared (send window 2026-11-21 – 2026-11-23, only if no reply)
+
+### Follow-up #11 — TECHSiL follow-up #1 (to technical@techsil.co.uk)
+
+Subject: Re: Free TDS-comparison tool for your thermal interface material guides
+
+> Hi TECHSiL team,
+>
+> Floating this back to the top of your inbox in case it got buried — I wrote last week suggesting our free TIM TDS Comparison Tool as a possible companion link for your Resource Centre thermal management guides:
+>
+> https://ouyangthermal.github.io/engineering-resources/tim-tds-comparison-tool/
+>
+> It now carries a worked example showing how an 8 W/m·K material at 1.5 mm BLT can have a higher bulk resistance (0.117 K/W) than a 6 W/m·K material at 1.0 mm BLT (0.104 K/W) — the exact "conductivity is not resistance" point your guides make.
+>
+> No pressure either way; if it is not a fit, no need to reply.
+>
+> Best regards,
+> Owen Ouyang
+> Ouyang Thermal | Thermal Management Solutions
+> https://ouyangthermal.github.io
+
+**Status:** PREPARED 2026-11-16. Send window 2026-11-21 – 2026-11-23, only if no reply to the 2026-11-16 first pitch. Max 2 follow-ups; stop on refusal/bounce.
+
+### Follow-up #12 — RayPCB follow-up #1 (to sales@raypcb.com)
+
+Subject: Re: Free thermal resistance calculator for your PCB thermal design readers
+
+> Hi RayPCB team,
+>
+> Floating this back to the top of your inbox in case it got buried — I wrote last week suggesting our free Thermal Resistance Calculator as a possible companion link for your Bergquist Thermal Clad and metal-core PCB thermal design guides:
+>
+> https://ouyangthermal.github.io/engineering-resources/thermal-resistance-calculator/
+>
+> It estimates a TIM joint's bulk resistance from conductivity, bond-line thickness and contact area, with explicit model assumptions and a verifiable worked example.
+>
+> No pressure either way; if it is not a fit, no need to reply.
+>
+> Best regards,
+> Owen Ouyang
+> Ouyang Thermal | Thermal Management Solutions
+> https://ouyangthermal.github.io
+
+**Status:** PREPARED 2026-11-16. Send window 2026-11-21 – 2026-11-23, only if no reply to the 2026-11-16 first pitch. Max 2 follow-ups; stop on refusal/bounce.
+
+### Batch 6 — new targets checked, both parked (no verifiable contact)
+
+- **Electropages (electropages.com/submit-pr):** publishes the Parker PAD 30RB launch story and welcomes technical articles, but the editorial email addresses on its Submit PR page are masked ([email protected] placeholders in both search snippet and fetched page text). No verifiable address — do not guess, do not pitch.
+- **Krafab / K.R. Anderson (krafab.com):** hosts a Parker Chomerics PAD 120LOE reliability test report (Nov 2025, ASTM D5470 at 30 psi) and publishes TIM comparison guides — the distributor-hosted test-report pattern again. No verifiable public email found (phone + forms only; prospeo.io email-format guessing is not verification). Parked — do not pitch without a verified contact.
