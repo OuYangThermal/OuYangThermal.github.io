@@ -77,3 +77,8 @@
 - Henkel/Bergquist competitor backlink pass (sixth): distributor-hosted selection guides pattern confirmed again; no new target needed.
 - GSC still blocked (session expired since 2026-09-29; signed-out state directly observed) — no new search data this week.
 - AI Overviews retest 2026-11-02: Ouyang Thermal not cited on any of 3 questions (unchanged); "SP2000 alternatives" shown to be captured by an unrelated audio product — bare-phrase targeting ruled out.
+
+## 2026-11-16
+
+- Batch 4 GEO engineering outreach SENDS COMPLETED: TECHSiL (message 1a1e32ecc3aee80f, 15:07 CST) and RayPCB (message 1a1e32f2dba63945, 15:08 CST), both Sent-box verified — first successful GEO sends since 2026-10-08; the Gmail send path works again. Correction recorded: the 2026-11-09 "drafts LOST" claim was a list miss; the 2026-10-27 originals were the drafts sent.
+- Thermal Grease hub upgraded from an 18-line stub to a selection guide with a verified Henkel TGR 5000SF anchor and a worked impedance check; Case 003 (PCS power module engineering analysis) created and listed in the Benchmark Evidence Library. Commit 73450ad (9 files, +399/−4, diff verified non-empty); build PASS, check_site.py PASS, production HTTP 200 on all checked URLs with live content confirmed.
