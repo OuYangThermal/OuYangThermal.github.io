@@ -190,3 +190,22 @@ Retest executed on perplexity.ai (no login): all three answers fully generated, 
 1. The Dow 5121C page is our only query where we already rank organically (#2) — and still not cited in the AI Overview. Ranking alone does not buy AI citation; the Overview's cited set is dominated by big-brand/manufacturer and distributor sources.
 2. The 800G and silicone-free Overviews cite data-rich manufacturer pages (Kitagawa with Shore/conductivity ranges, Ziitek case study). Our 800G methodology packaging is the right format, but the page is not indexed yet (GSC: only homepage indexed as of 2026-11-09) — indexation remains the first gate.
 3. Next retest after the 12W/silicone-free pages land and indexation improves, or monthly.
+
+## Retest 2026-11-16 — Google AI Overviews (4 questions, no login)
+
+- Live-browser run 2026-11-16 15:17–15:18 CST (browser task 15:15–15:19 CST), plain google.com English queries (hl=en, signed-out; location shown in page footer as Colorado Springs, Colorado). AI Overview rendered for all four; each fully expanded ("Show more") before recording. A Google "unusual traffic" check appeared on Q1 and was cleared via one reCAPTCHA (traffic-lights grid, first attempt); no sign-in, no settings changed, nothing submitted. Single snapshot, not a ranking.
+- **Ouyang Thermal: NOT mentioned or cited in any of the 4 AI Overviews or their source lists.** Unchanged from the 2026-11-10 baseline. One AI answer is not a ranking — this is a snapshot.
+
+| Date | Engine | Question | Ouyang cited in AI Overview? | AI Overview brands/sources | Top 5 organic |
+|---|---|---|---|---|---|
+| 2026-11-16 | Google AI Overviews | Best thermal gap pad manufacturer | No | Bergquist/Henkel, Parker Chomerics, Laird/DuPont, Kerafol, GLPOLY, ARCTIC; Henkel, Modus Advanced, Parker Hannifin, Orion, Kerafol, GLPOLY, GALLOP INNOTEK, Laird (+8 sites) | Kerafol; Parker Hannifin; Modus Advanced; GALLOP INNOTEK; Laird |
+| 2026-11-16 | Google AI Overviews | Silicone free thermal pad supplier | No | Amec Thermasol, Kitagawa, Shiu Li/LiPOLY, T-Global, GLPOLY, Gallop Innotek, Henkel Bergquist, Stanford Advanced Materials; Newark, Kitagawa, DigiKey, T-Global, GLPOLY, Gallop, NEDC, Stanford (+14 sites) | Kitagawa (kgs-ind.com); JARO Thermal; Stanford Advanced Materials; NEDC; SHEEN Thermal |
+| 2026-11-16 | Google AI Overviews | Thermal interface material supplier for EV battery | No | Henkel, H.B. Fuller, DuPont, Saint-Gobain, Boyd, Sika, PPG, 3M, Polymer Science, Shin-Etsu, Parker Hannifin, Fujipoly, Wacker, Bostik, Polytec PT; Saint-Gobain, Polymer Science, Tocco Earth (+10 sites) | Tocco Earth; Polymer Science; Saint-Gobain; H.B. Fuller; LinkedIn |
+| 2026-11-16 | Google AI Overviews | Alternative to Dow 5121C thermal pad | No | Dow/DOWSIL, Arctic Silver, Noctua, Thermal Grizzly, Carbice, Up Siren, MaxT; Farnell, Krayden, Tom's Hardware, Club386, YouTube, Reddit/Gamers Nexus (+9 sites) | Dow; ouyangthermal.github.io (#2); Reddit r/AskPCGamers; Ellsworth Adhesives; Quora |
+
+### Reads (hypotheses, not facts)
+
+1. The Dow 5121C page holds organic #2 for its exact query for the second consecutive live test (2026-11-10 and 2026-11-16) — and is still NOT cited in the AI Overview. Ranking alone does not buy AI citation; the Overview's cited set is dominated by big-brand/manufacturer and distributor sources.
+2. Q4's Overview now frames the product explicitly: DOWSIL TC-5121/TC-5121C is a flowable, non-curing thermal grease (not a pre-cut solid pad), ~2.5–2.8 W/m·K, and recommends grease alternatives (TC-5351, TC-5688 ~8.0 W/m·K, Arctic Silver 5, Noctua NT-H1/H2) plus solid-pad alternatives (Thermal Grizzly CryoSheet, Carbice). Watch item: if the AI framing of "5121C = grease, not pad" hardens, our /dow-5121c-alternative-evaluation/ page's framing should be re-checked against it — no page change made on this snapshot alone.
+3. Q1/Q2/Q3 citation sets are stable in character (manufacturer/distributor how-to and product hubs; Sheen still in the silicone-free top 5; Kitagawa/JARO/Stanford hold the silicone-free organic top 3). Our grease-hub upgrade (2026-11-16) and Case 003 are too new to have indexed; indexation remains the first gate (GSC still blocked — sitemap/index status unverifiable this week).
+4. Next retest monthly or after a major content/authority push.
