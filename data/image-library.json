@@ -18,8 +18,8 @@
   "source-uncertain-do-not-claim"
  ],
  "inventory_summary": {
-  "total_images": 49,
-  "online_used_images": 40,
+  "total_images": 50,
+  "online_used_images": 41,
   "unused_images": 2,
   "unused_ids": [
    "V02-01",
@@ -1924,6 +1924,42 @@
    "contains_customer_information": false,
    "status": "published",
    "notes": "Frame from the AI-generated 10-second engineering short on same W/m·K with different installed resistance. Do not present as a real product photograph or measured result."
+  },
+  {
+   "id": "VID-05",
+   "filename": "engineering-short-pcs-two-gaps.jpg",
+   "path": "/assets/videos/engineering-short-pcs-two-gaps.jpg",
+   "format": "jpg",
+   "width": 1280,
+   "height": 720,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 34690,
+   "sha256": "65c98bd1a37d2aea4502e9a614f19e68f62b89f0f9c2e545640d7ea0ac2351d4",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "video-poster",
+    "concept-visual"
+   ],
+   "primary_page": "/thermal-interface-materials-video/",
+   "used_on": [
+    "/thermal-interface-materials-video/"
+   ],
+   "alt": "Single thermal gap pad between two metal plates, top plate hovering above the pad",
+   "caption": "Concept visual. AI-generated video frame used as the video poster; not a real product photograph or performance claim.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Frame from the AI-generated 10-second engineering short on PCS module TIM selection (Case 003 worked examples). Do not present as a real product photograph or measured result."
   }
  ]
 }
