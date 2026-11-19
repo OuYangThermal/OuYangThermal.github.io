@@ -18,8 +18,8 @@
   "source-uncertain-do-not-claim"
  ],
  "inventory_summary": {
-  "total_images": 50,
-  "online_used_images": 41,
+  "total_images": 51,
+  "online_used_images": 42,
   "unused_images": 2,
   "unused_ids": [
    "V02-01",
@@ -1960,6 +1960,42 @@
    "contains_customer_information": false,
    "status": "published",
    "notes": "Frame from the AI-generated 10-second engineering short on PCS module TIM selection (Case 003 worked examples). Do not present as a real product photograph or measured result."
+  },
+  {
+   "id": "VID-06",
+   "filename": "engineering-short-optical-12w-not-enough.jpg",
+   "path": "/assets/videos/engineering-short-optical-12w-not-enough.jpg",
+   "format": "jpg",
+   "width": 1280,
+   "height": 720,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 36692,
+   "sha256": "c8f020882c12434eb8abdddf5a61dd3491a0fee5f136bafa7c20200aaf9aec35",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "optical-module"
+   ],
+   "topics": [
+    "video-poster",
+    "concept-visual"
+   ],
+   "primary_page": "/thermal-interface-materials-video/",
+   "used_on": [
+    "/thermal-interface-materials-video/"
+   ],
+   "alt": "Single thermal gap pad between two metal plates, top plate hovering above the pad",
+   "caption": "Concept visual. AI-generated video frame used as the video poster; not a real product photograph or performance claim.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Frame from the AI-generated 10-second engineering short on optical-module TIM checks (12 W/m·K, oil bleed, slump resistance; Dow TC-3120 data per EEPower Q&A 2026-09-25). Do not present as a real product photograph or measured result."
   }
  ]
 }
