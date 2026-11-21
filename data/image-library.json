@@ -1996,6 +1996,42 @@
    "contains_customer_information": false,
    "status": "published",
    "notes": "Frame from the AI-generated 10-second engineering short on optical-module TIM checks (12 W/m·K, oil bleed, slump resistance; Dow TC-3120 data per EEPower Q&A 2026-09-25). Do not present as a real product photograph or measured result."
+  },
+  {
+   "id": "VID-07",
+   "filename": "engineering-short-maintenance-free-tim.jpg",
+   "path": "/assets/videos/engineering-short-maintenance-free-tim.jpg",
+   "format": "jpg",
+   "width": 1280,
+   "height": 720,
+   "aspect_ratio": "16:9",
+   "file_size_bytes": 35428,
+   "sha256": "a9b85fdad1c380d4ed2bdf945c2f76cc49df7bb57cf31e87fb023b2a4e153ed8",
+   "content_type": "application-diagram",
+   "authenticity": "generated-engineering-diagram",
+   "source": "project-created",
+   "rights_status": "approved-for-owned-site",
+   "products": [
+    "thermal-pad"
+   ],
+   "applications": [
+    "power-electronics"
+   ],
+   "topics": [
+    "video-poster",
+    "concept-visual"
+   ],
+   "primary_page": "/thermal-interface-materials-video/",
+   "used_on": [
+    "/thermal-interface-materials-video/"
+   ],
+   "alt": "Single thermal gap pad between two metal plates, top plate resting on the pad",
+   "caption": "Concept visual. AI-generated video frame used as the video poster; not a real product photograph or performance claim.",
+   "reuse_policy": "primary-page-only",
+   "contains_brand": false,
+   "contains_customer_information": false,
+   "status": "published",
+   "notes": "Frame from the AI-generated 10-second engineering short on maintenance-free TIM (Noctua NT-CP1, launched 2026-11-12; about 4 W/m·K effective per Igor'sLAB at 65 °C; isolation caveat). Do not present as a real product photograph or measured result."
   }
  ]
 }
